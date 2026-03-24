@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import ScreenshotCarousel from "@/components/ScreenshotCarousel";
+import StoreBadges from "@/components/StoreBadges";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -57,16 +58,10 @@ export default function ProductsPage() {
               Filter players by overall/potential rating, market value, position,
               attributes, club, league, nationality, and more.
             </p>
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="https://linktr.ee/icatstudios"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-background transition-colors hover:bg-primary-dark"
-              >
-                Download
-              </a>
-            </div>
+            <StoreBadges
+              appStoreUrl="https://apps.apple.com/us/app/player-potentials-22/id1585809569"
+              playStoreUrl="https://play.google.com/store/apps/details?id=com.mb.playerpotentials22"
+            />
           </div>
           <div className="lg:w-2/3">
             <ScreenshotCarousel
@@ -98,16 +93,9 @@ export default function ProductsPage() {
               generated traffic while riding at high speeds. Navigate through
               traffic without crashing into vehicles!
             </p>
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="https://linktr.ee/icatstudios"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-background transition-colors hover:bg-primary-dark"
-              >
-                Download
-              </a>
-            </div>
+            <StoreBadges
+              appStoreUrl="https://apps.apple.com/us/app/fast-and-blocky/id1165989435"
+            />
           </div>
           <div className="lg:w-2/3">
             <ScreenshotCarousel
