@@ -21,14 +21,6 @@ export const metadata: Metadata = {
   },
   description:
     "iCat Studios is a mobile application and game development team established in Türkiye, giving importance to innovation and creativity.",
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
-    ],
-    apple: "/apple-touch-icon.png",
-  },
   manifest: "/manifest.json",
 };
 
