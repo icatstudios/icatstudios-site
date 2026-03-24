@@ -52,7 +52,7 @@ export default function Home() {
           </h1>
           <p className="animate-fade-in-up opacity-0 animate-delay-200 mx-auto mt-6 max-w-2xl text-lg text-zinc-400">
             iCat Studios is a mobile application and game development team
-            established in Turkey, giving importance to innovation and
+            established in Türkiye, giving importance to innovation and
             creativity.
           </p>
           <div className="animate-fade-in-up opacity-0 animate-delay-300 mt-10 flex flex-wrap justify-center gap-4">
