@@ -1,5 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 function InstagramIcon() {
   return (
@@ -26,56 +27,67 @@ function YouTubeIcon() {
 }
 
 export default function Footer() {
+  const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
+
+  const socialBase =
+    "relative flex h-10 w-10 items-center justify-center rounded-full border border-card-border bg-card-bg/40 text-zinc-400 transition-all duration-300 hover:-translate-y-0.5";
+
   return (
-    <footer className="border-t border-card-border bg-background">
-      <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid gap-8 md:grid-cols-3">
+    <footer className="relative z-10 mt-24 border-t border-card-border bg-background/70 backdrop-blur-sm">
+      {/* Subtle glow line */}
+      <div className="divider-fade" />
+
+      <div className="mx-auto max-w-6xl px-6 py-14">
+        <div className="grid gap-10 md:grid-cols-3">
           {/* Brand */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-3">
               <Image
                 src="/images/logos/icat_logo_notext_500x500.png"
                 alt="iCat Studios"
-                width={32}
-                height={32}
+                width={36}
+                height={36}
                 className="rounded-lg"
               />
-              <span className="font-semibold text-foreground">
+              <span className="text-base font-semibold text-foreground">
                 iCat Studios
               </span>
-            </div>
-            <p className="text-sm text-zinc-500">
-              Mobile Application and Game Development
+            </Link>
+            <p className="text-sm leading-relaxed text-zinc-500">
+              {t("tagline")}
             </p>
           </div>
 
           {/* Links */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-sm font-semibold text-foreground">Links</h3>
+            <h3 className="text-sm font-semibold text-foreground">
+              {t("linksHeading")}
+            </h3>
             <Link
               href="/products"
               className="text-sm text-zinc-500 transition-colors hover:text-primary"
             >
-              Products
+              {tNav("products")}
             </Link>
             <Link
               href="/privacy-policy"
               className="text-sm text-zinc-500 transition-colors hover:text-primary"
             >
-              Privacy Policy
+              {tNav("privacyPolicy")}
             </Link>
             <Link
               href="/term-of-use"
               className="text-sm text-zinc-500 transition-colors hover:text-primary"
             >
-              Term of Use
+              {tNav("termOfUse")}
             </Link>
           </div>
 
           {/* Contact & Social */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-4">
             <h3 className="text-sm font-semibold text-foreground">
-              Contact Us
+              {t("contactHeading")}
             </h3>
             <a
               href="mailto:support@icatstudios.com"
@@ -83,12 +95,12 @@ export default function Footer() {
             >
               support@icatstudios.com
             </a>
-            <div className="mt-2 flex gap-4">
+            <div className="mt-1 flex gap-3">
               <a
                 href="https://www.instagram.com/icatstudios"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-zinc-500 transition-colors hover:text-primary"
+                className={`${socialBase} hover:border-[#E1306C]/60 hover:text-[#E1306C] hover:shadow-[0_0_20px_rgba(225,48,108,0.35)]`}
                 aria-label="Instagram"
               >
                 <InstagramIcon />
@@ -97,7 +109,7 @@ export default function Footer() {
                 href="https://www.x.com/icatstudios"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-zinc-500 transition-colors hover:text-primary"
+                className={`${socialBase} hover:border-foreground/40 hover:text-foreground hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]`}
                 aria-label="X"
               >
                 <XIcon />
@@ -106,7 +118,7 @@ export default function Footer() {
                 href="https://www.youtube.com/channel/UCpIBOh7O5_tI5vCdYF8vfnQ"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-zinc-500 transition-colors hover:text-primary"
+                className={`${socialBase} hover:border-[#FF0000]/60 hover:text-[#FF0000] hover:shadow-[0_0_20px_rgba(255,0,0,0.35)]`}
                 aria-label="YouTube"
               >
                 <YouTubeIcon />
@@ -115,9 +127,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-card-border pt-6 text-center text-xs text-zinc-600">
-          Copyright &copy; {new Date().getFullYear()} iCat Studios. All Rights
-          Reserved.
+        <div className="mt-12 border-t border-card-border pt-6 text-center text-xs text-zinc-600">
+          &copy; {new Date().getFullYear()} {t("copyright")}
         </div>
       </div>
     </footer>

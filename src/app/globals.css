@@ -1,37 +1,318 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
+  /* Deep dark base */
+  --background: #08080c;
+  --background-elev: #0e0e14;
   --foreground: #ededed;
-  --primary: #4DB6AC;
+
+  /* iCat brand — teal primary */
+  --primary: #4db6ac;
   --primary-dark: #3d9e95;
-  --card-bg: #141414;
-  --card-border: #222222;
+  --primary-light: #7fd4cb;
+  --primary-glow: rgba(77, 182, 172, 0.4);
+
+  /* Warm amber accent — studio/creativity */
+  --accent: #f4a261;
+  --accent-dark: #d88943;
+  --accent-light: #f8c48d;
+  --accent-glow: rgba(244, 162, 97, 0.35);
+
+  /* Cards / surfaces */
+  --card-bg: #12121a;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-border-hover: rgba(77, 182, 172, 0.35);
+
+  /* Product themes (used on /products) */
+  --potentials-accent: #14f174;
+  --potentials-glow: rgba(20, 241, 116, 0.35);
+
+  --fastblocky-accent: #ff6b4a;
+  --fastblocky-glow: rgba(255, 107, 74, 0.35);
+
+  --scorehunter-accent: #14f174;
+  --scorehunter-secondary: #6a0dad;
+  --scorehunter-glow: rgba(20, 241, 116, 0.4);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-elev: var(--background-elev);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-accent-light: var(--accent-light);
   --color-card-bg: var(--card-bg);
   --color-card-border: var(--card-border);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-poppins);
   --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* ========= Background decorations ========= */
+
+/* Subtle grid pattern */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
 }
 
-/* Screenshot carousel */
+/* Dotted pattern */
+.bg-dots {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.06) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+/* ========= Glassmorphism ========= */
+
+.glass-card {
+  background: rgba(18, 18, 26, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+}
+
+.glass-header {
+  background: rgba(8, 8, 12, 0.7);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ========= Glow utilities ========= */
+
+.glow-teal {
+  box-shadow:
+    0 0 40px rgba(77, 182, 172, 0.25),
+    0 0 80px rgba(77, 182, 172, 0.15);
+}
+
+.glow-teal-strong {
+  box-shadow:
+    0 0 60px rgba(77, 182, 172, 0.5),
+    0 0 120px rgba(77, 182, 172, 0.25);
+}
+
+.glow-amber {
+  box-shadow:
+    0 0 40px rgba(244, 162, 97, 0.25),
+    0 0 80px rgba(244, 162, 97, 0.15);
+}
+
+.text-glow-teal {
+  text-shadow:
+    0 0 20px rgba(77, 182, 172, 0.5),
+    0 0 40px rgba(77, 182, 172, 0.3);
+}
+
+.text-glow-amber {
+  text-shadow:
+    0 0 20px rgba(244, 162, 97, 0.5),
+    0 0 40px rgba(244, 162, 97, 0.3);
+}
+
+/* ========= Shimmer text (iCat signature) ========= */
+
+.shimmer-text {
+  background: linear-gradient(
+    110deg,
+    var(--primary) 0%,
+    var(--primary-light) 20%,
+    var(--accent-light) 50%,
+    var(--primary-light) 80%,
+    var(--primary) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shimmer 5s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* ========= Float animation (logos, mascots) ========= */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 9s ease-in-out infinite;
+}
+
+/* ========= Pulse glow (background blobs) ========= */
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.08);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow-delayed {
+  animation: pulse-glow 6s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+/* ========= Badge pulse (Coming Soon) ========= */
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(244, 162, 97, 0.5);
+  }
+  50% {
+    opacity: 0.85;
+    box-shadow: 0 0 0 8px rgba(244, 162, 97, 0);
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2.5s ease-in-out infinite;
+}
+
+/* ========= Slide-up entry animations ========= */
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+.animate-slide-up-delay-1 {
+  animation: slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
+  opacity: 0;
+}
+.animate-slide-up-delay-2 {
+  animation: slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.3s forwards;
+  opacity: 0;
+}
+.animate-slide-up-delay-3 {
+  animation: slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.45s forwards;
+  opacity: 0;
+}
+.animate-slide-up-delay-4 {
+  animation: slide-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.6s forwards;
+  opacity: 0;
+}
+
+/* ========= Fade-in (for scroll reveals via IntersectionObserver) ========= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========= Gradient border (product cards hover) ========= */
+
+.gradient-border-hover {
+  position: relative;
+}
+
+.gradient-border-hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    transparent 40%,
+    var(--accent) 100%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.gradient-border-hover:hover::before {
+  opacity: 1;
+}
+
+/* ========= Carousel scrollbar hide ========= */
+
 .carousel-container {
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -40,22 +321,85 @@ html {
   display: none;
 }
 
-/* Fade in animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* ========= Button glow on hover ========= */
+
+.btn-glow {
+  position: relative;
+  transition: all 0.3s ease;
 }
 
-.animate-fade-in-up {
-  animation: fadeInUp 0.6s ease-out forwards;
+.btn-glow:hover {
+  box-shadow:
+    0 0 30px rgba(77, 182, 172, 0.45),
+    0 0 60px rgba(77, 182, 172, 0.2);
+  transform: translateY(-1px);
 }
 
-.animate-delay-100 { animation-delay: 0.1s; }
-.animate-delay-200 { animation-delay: 0.2s; }
-.animate-delay-300 { animation-delay: 0.3s; }
+.btn-glow-amber:hover {
+  box-shadow:
+    0 0 30px rgba(244, 162, 97, 0.45),
+    0 0 60px rgba(244, 162, 97, 0.2);
+  transform: translateY(-1px);
+}
+
+/* ========= Product card hover (themed via --accent) ========= */
+
+.product-card {
+  --accent: #4db6ac;
+  transition:
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.product-card:hover {
+  border-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  box-shadow: 0 20px 45px -20px color-mix(in srgb, var(--accent) 50%, transparent);
+}
+
+/* ========= Themed button (reads --btn-color) ========= */
+
+.themed-btn {
+  transition: all 0.3s ease;
+}
+
+.themed-btn:hover {
+  box-shadow: 0 0 28px color-mix(in srgb, var(--btn-color) 38%, transparent);
+  transform: translateY(-2px);
+}
+
+/* ========= Carousel arrow hover (reads --carousel-accent) ========= */
+
+.carousel-arrow {
+  transition: all 0.3s ease;
+}
+
+.carousel-arrow:hover {
+  box-shadow: 0 0 24px color-mix(in srgb, var(--carousel-accent) 40%, transparent);
+  border-color: var(--carousel-accent);
+}
+
+/* ========= Section decorations ========= */
+
+.divider-fade {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(77, 182, 172, 0.35),
+    transparent
+  );
+}
+
+/* ========= Reduced motion ========= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

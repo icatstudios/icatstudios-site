@@ -7,12 +7,15 @@ interface ScreenshotCarouselProps {
   images: string[];
   alt: string;
   isLandscape?: boolean;
+  /** Any valid CSS color — used for active dot + arrow hover + glow */
+  accent?: string;
 }
 
 export default function ScreenshotCarousel({
   images,
   alt,
   isLandscape = false,
+  accent = "#4db6ac",
 }: ScreenshotCarouselProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -42,13 +45,12 @@ export default function ScreenshotCarousel({
     scrollToIndex(prev);
   }, [activeIndex, images.length, scrollToIndex]);
 
-  // Auto-play
   useEffect(() => {
     if (isHovered) {
       if (autoPlayRef.current) clearInterval(autoPlayRef.current);
       return;
     }
-    autoPlayRef.current = setInterval(goNext, 3000);
+    autoPlayRef.current = setInterval(goNext, 3500);
     return () => {
       if (autoPlayRef.current) clearInterval(autoPlayRef.current);
     };
@@ -61,16 +63,22 @@ export default function ScreenshotCarousel({
     setActiveIndex(Math.min(Math.max(newIndex, 0), images.length - 1));
   };
 
+  const arrowBase =
+    "carousel-arrow group absolute top-1/2 -translate-y-1/2 z-10 flex h-11 w-11 items-center justify-center rounded-full border backdrop-blur-sm";
+
   return (
     <div
-      className="relative flex flex-col gap-4"
+      className="relative flex flex-col gap-5"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      style={
+        { ["--carousel-accent" as string]: accent } as React.CSSProperties
+      }
     >
       {/* Arrow buttons */}
       <button
         onClick={goPrev}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-background/80 border border-card-border text-foreground backdrop-blur-sm transition-all hover:bg-primary hover:text-background hover:border-primary"
+        className={`${arrowBase} left-0 -translate-x-3 border-card-border bg-background/80 text-foreground`}
         aria-label="Previous screenshot"
       >
         <svg
@@ -82,13 +90,14 @@ export default function ScreenshotCarousel({
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
+          className="transition-transform duration-300 group-hover:-translate-x-0.5"
         >
           <polyline points="15 18 9 12 15 6" />
         </svg>
       </button>
       <button
         onClick={goNext}
-        className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-background/80 border border-card-border text-foreground backdrop-blur-sm transition-all hover:bg-primary hover:text-background hover:border-primary"
+        className={`${arrowBase} right-0 translate-x-3 border-card-border bg-background/80 text-foreground`}
         aria-label="Next screenshot"
       >
         <svg
@@ -100,6 +109,7 @@ export default function ScreenshotCarousel({
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
+          className="transition-transform duration-300 group-hover:translate-x-0.5"
         >
           <polyline points="9 18 15 12 9 6" />
         </svg>
@@ -109,30 +119,42 @@ export default function ScreenshotCarousel({
       <div
         ref={containerRef}
         onScroll={handleScroll}
-        className="carousel-container flex gap-4 overflow-x-auto pb-4"
+        className="carousel-container flex gap-4 overflow-x-auto pb-4 pt-2"
         style={{ scrollSnapType: "x mandatory" }}
       >
-        {images.map((src, i) => (
-          <div
-            key={i}
-            className="flex-shrink-0"
-            style={{
-              scrollSnapAlign: "start",
-              width: `${itemWidth}px`,
-            }}
-          >
-            <Image
-              src={src}
-              alt={`${alt} screenshot ${i + 1}`}
-              width={isLandscape ? 400 : 220}
-              height={isLandscape ? 225 : 476}
-              className={`rounded-xl border border-card-border transition-opacity duration-300 ${
-                i === activeIndex ? "opacity-100" : "opacity-60"
-              }`}
-              style={{ width: "100%", height: "auto" }}
-            />
-          </div>
-        ))}
+        {images.map((src, i) => {
+          const isActive = i === activeIndex;
+          return (
+            <div
+              key={i}
+              className="flex-shrink-0"
+              style={{
+                scrollSnapAlign: "start",
+                width: `${itemWidth}px`,
+              }}
+            >
+              <div
+                className="relative overflow-hidden rounded-xl border transition-all duration-500"
+                style={{
+                  borderColor: isActive ? accent : "rgba(255,255,255,0.08)",
+                  boxShadow: isActive ? `0 0 32px ${accent}55` : "none",
+                  transform: isActive ? "scale(1)" : "scale(0.94)",
+                }}
+              >
+                <Image
+                  src={src}
+                  alt={`${alt} screenshot ${i + 1}`}
+                  width={isLandscape ? 400 : 220}
+                  height={isLandscape ? 225 : 476}
+                  className={`transition-opacity duration-500 ${
+                    isActive ? "opacity-100" : "opacity-55"
+                  }`}
+                  style={{ width: "100%", height: "auto", display: "block" }}
+                />
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       {/* Dots */}
@@ -142,11 +164,12 @@ export default function ScreenshotCarousel({
             <button
               key={i}
               onClick={() => scrollToIndex(i)}
-              className={`h-2 rounded-full transition-all ${
-                i === activeIndex
-                  ? "w-6 bg-primary"
-                  : "w-2 bg-zinc-700 hover:bg-zinc-500"
-              }`}
+              className="h-2 rounded-full transition-all duration-300"
+              style={{
+                width: i === activeIndex ? "24px" : "8px",
+                background:
+                  i === activeIndex ? accent : "rgba(255,255,255,0.18)",
+              }}
               aria-label={`Go to screenshot ${i + 1}`}
             />
           ))}
