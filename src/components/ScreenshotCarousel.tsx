@@ -15,7 +15,7 @@ export default function ScreenshotCarousel({
   images,
   alt,
   isLandscape = false,
-  accent = "#4db6ac",
+  accent = "#2fbbb3",
 }: ScreenshotCarouselProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);

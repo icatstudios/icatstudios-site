@@ -44,11 +44,10 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-3">
               <Image
-                src="/images/logos/icat_logo_notext_500x500.png"
+                src="/images/logos/icat-logo.svg"
                 alt="iCat Studios"
                 width={36}
                 height={36}
-                className="rounded-lg"
               />
               <span className="text-base font-semibold text-foreground">
                 iCat Studios

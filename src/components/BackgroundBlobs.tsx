@@ -8,8 +8,8 @@ interface BackgroundBlobsProps {
 }
 
 export default function BackgroundBlobs({
-  primary = "rgba(77, 182, 172, 0.28)",
-  secondary = "rgba(244, 162, 97, 0.22)",
+  primary = "rgba(47, 187, 179, 0.28)",
+  secondary = "rgba(227, 94, 199, 0.24)",
   intensity = "medium",
 }: BackgroundBlobsProps) {
   const size =

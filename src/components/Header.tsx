@@ -46,13 +46,13 @@ export default function Header() {
           onClick={() => setMenuOpen(false)}
         >
           <div className="relative">
-            <div className="absolute inset-0 -z-10 rounded-xl bg-primary/30 opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-100" />
+            <div className="absolute inset-0 -z-10 rounded-xl bg-gradient-to-br from-[var(--brand-teal)] via-[var(--brand-purple)] to-[var(--brand-pink)] opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-60" />
             <Image
-              src="/images/logos/icat_logo_notext_500x500.png"
+              src="/images/logos/icat-logo.svg"
               alt="iCat Studios"
               width={40}
               height={40}
-              className="rounded-lg transition-transform duration-300 group-hover:scale-105"
+              className="transition-transform duration-300 group-hover:scale-105"
               priority
             />
           </div>
@@ -75,7 +75,7 @@ export default function Header() {
             >
               {link.label}
               {isActive(link.href) && (
-                <span className="absolute -bottom-1.5 left-0 right-0 h-[2px] rounded-full bg-gradient-to-r from-primary to-accent" />
+                <span className="absolute -bottom-1.5 left-0 right-0 h-[2px] rounded-full bg-gradient-to-r from-[var(--brand-teal)] via-[var(--brand-purple)] to-[var(--brand-pink)]" />
               )}
             </Link>
           ))}

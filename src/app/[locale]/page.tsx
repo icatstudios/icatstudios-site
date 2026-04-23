@@ -70,20 +70,29 @@ export default async function Home({ params }: Props) {
 
         <div className="relative z-10 mx-auto max-w-5xl text-center">
           <div className="animate-slide-up">
-            <div className="relative mx-auto mb-8 h-40 w-40">
-              <div className="absolute inset-0 rounded-full bg-primary/30 blur-3xl animate-pulse-glow" />
+            <div className="relative mx-auto mb-10 w-[280px] sm:w-[340px] lg:w-[400px]">
+              {/* Multi-layer glow behind logo */}
+              <div
+                aria-hidden
+                className="absolute inset-0 -z-10 rounded-[50%] blur-[90px] opacity-60 animate-pulse-glow"
+                style={{
+                  background:
+                    "radial-gradient(circle, rgba(110,70,221,0.55) 0%, rgba(47,187,179,0.35) 40%, rgba(227,94,199,0.35) 70%, transparent 100%)",
+                }}
+              />
               <Image
-                src="/images/logos/icat_logo_2000x2000.png"
+                src="/images/logos/icat-logo-text.svg"
                 alt="iCat Studios"
-                fill
-                sizes="160px"
-                className="relative animate-float object-contain"
+                width={500}
+                height={700}
+                sizes="(max-width: 640px) 280px, (max-width: 1024px) 340px, 400px"
+                className="relative animate-float drop-shadow-[0_8px_30px_rgba(110,70,221,0.35)]"
                 priority
               />
             </div>
           </div>
 
-          <h1 className="animate-slide-up-delay-1 text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+          <h1 className="animate-slide-up-delay-1 text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
             <span className="block">{t("heroTitleLine1")}</span>
             <span className="block shimmer-text">{t("heroTitleLine2")}</span>
           </h1>
@@ -95,7 +104,7 @@ export default async function Home({ params }: Props) {
           <div className="animate-slide-up-delay-3 mt-10 flex flex-wrap justify-center gap-4">
             <Link
               href="/products"
-              className="btn-glow group relative inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 text-sm font-semibold text-background transition-colors hover:bg-primary-dark"
+              className="btn-gradient group relative inline-flex items-center gap-2 rounded-full px-8 py-3 text-sm font-semibold text-white"
             >
               {t("ctaPrimary")}
               <svg
@@ -115,7 +124,7 @@ export default async function Home({ params }: Props) {
             </Link>
             <a
               href="mailto:support@icatstudios.com"
-              className="inline-flex items-center gap-2 rounded-full border border-card-border bg-card-bg/40 px-8 py-3 text-sm font-semibold text-foreground backdrop-blur transition-all duration-300 hover:-translate-y-0.5 hover:border-accent hover:text-accent"
+              className="inline-flex items-center gap-2 rounded-full border border-card-border bg-card-bg/40 px-8 py-3 text-sm font-semibold text-foreground backdrop-blur transition-all duration-300 hover:-translate-y-0.5 hover:border-[var(--brand-purple)] hover:text-[var(--brand-pink)]"
             >
               {t("ctaSecondary")}
             </a>
@@ -163,10 +172,11 @@ export default async function Home({ params }: Props) {
 
                 {product.comingSoon && (
                   <span
-                    className="absolute top-4 right-4 rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-accent animate-pulse-soft"
+                    className="absolute top-4 right-4 rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-widest animate-pulse-soft"
                     style={{
-                      borderColor: "rgba(244,162,97,0.4)",
-                      background: "rgba(244,162,97,0.1)",
+                      color: "#E35EC7",
+                      borderColor: "rgba(227,94,199,0.4)",
+                      background: "rgba(227,94,199,0.1)",
                     }}
                   >
                     {t("comingSoon")}

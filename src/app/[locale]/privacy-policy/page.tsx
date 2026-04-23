@@ -153,7 +153,7 @@ export default async function PrivacyPolicyPage({ params }: Props) {
           <p>{t("contact")}</p>
           <a
             href="mailto:support@icatstudios.com"
-            className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-5 py-2 text-sm font-semibold text-primary transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary/15 hover:shadow-[0_0_24px_rgba(77,182,172,0.35)]"
+            className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-5 py-2 text-sm font-semibold text-primary transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary/15 hover:shadow-[0_0_24px_rgba(47,187,179,0.5)]"
           >
             support@icatstudios.com
           </a>

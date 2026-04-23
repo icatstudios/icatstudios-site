@@ -6,22 +6,31 @@
   --background-elev: #0e0e14;
   --foreground: #ededed;
 
-  /* iCat brand — teal primary */
-  --primary: #4db6ac;
-  --primary-dark: #3d9e95;
-  --primary-light: #7fd4cb;
-  --primary-glow: rgba(77, 182, 172, 0.4);
+  /* iCat brand gradient — teal → purple → pink (from logo SVG) */
+  --brand-teal: #2fbbb3;
+  --brand-purple: #6e46dd;
+  --brand-pink: #e35ec7;
 
-  /* Warm amber accent — studio/creativity */
-  --accent: #f4a261;
-  --accent-dark: #d88943;
-  --accent-light: #f8c48d;
-  --accent-glow: rgba(244, 162, 97, 0.35);
+  /* Primary (teal) */
+  --primary: #2fbbb3;
+  --primary-dark: #249a92;
+  --primary-light: #5fd1ca;
+  --primary-glow: rgba(47, 187, 179, 0.4);
+
+  /* Accent (purple) — replaces amber */
+  --accent: #6e46dd;
+  --accent-dark: #5633bd;
+  --accent-light: #9677e8;
+  --accent-glow: rgba(110, 70, 221, 0.4);
+
+  /* Tertiary (pink) for accents and gradient ends */
+  --tertiary: #e35ec7;
+  --tertiary-glow: rgba(227, 94, 199, 0.4);
 
   /* Cards / surfaces */
   --card-bg: #12121a;
   --card-border: rgba(255, 255, 255, 0.08);
-  --card-border-hover: rgba(77, 182, 172, 0.35);
+  --card-border-hover: rgba(110, 70, 221, 0.35);
 
   /* Product themes (used on /products) */
   --potentials-accent: #14f174;
@@ -45,6 +54,7 @@
   --color-accent: var(--accent);
   --color-accent-dark: var(--accent-dark);
   --color-accent-light: var(--accent-light);
+  --color-tertiary: var(--tertiary);
   --color-card-bg: var(--card-bg);
   --color-card-border: var(--card-border);
   --font-sans: var(--font-poppins);
@@ -103,32 +113,44 @@ body {
 
 .glow-teal {
   box-shadow:
-    0 0 40px rgba(77, 182, 172, 0.25),
-    0 0 80px rgba(77, 182, 172, 0.15);
+    0 0 40px rgba(47, 187, 179, 0.3),
+    0 0 80px rgba(47, 187, 179, 0.18);
 }
 
-.glow-teal-strong {
+.glow-purple {
   box-shadow:
-    0 0 60px rgba(77, 182, 172, 0.5),
-    0 0 120px rgba(77, 182, 172, 0.25);
+    0 0 40px rgba(110, 70, 221, 0.3),
+    0 0 80px rgba(110, 70, 221, 0.18);
 }
 
-.glow-amber {
+.glow-pink {
   box-shadow:
-    0 0 40px rgba(244, 162, 97, 0.25),
-    0 0 80px rgba(244, 162, 97, 0.15);
+    0 0 40px rgba(227, 94, 199, 0.3),
+    0 0 80px rgba(227, 94, 199, 0.18);
+}
+
+.glow-brand {
+  box-shadow:
+    0 0 40px rgba(110, 70, 221, 0.35),
+    0 0 80px rgba(227, 94, 199, 0.2);
 }
 
 .text-glow-teal {
   text-shadow:
-    0 0 20px rgba(77, 182, 172, 0.5),
-    0 0 40px rgba(77, 182, 172, 0.3);
+    0 0 20px rgba(47, 187, 179, 0.6),
+    0 0 40px rgba(47, 187, 179, 0.3);
 }
 
-.text-glow-amber {
+.text-glow-purple {
   text-shadow:
-    0 0 20px rgba(244, 162, 97, 0.5),
-    0 0 40px rgba(244, 162, 97, 0.3);
+    0 0 20px rgba(110, 70, 221, 0.6),
+    0 0 40px rgba(110, 70, 221, 0.3);
+}
+
+.text-glow-pink {
+  text-shadow:
+    0 0 20px rgba(227, 94, 199, 0.6),
+    0 0 40px rgba(227, 94, 199, 0.3);
 }
 
 /* ========= Shimmer text (iCat signature) ========= */
@@ -136,18 +158,31 @@ body {
 .shimmer-text {
   background: linear-gradient(
     110deg,
-    var(--primary) 0%,
-    var(--primary-light) 20%,
-    var(--accent-light) 50%,
-    var(--primary-light) 80%,
-    var(--primary) 100%
+    var(--brand-teal) 0%,
+    var(--brand-purple) 25%,
+    var(--brand-pink) 50%,
+    var(--brand-purple) 75%,
+    var(--brand-teal) 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
-  animation: shimmer 5s linear infinite;
+  animation: shimmer 6s linear infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    var(--brand-teal) 0%,
+    var(--brand-purple) 50%,
+    var(--brand-pink) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 @keyframes shimmer {
@@ -218,11 +253,11 @@ body {
   0%,
   100% {
     opacity: 1;
-    box-shadow: 0 0 0 0 rgba(244, 162, 97, 0.5);
+    box-shadow: 0 0 0 0 rgba(227, 94, 199, 0.5);
   }
   50% {
     opacity: 0.85;
-    box-shadow: 0 0 0 8px rgba(244, 162, 97, 0);
+    box-shadow: 0 0 0 8px rgba(227, 94, 199, 0);
   }
 }
 
@@ -330,22 +365,46 @@ body {
 
 .btn-glow:hover {
   box-shadow:
-    0 0 30px rgba(77, 182, 172, 0.45),
-    0 0 60px rgba(77, 182, 172, 0.2);
+    0 0 30px rgba(110, 70, 221, 0.55),
+    0 0 60px rgba(227, 94, 199, 0.3);
   transform: translateY(-1px);
 }
 
-.btn-glow-amber:hover {
+.btn-glow-teal:hover {
   box-shadow:
-    0 0 30px rgba(244, 162, 97, 0.45),
-    0 0 60px rgba(244, 162, 97, 0.2);
+    0 0 30px rgba(47, 187, 179, 0.5),
+    0 0 60px rgba(47, 187, 179, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Gradient button — teal → purple → pink */
+.btn-gradient {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    var(--brand-teal),
+    var(--brand-purple),
+    var(--brand-pink)
+  );
+  background-size: 200% auto;
+  transition:
+    background-position 0.6s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background-position: 100% center;
+  box-shadow:
+    0 0 30px rgba(110, 70, 221, 0.55),
+    0 0 60px rgba(227, 94, 199, 0.3);
   transform: translateY(-1px);
 }
 
 /* ========= Product card hover (themed via --accent) ========= */
 
 .product-card {
-  --accent: #4db6ac;
+  --accent: #2fbbb3;
   transition:
     transform 0.5s cubic-bezier(0.22, 1, 0.36, 1),
     border-color 0.5s ease,
@@ -379,6 +438,39 @@ body {
   border-color: var(--carousel-accent);
 }
 
+/* Brand gradient border on hover (cards) */
+.brand-border-hover {
+  position: relative;
+  isolation: isolate;
+}
+
+.brand-border-hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    var(--brand-teal),
+    var(--brand-purple) 50%,
+    var(--brand-pink)
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.brand-border-hover:hover::before {
+  opacity: 1;
+}
+
 /* ========= Section decorations ========= */
 
 .divider-fade {
@@ -386,7 +478,9 @@ body {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(77, 182, 172, 0.35),
+    rgba(47, 187, 179, 0.35),
+    rgba(110, 70, 221, 0.4),
+    rgba(227, 94, 199, 0.35),
     transparent
   );
 }
