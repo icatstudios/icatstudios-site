@@ -8,6 +8,7 @@
   "home": {
     "metaTitle": "iCat Studios — Mobil Uygulama ve Oyun Geliştirme",
     "metaDescription": "iCat Studios, Türkiye'de kurulmuş, yeniliği ve yaratıcılığı ön planda tutan bir mobil uygulama ve oyun geliştirme ekibidir.",
+    "heroEyebrow": "Yaratıcılık ve yenilik bir arada",
     "heroTitleLine1": "Mobil Uygulama ve",
     "heroTitleLine2": "Oyun Geliştirme",
     "heroSubtitle": "iCat Studios, Türkiye'de kurulmuş, yeniliği ve yaratıcılığı ön planda tutan bir mobil uygulama ve oyun geliştirme ekibidir.",
@@ -17,6 +18,16 @@
     "productsSectionSubtitle": "Ürettiklerimize göz atın",
     "comingSoon": "Çok Yakında",
     "explore": "İncele"
+  },
+  "heroStats": {
+    "downloadsLabel": "İndirme",
+    "downloadsValue": "2M+",
+    "appsLabel": "Yayınlanan",
+    "appsValue": "7 Ürün",
+    "foundedLabel": "Kuruluş",
+    "foundedValue": "2016'dan beri",
+    "locationLabel": "Merkez",
+    "locationValue": "Türkiye"
   },
   "products": {
     "metaTitle": "Ürünler",

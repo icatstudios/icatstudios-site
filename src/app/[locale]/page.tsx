@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import BackgroundBlobs from "@/components/BackgroundBlobs";
 import Reveal from "@/components/Reveal";
+import ParticleField from "@/components/ParticleField";
+import GroundRings from "@/components/GroundRings";
+import FloatingStatCards from "@/components/FloatingStatCards";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -52,91 +54,124 @@ export default async function Home({ params }: Props) {
 
   return (
     <div className="flex flex-col">
-      {/* ============ Hero ============ */}
-      <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6 py-20">
-        <BackgroundBlobs intensity="high" />
-
-        {/* Decorative dots under hero */}
+      {/* ============ Hero (banner-style) ============ */}
+      <section className="relative overflow-hidden px-6 pt-14 pb-20 lg:pt-20 lg:pb-28">
+        {/* Deep space gradient backdrop */}
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-dots opacity-30"
+          className="pointer-events-none absolute inset-0 hero-space-bg"
+        />
+        {/* Subtle grid + particles */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-grid opacity-25"
+        />
+        <ParticleField />
+
+        {/* Fade to page bg at bottom */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
           style={{
-            maskImage:
-              "linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))",
-            WebkitMaskImage:
-              "linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))",
+            background:
+              "linear-gradient(to top, var(--background), transparent)",
           }}
         />
 
-        <div className="relative z-10 mx-auto max-w-5xl text-center">
-          <div className="animate-slide-up">
-            <div className="relative mx-auto mb-10 w-[280px] sm:w-[340px] lg:w-[400px]">
-              {/* Multi-layer glow behind logo */}
-              <div
-                aria-hidden
-                className="absolute inset-0 -z-10 rounded-[50%] blur-[90px] opacity-60 animate-pulse-glow"
-                style={{
-                  background:
-                    "radial-gradient(circle, rgba(110,70,221,0.55) 0%, rgba(47,187,179,0.35) 40%, rgba(227,94,199,0.35) 70%, transparent 100%)",
-                }}
-              />
+        <div className="relative z-10 mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-8">
+          {/* ---------- Left column: Brand + Copy ---------- */}
+          <div className="lg:col-span-6 lg:pr-6">
+            {/* Eyebrow */}
+            <div className="animate-slide-up inline-flex items-center gap-2 rounded-full border border-card-border bg-card-bg/50 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-zinc-300 backdrop-blur">
+              <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[var(--brand-teal)] to-[var(--brand-pink)] animate-pulse" />
+              {t("heroEyebrow")}
+            </div>
+
+            {/* Logo with text */}
+            <div className="animate-slide-up-delay-1 mt-6 max-w-md">
               <Image
                 src="/images/logos/icat-logo-text.svg"
                 alt="iCat Studios"
                 width={500}
                 height={700}
-                sizes="(max-width: 640px) 280px, (max-width: 1024px) 340px, 400px"
-                className="relative animate-float drop-shadow-[0_8px_30px_rgba(110,70,221,0.35)]"
+                sizes="(max-width: 1024px) 240px, 360px"
+                className="w-[240px] lg:w-[360px] drop-shadow-[0_8px_28px_rgba(110,70,221,0.45)]"
                 priority
               />
             </div>
-          </div>
 
-          <h1 className="animate-slide-up-delay-1 text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-            <span className="block">{t("heroTitleLine1")}</span>
-            <span className="block shimmer-text">{t("heroTitleLine2")}</span>
-          </h1>
+            {/* Gradient progress bar */}
+            <div className="animate-slide-up-delay-2 mt-5 max-w-[260px]">
+              <div className="hero-progress" />
+            </div>
 
-          <p className="animate-slide-up-delay-2 mx-auto mt-6 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-            {t("heroSubtitle")}
-          </p>
+            {/* Subtitle */}
+            <h1 className="animate-slide-up-delay-2 mt-6 text-2xl font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
+              <span className="block">{t("heroTitleLine1")}</span>
+              <span className="block shimmer-text">{t("heroTitleLine2")}</span>
+            </h1>
 
-          <div className="animate-slide-up-delay-3 mt-10 flex flex-wrap justify-center gap-4">
-            <Link
-              href="/products"
-              className="btn-gradient group relative inline-flex items-center gap-2 rounded-full px-8 py-3 text-sm font-semibold text-white"
-            >
-              {t("ctaPrimary")}
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="transition-transform duration-300 group-hover:translate-x-0.5"
+            <p className="animate-slide-up-delay-3 mt-5 max-w-xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+              {t("heroSubtitle")}
+            </p>
+
+            {/* CTAs */}
+            <div className="animate-slide-up-delay-3 mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/products"
+                className="btn-gradient group relative inline-flex items-center gap-2 rounded-full px-7 py-3 text-sm font-semibold text-white"
               >
-                <line x1="5" y1="12" x2="19" y2="12" />
-                <polyline points="12 5 19 12 12 19" />
-              </svg>
-            </Link>
-            <a
-              href="mailto:support@icatstudios.com"
-              className="inline-flex items-center gap-2 rounded-full border border-card-border bg-card-bg/40 px-8 py-3 text-sm font-semibold text-foreground backdrop-blur transition-all duration-300 hover:-translate-y-0.5 hover:border-[var(--brand-purple)] hover:text-[var(--brand-pink)]"
-            >
-              {t("ctaSecondary")}
-            </a>
+                {t("ctaPrimary")}
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="transition-transform duration-300 group-hover:translate-x-0.5"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </Link>
+              <a
+                href="mailto:support@icatstudios.com"
+                className="inline-flex items-center gap-2 rounded-full border border-card-border bg-card-bg/40 px-7 py-3 text-sm font-semibold text-foreground backdrop-blur transition-all duration-300 hover:-translate-y-0.5 hover:border-[var(--brand-purple)] hover:text-[var(--brand-pink)]"
+              >
+                {t("ctaSecondary")}
+              </a>
+            </div>
           </div>
 
-          {/* Subtle metadata strip */}
-          <div className="animate-slide-up-delay-4 mt-14 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-xs uppercase tracking-[0.25em] text-zinc-500">
-            <span>Türkiye</span>
-            <span className="h-1 w-1 rounded-full bg-zinc-700" />
-            <span>Mobile & Games</span>
-            <span className="h-1 w-1 rounded-full bg-zinc-700" />
-            <span>Since 2016</span>
+          {/* ---------- Right column: Mascot stage ---------- */}
+          <div className="lg:col-span-6">
+            <div className="relative mx-auto aspect-[5/6] w-full max-w-[540px]">
+              {/* Orbit glow behind mascot */}
+              <div
+                aria-hidden
+                className="absolute left-1/2 top-1/2 -z-10 h-[70%] w-[70%] -translate-x-1/2 -translate-y-1/2 rounded-full animate-orbit-glow"
+                style={{ background: "transparent" }}
+              />
+
+              {/* Ground rings under feet */}
+              <GroundRings className="bottom-[2%] left-1/2 -translate-x-1/2" />
+
+              {/* Floating stat cards */}
+              <FloatingStatCards />
+
+              {/* Mascot */}
+              <Image
+                src="/images/mascot/icat-mascot.png"
+                alt="iCat Studios mascot"
+                fill
+                sizes="(max-width: 1024px) 90vw, 540px"
+                className="relative z-[3] animate-float object-contain"
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>

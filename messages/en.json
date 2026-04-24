@@ -8,7 +8,8 @@
   "home": {
     "metaTitle": "iCat Studios — Mobile Application and Game Development",
     "metaDescription": "iCat Studios is a mobile application and game development team established in Türkiye, giving importance to innovation and creativity.",
-    "heroTitleLine1": "Mobile Application &",
+    "heroEyebrow": "Innovation meets creativity",
+    "heroTitleLine1": "Mobile Apps &",
     "heroTitleLine2": "Game Development",
     "heroSubtitle": "iCat Studios is a mobile application and game development team established in Türkiye, giving importance to innovation and creativity.",
     "ctaPrimary": "Our Products",
@@ -17,6 +18,16 @@
     "productsSectionSubtitle": "Check out what we've been building",
     "comingSoon": "Coming Soon",
     "explore": "Explore"
+  },
+  "heroStats": {
+    "downloadsLabel": "Downloads",
+    "downloadsValue": "2M+",
+    "appsLabel": "Apps Shipped",
+    "appsValue": "7 Products",
+    "foundedLabel": "Founded",
+    "foundedValue": "Since 2016",
+    "locationLabel": "Based in",
+    "locationValue": "Türkiye"
   },
   "products": {
     "metaTitle": "Products",
