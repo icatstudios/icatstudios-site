@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termOfUse": "Nutzungsbedingungen"
+  },
+  "home": {
+    "metaTitle": "iCat Studios — Mobile-App- und Spieleentwicklung",
+    "metaDescription": "iCat Studios ist ein in Türkiye ansässiges Team für die Entwicklung mobiler Anwendungen und Spiele und legt Wert auf Innovation und Kreativität.",
+    "heroEyebrow": "Innovation trifft Kreativität",
+    "heroTitleLine1": "Mobile Apps &",
+    "heroTitleLine2": "Spieleentwicklung",
+    "heroSubtitle": "iCat Studios ist ein in Türkiye ansässiges Team für die Entwicklung mobiler Anwendungen und Spiele und legt Wert auf Innovation und Kreativität.",
+    "ctaPrimary": "Unsere Produkte",
+    "ctaSecondary": "Kontakt",
+    "productsSectionTitle": "Unsere Produkte",
+    "productsSectionSubtitle": "Sieh dir an, woran wir arbeiten",
+    "comingSoon": "Demnächst",
+    "explore": "Entdecken"
+  },
+  "heroStats": {
+    "downloadsLabel": "Downloads",
+    "downloadsValue": "2M+",
+    "appsLabel": "Veröffentlicht",
+    "appsValue": "7 Produkte",
+    "foundedLabel": "Gegründet",
+    "foundedValue": "Seit 2016",
+    "locationLabel": "Sitz",
+    "locationValue": "Türkiye"
+  },
+  "products": {
+    "metaTitle": "Produkte",
+    "metaDescription": "Entdecke unsere mobilen Anwendungen und Spiele.",
+    "pageTitle": "Produkte",
+    "pageSubtitle": "Unsere mobilen Anwendungen und Spiele",
+    "downloads": "1.000.000+ Downloads",
+    "comingSoon": "Demnächst",
+    "potentials": {
+      "name": "Potentials: FC26 Career Mode",
+      "description1": "Deckt alle FIFA-FC-Versionen von FIFA 18 bis FC 26 ab und enthält detaillierte Daten zu über 50.000 Fußballern und Fußballerinnen sowie fast 1.000 Vereinen — die weltweit umfassendste und meistgeladene App für FC-Karrieremodi.",
+      "description2": "Mit Potentials filterst du Spieler nach Gesamt-/Potenzialwertung, Alter, Marktwert, Position, Attributen, Verein, Liga, Nationalität und mehr. Stelle Kader zusammen, vergleiche Teamdetails — und vieles mehr, nur in dieser App.",
+      "shortDescription": "Die weltweit beliebteste Begleit-App für FC-Karrieremodi."
+    },
+    "fastAndBlocky": {
+      "name": "Fast and Blocky",
+      "description": "Ein endloses Motorradrennspiel, in dem du bei hoher Geschwindigkeit zufällig generiertem Verkehr ausweichst. Navigiere durch den Verkehr, ohne mit Fahrzeugen zu kollidieren!",
+      "shortDescription": "Endloses Motorradrennen — weiche dem Verkehr in hoher Geschwindigkeit aus."
+    },
+    "scoreHunter": {
+      "name": "Score Hunter",
+      "tagline": "Kein Wetten — ein Fußball-Tipp-Spiel!",
+      "description1": "Score Hunter ist ein kostenloses Fußball-Tipp-Spiel mit Belohnungen. Du musst nicht zahlen, um teilzunehmen oder Preise zu gewinnen. Kein Risiko! Keine Wettterminologie! Alles, was du brauchst, ist deine Leidenschaft für Fußball!",
+      "description2": "Tippe Spielergebnisse oder Ereignisse während des Spiels in unterhaltsamen Mini-Games. Sammle Punkte und klettere in den wöchentlichen und saisonalen Ranglisten an die Spitze. Pokale und Überraschungspreise warten auf dich!",
+      "learnMore": "scorehunter.app besuchen",
+      "newBadge": "Neu",
+      "shortDescription": "Tipp-Spiel mit Belohnungen für Fußballfans!"
+    }
+  },
+  "comingSoonBadges": {
+    "statusLabel": "Demnächst",
+    "downloadOn": "Laden im",
+    "getItOn": "Erhältlich bei"
+  },
+  "privacyPolicy": {
+    "metaTitle": "Datenschutzerklärung",
+    "metaDescription": "iCat Studios Datenschutzerklärung",
+    "title": "Datenschutzerklärung",
+    "subtitle": "Deine Privatsphäre ist uns wichtig",
+    "intro": "iCat Studios hat die unten aufgeführten Apps als kostenlose Apps entwickelt:",
+    "appsList": [
+      "Potentials: FC26 Career Mode",
+      "Score Hunter",
+      "Fast and Blocky"
+    ],
+    "p1": "Diese DIENSTE werden von iCat Studios kostenlos angeboten und sind zur Nutzung im aktuellen Zustand vorgesehen.",
+    "p2": "Diese Seite informiert Website-Besucher über unsere Richtlinien zur Erfassung, Verwendung und Offenlegung personenbezogener Daten, falls jemand sich entscheidet, unseren Dienst zu nutzen.",
+    "p3": "Wenn du dich entscheidest, unsere Dienste zu nutzen, stimmst du der Erfassung und Verwendung von Informationen gemäß dieser Richtlinie zu. Die personenbezogenen Daten, die wir sammeln, werden zur Bereitstellung und Verbesserung des Dienstes verwendet. Wir werden deine Informationen mit niemandem teilen oder verwenden, außer wie in dieser Datenschutzerklärung beschrieben.",
+    "p4": "Die in dieser Datenschutzerklärung verwendeten Begriffe haben dieselbe Bedeutung wie in unseren Allgemeinen Geschäftsbedingungen, sofern nicht anders definiert.",
+    "infoCollectionTitle": "Erfassung und Verwendung von Informationen",
+    "infoCollection1": "Für ein besseres Erlebnis können wir dich während der Nutzung unseres Dienstes auffordern, uns bestimmte personenbezogene Daten zur Verfügung zu stellen. Die angeforderten Informationen werden von uns gespeichert und gemäß dieser Datenschutzerklärung verwendet.",
+    "infoCollection2": "Die App nutzt Drittanbieterdienste, die Informationen sammeln können, mit denen du identifiziert werden kannst.",
+    "infoCollection3": "Link zu den Datenschutzerklärungen der von der App verwendeten Drittanbieter:",
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
+    "logDataTitle": "Protokolldaten",
+    "logData": "Wir möchten dich darüber informieren, dass wir bei jeder Nutzung unseres Dienstes im Falle eines Fehlers in der App Daten und Informationen (über Drittanbieterprodukte) auf deinem Telefon erfassen, die als Protokolldaten bezeichnet werden. Diese Protokolldaten können Informationen wie die IP-Adresse deines Geräts, den Gerätenamen, die Betriebssystemversion, die App-Konfiguration, Datum und Uhrzeit der Nutzung sowie weitere Statistiken enthalten.",
+    "cookiesTitle": "Cookies",
+    "cookies1": "Cookies sind Dateien mit einer geringen Datenmenge, die häufig als anonyme eindeutige Kennungen verwendet werden. Diese werden von den von dir besuchten Websites an deinen Browser gesendet und im internen Speicher deines Geräts abgelegt.",
+    "cookies2": "Dieser Dienst verwendet diese „Cookies\" nicht ausdrücklich. Die App kann jedoch Code und Bibliotheken von Drittanbietern verwenden, die „Cookies\" zur Informationssammlung und Verbesserung ihrer Dienste nutzen. Du hast die Möglichkeit, diese Cookies zu akzeptieren oder abzulehnen. Wenn du Cookies ablehnst, kannst du möglicherweise einige Teile dieses Dienstes nicht nutzen.",
+    "serviceProvidersTitle": "Dienstleister",
+    "serviceProviders1": "Wir können Drittanbieter und Einzelpersonen aus folgenden Gründen einsetzen:",
+    "serviceProvidersReasons": [
+      "Um unseren Dienst zu erleichtern",
+      "Um den Dienst in unserem Namen bereitzustellen",
+      "Um dienstbezogene Leistungen zu erbringen",
+      "Um uns bei der Analyse der Dienstnutzung zu unterstützen"
+    ],
+    "serviceProviders2": "Wir möchten Nutzer dieses Dienstes darüber informieren, dass diese Dritten Zugriff auf deine personenbezogenen Daten haben. Der Grund dafür ist, die ihnen in unserem Namen übertragenen Aufgaben auszuführen. Sie sind jedoch verpflichtet, die Informationen nicht zu anderen Zwecken offenzulegen oder zu verwenden.",
+    "securityTitle": "Sicherheit",
+    "security": "Wir schätzen dein Vertrauen, uns deine personenbezogenen Daten zur Verfügung zu stellen, und bemühen uns, sie mit handelsüblichen Mitteln zu schützen. Bedenke jedoch, dass keine Übertragungsmethode über das Internet oder elektronische Speicherungsmethode 100% sicher und zuverlässig ist und wir keine absolute Sicherheit garantieren können.",
+    "linksTitle": "Links zu anderen Websites",
+    "links": "Dieser Dienst kann Links zu anderen Websites enthalten. Wenn du auf einen Drittanbieter-Link klickst, wirst du zu dieser Website weitergeleitet. Beachte, dass diese externen Websites nicht von uns betrieben werden. Wir empfehlen daher dringend, die Datenschutzerklärung dieser Websites zu überprüfen. Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Drittanbieter-Websites oder -Diensten.",
+    "childrenTitle": "Datenschutz für Kinder",
+    "children": "Diese Dienste richten sich nicht an Personen unter 13 Jahren. Wir sammeln nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahren. Falls wir feststellen, dass ein Kind unter 13 Jahren uns personenbezogene Daten zur Verfügung gestellt hat, löschen wir diese sofort von unseren Servern. Wenn du Elternteil oder Erziehungsberechtigter bist und weißt, dass dein Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktiere uns bitte.",
+    "changesTitle": "Änderungen dieser Datenschutzerklärung",
+    "changes": "Wir können unsere Datenschutzerklärung von Zeit zu Zeit aktualisieren. Daher wird empfohlen, diese Seite regelmäßig auf Änderungen zu überprüfen. Wir werden dich über Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen. Diese Änderungen treten unmittelbar nach ihrer Veröffentlichung auf dieser Seite in Kraft.",
+    "contactTitle": "Kontakt",
+    "contact": "Wenn du Fragen oder Vorschläge zu unserer Datenschutzerklärung hast, zögere nicht, uns zu kontaktieren.",
+    "copyright": "Copyright © 2022 - Alle Rechte vorbehalten."
+  },
+  "termOfUse": {
+    "metaTitle": "Nutzungsbedingungen",
+    "metaDescription": "iCat Studios Nutzungsbedingungen",
+    "title": "Nutzungsbedingungen",
+    "subtitle": "Bitte sorgfältig lesen, bevor du unsere Dienste nutzt",
+    "appName": "Potentials: FC26 Career Mode",
+    "licenseTitle": "Lizenzvereinbarung — Nutzungsbedingungen",
+    "intro1": "Die folgenden Bedingungen („Bedingungen\") regeln die gesamte Nutzung der Potentials: FC26 Career Mode-Anwendung und aller Inhalte, Dienste und Produkte, die über die Website und unsere Anwendungen verfügbar sind, einschließlich, aber nicht beschränkt auf den Pro-Modus der Potentials: FC26 Career Mode iOS- und Android-Anwendung (zusammen unsere „Dienste\"). Unsere Dienste werden unter der Bedingung angeboten, dass du alle hier enthaltenen Bedingungen und alle anderen Betriebsregeln, Richtlinien (einschließlich, aber nicht beschränkt auf die Datenschutzerklärung von iCat Studios) und Verfahren, die von Zeit zu Zeit von iCat Studios veröffentlicht werden können (zusammen die „Vereinbarung\"), ohne Änderung akzeptierst. Du erklärst dich damit einverstanden, dass wir unsere Dienste automatisch aktualisieren können, und diese Bedingungen gelten für alle Aktualisierungen. Deine Vereinbarung besteht mit iCat Studios (TR).",
+    "intro2": "Bitte lies diese Vereinbarung sorgfältig, bevor du auf unsere Dienste zugreifst oder sie nutzt. Indem du auf einen Teil unserer Dienste zugreifst oder ihn nutzt, erklärst du dich mit den Bedingungen dieser Vereinbarung einverstanden. Wenn du nicht mit allen Bedingungen einverstanden bist, darfst du keine unserer Dienste nutzen.",
+    "intro3": "Unsere Dienste richten sich nicht an Kinder unter 3 Jahren, und der Zugriff auf und die Nutzung unserer Dienste werden nur Nutzern ab 3 Jahren angeboten. Wenn du unter 3 Jahre alt bist, registriere dich bitte nicht für unsere Dienste.",
+    "intro4": "Die Nutzung unserer Dienste erfordert ein Potentials: FC26 Career Mode-Konto. Du erklärst dich damit einverstanden, uns vollständige und genaue Informationen bei der Registrierung zur Verfügung zu stellen. Du bist allein verantwortlich und haftbar für alle Aktivitäten unter deinem Benutzernamen. Du bist verantwortlich dafür, dein Passwort sicher zu halten.",
+    "section1Title": "1. Potentials: FC26 Career Mode-Anwendung",
+    "section1": "Wenn du ein Konto, eine Bewertung, einen Kader oder anderes Material in der Potentials: FC26 Career Mode-Anwendung erstellst, bist du verantwortlich für die Aufrechterhaltung der Sicherheit deines Kontos und für alle Aktivitäten, die unter dem Konto erfolgen. Du musst iCat Studios unverzüglich über jede unbefugte Nutzung deines Kontos oder andere Sicherheitsverletzungen informieren. iCat Studios haftet nicht für Handlungen oder Unterlassungen deinerseits.",
+    "paymentTitle": "Zahlung und Verlängerung — Allgemeine Bedingungen",
+    "payment1": "Optionale kostenpflichtige Dienste wie das Entfernen von Werbung sind verfügbar (jeder solche Dienst ist ein „Upgrade\" auf das Potentials: FC26 Career Mode Pro-Mode-Abonnement) in unseren mobilen Anwendungen. Mit der Auswahl eines Upgrades stimmst du zu, iCat Studios die monatlichen oder jährlichen Abonnementgebühren für diesen Dienst zu zahlen. Zahlungen werden auf Vorauszahlungsbasis am Tag deiner Anmeldung oder nach Ablauf der Testphase über deinen iTunes- oder Google Play-Account erhoben.",
+    "paymentProLabel": "Potentials: FC26 Career Mode iOS-Anwendungsbedingungen — Potentials Pro-Mode-Abonnement:",
+    "paymentProBullets": [
+      "Keine Werbung",
+      "Alle Datenbanken freigeschaltet"
+    ],
+    "payment2": "Eine werbefreie Erfahrung bedeutet, dass wir alle Werbung einschließlich des Banners unten und der Vollbildwerbung sowie der erweiterten Favoritenliste entfernen. Die Zahlung wird bei Kaufbestätigung dem iTunes-Konto belastet. Das Abonnement verlängert sich automatisch, sofern die automatische Verlängerung nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums deaktiviert wird. Das Konto wird innerhalb von 24 Stunden vor Ende des aktuellen Zeitraums für die Verlängerung belastet. Abonnements können vom Nutzer verwaltet werden, und die automatische Verlängerung kann nach dem Kauf in den Kontoeinstellungen des Nutzers deaktiviert werden.",
+    "section2Title": "2. Verantwortung der Besucher",
+    "section2": "iCat Studios hat nicht alle Materialien, einschließlich Computer-Software, die in unseren Diensten veröffentlicht werden, überprüft und kann dies auch nicht und ist daher nicht für deren Inhalt, Verwendung oder Wirkung verantwortlich. Durch den Betrieb unserer Dienste vertritt oder impliziert iCat Studios nicht, dass es das dort veröffentlichte Material befürwortet oder dass es solches Material für genau, nützlich oder nicht schädlich hält.",
+    "section3Title": "3. Geistiges Eigentum",
+    "section3": "Diese Vereinbarung überträgt von iCat Studios kein geistiges Eigentum von iCat Studios oder Dritten an dich, und alle Rechte, Titel und Interessen an solchem Eigentum verbleiben (zwischen den Parteien) ausschließlich bei iCat Studios. iCat Studios, die Potentials: FC26 Career Mode-Anwendung, das Logo und alle anderen Marken, Dienstleistungsmarken, Grafiken und Logos, die in Verbindung mit der Potentials: FC26 Career Mode-Anwendung oder unseren Diensten verwendet werden, sind Marken oder eingetragene Marken von iCat Studios oder seinen Lizenzgebern.",
+    "section4Title": "4. Änderungen",
+    "section4": "Wir aktualisieren ständig unsere Dienste, was bedeutet, dass wir manchmal die rechtlichen Bedingungen ändern müssen, unter denen unsere Dienste angeboten werden. Wenn wir wesentliche Änderungen vornehmen, werden wir dich durch Veröffentlichung auf unserer Website oder durch Senden einer E-Mail oder anderer Mitteilungen vor Inkrafttreten der Änderungen informieren.",
+    "section5Title": "5. Beendigung",
+    "section5": "iCat Studios kann deinen Zugriff auf alle oder einen Teil unserer Dienste jederzeit, mit oder ohne Grund, mit oder ohne Vorankündigung, mit sofortiger Wirkung beenden. Wenn du diese Vereinbarung oder dein Potentials: FC26 Career Mode-Konto (falls du eines hast) beenden möchtest, kannst du einfach die Nutzung unserer Dienste einstellen.",
+    "section6Title": "6. Garantieausschluss",
+    "section6": "Unsere Dienste werden „wie besehen\" bereitgestellt. iCat Studios und seine Lieferanten und Lizenzgeber lehnen hiermit alle Garantien jeglicher Art, ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf Garantien der Marktgängigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung, ab.",
+    "section7Title": "7. Gerichtsbarkeit und anwendbares Recht",
+    "section7": "Soweit das geltende Recht nichts anderes vorsieht, unterliegen diese Vereinbarung und jeder Zugriff auf oder die Nutzung unserer Dienste den Gesetzen der Türkei, ausschließlich ihrer Kollisionsnormen, und der zuständige Gerichtsstand für alle Streitigkeiten, die sich aus oder im Zusammenhang mit dieser Vereinbarung ergeben, sind die staatlichen Gerichte in Europa, Türkei.",
+    "section8Title": "8. Haftungsbeschränkung",
+    "section8": "In keinem Fall haftet iCat Studios oder seine Lieferanten oder Lizenzgeber im Zusammenhang mit dem Gegenstand dieser Vereinbarung unter irgendeinem Vertrag, Fahrlässigkeit, verschuldensunabhängiger Haftung oder anderer rechtlicher oder billiger Theorie für: (i) besondere, zufällige oder Folgeschäden; (ii) die Kosten der Beschaffung von Ersatzprodukten oder -dienstleistungen; (iii) Unterbrechung der Nutzung oder Verlust oder Beschädigung von Daten; oder (iv) Beträge, die die in den letzten 12 Monaten an iCat Studios gezahlten Gebühren übersteigen.",
+    "section9Title": "9. Allgemeine Zusicherung und Garantie",
+    "section9": "Du sicherst zu und garantierst, dass (i) deine Nutzung unserer Dienste in strikter Übereinstimmung mit der iCat Studios-Datenschutzerklärung, dieser Vereinbarung und allen geltenden Gesetzen und Vorschriften erfolgt und (ii) deine Nutzung unserer Dienste keine Rechte des geistigen Eigentums Dritter verletzt oder missbraucht.",
+    "section10Title": "10. Schadloshaltung",
+    "section10": "Du erklärst dich damit einverstanden, iCat Studios, seine Auftragnehmer und Lizenzgeber sowie deren jeweilige Direktoren, leitende Angestellte, Mitarbeiter und Vertreter von und gegen alle Ansprüche und Ausgaben, einschließlich Anwaltsgebühren, die sich aus deiner Nutzung unserer Dienste ergeben, einschließlich, aber nicht beschränkt auf deine Verletzung dieser Vereinbarung, schadlos zu halten.",
+    "section11Title": "11. Übersetzung",
+    "section11": "Diese Nutzungsbedingungen wurden ursprünglich in Englisch (US) verfasst. Wir können diese Bedingungen in andere Sprachen übersetzen. Im Falle eines Konflikts zwischen einer übersetzten Version dieser Nutzungsbedingungen und der englischen Version ist die englische Version maßgebend.",
+    "section12Title": "12. Verschiedenes",
+    "section12a": "Diese Vereinbarung stellt die gesamte Vereinbarung zwischen iCat Studios und dir bezüglich des Gegenstands dar und kann nur durch eine schriftliche Änderung, die von einem autorisierten Vorgesetzten von iCat Studios unterzeichnet ist, oder durch die Veröffentlichung einer überarbeiteten Version durch iCat Studios geändert werden.",
+    "section12b": "Wenn ein Teil dieser Vereinbarung als ungültig oder nicht durchsetzbar erachtet wird, wird dieser Teil so ausgelegt, dass er die ursprüngliche Absicht der Parteien widerspiegelt, und die verbleibenden Teile bleiben in vollem Umfang in Kraft.",
+    "section13Title": "13. Nutzung der Potentials: FC26 Career Mode-Anwendungen, Server und Preisdaten",
+    "section13": "Sofern keine schriftliche Genehmigung von Potentials: FC26 Career Mode vorliegt, ist es dir nicht gestattet, auf einer der Player Potentials-Domains, einschließlich Subdomains, zu scrapen, zu automatisieren oder unsere API zu nutzen. Es ist dir nicht gestattet, unsere Preisdaten für kommerzielle Zwecke oder kostenpflichtige Dienste zu verwenden.",
+    "copyright": "Copyright © 2022 - Alle Rechte vorbehalten."
+  },
+  "footer": {
+    "tagline": "Mobile-App- und Spieleentwicklung",
+    "linksHeading": "Links",
+    "contactHeading": "Kontakt",
+    "copyright": "iCat Studios. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "backToTop": "Nach oben",
+    "language": "Sprache"
+  }
+}

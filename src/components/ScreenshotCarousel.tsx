@@ -23,13 +23,18 @@ export default function ScreenshotCarousel({
   const autoPlayRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const itemWidth = isLandscape ? 400 : 220;
-  const gap = 16;
+  const gap = 8;
 
+  /** Scroll so the target index is centered. Browser clamps to valid range,
+   * so first item stays at left edge and last item at right edge naturally. */
   const scrollToIndex = useCallback(
     (index: number) => {
-      if (!containerRef.current) return;
-      const target = index * (itemWidth + gap);
-      containerRef.current.scrollTo({ left: target, behavior: "smooth" });
+      const container = containerRef.current;
+      if (!container) return;
+      const containerWidth = container.offsetWidth;
+      const itemTotal = itemWidth + gap;
+      const target = index * itemTotal + itemWidth / 2 - containerWidth / 2;
+      container.scrollTo({ left: target, behavior: "smooth" });
       setActiveIndex(index);
     },
     [itemWidth]
@@ -45,6 +50,7 @@ export default function ScreenshotCarousel({
     scrollToIndex(prev);
   }, [activeIndex, images.length, scrollToIndex]);
 
+  // Auto-play (paused on hover)
   useEffect(() => {
     if (isHovered) {
       if (autoPlayRef.current) clearInterval(autoPlayRef.current);
@@ -56,10 +62,33 @@ export default function ScreenshotCarousel({
     };
   }, [goNext, isHovered]);
 
+  /**
+   * Detect which item is "active" based on scroll position.
+   * - When scrolled to the very start: index 0 (first item visible at left edge)
+   * - When scrolled to the very end: last index (last item visible at right edge)
+   * - Otherwise: the item whose center is closest to the viewport center
+   *
+   * Without these boundary clamps, Math.round on a scrollLeft=0 position would
+   * pick item index 1 (because the viewport center sits past item 0's center),
+   * so the first screenshot would never get focus on initial load.
+   */
   const handleScroll = () => {
-    if (!containerRef.current) return;
-    const scrollLeft = containerRef.current.scrollLeft;
-    const newIndex = Math.round(scrollLeft / (itemWidth + gap));
+    const container = containerRef.current;
+    if (!container) return;
+    const scrollLeft = container.scrollLeft;
+    const containerWidth = container.offsetWidth;
+    const maxScroll = container.scrollWidth - containerWidth;
+    const itemTotal = itemWidth + gap;
+
+    let newIndex: number;
+    if (scrollLeft <= 4) {
+      newIndex = 0;
+    } else if (maxScroll > 0 && scrollLeft >= maxScroll - 4) {
+      newIndex = images.length - 1;
+    } else {
+      const center = scrollLeft + containerWidth / 2;
+      newIndex = Math.round((center - itemWidth / 2) / itemTotal);
+    }
     setActiveIndex(Math.min(Math.max(newIndex, 0), images.length - 1));
   };
 
@@ -119,19 +148,24 @@ export default function ScreenshotCarousel({
       <div
         ref={containerRef}
         onScroll={handleScroll}
-        className="carousel-container flex gap-4 overflow-x-auto pb-4 pt-2"
+        className="carousel-container flex gap-2 overflow-x-auto pb-4 pt-2"
         style={{ scrollSnapType: "x mandatory" }}
       >
         {images.map((src, i) => {
           const isActive = i === activeIndex;
           return (
-            <div
+            <button
               key={i}
-              className="flex-shrink-0"
+              type="button"
+              onClick={() => scrollToIndex(i)}
+              aria-label={`View screenshot ${i + 1}`}
+              aria-current={isActive}
+              className="group flex-shrink-0 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-xl"
               style={{
-                scrollSnapAlign: "start",
+                scrollSnapAlign: "center",
                 width: `${itemWidth}px`,
-              }}
+                ["--carousel-accent" as string]: accent,
+              } as React.CSSProperties}
             >
               <div
                 className="relative overflow-hidden rounded-xl border transition-all duration-500"
@@ -147,12 +181,14 @@ export default function ScreenshotCarousel({
                   width={isLandscape ? 400 : 220}
                   height={isLandscape ? 225 : 476}
                   className={`transition-opacity duration-500 ${
-                    isActive ? "opacity-100" : "opacity-55"
+                    isActive
+                      ? "opacity-100"
+                      : "opacity-55 group-hover:opacity-80"
                   }`}
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
-            </div>
+            </button>
           );
         })}
       </div>

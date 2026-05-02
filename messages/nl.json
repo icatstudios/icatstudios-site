@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Producten",
+    "privacyPolicy": "Privacybeleid",
+    "termOfUse": "Gebruiksvoorwaarden"
+  },
+  "home": {
+    "metaTitle": "iCat Studios — Mobiele app- en gameontwikkeling",
+    "metaDescription": "iCat Studios is een team voor mobiele app- en gameontwikkeling gevestigd in Türkiye, met aandacht voor innovatie en creativiteit.",
+    "heroEyebrow": "Innovatie ontmoet creativiteit",
+    "heroTitleLine1": "Mobiele apps &",
+    "heroTitleLine2": "Gameontwikkeling",
+    "heroSubtitle": "iCat Studios is een team voor mobiele app- en gameontwikkeling gevestigd in Türkiye, met aandacht voor innovatie en creativiteit.",
+    "ctaPrimary": "Onze producten",
+    "ctaSecondary": "Contact",
+    "productsSectionTitle": "Onze producten",
+    "productsSectionSubtitle": "Bekijk waar we aan werken",
+    "comingSoon": "Binnenkort",
+    "explore": "Ontdek"
+  },
+  "heroStats": {
+    "downloadsLabel": "Downloads",
+    "downloadsValue": "2M+",
+    "appsLabel": "Apps gepubliceerd",
+    "appsValue": "7 producten",
+    "foundedLabel": "Opgericht",
+    "foundedValue": "Sinds 2016",
+    "locationLabel": "Gevestigd in",
+    "locationValue": "Türkiye"
+  },
+  "products": {
+    "metaTitle": "Producten",
+    "metaDescription": "Ontdek onze mobiele applicaties en games.",
+    "pageTitle": "Producten",
+    "pageSubtitle": "Onze mobiele applicaties en games",
+    "downloads": "1.000.000+ Downloads",
+    "comingSoon": "Binnenkort",
+    "potentials": {
+      "name": "Potentials: FC26 Career Mode",
+      "description1": "Bestrijkt elke FIFA-FC-versie van FIFA 18 tot FC 26, met gedetailleerde gegevens over meer dan 50.000 mannelijke en vrouwelijke voetballers en bijna 1.000 clubs — 's werelds meest uitgebreide en meest gedownloade app voor FC carrière modi.",
+      "description2": "Met Potentials kun je spelers filteren op overall/potentieel, leeftijd, marktwaarde, positie, kenmerken, club, competitie, nationaliteit en meer. Stel selecties samen, vergelijk teamdetails — en nog veel meer, alleen in deze app.",
+      "shortDescription": "'s Werelds populairste begeleidende app voor FC carrière modi."
+    },
+    "fastAndBlocky": {
+      "name": "Fast and Blocky",
+      "description": "Een eindeloos motorraceparcours waarin je willekeurig gegenereerd verkeer ontwijkt op hoge snelheid. Navigeer door het verkeer zonder voertuigen te raken!",
+      "shortDescription": "Eindeloze motorrace — ontwijk het verkeer bij hoge snelheid."
+    },
+    "scoreHunter": {
+      "name": "Score Hunter",
+      "tagline": "Geen wedden — een voetbalvoorspellingsspel!",
+      "description1": "Score Hunter is een gratis voetbalvoorspellingsspel met beloningen. Je hoeft niet te betalen om mee te doen of prijzen te winnen. Geen risico! Geen weddenschapsterminologie! Het enige wat je nodig hebt is je passie voor voetbal!",
+      "description2": "Voorspel wedstrijdresultaten of in-match gebeurtenissen via leuke minigames. Klim naar de top van wekelijkse en seizoens-ranglijsten met de punten die je verdient. Trofeeën en verrassingsprijzen wachten op je!",
+      "learnMore": "Bezoek scorehunter.app",
+      "newBadge": "Nieuw",
+      "shortDescription": "Voorspellingsspel met beloningen voor voetbalfans!"
+    }
+  },
+  "comingSoonBadges": {
+    "statusLabel": "Binnenkort",
+    "downloadOn": "Download in de",
+    "getItOn": "Verkrijgbaar via"
+  },
+  "privacyPolicy": {
+    "metaTitle": "Privacybeleid",
+    "metaDescription": "iCat Studios Privacybeleid",
+    "title": "Privacybeleid",
+    "subtitle": "Jouw privacy is belangrijk voor ons",
+    "intro": "iCat Studios heeft de onderstaande apps als gratis app ontwikkeld:",
+    "appsList": [
+      "Potentials: FC26 Career Mode",
+      "Score Hunter",
+      "Fast and Blocky"
+    ],
+    "p1": "Deze DIENSTEN worden door iCat Studios kosteloos aangeboden en zijn bedoeld voor gebruik zoals ze zijn.",
+    "p2": "Deze pagina informeert websitebezoekers over ons beleid met betrekking tot het verzamelen, gebruiken en bekendmaken van persoonlijke informatie als iemand besluit onze dienst te gebruiken.",
+    "p3": "Als je ervoor kiest onze diensten te gebruiken, ga je akkoord met het verzamelen en gebruiken van informatie volgens dit beleid. De persoonlijke informatie die we verzamelen, wordt gebruikt om de service te leveren en te verbeteren. We zullen je informatie niet delen met anderen, behalve zoals beschreven in dit privacybeleid.",
+    "p4": "De termen in dit privacybeleid hebben dezelfde betekenis als in onze algemene voorwaarden, tenzij anders aangegeven.",
+    "infoCollectionTitle": "Verzamelen en gebruik van informatie",
+    "infoCollection1": "Voor een betere ervaring kunnen we je tijdens het gebruik van onze service vragen om bepaalde persoonlijk identificeerbare informatie. De informatie die we vragen, wordt door ons bewaard en gebruikt zoals beschreven in dit privacybeleid.",
+    "infoCollection2": "De app gebruikt diensten van derden die informatie kunnen verzamelen om je te identificeren.",
+    "infoCollection3": "Link naar het privacybeleid van externe dienstverleners die door de app worden gebruikt:",
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
+    "logDataTitle": "Loggegevens",
+    "logData": "We willen je informeren dat we, telkens wanneer je onze service gebruikt, in geval van een fout in de app, gegevens en informatie (via producten van derden) op je telefoon verzamelen, genaamd loggegevens. Deze loggegevens kunnen informatie bevatten zoals het IP-adres van je apparaat, apparaatnaam, besturingssysteemversie, app-configuratie, tijd en datum van gebruik en andere statistieken.",
+    "cookiesTitle": "Cookies",
+    "cookies1": "Cookies zijn bestanden met een kleine hoeveelheid gegevens die vaak worden gebruikt als anonieme unieke identificatoren. Ze worden naar je browser verzonden vanaf de websites die je bezoekt en worden opgeslagen in het interne geheugen van je apparaat.",
+    "cookies2": "Deze service gebruikt deze 'cookies' niet expliciet. De app kan echter externe code en bibliotheken gebruiken die 'cookies' gebruiken om informatie te verzamelen en hun diensten te verbeteren. Je hebt de keuze om deze cookies te accepteren of te weigeren. Als je ervoor kiest onze cookies te weigeren, kun je mogelijk sommige delen van deze service niet gebruiken.",
+    "serviceProvidersTitle": "Dienstverleners",
+    "serviceProviders1": "We kunnen externe bedrijven en personen inschakelen om de volgende redenen:",
+    "serviceProvidersReasons": [
+      "Om onze service te faciliteren",
+      "Om de service namens ons te verlenen",
+      "Om servicegerelateerde diensten uit te voeren",
+      "Om ons te helpen analyseren hoe onze service wordt gebruikt"
+    ],
+    "serviceProviders2": "We willen gebruikers van deze service informeren dat deze derden toegang hebben tot je persoonlijke informatie. De reden is om de hen toegewezen taken namens ons uit te voeren. Ze zijn echter verplicht om de informatie niet voor andere doeleinden bekend te maken of te gebruiken.",
+    "securityTitle": "Beveiliging",
+    "security": "We waarderen je vertrouwen door ons je persoonlijke informatie te verstrekken, daarom streven we ernaar commercieel aanvaardbare middelen te gebruiken om deze te beschermen. Maar onthoud dat geen enkele methode van transmissie via internet of elektronische opslag 100% veilig en betrouwbaar is, en we kunnen de absolute veiligheid niet garanderen.",
+    "linksTitle": "Links naar andere sites",
+    "links": "Deze service kan links naar andere sites bevatten. Als je op een externe link klikt, wordt je naar die site doorverwezen. Houd er rekening mee dat deze externe sites niet door ons worden beheerd. Daarom raden we je sterk aan het privacybeleid van deze websites te bekijken. We hebben geen controle over en aanvaarden geen verantwoordelijkheid voor de inhoud, het privacybeleid of de praktijken van externe sites of diensten.",
+    "childrenTitle": "Privacy van kinderen",
+    "children": "Deze diensten zijn niet gericht op personen jonger dan 13 jaar. We verzamelen niet bewust persoonlijk identificeerbare informatie van kinderen jonger dan 13 jaar. Als we ontdekken dat een kind jonger dan 13 jaar ons persoonlijke informatie heeft verstrekt, verwijderen we deze onmiddellijk van onze servers. Als je een ouder of voogd bent en weet dat je kind ons persoonlijke informatie heeft verstrekt, neem dan contact met ons op.",
+    "changesTitle": "Wijzigingen in dit privacybeleid",
+    "changes": "We kunnen ons privacybeleid van tijd tot tijd bijwerken. Daarom wordt geadviseerd deze pagina periodiek te controleren op wijzigingen. We zullen je op de hoogte stellen van eventuele wijzigingen door het nieuwe privacybeleid op deze pagina te plaatsen. Deze wijzigingen worden onmiddellijk van kracht nadat ze op deze pagina zijn geplaatst.",
+    "contactTitle": "Contact",
+    "contact": "Als je vragen of suggesties hebt over ons privacybeleid, aarzel dan niet om contact met ons op te nemen.",
+    "copyright": "Copyright © 2022 - Alle rechten voorbehouden."
+  },
+  "termOfUse": {
+    "metaTitle": "Gebruiksvoorwaarden",
+    "metaDescription": "iCat Studios Gebruiksvoorwaarden",
+    "title": "Gebruiksvoorwaarden",
+    "subtitle": "Lees zorgvuldig voordat je onze diensten gebruikt",
+    "appName": "Potentials: FC26 Career Mode",
+    "licenseTitle": "Licentieovereenkomst — Gebruiksvoorwaarden",
+    "intro1": "De volgende voorwaarden ('Voorwaarden') regelen al het gebruik van de Potentials: FC26 Career Mode-applicatie en alle inhoud, diensten en producten die beschikbaar zijn op of via de website en onze applicaties, inclusief, maar niet beperkt tot, de Pro-modus van de Potentials: FC26 Career Mode iOS- en Android-applicatie (samen, onze 'Diensten'). Onze Diensten worden aangeboden onder voorbehoud van je acceptatie zonder wijziging van alle hierin opgenomen voorwaarden en alle andere bedrijfsregels, beleidsregels (inclusief, zonder beperking, het Privacybeleid van iCat Studios) en procedures die van tijd tot tijd door iCat Studios kunnen worden gepubliceerd (gezamenlijk de 'Overeenkomst'). Je gaat ermee akkoord dat we onze Diensten automatisch kunnen upgraden, en deze Voorwaarden zijn van toepassing op alle upgrades. Je overeenkomst is met iCat Studios (TR).",
+    "intro2": "Lees deze Overeenkomst zorgvuldig voordat je toegang krijgt tot of gebruik maakt van onze Diensten. Door toegang te krijgen tot of een deel van onze Diensten te gebruiken, ga je ermee akkoord gebonden te zijn aan de Voorwaarden van deze Overeenkomst. Als je niet akkoord gaat met alle Voorwaarden van deze Overeenkomst, mag je geen toegang krijgen tot of gebruik maken van onze Diensten.",
+    "intro3": "Onze Diensten zijn niet gericht op kinderen jonger dan 3 jaar, en de toegang tot en het gebruik van onze Diensten worden alleen aangeboden aan gebruikers van 3 jaar of ouder. Als je jonger bent dan 3 jaar, registreer je dan niet om onze Diensten te gebruiken.",
+    "intro4": "Voor het gebruik van onze Diensten is een Potentials: FC26 Career Mode-account vereist. Je gaat ermee akkoord ons volledige en nauwkeurige informatie te verstrekken bij het registreren. Je bent als enige verantwoordelijk voor alle activiteiten die plaatsvinden onder je gebruikersnaam.",
+    "section1Title": "1. Potentials: FC26 Career Mode-applicatie",
+    "section1": "Als je een account, beoordeling, selectie of ander materiaal aanmaakt op de Potentials: FC26 Career Mode-applicatie, ben je verantwoordelijk voor het handhaven van de beveiliging van je account en ben je volledig verantwoordelijk voor alle activiteiten die plaatsvinden onder het account. Je moet iCat Studios onmiddellijk op de hoogte stellen van enig ongeoorloofd gebruik van je account of andere inbreuken op de beveiliging. iCat Studios is niet aansprakelijk voor enige handelingen of nalatigheden van jouw kant.",
+    "paymentTitle": "Betaling en verlenging — Algemene voorwaarden",
+    "payment1": "Optionele betaalde diensten zoals het verwijderen van advertenties zijn beschikbaar (een dergelijke dienst, een 'Upgrade' naar het Potentials: FC26 Career Mode Pro Mode-abonnement) in onze mobiele applicaties. Door een Upgrade te selecteren, ga je ermee akkoord iCat Studios de maandelijkse of jaarlijkse abonnementskosten te betalen die voor die dienst zijn aangegeven. Betalingen worden vooraf in rekening gebracht op de dag dat je je inschrijft of nadat de proefperiode is afgelopen op je iTunes- of Google Play-account.",
+    "paymentProLabel": "Potentials: FC26 Career Mode iOS-applicatievoorwaarden — Potentials Pro Mode-abonnement:",
+    "paymentProBullets": [
+      "Geen advertenties",
+      "Alle databases ontgrendeld"
+    ],
+    "payment2": "Een advertentievrije ervaring betekent dat we alle advertenties verwijderen, inclusief de banner onderaan, de schermvullende advertentie en de uitgebreide favorietenlijst. De betaling wordt bij aankoopbevestiging op de iTunes-account in rekening gebracht. Het abonnement wordt automatisch verlengd, tenzij automatische verlenging ten minste 24 uur voor het einde van de huidige periode wordt uitgeschakeld.",
+    "section2Title": "2. Verantwoordelijkheid van bezoekers",
+    "section2": "iCat Studios heeft niet alle materialen, inclusief computersoftware, die op onze Diensten zijn geplaatst, beoordeeld en kan dat ook niet, en kan daarom niet verantwoordelijk worden gehouden voor de inhoud, het gebruik of de effecten van dat materiaal. Door onze Diensten te beheren, vertegenwoordigt of impliceert iCat Studios niet dat het het daar geplaatste materiaal goedkeurt of dat het dergelijk materiaal nauwkeurig, nuttig of niet schadelijk acht.",
+    "section3Title": "3. Intellectueel eigendom",
+    "section3": "Deze Overeenkomst draagt geen intellectueel eigendom van iCat Studios of derden over van iCat Studios aan jou, en alle rechten, titels en belangen in en op dergelijk eigendom blijven (tussen de partijen) uitsluitend bij iCat Studios. iCat Studios, de Potentials: FC26 Career Mode-applicatie, het logo en alle andere handelsmerken, dienstmerken, afbeeldingen en logo's die in verband met de Potentials: FC26 Career Mode-applicatie of onze Diensten worden gebruikt, zijn handelsmerken of geregistreerde handelsmerken van iCat Studios of zijn licentiegevers.",
+    "section4Title": "4. Wijzigingen",
+    "section4": "We werken onze Diensten voortdurend bij, wat betekent dat we soms de juridische voorwaarden waaronder onze Diensten worden aangeboden, moeten wijzigen. Als we wezenlijke wijzigingen aanbrengen, laten we dit weten door dit op onze website te plaatsen, of door je een e-mail of andere communicatie te sturen voordat de wijzigingen van kracht worden.",
+    "section5Title": "5. Beëindiging",
+    "section5": "iCat Studios kan je toegang tot alle of een deel van onze Diensten op elk moment beëindigen, met of zonder reden, met of zonder kennisgeving, met onmiddellijke ingang. Als je deze Overeenkomst of je Potentials: FC26 Career Mode-account (als je er een hebt) wilt beëindigen, kun je gewoon stoppen met het gebruik van onze Diensten.",
+    "section6Title": "6. Disclaimer van garanties",
+    "section6": "Onze Diensten worden geleverd 'zoals ze zijn'. iCat Studios en zijn leveranciers en licentiegevers wijzen hierbij alle garanties van welke aard dan ook af, expliciet of impliciet, met inbegrip van, maar niet beperkt tot, de garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet-inbreuk.",
+    "section7Title": "7. Jurisdictie en toepasselijk recht",
+    "section7": "Behalve voor zover toepasselijk recht, indien van toepassing, anders bepaalt, zal deze Overeenkomst, alle toegang tot of gebruik van onze Diensten worden beheerst door de wetten van Türkiye, met uitsluiting van haar bepalingen inzake conflicterende wetten, en de juiste plaats voor eventuele geschillen die voortvloeien uit of verband houden met een van hetzelfde zal de staatsrechtbanken in Europa, Türkiye zijn.",
+    "section8Title": "8. Beperking van aansprakelijkheid",
+    "section8": "In geen geval zullen iCat Studios, of zijn leveranciers of licentiegevers, aansprakelijk zijn met betrekking tot enig onderwerp van deze Overeenkomst onder enig contract, nalatigheid, strikte aansprakelijkheid of andere juridische of billijke theorie voor: (i) eventuele speciale, incidentele of gevolgschade; (ii) de kosten van vervanging van producten of diensten; (iii) voor onderbreking van het gebruik of verlies of corruptie van gegevens; of (iv) voor bedragen die de door jou aan iCat Studios betaalde vergoedingen overschrijden onder deze Overeenkomst gedurende de twaalf (12) maanden voorafgaand aan de oorzaak van de actie.",
+    "section9Title": "9. Algemene Verklaring en Garantie",
+    "section9": "Je verklaart en garandeert dat (i) je gebruik van onze Diensten in strikte overeenstemming zal zijn met het Privacybeleid van iCat Studios, met deze Overeenkomst en met alle toepasselijke wetten en voorschriften, en (ii) je gebruik van onze Diensten geen inbreuk zal maken op of zich zal toe-eigenen van de intellectuele eigendomsrechten van derden.",
+    "section10Title": "10. Vrijwaring",
+    "section10": "Je gaat ermee akkoord iCat Studios, zijn aannemers en zijn licentiegevers, en hun respectieve directeuren, functionarissen, werknemers en agenten te vrijwaren en schadeloos te stellen tegen alle vorderingen en kosten, inclusief advocaatkosten, die voortvloeien uit je gebruik van onze Diensten, inclusief maar niet beperkt tot je schending van deze Overeenkomst.",
+    "section11Title": "11. Vertaling",
+    "section11": "Deze Servicevoorwaarden zijn oorspronkelijk in het Engels (US) geschreven. We kunnen deze voorwaarden in andere talen vertalen. In geval van conflict tussen een vertaalde versie van deze Servicevoorwaarden en de Engelse versie, prevaleert de Engelse versie.",
+    "section12Title": "12. Diversen",
+    "section12a": "Deze Overeenkomst vormt de volledige overeenkomst tussen iCat Studios en jou betreffende het onderwerp daarvan, en kan alleen worden gewijzigd door een schriftelijke wijziging ondertekend door een bevoegde leidinggevende van iCat Studios, of door de publicatie door iCat Studios van een herziene versie.",
+    "section12b": "Als enig deel van deze Overeenkomst ongeldig of niet-afdwingbaar wordt geacht, zal dat deel worden uitgelegd om de oorspronkelijke bedoeling van de partijen weer te geven, en zullen de overige delen volledig van kracht blijven.",
+    "section13Title": "13. Gebruik van Potentials: FC26 Career Mode-applicaties, servers en prijsgegevens",
+    "section13": "Tenzij je schriftelijke toestemming hebt van Potentials: FC26 Career Mode, ben je niet toegestaan om te scrapen, te automatiseren of onze API te gebruiken op een van de Player Potentials-domeinen, inclusief subdomeinen. Het is je niet toegestaan onze prijsgegevens te gebruiken voor commercieel gebruik of betaalde dienst.",
+    "copyright": "Copyright © 2022 - Alle rechten voorbehouden."
+  },
+  "footer": {
+    "tagline": "Mobiele app- en gameontwikkeling",
+    "linksHeading": "Links",
+    "contactHeading": "Contact",
+    "copyright": "iCat Studios. Alle rechten voorbehouden."
+  },
+  "common": {
+    "backToTop": "Naar boven",
+    "language": "Taal"
+  }
+}

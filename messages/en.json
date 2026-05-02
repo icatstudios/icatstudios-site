@@ -38,17 +38,23 @@
     "comingSoon": "Coming Soon",
     "potentials": {
       "name": "Potentials: FC26 Career Mode",
-      "description1": "A comprehensive player database covering FIFA 18 through FC 26, featuring detailed data of more than 20,000 football players including men's and women's teams, plus nearly 1,000 clubs worldwide.",
-      "description2": "Filter players by overall/potential rating, market value, position, attributes, club, league, nationality, and more."
+      "description1": "Covering every FIFA-FC version from FIFA 18 through FC 26, with detailed data on more than 50,000 men's and women's footballers and nearly 1,000 clubs — the world's most comprehensive and most downloaded app for FC career modes.",
+      "description2": "With Potentials, filter players by overall/potential rating, age, market value, position, attributes, club, league, nationality and more. Build squads, compare team details — and so much more, only in this app.",
+      "shortDescription": "The world's most popular companion app for FC career modes."
     },
     "fastAndBlocky": {
       "name": "Fast and Blocky",
-      "description": "An endless motorcycle racing game where you avoid randomly generated traffic while riding at high speeds. Navigate through traffic without crashing into vehicles!"
+      "description": "An endless motorcycle racing game where you avoid randomly generated traffic while riding at high speeds. Navigate through traffic without crashing into vehicles!",
+      "shortDescription": "Endless motorcycle racing — dodge traffic at high speed."
     },
     "scoreHunter": {
       "name": "Score Hunter",
-      "description": "Something exciting is on the way. A brand new experience from iCat Studios. Stay tuned!",
-      "learnMore": "Visit scorehunter.app"
+      "tagline": "Not betting — a football prediction game!",
+      "description1": "Score Hunter is a free-to-play football prediction game with rewards. You don't need to pay to join the game or win prizes. No risk! No betting terminology! All you need is a passion for football!",
+      "description2": "Try to predict match results, or in-match events through fun mini-games. Climb to the top of weekly and seasonal leaderboards with the points you collect. Trophies and surprise prizes are all yours!",
+      "learnMore": "Visit scorehunter.app",
+      "newBadge": "New",
+      "shortDescription": "A football prediction game with rewards — built for fans."
     }
   },
   "privacyPolicy": {
@@ -60,10 +66,6 @@
     "appsList": [
       "Potentials: FC26 Career Mode",
       "Score Hunter",
-      "Player Potentials 21",
-      "Player Potentials 20",
-      "Player Potentials 19",
-      "Player Potentials 18",
       "Fast and Blocky"
     ],
     "p1": "These SERVICES are provided by iCat Studios at no cost and is intended for use as is.",
@@ -74,7 +76,11 @@
     "infoCollection1": "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request is will be retained by us and used as described in this privacy policy.",
     "infoCollection2": "The app does use third party services that may collect information used to identify you.",
     "infoCollection3": "Link to privacy policy of third party service providers used by the app:",
-    "thirdParties": ["Google Play Services", "AdMob", "Firebase Analytics"],
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
     "logDataTitle": "Log Data",
     "logData": "We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (\"IP\") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.",
     "cookiesTitle": "Cookies",
@@ -117,7 +123,10 @@
     "paymentTitle": "Payment and Renewal — General Terms",
     "payment1": "Optional paid services such as advertisement removal are available (any such services, an \"Upgrade\" to Potentials: FC26 Career Mode Pro Mode Subscription) in our mobile applications. By selecting an Upgrade you agree to pay iCat Studios the monthly or annual subscription fees indicated for that service. Payments will be charged on a pre-pay basis on the day you sign up or after the trial is over for an Upgrade which will be charged on your \"iTunes account\" or \"Google (Play Store)\".",
     "paymentProLabel": "Potentials: FC26 Career Mode iOS Application Terms — Potentials Pro Mode Subscription:",
-    "paymentProBullets": ["No advertisement", "Unlock all databases"],
+    "paymentProBullets": [
+      "No advertisement",
+      "Unlock all databases"
+    ],
     "payment2": "An advertisement free experience which means that we will remove any advertisement including the banner on the bottom and the full screen advertisement and Extended favorites list. Payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.",
     "section2Title": "2. Responsibility of Visitors",
     "section2": "iCat Studios has not reviewed, and cannot review, all of the material, including computer software, posted to our Services, and cannot therefore be responsible for that material's content, use or effects. By operating our Services, iCat Studios does not represent or imply that it endorses the material there posted, or that it believes such material to be accurate, useful, or non-harmful. You are responsible for taking precautions as necessary to protect yourself and your computer systems from viruses, worms, Trojan horses, and other harmful or destructive content. Our Services may contain content that is offensive, indecent, or otherwise objectionable, as well as content containing technical inaccuracies, typographical mistakes, and other errors.",

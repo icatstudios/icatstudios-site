@@ -89,7 +89,10 @@ export default async function TermOfUsePage({ params }: Props) {
       <article className="relative mx-auto max-w-4xl px-6 pb-24">
         <Reveal>
           <div className="rounded-2xl border border-card-border bg-card-bg/40 p-6 backdrop-blur">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">
+            <p
+              lang="en"
+              className="text-xs font-semibold uppercase tracking-[0.25em] text-primary"
+            >
               {t("appName")}
             </p>
             <h2 className="mt-2 text-xl font-semibold text-foreground">

@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Domů",
+    "products": "Produkty",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "termOfUse": "Podmínky použití"
+  },
+  "home": {
+    "metaTitle": "iCat Studios — Vývoj mobilních aplikací a her",
+    "metaDescription": "iCat Studios je tým pro vývoj mobilních aplikací a her se sídlem v Türkiye, klade důraz na inovaci a kreativitu.",
+    "heroEyebrow": "Inovace se setkává s kreativitou",
+    "heroTitleLine1": "Mobilní aplikace &",
+    "heroTitleLine2": "Vývoj her",
+    "heroSubtitle": "iCat Studios je tým pro vývoj mobilních aplikací a her se sídlem v Türkiye, klade důraz na inovaci a kreativitu.",
+    "ctaPrimary": "Naše produkty",
+    "ctaSecondary": "Kontaktujte nás",
+    "productsSectionTitle": "Naše produkty",
+    "productsSectionSubtitle": "Podívejte se, co tvoříme",
+    "comingSoon": "Již brzy",
+    "explore": "Prozkoumat"
+  },
+  "heroStats": {
+    "downloadsLabel": "Stažení",
+    "downloadsValue": "2M+",
+    "appsLabel": "Vydané aplikace",
+    "appsValue": "7 produktů",
+    "foundedLabel": "Založeno",
+    "foundedValue": "Od roku 2016",
+    "locationLabel": "Sídlo",
+    "locationValue": "Türkiye"
+  },
+  "products": {
+    "metaTitle": "Produkty",
+    "metaDescription": "Prozkoumejte naše mobilní aplikace a hry.",
+    "pageTitle": "Produkty",
+    "pageSubtitle": "Naše mobilní aplikace a hry",
+    "downloads": "1 000 000+ stažení",
+    "comingSoon": "Již brzy",
+    "potentials": {
+      "name": "Potentials: FC26 Career Mode",
+      "description1": "Pokrývá všechny verze FIFA-FC od FIFA 18 po FC 26, s detailními daty o více než 50 000 fotbalistech a fotbalistkách a téměř 1 000 klubech — nejkomplexnější a nejstahovanější aplikace na světě pro režimy kariéry FC.",
+      "description2": "S Potentials filtrujte hráče podle celkového/potenciálního hodnocení, věku, tržní hodnoty, pozice, atributů, klubu, ligy, národnosti a dalších. Sestavujte týmy, porovnávejte detaily týmů — a mnohem víc, pouze v této aplikaci.",
+      "shortDescription": "Nejoblíbenější doprovodná aplikace pro FC kariérní režimy na světě."
+    },
+    "fastAndBlocky": {
+      "name": "Fast and Blocky",
+      "description": "Nekonečná motocyklová závodní hra, ve které se vyhýbáte náhodně generovanému provozu při vysoké rychlosti. Projíždějte provozem, aniž byste narazili do vozidel!",
+      "shortDescription": "Nekonečné motorkářské závody — vyhýbejte se provozu při vysoké rychlosti."
+    },
+    "scoreHunter": {
+      "name": "Score Hunter",
+      "tagline": "Žádné sázení — fotbalová tipovací hra!",
+      "description1": "Score Hunter je bezplatná fotbalová tipovací hra s odměnami. Nemusíte platit za účast ve hře ani za výhru cen. Žádné riziko! Žádná sázková terminologie! Vše, co potřebujete, je vaše vášeň pro fotbal!",
+      "description2": "Tipujte výsledky zápasů nebo události během zápasů pomocí zábavných minihier. Vystupte na vrchol týdenních a sezónních žebříčků s body, které nasbíráte. Trofeje a překvapivé ceny na vás čekají!",
+      "learnMore": "Navštivte scorehunter.app",
+      "newBadge": "Nové",
+      "shortDescription": "Tipovací hra s odměnami pro fotbalové fanoušky!"
+    }
+  },
+  "comingSoonBadges": {
+    "statusLabel": "Již brzy",
+    "downloadOn": "Stáhnout v",
+    "getItOn": "Získat na"
+  },
+  "privacyPolicy": {
+    "metaTitle": "Zásady ochrany osobních údajů",
+    "metaDescription": "Zásady ochrany osobních údajů iCat Studios",
+    "title": "Zásady ochrany osobních údajů",
+    "subtitle": "Vaše soukromí je pro nás důležité",
+    "intro": "iCat Studios vytvořilo aplikace uvedené níže jako bezplatné aplikace:",
+    "appsList": [
+      "Potentials: FC26 Career Mode",
+      "Score Hunter",
+      "Fast and Blocky"
+    ],
+    "p1": "Tyto SLUŽBY poskytuje iCat Studios bez poplatku a jsou určeny k použití tak, jak jsou.",
+    "p2": "Tato stránka slouží k informování návštěvníků webu o našich zásadách týkajících se shromažďování, používání a zveřejňování osobních údajů, pokud se někdo rozhodne používat naši službu.",
+    "p3": "Pokud se rozhodnete používat naše služby, souhlasíte se shromažďováním a používáním informací v souladu s touto zásadou. Osobní údaje, které shromažďujeme, slouží k poskytování a zlepšování služby. Vaše údaje nepoužijeme ani nesdílíme s nikým jiným, než jak je popsáno v těchto zásadách ochrany osobních údajů.",
+    "p4": "Termíny použité v těchto zásadách ochrany osobních údajů mají stejný význam jako v našich smluvních podmínkách, pokud není definováno jinak.",
+    "infoCollectionTitle": "Shromažďování a používání informací",
+    "infoCollection1": "Pro lepší zážitek vás můžeme při používání naší služby požádat o poskytnutí určitých osobně identifikovatelných informací. Informace, které požadujeme, budou námi uchovány a použity tak, jak je popsáno v těchto zásadách ochrany osobních údajů.",
+    "infoCollection2": "Aplikace používá služby třetích stran, které mohou shromažďovat informace používané k vaší identifikaci.",
+    "infoCollection3": "Odkaz na zásady ochrany osobních údajů poskytovatelů služeb třetích stran používaných aplikací:",
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
+    "logDataTitle": "Údaje protokolu",
+    "logData": "Chceme vás informovat, že kdykoli používáte naši službu, v případě chyby v aplikaci shromažďujeme data a informace (prostřednictvím produktů třetích stran) ve vašem telefonu nazývané údaje protokolu. Tyto údaje protokolu mohou obsahovat informace, jako je IP adresa zařízení, název zařízení, verze operačního systému, konfigurace aplikace, datum a čas použití a další statistiky.",
+    "cookiesTitle": "Cookies",
+    "cookies1": "Cookies jsou soubory s malým množstvím dat, které se běžně používají jako anonymní jedinečné identifikátory. Jsou odesílány do vašeho prohlížeče z webových stránek, které navštěvujete, a jsou ukládány v interní paměti vašeho zařízení.",
+    "cookies2": "Tato služba tyto «cookies» výslovně nepoužívá. Aplikace však může používat kód a knihovny třetích stran, které používají «cookies» ke shromažďování informací a zlepšování svých služeb. Máte možnost tyto cookies přijmout nebo odmítnout. Pokud se rozhodnete naše cookies odmítnout, možná nebudete moci používat některé části této služby.",
+    "serviceProvidersTitle": "Poskytovatelé služeb",
+    "serviceProviders1": "Můžeme zaměstnávat společnosti a jednotlivce třetích stran z následujících důvodů:",
+    "serviceProvidersReasons": [
+      "Pro usnadnění naší služby",
+      "Pro poskytování služby naším jménem",
+      "Pro provádění služeb souvisejících se službou",
+      "Pro pomoc při analýze použití naší služby"
+    ],
+    "serviceProviders2": "Chceme uživatele této služby informovat, že tyto třetí strany mají přístup k vašim osobním údajům. Důvodem je provádění úkolů, které jsou jim přiděleny naším jménem. Jsou však povinni nezveřejňovat ani nepoužívat informace pro žádný jiný účel.",
+    "securityTitle": "Bezpečnost",
+    "security": "Vážíme si vaší důvěry při poskytování vašich osobních údajů, a proto se snažíme používat komerčně přijatelné prostředky k jejich ochraně. Ale pamatujte, že žádná metoda přenosu přes internet ani metoda elektronického ukládání není 100% bezpečná a spolehlivá, a nemůžeme zaručit její absolutní bezpečnost.",
+    "linksTitle": "Odkazy na jiné weby",
+    "links": "Tato služba může obsahovat odkazy na jiné weby. Pokud kliknete na odkaz třetí strany, budete přesměrováni na tento web. Vezměte prosím na vědomí, že tyto externí weby nejsou provozovány námi. Proto vám důrazně doporučujeme přečíst si zásady ochrany osobních údajů těchto webů. Nemáme kontrolu nad obsahem, zásadami ochrany osobních údajů ani postupy webů nebo služeb třetích stran a nepřebíráme za ně žádnou odpovědnost.",
+    "childrenTitle": "Soukromí dětí",
+    "children": "Tyto služby nejsou určeny pro nikoho mladšího 13 let. Vědomě neshromažďujeme osobně identifikovatelné informace od dětí mladších 13 let. V případě, že zjistíme, že dítě mladší 13 let nám poskytlo osobní údaje, okamžitě je odstraníme z našich serverů. Pokud jste rodič nebo zákonný zástupce a víte, že vaše dítě nám poskytlo osobní údaje, kontaktujte nás prosím.",
+    "changesTitle": "Změny těchto zásad ochrany osobních údajů",
+    "changes": "Naše zásady ochrany osobních údajů můžeme čas od času aktualizovat. Doporučujeme proto pravidelně kontrolovat tuto stránku ohledně případných změn. O všech změnách vás budeme informovat zveřejněním nových zásad ochrany osobních údajů na této stránce. Tyto změny vstoupí v platnost ihned po zveřejnění na této stránce.",
+    "contactTitle": "Kontaktujte nás",
+    "contact": "Pokud máte jakékoli dotazy nebo návrhy k našim zásadám ochrany osobních údajů, neváhejte nás kontaktovat.",
+    "copyright": "Copyright © 2022 - Všechna práva vyhrazena."
+  },
+  "termOfUse": {
+    "metaTitle": "Podmínky použití",
+    "metaDescription": "Podmínky použití iCat Studios",
+    "title": "Podmínky použití",
+    "subtitle": "Před použitím našich služeb si pečlivě přečtěte",
+    "appName": "Potentials: FC26 Career Mode",
+    "licenseTitle": "Licenční smlouva — Podmínky použití",
+    "intro1": "Následující podmínky («Podmínky») upravují veškeré používání aplikace Potentials: FC26 Career Mode a veškerého obsahu, služeb a produktů dostupných na webu a v našich aplikacích, včetně, ale nikoli výhradně, Pro režimu aplikace Potentials: FC26 Career Mode pro iOS a Android (souhrnně naše «Služby»). Naše služby jsou nabízeny s výhradou vašeho přijetí bez úprav všech zde uvedených podmínek a všech dalších provozních pravidel, zásad (včetně, bez omezení, zásad ochrany osobních údajů iCat Studios) a postupů, které mohou být čas od času zveřejněny iCat Studios (souhrnně «Smlouva»). Souhlasíte s tím, že naše služby můžeme automaticky upgradovat, a tyto Podmínky se budou vztahovat na všechny upgrady. Vaše smlouva je s iCat Studios (TR).",
+    "intro2": "Před přístupem k našim službám nebo jejich použitím si tuto smlouvu pečlivě přečtěte. Přístupem k jakékoli části našich služeb nebo jejich použitím souhlasíte s tím, že budete vázáni podmínkami této smlouvy.",
+    "intro3": "Naše služby nejsou určeny dětem mladším 3 let, a přístup k našim službám a jejich používání je nabízeno pouze uživatelům starším 3 let.",
+    "intro4": "Použití našich služeb vyžaduje účet Potentials: FC26 Career Mode. Souhlasíte, že nám při registraci poskytnete úplné a přesné informace.",
+    "section1Title": "1. Aplikace Potentials: FC26 Career Mode",
+    "section1": "Pokud vytvoříte účet, recenzi, sestavu nebo jakýkoli jiný materiál v aplikaci Potentials: FC26 Career Mode, jste odpovědní za udržování bezpečnosti svého účtu a jste plně odpovědní za všechny činnosti, které se uskutečňují pod účtem.",
+    "paymentTitle": "Platba a obnovení — Obecné podmínky",
+    "payment1": "Volitelné placené služby, jako je odstranění reklamy, jsou k dispozici (jakákoli taková služba, «Upgrade» na předplatné Potentials: FC26 Career Mode Pro Mode) v našich mobilních aplikacích. Výběrem upgradu souhlasíte se zaplacením měsíčních nebo ročních předplatných poplatků iCat Studios uvedených pro tuto službu.",
+    "paymentProLabel": "Podmínky aplikace iOS Potentials: FC26 Career Mode — Předplatné Potentials Pro Mode:",
+    "paymentProBullets": [
+      "Žádná reklama",
+      "Všechny databáze odemčeny"
+    ],
+    "payment2": "Bezreklamní zážitek znamená, že odstraníme veškerou reklamu včetně banneru ve spodní části, celoobrazovkové reklamy a rozšířeného seznamu oblíbených. Platba bude účtována na účet iTunes při potvrzení nákupu. Předplatné se automaticky obnovuje, pokud není automatické obnovení vypnuto alespoň 24 hodin před koncem aktuálního období.",
+    "section2Title": "2. Odpovědnost návštěvníků",
+    "section2": "iCat Studios neprověřilo a nemůže prověřit veškerý materiál, včetně počítačového softwaru, zveřejněný na našich službách, a proto nemůže být odpovědné za obsah, použití nebo účinky tohoto materiálu.",
+    "section3Title": "3. Duševní vlastnictví",
+    "section3": "Tato smlouva nepřevádí z iCat Studios na vás žádné duševní vlastnictví iCat Studios nebo třetích stran a všechna práva, tituly a zájmy v takovém vlastnictví zůstávají (mezi stranami) výhradně u iCat Studios.",
+    "section4Title": "4. Změny",
+    "section4": "Naše služby neustále aktualizujeme, což znamená, že někdy musíme změnit právní podmínky, za kterých jsou naše služby nabízeny. Pokud provedeme podstatné změny, dáme vám vědět zveřejněním na našem webu nebo zasláním e-mailu nebo jiné komunikace dříve, než změny vstoupí v platnost.",
+    "section5Title": "5. Ukončení",
+    "section5": "iCat Studios může kdykoli ukončit váš přístup k celé části nebo k některé části našich služeb, s důvodem nebo bez něj, s upozorněním nebo bez něj, s okamžitou platností. Pokud chcete ukončit tuto smlouvu nebo svůj účet Potentials: FC26 Career Mode (pokud nějaký máte), můžete jednoduše přestat používat naše služby.",
+    "section6Title": "6. Vyloučení záruk",
+    "section6": "Naše služby jsou poskytovány «tak, jak jsou». iCat Studios a jeho dodavatelé a poskytovatelé licencí tímto odmítají všechny záruky jakéhokoli druhu, výslovné nebo předpokládané, včetně, bez omezení, záruk obchodovatelnosti, vhodnosti pro určitý účel a neporušení.",
+    "section7Title": "7. Jurisdikce a rozhodné právo",
+    "section7": "Pokud platné právo, je-li nějaké, nestanoví jinak, tato smlouva, jakýkoli přístup nebo použití našich služeb se budou řídit zákony Türkiye, s vyloučením jejich kolizních ustanovení, a vhodným místem pro jakékoli spory vyplývající z nebo související s těmito budou státní soudy nacházející se v Evropě, Türkiye.",
+    "section8Title": "8. Omezení odpovědnosti",
+    "section8": "V žádném případě nebudou iCat Studios ani jeho dodavatelé nebo poskytovatelé licencí odpovědni s ohledem na jakékoli téma této smlouvy podle jakékoli smlouvy, nedbalosti, objektivní odpovědnosti nebo jiné právní nebo spravedlivé teorie za: (i) jakékoli zvláštní, náhodné nebo následné škody; (ii) náklady na pořízení náhradních produktů nebo služeb; (iii) za přerušení použití nebo ztrátu nebo poškození dat; nebo (iv) za jakékoli částky, které přesahují poplatky, které jste zaplatili iCat Studios podle této smlouvy během dvanáctiměsíční (12) doby předcházející příčině žaloby.",
+    "section9Title": "9. Obecné prohlášení a záruka",
+    "section9": "Prohlašujete a zaručujete, že (i) vaše použití našich služeb bude v přísném souladu se zásadami ochrany osobních údajů iCat Studios, s touto smlouvou a se všemi platnými zákony a předpisy a (ii) vaše použití našich služeb nebude porušovat ani si neoprávněně přivlastňovat práva duševního vlastnictví žádné třetí strany.",
+    "section10Title": "10. Odškodnění",
+    "section10": "Souhlasíte, že odškodníte a zbavíte odpovědnosti iCat Studios, jeho dodavatele a jeho poskytovatele licencí a jejich příslušné ředitele, vedoucí pracovníky, zaměstnance a zástupce ze všech nároků a výdajů, včetně poplatků za právní zastoupení, vyplývajících z vašeho použití našich služeb.",
+    "section11Title": "11. Překlad",
+    "section11": "Tyto podmínky služby byly původně napsány v angličtině (US). Tyto podmínky můžeme překládat do jiných jazyků. V případě konfliktu mezi přeloženou verzí těchto podmínek služby a anglickou verzí má přednost anglická verze.",
+    "section12Title": "12. Různé",
+    "section12a": "Tato smlouva představuje úplnou dohodu mezi iCat Studios a vámi týkající se předmětu této dohody a může být upravena pouze písemnou změnou podepsanou autorizovaným vedoucím pracovníkem iCat Studios nebo zveřejněním revidované verze iCat Studios.",
+    "section12b": "Pokud bude jakákoli část této smlouvy považována za neplatnou nebo nevynutitelnou, bude tato část vykládána tak, aby odrážela původní úmysl stran, a zbývající části zůstanou v plné platnosti a účinnosti.",
+    "section13Title": "13. Použití aplikací, serverů a cenových dat Potentials: FC26 Career Mode",
+    "section13": "Pokud nemáte písemné povolení od Potentials: FC26 Career Mode, není vám povoleno scrapovat, automatizovat ani používat naše API na žádné z domén Player Potentials, včetně subdomén. Není vám povoleno používat naše cenové údaje pro jakékoli komerční použití nebo placenou službu.",
+    "copyright": "Copyright © 2022 - Všechna práva vyhrazena."
+  },
+  "footer": {
+    "tagline": "Vývoj mobilních aplikací a her",
+    "linksHeading": "Odkazy",
+    "contactHeading": "Kontaktujte nás",
+    "copyright": "iCat Studios. Všechna práva vyhrazena."
+  },
+  "common": {
+    "backToTop": "Zpět nahoru",
+    "language": "Jazyk"
+  }
+}

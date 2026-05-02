@@ -38,17 +38,23 @@
     "comingSoon": "Çok Yakında",
     "potentials": {
       "name": "Potentials: FC26 Career Mode",
-      "description1": "FIFA 18'den FC 26'ya kadar tüm versiyonları kapsayan, 20.000'den fazla erkek ve kadın futbolcu ile dünya genelinde yaklaşık 1.000 kulübün detaylı verilerini içeren kapsamlı bir oyuncu veritabanı.",
-      "description2": "Oyuncuları overall/potansiyel, piyasa değeri, pozisyon, özellik, kulüp, lig, uyruk ve daha fazlasına göre filtreleyin."
+      "description1": "FIFA 18'den FC 26'ya kadar tüm FIFA-FC versiyonlarını kapsayan, toplamda 50.000'den fazla erkek ve kadın futbolcu detay bilgisi ve yaklaşık 1.000 kulübün detaylı verilerini içeren, FC kariyer modlarına yönelik dünyanın en kapsamlı ve en çok indirilen uygulaması.",
+      "description2": "Potentials ile futbolcuları overall/potansiyel, yaş, piyasa değeri, pozisyon, özellik, kulüp, lig, uyruk ve daha fazlasına göre filtreleyin. Kadrolar kurun, takım detaylarını karşılaştırın. Ve çok daha fazlası sadece bu uygulamada.",
+      "shortDescription": "Dünyanın en çok tercih edilen FC kariyer modu yardımcı uygulaması."
     },
     "fastAndBlocky": {
       "name": "Fast and Blocky",
-      "description": "Yüksek hızda motosiklet sürerken rastgele oluşturulan trafikten kaçmaya çalıştığınız sonsuz bir yarış oyunu. Araçlara çarpmadan trafikte ilerleyin!"
+      "description": "Yüksek hızda motosiklet sürerken rastgele oluşturulan trafikten kaçmaya çalıştığınız sonsuz bir yarış oyunu. Araçlara çarpmadan trafikte ilerleyin!",
+      "shortDescription": "Sonsuz motosiklet yarışı — yüksek hızda trafikten kaç."
     },
     "scoreHunter": {
-      "name": "Score Hunter",
-      "description": "Heyecan verici bir şey yolda. iCat Studios'tan yepyeni bir deneyim. Takipte kalın!",
-      "learnMore": "scorehunter.app'i ziyaret et"
+      "name": "Skor Avcısı",
+      "tagline": "Bahis değil, futbol tahmin oyunu!",
+      "description1": "Skor Avcısı oynaması ücretsiz, ödüllü bir futbol tahmin oyunudur. Oyuna katılmak veya ödül kazanmak için para ödemeniz gerekmez. Risk yok! Bahis terminolojisi yok! Gerekli olan sadece futbol tutkusu!",
+      "description2": "Maç sonuçlarını veya mini oyunlarla maçların içerisindeki olayları tahmin etmeye çalış. Topladığın puanlarla haftalık ve sezonluk sıralamalarda zirveye yerleş. Hem kupalar hem sürpriz ödüller senin olsun!",
+      "learnMore": "scorehunter.app'i ziyaret et",
+      "newBadge": "Yeni",
+      "shortDescription": "Futbol tutkunları için ödüllü tahmin oyunu!"
     }
   },
   "privacyPolicy": {
@@ -60,10 +66,6 @@
     "appsList": [
       "Potentials: FC26 Career Mode",
       "Score Hunter",
-      "Player Potentials 21",
-      "Player Potentials 20",
-      "Player Potentials 19",
-      "Player Potentials 18",
       "Fast and Blocky"
     ],
     "p1": "Bu HİZMETLER iCat Studios tarafından ücretsiz olarak sağlanmakta ve olduğu gibi kullanılmak üzere tasarlanmıştır.",
@@ -74,7 +76,11 @@
     "infoCollection1": "Daha iyi bir deneyim için, Hizmetimizi kullanırken sizden bazı kişisel olarak tanımlanabilir bilgileri sağlamanızı isteyebiliriz. Talep ettiğimiz bilgiler tarafımızca saklanacak ve bu gizlilik politikasında açıklandığı gibi kullanılacaktır.",
     "infoCollection2": "Uygulama, sizi tanımlamak için kullanılabilecek bilgileri toplayan üçüncü taraf hizmetleri kullanır.",
     "infoCollection3": "Uygulamada kullanılan üçüncü taraf hizmet sağlayıcılarının gizlilik politikasına bağlantı:",
-    "thirdParties": ["Google Play Services", "AdMob", "Firebase Analytics"],
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
     "logDataTitle": "Günlük Verileri",
     "logData": "Hizmetimizi her kullandığınızda, uygulamada bir hata olması durumunda telefonunuzda Günlük Verileri adı verilen verileri ve bilgileri (üçüncü taraf ürünler aracılığıyla) topladığımızı bildirmek isteriz. Bu Günlük Verileri; cihaz İnternet Protokolü (\"IP\") adresi, cihaz adı, işletim sistemi sürümü, Hizmetimizi kullanırken uygulamanın yapılandırması, Hizmeti kullanma tarihi ve saati ile diğer istatistikler gibi bilgileri içerebilir.",
     "cookiesTitle": "Çerezler",
@@ -117,7 +123,10 @@
     "paymentTitle": "Ödeme ve Yenileme — Genel Şartlar",
     "payment1": "Reklam kaldırma gibi isteğe bağlı ücretli hizmetler (bu tür hizmetler, Potentials: FC26 Career Mode Pro Mode Aboneliğine bir \"Yükseltme\") mobil uygulamalarımızda mevcuttur. Bir Yükseltme seçerek, o hizmet için belirtilen aylık veya yıllık abonelik ücretini iCat Studios'a ödemeyi kabul edersiniz. Ödemeler, kaydolduğunuz gün veya deneme süresi bittikten sonra \"iTunes hesabınızdan\" veya \"Google (Play Store)\" üzerinden ön ödeme esasına göre tahsil edilecektir.",
     "paymentProLabel": "Potentials: FC26 Career Mode iOS Uygulama Şartları — Potentials Pro Mode Aboneliği:",
-    "paymentProBullets": ["Reklam yok", "Tüm veritabanları açılır"],
+    "paymentProBullets": [
+      "Reklam yok",
+      "Tüm veritabanları açılır"
+    ],
     "payment2": "Reklamsız bir deneyim; alttaki banner ve tam ekran reklam dahil her türlü reklamı ve Genişletilmiş favoriler listesini kaldıracağımız anlamına gelir. Ödeme, satın alma onayında iTunes Hesabına tahsil edilecektir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce otomatik yenileme kapatılmadıkça otomatik olarak yenilenir. Mevcut dönemin bitiminden 24 saat önce yenileme için hesap ücretlendirilir. Abonelikler kullanıcı tarafından yönetilebilir ve satın almadan sonra kullanıcının Hesap Ayarları'na gidilerek otomatik yenileme kapatılabilir. Bir ücretsiz deneme döneminin kullanılmayan kısmı, varsa, kullanıcı o yayına abonelik satın aldığında, uygulanabilir olduğu yerlerde iptal edilecektir.",
     "section2Title": "2. Ziyaretçilerin Sorumluluğu",
     "section2": "iCat Studios, Hizmetlerimize gönderilen bilgisayar yazılımı dahil tüm materyalleri incelememiştir ve inceleyemez ve bu nedenle o materyalin içeriği, kullanımı veya etkilerinden sorumlu tutulamaz. Hizmetlerimizi işleterek iCat Studios, orada yayınlanan materyali onayladığını veya bu tür materyalin doğru, yararlı veya zararsız olduğuna inandığını beyan veya ima etmez. Kendinizi ve bilgisayar sistemlerinizi virüslerden, solucanlardan, Truva atlarından ve diğer zararlı veya yıkıcı içeriklerden korumak için gerekli önlemleri almaktan siz sorumlusunuz. Hizmetlerimiz, saldırgan, uygunsuz veya başka şekilde sakıncalı içeriklerin yanı sıra teknik yanlışlıklar, yazım hataları ve diğer hatalar içeren içerikler de içerebilir.",

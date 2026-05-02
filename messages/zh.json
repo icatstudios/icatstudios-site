@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "privacyPolicy": "隐私政策",
+    "termOfUse": "使用条款"
+  },
+  "home": {
+    "metaTitle": "iCat Studios — 移动应用与游戏开发",
+    "metaDescription": "iCat Studios是一支总部位于Türkiye的移动应用与游戏开发团队,注重创新与创造力。",
+    "heroEyebrow": "创新与创造力的结合",
+    "heroTitleLine1": "移动应用 &",
+    "heroTitleLine2": "游戏开发",
+    "heroSubtitle": "iCat Studios是一支总部位于Türkiye的移动应用与游戏开发团队,注重创新与创造力。",
+    "ctaPrimary": "我们的产品",
+    "ctaSecondary": "联系我们",
+    "productsSectionTitle": "我们的产品",
+    "productsSectionSubtitle": "看看我们一直在打造什么",
+    "comingSoon": "即将推出",
+    "explore": "探索"
+  },
+  "heroStats": {
+    "downloadsLabel": "下载量",
+    "downloadsValue": "200万+",
+    "appsLabel": "已发布应用",
+    "appsValue": "7款产品",
+    "foundedLabel": "成立",
+    "foundedValue": "自2016年起",
+    "locationLabel": "总部",
+    "locationValue": "Türkiye"
+  },
+  "products": {
+    "metaTitle": "产品",
+    "metaDescription": "探索我们的移动应用和游戏。",
+    "pageTitle": "产品",
+    "pageSubtitle": "我们的移动应用和游戏",
+    "downloads": "1,000,000+ 下载",
+    "comingSoon": "即将推出",
+    "potentials": {
+      "name": "Potentials: FC26 Career Mode",
+      "description1": "覆盖从FIFA 18到FC 26的所有FIFA-FC版本,包含超过50,000名男女足球运动员和近1,000家俱乐部的详细数据 — 全球最全面、下载量最大的FC生涯模式应用。",
+      "description2": "使用Potentials,按总评/潜力评分、年龄、市场价值、位置、属性、俱乐部、联赛、国籍等筛选球员。组建阵容、对比球队详情 — 还有更多,只在这款应用中。",
+      "shortDescription": "全球最受欢迎的FC生涯模式辅助应用。"
+    },
+    "fastAndBlocky": {
+      "name": "Fast and Blocky",
+      "description": "一款无尽的摩托车竞速游戏,你将在高速行驶中躲避随机生成的车流。穿梭于车流中,不要撞上车辆!",
+      "shortDescription": "无尽摩托车竞速 — 高速躲避车流。"
+    },
+    "scoreHunter": {
+      "name": "Score Hunter",
+      "tagline": "不是博彩 — 而是足球预测游戏!",
+      "description1": "Score Hunter是一款免费畅玩、有奖励的足球预测游戏。参与游戏或赢取奖品都无需付费。零风险!没有博彩术语!所需的只是你对足球的热情!",
+      "description2": "通过有趣的小游戏预测比赛结果或比赛中的事件。用累积的积分登顶每周和赛季排行榜。奖杯和惊喜奖品等着你!",
+      "learnMore": "访问 scorehunter.app",
+      "newBadge": "新",
+      "shortDescription": "为足球迷打造的有奖预测游戏！"
+    }
+  },
+  "comingSoonBadges": {
+    "statusLabel": "即将推出",
+    "downloadOn": "下载",
+    "getItOn": "在 Google Play 获取"
+  },
+  "privacyPolicy": {
+    "metaTitle": "隐私政策",
+    "metaDescription": "iCat Studios 隐私政策",
+    "title": "隐私政策",
+    "subtitle": "您的隐私对我们很重要",
+    "intro": "iCat Studios 已开发以下应用作为免费应用:",
+    "appsList": [
+      "Potentials: FC26 Career Mode",
+      "Score Hunter",
+      "Fast and Blocky"
+    ],
+    "p1": "这些服务由 iCat Studios 免费提供,旨在按原样使用。",
+    "p2": "本页面用于告知网站访问者,如果有人决定使用我们的服务,我们关于个人信息的收集、使用和披露的政策。",
+    "p3": "如果您选择使用我们的服务,即表示您同意根据此政策收集和使用信息。我们收集的个人信息用于提供和改进服务。除本隐私政策中所述外,我们不会与任何人共享或使用您的信息。",
+    "p4": "本隐私政策中使用的术语,除非另有定义,否则与我们的条款和条件中的含义相同。",
+    "infoCollectionTitle": "信息收集和使用",
+    "infoCollection1": "为了获得更好的体验,在使用我们的服务时,我们可能会要求您向我们提供某些个人身份信息。我们要求的信息将由我们保留并按本隐私政策中所述使用。",
+    "infoCollection2": "该应用使用第三方服务,这些服务可能会收集用于识别您的信息。",
+    "infoCollection3": "应用使用的第三方服务提供商的隐私政策链接:",
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
+    "logDataTitle": "日志数据",
+    "logData": "我们想告知您,每当您使用我们的服务时,如果应用程序出现错误,我们会在您的手机上(通过第三方产品)收集称为日志数据的数据和信息。这些日志数据可能包括您的设备IP地址、设备名称、操作系统版本、应用配置、使用日期和时间以及其他统计信息。",
+    "cookiesTitle": "Cookies",
+    "cookies1": "Cookies是包含少量数据的文件,通常用作匿名唯一标识符。它们从您访问的网站发送到您的浏览器,并存储在您设备的内部存储器中。",
+    "cookies2": "本服务不明确使用这些「cookies」。但是,该应用可能会使用第三方代码和库,这些代码和库使用「cookies」来收集信息并改进其服务。您可以选择接受或拒绝这些 cookies。如果您选择拒绝我们的 cookies,您可能无法使用本服务的某些部分。",
+    "serviceProvidersTitle": "服务提供商",
+    "serviceProviders1": "由于以下原因,我们可能会聘请第三方公司和个人:",
+    "serviceProvidersReasons": [
+      "为了便于我们的服务",
+      "代表我们提供服务",
+      "执行与服务相关的服务",
+      "帮助我们分析我们的服务如何被使用"
+    ],
+    "serviceProviders2": "我们想告知本服务的用户,这些第三方可以访问您的个人信息。原因是代表我们执行分配给他们的任务。但是,他们有义务不将这些信息用于任何其他目的或披露。",
+    "securityTitle": "安全",
+    "security": "我们重视您向我们提供个人信息的信任,因此我们努力使用商业上可接受的方式来保护这些信息。但请记住,没有任何通过互联网传输的方法或电子存储方法是100%安全可靠的,我们无法保证其绝对安全性。",
+    "linksTitle": "其他网站链接",
+    "links": "本服务可能包含指向其他网站的链接。如果您单击第三方链接,您将被引导至该网站。请注意,这些外部网站不由我们运营。因此,我们强烈建议您查看这些网站的隐私政策。我们对任何第三方网站或服务的内容、隐私政策或做法没有控制权,也不承担任何责任。",
+    "childrenTitle": "儿童隐私",
+    "children": "这些服务不针对13岁以下的任何人。我们不会故意收集13岁以下儿童的个人身份信息。如果我们发现13岁以下的儿童向我们提供了个人信息,我们会立即从我们的服务器中删除。如果您是父母或监护人,并且知道您的孩子向我们提供了个人信息,请联系我们。",
+    "changesTitle": "本隐私政策的变更",
+    "changes": "我们可能会不时更新我们的隐私政策。因此,建议您定期查看此页面以了解任何变更。我们将通过在此页面上发布新的隐私政策来通知您任何变更。这些变更在发布到此页面后立即生效。",
+    "contactTitle": "联系我们",
+    "contact": "如果您对我们的隐私政策有任何疑问或建议,请随时与我们联系。",
+    "copyright": "Copyright © 2022 - 保留所有权利。"
+  },
+  "termOfUse": {
+    "metaTitle": "使用条款",
+    "metaDescription": "iCat Studios 使用条款",
+    "title": "使用条款",
+    "subtitle": "使用我们的服务前,请仔细阅读",
+    "appName": "Potentials: FC26 Career Mode",
+    "licenseTitle": "许可协议 — 使用条款",
+    "intro1": "以下条款和条件(「条款」)规范Potentials: FC26 Career Mode应用程序以及网站和我们的应用程序提供的所有内容、服务和产品的所有使用,包括但不限于Potentials: FC26 Career Mode iOS和Android应用程序Pro模式(共同称为我们的「服务」)。我们的服务是基于您接受所有此处包含的条款和条件以及iCat Studios可能不时发布的所有其他操作规则、政策(包括但不限于iCat Studios的隐私政策)和程序(共同称为「协议」)而提供的,无需修改。您同意我们可以自动升级我们的服务,这些条款将适用于任何升级。您的协议是与iCat Studios(TR)签订的。",
+    "intro2": "在访问或使用我们的服务之前,请仔细阅读本协议。通过访问或使用我们服务的任何部分,您同意受本协议条款的约束。",
+    "intro3": "我们的服务不针对3岁以下的儿童,只有3岁或以上的用户才能访问和使用我们的服务。",
+    "intro4": "使用我们的服务需要Potentials: FC26 Career Mode账户。注册账户时,您同意向我们提供完整准确的信息。",
+    "section1Title": "1. Potentials: FC26 Career Mode 应用程序",
+    "section1": "如果您在Potentials: FC26 Career Mode应用程序上创建账户、评论、阵容或任何其他材料,您有责任维护账户的安全,并且您对账户下发生的所有活动以及与您的账户相关的任何其他行为负全部责任。",
+    "paymentTitle": "付款和续订 — 一般条款",
+    "payment1": "可选付费服务,如广告移除,在我们的移动应用程序中可用(任何此类服务,即升级到Potentials: FC26 Career Mode Pro Mode订阅)。通过选择升级,您同意向iCat Studios支付该服务所示的月度或年度订阅费用。",
+    "paymentProLabel": "Potentials: FC26 Career Mode iOS 应用程序条款 — Potentials Pro Mode 订阅:",
+    "paymentProBullets": [
+      "无广告",
+      "解锁所有数据库"
+    ],
+    "payment2": "无广告体验意味着我们将删除所有广告,包括底部横幅、全屏广告和扩展收藏列表。购买确认时,款项将从iTunes账户扣除。除非在当前周期结束前至少24小时关闭自动续订,否则订阅将自动续订。",
+    "section2Title": "2. 访客的责任",
+    "section2": "iCat Studios尚未审查,也无法审查所有发布到我们服务上的材料,包括计算机软件,因此不能对该材料的内容、使用或影响负责。",
+    "section3Title": "3. 知识产权",
+    "section3": "本协议不会将iCat Studios或第三方的任何知识产权从iCat Studios转让给您,所有此类财产的权利、所有权和利益将(在双方之间)仅由iCat Studios保留。",
+    "section4Title": "4. 变更",
+    "section4": "我们不断更新我们的服务,这意味着有时我们必须更改我们的服务所提供的法律条款。如果我们进行重大更改,我们将通过在我们的网站上发布或在更改生效前向您发送电子邮件或其他通信来通知您。",
+    "section5Title": "5. 终止",
+    "section5": "iCat Studios可以随时终止您对我们全部或部分服务的访问,无论是否有原因,无论是否有通知,立即生效。如果您希望终止本协议或您的Potentials: FC26 Career Mode账户(如果您有的话),您可以简单地停止使用我们的服务。",
+    "section6Title": "6. 免责声明",
+    "section6": "我们的服务按「现状」提供。iCat Studios及其供应商和许可方在此声明放弃所有种类的明示或暗示的担保,包括但不限于适销性、特定用途适用性和不侵权的担保。",
+    "section7Title": "7. 司法管辖权和适用法律",
+    "section7": "除非适用法律(如果有的话)另有规定,本协议、对我们服务的任何访问或使用将受Türkiye法律的管辖,不包括其法律冲突规定,与之相关的任何争议的适当地点为位于欧洲、Türkiye的州法院。",
+    "section8Title": "8. 责任限制",
+    "section8": "在任何情况下,iCat Studios或其供应商或许可方均不对本协议的任何主题在任何合同、疏忽、严格责任或其他法律或衡平法理论下负责: (i) 任何特殊、附带或后果性损害; (ii) 替代产品或服务的采购成本; (iii) 使用中断或数据丢失或损坏; 或 (iv) 超过您在诉讼原因发生前12个月内根据本协议向iCat Studios支付的费用的任何金额。",
+    "section9Title": "9. 一般声明和保证",
+    "section9": "您声明并保证:(i) 您对我们服务的使用将严格遵守iCat Studios的隐私政策、本协议以及所有适用的法律法规; (ii) 您对我们服务的使用不会侵犯或不当占用任何第三方的知识产权。",
+    "section10Title": "10. 赔偿",
+    "section10": "您同意赔偿并使iCat Studios、其承包商和许可方及其各自的董事、官员、员工和代理人免受因您使用我们的服务而产生的任何及所有索赔和费用(包括律师费),包括但不限于您违反本协议。",
+    "section11Title": "11. 翻译",
+    "section11": "本服务条款最初以英语(美国)编写。我们可能会将这些条款翻译成其他语言。如果本服务条款的翻译版本与英文版本之间存在冲突,以英文版本为准。",
+    "section12Title": "12. 其他",
+    "section12a": "本协议构成iCat Studios与您之间关于本协议主题的完整协议,只能通过iCat Studios授权高管签署的书面修订或iCat Studios发布修订版本进行修改。",
+    "section12b": "如果本协议的任何部分被认定为无效或不可执行,则该部分将被解释为反映双方的原始意图,其余部分将继续完全有效。",
+    "section13Title": "13. Potentials: FC26 Career Mode 应用、服务器和定价数据的使用",
+    "section13": "除非获得Potentials: FC26 Career Mode的书面许可,否则您不得在任何Player Potentials域名(包括子域名)上抓取、自动化或使用我们的API。您不得将我们的定价数据用于任何商业用途或付费服务。",
+    "copyright": "Copyright © 2022 - 保留所有权利。"
+  },
+  "footer": {
+    "tagline": "移动应用与游戏开发",
+    "linksHeading": "链接",
+    "contactHeading": "联系我们",
+    "copyright": "iCat Studios. 保留所有权利。"
+  },
+  "common": {
+    "backToTop": "返回顶部",
+    "language": "语言"
+  }
+}

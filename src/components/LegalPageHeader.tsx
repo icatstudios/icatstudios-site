@@ -35,7 +35,10 @@ export default function LegalPageHeader({
             </div>
           )}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-primary">
+            <p
+              lang="en"
+              className="text-xs font-semibold uppercase tracking-[0.35em] text-primary"
+            >
               {eyebrow}
             </p>
             <h1 className="mt-1.5 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">

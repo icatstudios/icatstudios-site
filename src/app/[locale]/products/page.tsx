@@ -20,11 +20,6 @@ export async function generateMetadata({
   };
 }
 
-const potentialsScreenshots = Array.from(
-  { length: 10 },
-  (_, i) => `/images/potentials/image${i + 1}.png`
-);
-
 const fastAndBlockyScreenshots = [
   "/images/fastandblocky/0x0ss.png",
   "/images/fastandblocky/0x0ss-2.png",
@@ -33,16 +28,59 @@ const fastAndBlockyScreenshots = [
   "/images/fastandblocky/0x0ss-5.png",
 ];
 
+/** Potentials screenshots are available in all 18 locales. */
+const POTENTIALS_LOCALES = new Set([
+  "ar", "cs", "da", "de", "en", "es", "fr", "it", "ja", "ko",
+  "nl", "no", "pl", "pt", "ru", "sv", "tr", "zh",
+]);
+
+/** Score Hunter screenshots are only available in 7 locales — others fall back to EN. */
+const SCOREHUNTER_LOCALES = new Set(["de", "en", "es", "fr", "it", "pt", "tr"]);
+
+/** Map a locale to the closest available screenshot folder. */
+function resolveScreenshotLocale(
+  locale: string,
+  available: Set<string>
+): string {
+  if (available.has(locale)) return locale;
+  // Fall back to base language for regional variants (e.g. pt-br → pt)
+  const base = locale.split("-")[0];
+  if (available.has(base)) return base;
+  return "en";
+}
+
+function getPotentialsScreenshots(locale: string): string[] {
+  const lang = resolveScreenshotLocale(locale, POTENTIALS_LOCALES);
+  return Array.from(
+    { length: 10 },
+    (_, i) => `/images/potentials/screenshots/${lang}/${i + 1}.png`
+  );
+}
+
+function getScoreHunterScreenshots(locale: string): string[] {
+  const lang = resolveScreenshotLocale(locale, SCOREHUNTER_LOCALES);
+  return Array.from(
+    { length: 8 },
+    (_, i) => `/images/scorehunter/screenshots/${lang}/${i + 1}.png`
+  );
+}
+
 // Product themes
-const POTENTIALS_ACCENT = "#14f174";
+const POTENTIALS_ACCENT = "#a855f7";
 const FASTBLOCKY_ACCENT = "#ff6b4a";
 const SCOREHUNTER_ACCENT = "#14f174";
-const SCOREHUNTER_SECONDARY = "#6a0dad";
+
+// TODO: add App Store URL when iOS approval is complete
+const SCOREHUNTER_APP_STORE_URL: string | undefined = undefined;
+const SCOREHUNTER_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.icatstudios.scorehunter";
 
 export default async function ProductsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("products");
+  const potentialsScreenshots = getPotentialsScreenshots(locale);
+  const scoreHunterScreenshots = getScoreHunterScreenshots(locale);
 
   return (
     <div className="relative">
@@ -56,7 +94,10 @@ export default async function ProductsPage({ params }: Props) {
         </div>
         <div className="relative z-10 mx-auto max-w-6xl">
           <Reveal>
-            <p className="text-xs font-semibold uppercase tracking-[0.35em] text-primary">
+            <p
+              lang="en"
+              className="text-xs font-semibold uppercase tracking-[0.35em] text-primary"
+            >
               iCat Studios
             </p>
             <h1 className="mt-3 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
@@ -67,6 +108,149 @@ export default async function ProductsPage({ params }: Props) {
           </Reveal>
         </div>
       </section>
+
+      {/* ============ Score Hunter ============ */}
+      <section
+        id="scorehunter"
+        className="relative scroll-mt-20 overflow-hidden px-6 py-20"
+      >
+        {/* Themed background — green + secondary purple */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 overflow-hidden"
+        >
+          <div
+            className="absolute -top-32 -left-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-45 animate-pulse-glow"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(20,241,116,0.3), transparent 70%)",
+            }}
+          />
+          <div
+            className="absolute -bottom-32 -right-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-40 animate-pulse-glow-delayed"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(106,13,173,0.4), transparent 70%)",
+            }}
+          />
+        </div>
+
+        <Reveal className="relative z-10 mx-auto max-w-6xl">
+          <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-14">
+            <div className="flex-shrink-0 lg:w-1/3">
+              <div className="mb-6 flex items-center gap-4">
+                <div className="relative">
+                  <div
+                    className="absolute inset-0 rounded-2xl blur-xl opacity-70 animate-pulse-glow"
+                    style={{ background: SCOREHUNTER_ACCENT }}
+                  />
+                  <Image
+                    src="/images/scorehunter/scorehunter_icon.png"
+                    alt={`${t("scoreHunter.name")} icon`}
+                    width={72}
+                    height={72}
+                    className="relative rounded-2xl ring-1 ring-white/10"
+                  />
+                </div>
+                <div className="flex items-center gap-3">
+                  <h2 className="text-2xl font-bold text-foreground">
+                    {t("scoreHunter.name")}
+                  </h2>
+                  <span
+                    className="rounded-full border px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
+                    style={{
+                      color: SCOREHUNTER_ACCENT,
+                      borderColor: `${SCOREHUNTER_ACCENT}66`,
+                      background: `${SCOREHUNTER_ACCENT}1a`,
+                    }}
+                  >
+                    {t("scoreHunter.newBadge")}
+                  </span>
+                </div>
+              </div>
+
+              {/* Mascot — decorative inline */}
+              <div className="relative mb-6 hidden lg:block">
+                <div
+                  className="absolute inset-0 rounded-full blur-2xl opacity-60"
+                  style={{
+                    background:
+                      "radial-gradient(circle, rgba(20,241,116,0.45), rgba(106,13,173,0.3) 60%, transparent 80%)",
+                  }}
+                />
+                <Image
+                  src="/images/scorehunter/mascot_website.png"
+                  alt={`${t("scoreHunter.name")} mascot`}
+                  width={220}
+                  height={220}
+                  className="relative animate-float"
+                />
+              </div>
+
+              <p
+                className="mb-3 text-sm font-semibold uppercase tracking-[0.2em]"
+                style={{ color: SCOREHUNTER_ACCENT }}
+              >
+                {t("scoreHunter.tagline")}
+              </p>
+              <p className="mb-4 leading-relaxed text-zinc-400">
+                {t("scoreHunter.description1")}
+              </p>
+              <p className="mb-6 leading-relaxed text-zinc-400">
+                {t("scoreHunter.description2")}
+              </p>
+
+              <StoreBadges
+                appStoreUrl={SCOREHUNTER_APP_STORE_URL}
+                playStoreUrl={SCOREHUNTER_PLAY_STORE_URL}
+                accent={SCOREHUNTER_ACCENT}
+              />
+
+              <a
+                href="https://scorehunter.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="themed-btn mt-6 inline-flex items-center gap-2 rounded-full border px-5 py-2 text-xs font-semibold uppercase tracking-widest"
+                style={
+                  {
+                    color: SCOREHUNTER_ACCENT,
+                    borderColor: "rgba(20,241,116,0.35)",
+                    background: "rgba(20,241,116,0.06)",
+                    ["--btn-color" as string]: SCOREHUNTER_ACCENT,
+                  } as React.CSSProperties
+                }
+              >
+                {t("scoreHunter.learnMore")}
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <line x1="7" y1="17" x2="17" y2="7" />
+                  <polyline points="7 7 17 7 17 17" />
+                </svg>
+              </a>
+            </div>
+
+            <div className="lg:w-2/3">
+              <ScreenshotCarousel
+                images={scoreHunterScreenshots}
+                alt={t("scoreHunter.name")}
+                accent={SCOREHUNTER_ACCENT}
+              />
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
+      <div className="mx-auto max-w-4xl px-6">
+        <div className="divider-fade" />
+      </div>
 
       {/* ============ Potentials ============ */}
       <section
@@ -82,7 +266,7 @@ export default async function ProductsPage({ params }: Props) {
             className="absolute -top-32 -left-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-40"
             style={{
               background:
-                "radial-gradient(circle, rgba(20,241,116,0.3), transparent 70%)",
+                "radial-gradient(circle, rgba(168,85,247,0.32), transparent 70%)",
             }}
           />
         </div>
@@ -129,6 +313,7 @@ export default async function ProductsPage({ params }: Props) {
               <StoreBadges
                 appStoreUrl="https://apps.apple.com/us/app/player-potentials-22/id1585809569"
                 playStoreUrl="https://play.google.com/store/apps/details?id=com.mb.playerpotentials22"
+                accent={POTENTIALS_ACCENT}
               />
             </div>
             <div className="lg:w-2/3">
@@ -142,7 +327,6 @@ export default async function ProductsPage({ params }: Props) {
         </Reveal>
       </section>
 
-      {/* Divider */}
       <div className="mx-auto max-w-4xl px-6">
         <div className="divider-fade" />
       </div>
@@ -189,7 +373,10 @@ export default async function ProductsPage({ params }: Props) {
               <p className="mb-6 leading-relaxed text-zinc-400">
                 {t("fastAndBlocky.description")}
               </p>
-              <StoreBadges appStoreUrl="https://apps.apple.com/us/app/fast-and-blocky/id1165989435" />
+              <StoreBadges
+                appStoreUrl="https://apps.apple.com/us/app/fast-and-blocky/id1165989435"
+                accent={FASTBLOCKY_ACCENT}
+              />
             </div>
             <div className="lg:w-2/3">
               <ScreenshotCarousel
@@ -198,122 +385,6 @@ export default async function ProductsPage({ params }: Props) {
                 isLandscape
                 accent={FASTBLOCKY_ACCENT}
               />
-            </div>
-          </div>
-        </Reveal>
-      </section>
-
-      <div className="mx-auto max-w-4xl px-6">
-        <div className="divider-fade" />
-      </div>
-
-      {/* ============ Score Hunter — Coming Soon ============ */}
-      <section
-        id="scorehunter"
-        className="relative scroll-mt-20 overflow-hidden px-6 py-20"
-      >
-        <Reveal className="relative z-10 mx-auto max-w-6xl">
-          <div
-            className="relative overflow-hidden rounded-3xl border p-8 lg:p-14"
-            style={{
-              borderColor: "rgba(20,241,116,0.25)",
-              background:
-                "linear-gradient(135deg, rgba(18,18,26,0.9), rgba(18,18,26,0.6))",
-            }}
-          >
-            {/* Themed blobs inside the card */}
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-0 overflow-hidden"
-            >
-              <div
-                className="absolute -top-24 -right-24 h-[420px] w-[420px] rounded-full blur-[100px] animate-pulse-glow"
-                style={{
-                  background:
-                    "radial-gradient(circle, rgba(20,241,116,0.35), transparent 70%)",
-                }}
-              />
-              <div
-                className="absolute -bottom-32 -left-16 h-[420px] w-[420px] rounded-full blur-[100px] animate-pulse-glow-delayed"
-                style={{
-                  background: `radial-gradient(circle, ${SCOREHUNTER_SECONDARY}55, transparent 70%)`,
-                }}
-              />
-              {/* Grid overlay on this card only */}
-              <div className="absolute inset-0 bg-grid opacity-30" />
-            </div>
-
-            <div className="relative z-10 flex flex-col items-center gap-10 lg:flex-row lg:items-center">
-              <div className="relative flex-shrink-0">
-                <div
-                  className="absolute inset-0 rounded-full blur-3xl opacity-60 animate-pulse-glow"
-                  style={{ background: SCOREHUNTER_ACCENT }}
-                />
-                <Image
-                  src="/images/scorehunter/mascot_website.png"
-                  alt="Score Hunter mascot"
-                  width={220}
-                  height={220}
-                  className="relative animate-float"
-                />
-              </div>
-
-              <div className="text-center lg:text-left">
-                <div className="mb-4 flex flex-wrap items-center justify-center gap-3 lg:justify-start">
-                  <Image
-                    src="/images/scorehunter/scorehunter_icon.png"
-                    alt="Score Hunter icon"
-                    width={56}
-                    height={56}
-                    className="rounded-xl ring-1 ring-white/10"
-                  />
-                  <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
-                    Score Hunter
-                  </h2>
-                  <span
-                    className="rounded-full border px-4 py-1 text-xs font-semibold uppercase tracking-widest animate-pulse-soft"
-                    style={{
-                      color: SCOREHUNTER_ACCENT,
-                      borderColor: "rgba(20,241,116,0.4)",
-                      background: "rgba(20,241,116,0.1)",
-                    }}
-                  >
-                    {t("comingSoon")}
-                  </span>
-                </div>
-                <p className="max-w-xl text-zinc-400 leading-relaxed">
-                  {t("scoreHunter.description")}
-                </p>
-                <a
-                  href="https://scorehunter.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="themed-btn mt-6 inline-flex items-center gap-2 rounded-full border px-6 py-2.5 text-sm font-semibold"
-                  style={
-                    {
-                      color: SCOREHUNTER_ACCENT,
-                      borderColor: "rgba(20,241,116,0.4)",
-                      background: "rgba(20,241,116,0.08)",
-                      ["--btn-color" as string]: SCOREHUNTER_ACCENT,
-                    } as React.CSSProperties
-                  }
-                >
-                  {t("scoreHunter.learnMore")}
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <line x1="7" y1="17" x2="17" y2="7" />
-                    <polyline points="7 7 17 7 17 17" />
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
         </Reveal>

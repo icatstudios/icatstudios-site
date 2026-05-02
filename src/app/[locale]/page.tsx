@@ -14,41 +14,33 @@ export default async function Home({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("home");
+  const tProducts = await getTranslations("products");
 
   const products = [
     {
-      key: "potentials",
-      name: "Potentials: FC26 Career Mode",
-      shortDescription:
-        locale === "tr"
-          ? "FIFA 18 — FC 26 arası 20.000+ futbolcu veritabanı."
-          : "FIFA 18 through FC 26 — 20,000+ player database.",
-      icon: "/images/potentials/potentials_icon.png",
-      href: "/products#potentials",
-      accent: "#14f174",
-    },
-    {
-      key: "fastandblocky",
-      name: "Fast and Blocky",
-      shortDescription:
-        locale === "tr"
-          ? "Sonsuz motosiklet yarışı — yüksek hızda trafikten kaç."
-          : "Endless motorcycle racing — dodge traffic at high speed.",
-      icon: "/images/fastandblocky/fastandblockyblocky_icon.png",
-      href: "/products#fastandblocky",
-      accent: "#ff6b4a",
-    },
-    {
       key: "scorehunter",
-      name: "Score Hunter",
-      shortDescription:
-        locale === "tr"
-          ? "Yepyeni bir deneyim yolda. Takipte kalın!"
-          : "A brand new experience is coming soon. Stay tuned!",
+      name: tProducts("scoreHunter.name"),
+      shortDescription: tProducts("scoreHunter.shortDescription"),
       icon: "/images/scorehunter/scorehunter_icon.png",
       href: "/products#scorehunter",
       accent: "#14f174",
-      comingSoon: true,
+      isNew: true,
+    },
+    {
+      key: "potentials",
+      name: tProducts("potentials.name"),
+      shortDescription: tProducts("potentials.shortDescription"),
+      icon: "/images/potentials/potentials_icon.png",
+      href: "/products#potentials",
+      accent: "#a855f7",
+    },
+    {
+      key: "fastandblocky",
+      name: tProducts("fastAndBlocky.name"),
+      shortDescription: tProducts("fastAndBlocky.shortDescription"),
+      icon: "/images/fastandblocky/fastandblockyblocky_icon.png",
+      href: "/products#fastandblocky",
+      accent: "#ff6b4a",
     },
   ];
 
@@ -205,16 +197,16 @@ export default async function Home({ params }: Props) {
                   style={{ background: product.accent }}
                 />
 
-                {product.comingSoon && (
+                {product.isNew && (
                   <span
-                    className="absolute top-4 right-4 rounded-full border px-3 py-1 text-[10px] font-semibold uppercase tracking-widest animate-pulse-soft"
+                    className="absolute top-4 right-4 rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
                     style={{
-                      color: "#E35EC7",
-                      borderColor: "rgba(227,94,199,0.4)",
-                      background: "rgba(227,94,199,0.1)",
+                      color: product.accent,
+                      borderColor: `${product.accent}66`,
+                      background: `${product.accent}1a`,
                     }}
                   >
-                    {t("comingSoon")}
+                    {locale === "tr" ? "Yeni" : "New"}
                   </span>
                 )}
 

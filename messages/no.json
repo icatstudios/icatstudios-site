@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Hjem",
+    "products": "Produkter",
+    "privacyPolicy": "Personvernerklæring",
+    "termOfUse": "Bruksvilkår"
+  },
+  "home": {
+    "metaTitle": "iCat Studios — Mobilapp- og spillutvikling",
+    "metaDescription": "iCat Studios er et team for mobilapp- og spillutvikling etablert i Türkiye, med fokus på innovasjon og kreativitet.",
+    "heroEyebrow": "Innovasjon møter kreativitet",
+    "heroTitleLine1": "Mobilapper &",
+    "heroTitleLine2": "Spillutvikling",
+    "heroSubtitle": "iCat Studios er et team for mobilapp- og spillutvikling etablert i Türkiye, med fokus på innovasjon og kreativitet.",
+    "ctaPrimary": "Våre produkter",
+    "ctaSecondary": "Kontakt oss",
+    "productsSectionTitle": "Våre produkter",
+    "productsSectionSubtitle": "Sjekk ut hva vi har laget",
+    "comingSoon": "Kommer snart",
+    "explore": "Utforsk"
+  },
+  "heroStats": {
+    "downloadsLabel": "Nedlastinger",
+    "downloadsValue": "2M+",
+    "appsLabel": "Apper utgitt",
+    "appsValue": "7 produkter",
+    "foundedLabel": "Grunnlagt",
+    "foundedValue": "Siden 2016",
+    "locationLabel": "Basert i",
+    "locationValue": "Türkiye"
+  },
+  "products": {
+    "metaTitle": "Produkter",
+    "metaDescription": "Utforsk våre mobilapper og spill.",
+    "pageTitle": "Produkter",
+    "pageSubtitle": "Våre mobilapper og spill",
+    "downloads": "1 000 000+ Nedlastinger",
+    "comingSoon": "Kommer snart",
+    "potentials": {
+      "name": "Potentials: FC26 Career Mode",
+      "description1": "Dekker alle FIFA-FC-versjoner fra FIFA 18 til FC 26, med detaljert data om mer enn 50 000 mannlige og kvinnelige fotballspillere og nesten 1 000 klubber — verdens mest omfattende og mest nedlastede app for FC karrieremodi.",
+      "description2": "Med Potentials kan du filtrere spillere etter total/potensiell vurdering, alder, markedsverdi, posisjon, attributter, klubb, liga, nasjonalitet og mer. Bygg lag, sammenlign teamdetaljer — og mye mer, kun i denne appen.",
+      "shortDescription": "Verdens mest populære følgesapp for FC-karrieremodi."
+    },
+    "fastAndBlocky": {
+      "name": "Fast and Blocky",
+      "description": "Et endeløst motorsykkel-racerspill der du unngår tilfeldig generert trafikk i høy hastighet. Naviger gjennom trafikken uten å krasje med kjøretøy!",
+      "shortDescription": "Endeløs motorsykkel-racing — unngå trafikk i høy hastighet."
+    },
+    "scoreHunter": {
+      "name": "Score Hunter",
+      "tagline": "Ikke betting — et fotballtippespill!",
+      "description1": "Score Hunter er et gratis fotballtippespill med belønninger. Du trenger ikke betale for å delta eller vinne premier. Ingen risiko! Ingen betting-terminologi! Alt du trenger er din lidenskap for fotball!",
+      "description2": "Forutsi kampresultater eller hendelser i kampen med morsomme minispill. Klatre til toppen av ukentlige og sesongbaserte topplister med poengene du samler. Trofeer og overraskelsesgevinster venter på deg!",
+      "learnMore": "Besøk scorehunter.app",
+      "newBadge": "Ny",
+      "shortDescription": "Tippespill med belønninger for fotballfans!"
+    }
+  },
+  "comingSoonBadges": {
+    "statusLabel": "Kommer snart",
+    "downloadOn": "Last ned i",
+    "getItOn": "Hent på"
+  },
+  "privacyPolicy": {
+    "metaTitle": "Personvernerklæring",
+    "metaDescription": "iCat Studios Personvernerklæring",
+    "title": "Personvernerklæring",
+    "subtitle": "Personvernet ditt er viktig for oss",
+    "intro": "iCat Studios bygde appene listet nedenfor som gratis apper:",
+    "appsList": [
+      "Potentials: FC26 Career Mode",
+      "Score Hunter",
+      "Fast and Blocky"
+    ],
+    "p1": "Disse TJENESTENE leveres av iCat Studios uten kostnad og er ment for bruk som de er.",
+    "p2": "Denne siden brukes til å informere besøkende på nettstedet om våre retningslinjer for innsamling, bruk og avsløring av personlig informasjon hvis noen bestemmer seg for å bruke vår tjeneste.",
+    "p3": "Hvis du velger å bruke våre tjenester, samtykker du til innsamling og bruk av informasjon i forhold til disse retningslinjene. Den personlige informasjonen vi samler inn brukes til å levere og forbedre tjenesten. Vi vil ikke bruke eller dele informasjonen din med noen andre enn som beskrevet i denne personvernerklæringen.",
+    "p4": "Begrepene som brukes i denne personvernerklæringen har samme betydning som i våre vilkår og betingelser, med mindre annet er definert.",
+    "infoCollectionTitle": "Innsamling og bruk av informasjon",
+    "infoCollection1": "For en bedre opplevelse kan vi, mens du bruker vår tjeneste, kreve at du gir oss visse personlig identifiserbare opplysninger. Informasjonen vi ber om vil bli oppbevart av oss og brukt som beskrevet i denne personvernerklæringen.",
+    "infoCollection2": "Appen bruker tredjepartstjenester som kan samle inn informasjon som brukes til å identifisere deg.",
+    "infoCollection3": "Lenke til personvernerklæringen til tredjeparts tjenesteleverandører som brukes av appen:",
+    "thirdParties": [
+      "Google Play Services",
+      "AdMob",
+      "Firebase Analytics"
+    ],
+    "logDataTitle": "Loggdata",
+    "logData": "Vi vil informere deg om at hver gang du bruker vår tjeneste, i tilfelle en feil i appen, samler vi inn data og informasjon (gjennom tredjepartsprodukter) på telefonen din kalt loggdata. Disse loggdataene kan inkludere informasjon som enhetens IP-adresse, enhetsnavn, operativsystemversjon, app-konfigurasjon, dato og klokkeslett for bruk og andre statistikker.",
+    "cookiesTitle": "Informasjonskapsler",
+    "cookies1": "Informasjonskapsler er filer med en liten mengde data som ofte brukes som anonyme unike identifikatorer. De sendes til nettleseren din fra nettsidene du besøker og lagres i enhetens interne minne.",
+    "cookies2": "Denne tjenesten bruker ikke disse «informasjonskapslene» eksplisitt. Appen kan imidlertid bruke tredjepartskode og biblioteker som bruker «informasjonskapsler» for å samle informasjon og forbedre tjenestene sine. Du har muligheten til å akseptere eller avvise disse informasjonskapslene. Hvis du velger å avvise våre informasjonskapsler, vil du kanskje ikke kunne bruke noen deler av denne tjenesten.",
+    "serviceProvidersTitle": "Tjenesteleverandører",
+    "serviceProviders1": "Vi kan benytte tredjepartsselskaper og enkeltpersoner av følgende grunner:",
+    "serviceProvidersReasons": [
+      "For å lette tjenesten vår",
+      "For å levere tjenesten på våre vegne",
+      "For å utføre tjenesterelaterte tjenester",
+      "For å hjelpe oss med å analysere hvordan tjenesten vår brukes"
+    ],
+    "serviceProviders2": "Vi vil informere brukerne av denne tjenesten om at disse tredjepartene har tilgang til din personlige informasjon. Årsaken er å utføre oppgavene som er tildelt dem på våre vegne. Imidlertid er de forpliktet til ikke å avsløre eller bruke informasjonen til andre formål.",
+    "securityTitle": "Sikkerhet",
+    "security": "Vi setter pris på din tillit i å gi oss din personlige informasjon, derfor streber vi etter å bruke kommersielt akseptable midler for å beskytte den. Men husk at ingen overføringsmetode over internett eller elektronisk lagring er 100% sikker og pålitelig, og vi kan ikke garantere absolutt sikkerhet.",
+    "linksTitle": "Lenker til andre nettsteder",
+    "links": "Denne tjenesten kan inneholde lenker til andre nettsteder. Hvis du klikker på en tredjepartslenke, blir du dirigert til det nettstedet. Vær oppmerksom på at disse eksterne nettstedene ikke drives av oss. Derfor anbefaler vi sterkt at du gjennomgår personvernerklæringen til disse nettstedene. Vi har ingen kontroll over og påtar oss intet ansvar for innholdet, personvernerklæringene eller praksisene til tredjeparts nettsteder eller tjenester.",
+    "childrenTitle": "Barns personvern",
+    "children": "Disse tjenestene er ikke rettet mot personer under 13 år. Vi samler ikke bevisst inn personlig identifiserbar informasjon fra barn under 13 år. I tilfelle vi oppdager at et barn under 13 år har gitt oss personlig informasjon, sletter vi den umiddelbart fra serverne våre. Hvis du er forelder eller verge og er klar over at barnet ditt har gitt oss personlig informasjon, vennligst kontakt oss.",
+    "changesTitle": "Endringer i denne personvernerklæringen",
+    "changes": "Vi kan oppdatere personvernerklæringen vår fra tid til annen. Du anbefales derfor å gjennomgå denne siden regelmessig for endringer. Vi vil varsle deg om eventuelle endringer ved å legge ut den nye personvernerklæringen på denne siden. Disse endringene trer i kraft umiddelbart etter at de er lagt ut på denne siden.",
+    "contactTitle": "Kontakt oss",
+    "contact": "Hvis du har spørsmål eller forslag om personvernerklæringen vår, ikke nøl med å kontakte oss.",
+    "copyright": "Copyright © 2022 - Alle rettigheter forbeholdt."
+  },
+  "termOfUse": {
+    "metaTitle": "Bruksvilkår",
+    "metaDescription": "iCat Studios Bruksvilkår",
+    "title": "Bruksvilkår",
+    "subtitle": "Vennligst les nøye før du bruker våre tjenester",
+    "appName": "Potentials: FC26 Career Mode",
+    "licenseTitle": "Lisensavtale — Bruksvilkår",
+    "intro1": "Følgende vilkår og betingelser («Vilkår») regulerer all bruk av Potentials: FC26 Career Mode-applikasjonen og alt innhold, tjenester og produkter tilgjengelig på eller gjennom nettstedet og våre applikasjoner, inkludert, men ikke begrenset til, Pro-modus i Potentials: FC26 Career Mode iOS- og Android-applikasjonen (samlet, våre «Tjenester»). Våre tjenester tilbys med forbehold om din aksept uten endring av alle vilkår og betingelser som er angitt heri og alle andre driftsregler, retningslinjer (inkludert, uten begrensning, iCat Studios' personvernerklæring) og prosedyrer som kan publiseres fra tid til annen av iCat Studios (samlet «Avtalen»). Du godtar at vi kan oppgradere våre tjenester automatisk, og disse vilkårene vil gjelde for alle oppgraderinger. Din avtale er med iCat Studios (TR).",
+    "intro2": "Vennligst les denne avtalen nøye før du får tilgang til eller bruker våre tjenester. Ved å få tilgang til eller bruke noen del av våre tjenester, godtar du å være bundet av vilkårene i denne avtalen.",
+    "intro3": "Våre tjenester er ikke rettet mot barn under 3 år, og tilgang og bruk av våre tjenester tilbys kun til brukere på 3 år eller eldre.",
+    "intro4": "Bruk av våre tjenester krever en Potentials: FC26 Career Mode-konto. Du godtar å gi oss fullstendig og nøyaktig informasjon når du registrerer deg for en konto.",
+    "section1Title": "1. Potentials: FC26 Career Mode-applikasjon",
+    "section1": "Hvis du oppretter en konto, vurdering, lag eller annet materiale på Potentials: FC26 Career Mode-applikasjonen, er du ansvarlig for å opprettholde sikkerheten til kontoen din og er fullt ansvarlig for all aktivitet som skjer under kontoen.",
+    "paymentTitle": "Betaling og fornyelse — Generelle vilkår",
+    "payment1": "Valgfrie betalte tjenester som fjerning av reklame er tilgjengelige (slike tjenester er en «Oppgradering» til Potentials: FC26 Career Mode Pro Mode-abonnement) i våre mobile applikasjoner. Ved å velge en oppgradering godtar du å betale iCat Studios de månedlige eller årlige abonnementsavgiftene som er angitt for den tjenesten.",
+    "paymentProLabel": "Potentials: FC26 Career Mode iOS-applikasjonsvilkår — Potentials Pro Mode-abonnement:",
+    "paymentProBullets": [
+      "Ingen reklame",
+      "Alle databaser låst opp"
+    ],
+    "payment2": "En reklamefri opplevelse betyr at vi vil fjerne all reklame inkludert banneret nederst, helskjermreklamen og den utvidede favorittlisten. Betalingen vil bli belastet iTunes-kontoen ved kjøpsbekreftelse. Abonnementet fornyes automatisk med mindre automatisk fornyelse er slått av minst 24 timer før slutten av gjeldende periode.",
+    "section2Title": "2. Besøkendes ansvar",
+    "section2": "iCat Studios har ikke gjennomgått, og kan ikke gjennomgå, alt materiale, inkludert dataprogrammer, lagt ut på våre tjenester, og kan derfor ikke være ansvarlig for det materialets innhold, bruk eller virkninger.",
+    "section3Title": "3. Immaterielle rettigheter",
+    "section3": "Denne avtalen overfører ikke noen iCat Studios eller tredjeparts immaterielle rettigheter fra iCat Studios til deg, og alle rettigheter, titler og interesser i og til slik eiendom vil forbli (mellom partene) utelukkende hos iCat Studios.",
+    "section4Title": "4. Endringer",
+    "section4": "Vi oppdaterer stadig våre tjenester, og det betyr at vi noen ganger må endre de juridiske vilkårene som våre tjenester tilbys under. Hvis vi gjør endringer som er vesentlige, vil vi gi deg beskjed ved å legge dem ut på nettstedet vårt eller sende deg en e-post eller annen kommunikasjon før endringene trer i kraft.",
+    "section5Title": "5. Oppsigelse",
+    "section5": "iCat Studios kan avslutte din tilgang til hele eller deler av våre tjenester når som helst, med eller uten grunn, med eller uten varsel, med umiddelbar virkning. Hvis du ønsker å avslutte denne avtalen eller din Potentials: FC26 Career Mode-konto (hvis du har en), kan du ganske enkelt slutte å bruke våre tjenester.",
+    "section6Title": "6. Garantifraskrivelse",
+    "section6": "Våre tjenester leveres «som de er». iCat Studios og dets leverandører og lisensgivere fraskriver seg herved alle garantier av noe slag, uttrykte eller underforståtte, inkludert, uten begrensning, garantier om salgbarhet, egnethet for et bestemt formål og ikke-krenkelse.",
+    "section7Title": "7. Jurisdiksjon og gjeldende lov",
+    "section7": "Bortsett fra i den grad gjeldende lov, hvis noen, gir noe annet, vil denne avtalen, all tilgang til eller bruk av våre tjenester være underlagt lovene i Türkiye, unntatt dens lovkonfliktbestemmelser, og det riktige stedet for tvister som oppstår av eller i forbindelse med noen av samme vil være de statlige domstolene som befinner seg i Europa, Türkiye.",
+    "section8Title": "8. Begrensning av ansvar",
+    "section8": "I intet tilfelle vil iCat Studios, eller dets leverandører eller lisensgivere, være ansvarlige med hensyn til ethvert emne i denne avtalen under enhver kontrakt, uaktsomhet, objektivt ansvar eller annen juridisk eller rettferdig teori for: (i) noen spesielle, tilfeldige eller følgeskader; (ii) kostnaden for anskaffelse av erstatningsprodukter eller -tjenester; (iii) for avbrudd i bruk eller tap eller skade på data; eller (iv) for beløp som overstiger gebyrene betalt av deg til iCat Studios under denne avtalen i løpet av tolv (12) måneder før årsaken til handlingen.",
+    "section9Title": "9. Generell representasjon og garanti",
+    "section9": "Du representerer og garanterer at (i) din bruk av våre tjenester vil være i streng samsvar med iCat Studios' personvernerklæring, med denne avtalen og med alle gjeldende lover og forskrifter og (ii) din bruk av våre tjenester ikke vil krenke eller misbruke immaterielle rettigheter til noen tredjepart.",
+    "section10Title": "10. Skadesløsholdelse",
+    "section10": "Du godtar å holde iCat Studios, dets entreprenører og dets lisensgivere, og deres respektive direktører, ledere, ansatte og agenter skadesløse fra og mot alle krav og utgifter, inkludert advokathonorarer, som oppstår fra din bruk av våre tjenester, inkludert, men ikke begrenset til, ditt brudd på denne avtalen.",
+    "section11Title": "11. Oversettelse",
+    "section11": "Disse tjenestevilkårene ble opprinnelig skrevet på engelsk (US). Vi kan oversette disse vilkårene til andre språk. I tilfelle konflikt mellom en oversatt versjon av disse tjenestevilkårene og den engelske versjonen, vil den engelske versjonen ha forrang.",
+    "section12Title": "12. Diverse",
+    "section12a": "Denne avtalen utgjør hele avtalen mellom iCat Studios og deg om emnet heri, og de kan bare endres ved en skriftlig endring signert av en autorisert leder av iCat Studios, eller ved publikasjonen av iCat Studios av en revidert versjon.",
+    "section12b": "Hvis noen del av denne avtalen anses ugyldig eller ikke kan håndheves, vil den delen bli tolket for å gjenspeile partenes opprinnelige hensikt, og de gjenværende delene vil forbli i full kraft og virkning.",
+    "section13Title": "13. Bruk av Potentials: FC26 Career Mode-applikasjoner, servere og prisdata",
+    "section13": "Med mindre du har skriftlig tillatelse fra Potentials: FC26 Career Mode, har du ikke lov til å skrape, automatisere eller bruke vår API på noen av Player Potentials-domenene, inkludert underdomener. Du har ikke lov til å bruke våre prisdata til kommersiell bruk eller betalt tjeneste.",
+    "copyright": "Copyright © 2022 - Alle rettigheter forbeholdt."
+  },
+  "footer": {
+    "tagline": "Mobilapp- og spillutvikling",
+    "linksHeading": "Lenker",
+    "contactHeading": "Kontakt oss",
+    "copyright": "iCat Studios. Alle rettigheter forbeholdt."
+  },
+  "common": {
+    "backToTop": "Tilbake til toppen",
+    "language": "Språk"
+  }
+}

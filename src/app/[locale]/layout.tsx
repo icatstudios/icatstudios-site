@@ -5,7 +5,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { routing } from "@/i18n/routing";
+import { routing, rtlLocales } from "@/i18n/routing";
 import "../globals.css";
 
 const poppins = Poppins({
@@ -52,10 +52,9 @@ export async function generateMetadata({
     },
     alternates: {
       canonical: `/${locale}`,
-      languages: {
-        en: "/en",
-        tr: "/tr",
-      },
+      languages: Object.fromEntries(
+        routing.locales.map((l) => [l, `/${l}`])
+      ),
     },
   };
 }
@@ -74,10 +73,12 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
+  const dir = rtlLocales.has(locale) ? "rtl" : "ltr";
 
   return (
     <html
       lang={locale}
+      dir={dir}
       className={`${poppins.variable} h-full antialiased`}
       suppressHydrationWarning
     >
