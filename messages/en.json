@@ -164,5 +164,10 @@
   "common": {
     "backToTop": "Back to top",
     "language": "Language"
+  },
+  "comingSoonBadges": {
+    "statusLabel": "Coming soon",
+    "downloadOn": "Download on the",
+    "getItOn": "Get it on"
   }
 }

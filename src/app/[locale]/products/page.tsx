@@ -202,6 +202,7 @@ export default async function ProductsPage({ params }: Props) {
 
               <StoreBadges
                 appStoreUrl={SCOREHUNTER_APP_STORE_URL}
+                appStoreComingSoon={!SCOREHUNTER_APP_STORE_URL}
                 playStoreUrl={SCOREHUNTER_PLAY_STORE_URL}
                 accent={SCOREHUNTER_ACCENT}
               />

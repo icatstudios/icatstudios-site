@@ -164,5 +164,10 @@
   "common": {
     "backToTop": "Yukarı çık",
     "language": "Dil"
+  },
+  "comingSoonBadges": {
+    "statusLabel": "Çok yakında",
+    "downloadOn": "İndir",
+    "getItOn": "İndir"
   }
 }

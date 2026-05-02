@@ -1,6 +1,12 @@
+import { getTranslations } from "next-intl/server";
+
 interface StoreBadgesProps {
   appStoreUrl?: string;
   playStoreUrl?: string;
+  /** Render an "Coming Soon" disabled-looking App Store badge (no link). */
+  appStoreComingSoon?: boolean;
+  /** Render an "Coming Soon" disabled-looking Google Play badge (no link). */
+  playStoreComingSoon?: boolean;
   /** Theme accent color for border/glow — defaults to brand teal */
   accent?: string;
 }
@@ -29,12 +35,16 @@ function GooglePlayIcon() {
   );
 }
 
-export default function StoreBadges({
+export default async function StoreBadges({
   appStoreUrl,
   playStoreUrl,
+  appStoreComingSoon = false,
+  playStoreComingSoon = false,
   accent = "#2fbbb3",
 }: StoreBadgesProps) {
-  const cardStyle = {
+  const t = await getTranslations("comingSoonBadges");
+
+  const baseStyle = {
     color: "rgba(255,255,255,0.92)",
     borderColor: `${accent}55`,
     background: "rgba(18,18,26,0.6)",
@@ -42,15 +52,22 @@ export default function StoreBadges({
     ["--btn-color" as string]: accent,
   } as React.CSSProperties;
 
+  /** Same card visuals but dimmed and non-interactive — for "Coming Soon" states. */
+  const comingSoonStyle = {
+    ...baseStyle,
+    boxShadow: `0 0 16px ${accent}12, inset 0 1px 0 rgba(255,255,255,0.04)`,
+  } as React.CSSProperties;
+
   return (
     <div className="flex flex-wrap gap-3">
-      {appStoreUrl && (
+      {/* ---------- App Store ---------- */}
+      {appStoreUrl ? (
         <a
           href={appStoreUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="themed-btn group inline-flex items-center gap-3 rounded-xl border px-4 py-2.5 backdrop-blur"
-          style={cardStyle}
+          style={baseStyle}
         >
           <AppleIcon />
           <span className="flex flex-col leading-tight text-left">
@@ -60,14 +77,30 @@ export default function StoreBadges({
             <span className="text-sm font-semibold">App Store</span>
           </span>
         </a>
-      )}
-      {playStoreUrl && (
+      ) : appStoreComingSoon ? (
+        <span
+          className="inline-flex cursor-default select-none items-center gap-3 rounded-xl border px-4 py-2.5 opacity-60 backdrop-blur transition-opacity hover:opacity-80"
+          style={comingSoonStyle}
+          aria-label="App Store coming soon"
+        >
+          <AppleIcon />
+          <span className="flex flex-col leading-tight text-left">
+            <span className="text-[9px] uppercase tracking-[0.18em] text-zinc-400">
+              {t("statusLabel")}
+            </span>
+            <span className="text-sm font-semibold">App Store</span>
+          </span>
+        </span>
+      ) : null}
+
+      {/* ---------- Google Play ---------- */}
+      {playStoreUrl ? (
         <a
           href={playStoreUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="themed-btn group inline-flex items-center gap-3 rounded-xl border px-4 py-2.5 backdrop-blur"
-          style={cardStyle}
+          style={baseStyle}
         >
           <GooglePlayIcon />
           <span className="flex flex-col leading-tight text-left">
@@ -77,7 +110,21 @@ export default function StoreBadges({
             <span className="text-sm font-semibold">Google Play</span>
           </span>
         </a>
-      )}
+      ) : playStoreComingSoon ? (
+        <span
+          className="inline-flex cursor-default select-none items-center gap-3 rounded-xl border px-4 py-2.5 opacity-60 backdrop-blur transition-opacity hover:opacity-80"
+          style={comingSoonStyle}
+          aria-label="Google Play coming soon"
+        >
+          <GooglePlayIcon />
+          <span className="flex flex-col leading-tight text-left">
+            <span className="text-[9px] uppercase tracking-[0.18em] text-zinc-400">
+              {t("statusLabel")}
+            </span>
+            <span className="text-sm font-semibold">Google Play</span>
+          </span>
+        </span>
+      ) : null}
     </div>
   );
 }
