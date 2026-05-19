@@ -27,6 +27,15 @@ export default async function Home({ params }: Props) {
       isNew: true,
     },
     {
+      key: "swapmap",
+      name: tProducts("swapMap.name"),
+      shortDescription: tProducts("swapMap.shortDescription"),
+      icon: "/images/swapmap/swapmap_icon.png",
+      href: "/products#swapmap",
+      accent: "#06b6d4",
+      comingSoon: true,
+    },
+    {
       key: "potentials",
       name: tProducts("potentials.name"),
       shortDescription: tProducts("potentials.shortDescription"),
@@ -178,7 +187,7 @@ export default async function Home({ params }: Props) {
           <div className="mx-auto mt-6 h-px w-24 divider-fade" />
         </Reveal>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((product, i) => (
             <Reveal key={product.key} delay={i * 120}>
               <Link
@@ -207,6 +216,18 @@ export default async function Home({ params }: Props) {
                     }}
                   >
                     {locale === "tr" ? "Yeni" : "New"}
+                  </span>
+                )}
+                {product.comingSoon && (
+                  <span
+                    className="absolute top-4 right-4 rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
+                    style={{
+                      color: product.accent,
+                      borderColor: `${product.accent}66`,
+                      background: `${product.accent}1a`,
+                    }}
+                  >
+                    {t("comingSoon")}
                   </span>
                 )}
 

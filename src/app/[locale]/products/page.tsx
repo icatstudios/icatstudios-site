@@ -69,6 +69,7 @@ function getScoreHunterScreenshots(locale: string): string[] {
 const POTENTIALS_ACCENT = "#a855f7";
 const FASTBLOCKY_ACCENT = "#ff6b4a";
 const SCOREHUNTER_ACCENT = "#14f174";
+const SWAPMAP_ACCENT = "#06b6d4";
 
 // TODO: add App Store URL when iOS approval is complete
 const SCOREHUNTER_APP_STORE_URL: string | undefined = undefined;
@@ -245,6 +246,89 @@ export default async function ProductsPage({ params }: Props) {
                 accent={SCOREHUNTER_ACCENT}
               />
             </div>
+          </div>
+        </Reveal>
+      </section>
+
+      <div className="mx-auto max-w-4xl px-6">
+        <div className="divider-fade" />
+      </div>
+
+      {/* ============ SwapMap (Coming Soon) ============ */}
+      <section
+        id="swapmap"
+        className="relative scroll-mt-20 overflow-hidden px-6 py-20"
+      >
+        {/* Themed background — cyan + secondary teal */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 overflow-hidden"
+        >
+          <div
+            className="absolute -top-32 -left-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-40 animate-pulse-glow"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(6,182,212,0.32), transparent 70%)",
+            }}
+          />
+          <div
+            className="absolute -bottom-32 -right-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-35 animate-pulse-glow-delayed"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(34,211,238,0.28), transparent 70%)",
+            }}
+          />
+        </div>
+
+        <Reveal className="relative z-10 mx-auto max-w-3xl text-center">
+          <div className="relative mx-auto h-32 w-32 sm:h-36 sm:w-36">
+            <div
+              className="absolute inset-0 rounded-[28%] blur-3xl opacity-70 animate-pulse-glow"
+              style={{ background: SWAPMAP_ACCENT }}
+            />
+            <Image
+              src="/images/swapmap/swapmap_icon.png"
+              alt={t("swapMap.name")}
+              width={144}
+              height={144}
+              className="relative rounded-[28%] ring-1 ring-white/10"
+            />
+          </div>
+
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
+              {t("swapMap.name")}
+            </h2>
+            <span
+              className="rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
+              style={{
+                color: SWAPMAP_ACCENT,
+                borderColor: `${SWAPMAP_ACCENT}66`,
+                background: `${SWAPMAP_ACCENT}1a`,
+              }}
+            >
+              {t("swapMap.comingSoonStatus")}
+            </span>
+          </div>
+
+          <p
+            className="mt-4 text-sm font-semibold uppercase tracking-[0.2em]"
+            style={{ color: SWAPMAP_ACCENT }}
+          >
+            {t("swapMap.tagline")}
+          </p>
+
+          <div className="mt-6 space-y-4 text-left leading-relaxed text-zinc-400">
+            <p>{t("swapMap.description1")}</p>
+            <p>{t("swapMap.description2")}</p>
+          </div>
+
+          <div className="mt-8 flex justify-center">
+            <StoreBadges
+              appStoreComingSoon
+              playStoreComingSoon
+              accent={SWAPMAP_ACCENT}
+            />
           </div>
         </Reveal>
       </section>

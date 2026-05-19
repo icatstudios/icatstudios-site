@@ -55,6 +55,14 @@
       "learnMore": "Visitar scorehunter.app",
       "newBadge": "Nuevo",
       "shortDescription": "Juego de pronósticos con premios para los aficionados al fútbol."
+    },
+    "swapMap": {
+      "name": "SwapMap: Cards, Stickers, TCG",
+      "tagline": "Intercambia. Vende. Colecciona. Todo en un solo mapa.",
+      "description1": "La plataforma de intercambio y venta más completa del mundo para colecciones, cartas, stickers y productos TCG. Con SwapMap puedes poner a la venta o al intercambio los artículos extra de tu colección y publicar anuncios para los productos que estás buscando.",
+      "description2": "Sigue los anuncios en el mapa y conecta fácilmente con otros coleccionistas cercanos. Filtros avanzados, interfaz sencilla. Desde lo más cerca hasta lo más lejos — todo bajo un mismo techo. Eso es lo que hace único a SwapMap.",
+      "comingSoonStatus": "Próximamente",
+      "shortDescription": "La primera plataforma global de intercambio y venta de colecciones, cartas, stickers y TCG."
     }
   },
   "comingSoonBadges": {

@@ -55,6 +55,14 @@
       "learnMore": "Navštivte scorehunter.app",
       "newBadge": "Nové",
       "shortDescription": "Tipovací hra s odměnami pro fotbalové fanoušky!"
+    },
+    "swapMap": {
+      "name": "SwapMap: Cards, Stickers, TCG",
+      "tagline": "Vyměňuj. Prodávej. Sbírej. Vše na jedné mapě.",
+      "description1": "Nejkomplexnější platforma na světě pro výměnu a prodej sběratelských předmětů, karet, samolepek a TCG produktů. Se SwapMap můžeš nabídnout své přebytečné kousky k prodeji nebo výměně a podat inzeráty na předměty, které hledáš.",
+      "description2": "Sleduj inzeráty na mapě a snadno se spoj s dalšími sběrateli ve svém okolí. Pokročilé filtry, jednoduché rozhraní. Od nejbližšího po nejvzdálenější — vše pod jednou střechou. Právě to dělá SwapMap jedinečným.",
+      "comingSoonStatus": "Již brzy",
+      "shortDescription": "První globální platforma pro výměnu a prodej sběratelských předmětů, karet, samolepek a TCG."
     }
   },
   "comingSoonBadges": {

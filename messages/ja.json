@@ -55,6 +55,14 @@
       "learnMore": "scorehunter.appを見る",
       "newBadge": "新規",
       "shortDescription": "サッカーファンのための報酬付き予想ゲーム！"
+    },
+    "swapMap": {
+      "name": "SwapMap: Cards, Stickers, TCG",
+      "tagline": "交換、販売、コレクション。すべてが一つの地図に。",
+      "description1": "コレクション、カード、ステッカー、TCG製品のための世界で最も包括的な交換・販売プラットフォーム。SwapMapを使えば、余ったコレクション品を販売または交換に出したり、探している商品の募集広告を出したりできます。",
+      "description2": "地図上で出品をチェックし、近くの他のコレクターと簡単につながれます。高度なフィルター、使いやすいインターフェース。最も近いところから最も遠いところまで — すべてが一つ屋根の下に。それこそがSwapMapを最高にしている理由です。",
+      "comingSoonStatus": "近日公開",
+      "shortDescription": "コレクション、カード、ステッカー、TCGのための世界初のグローバル交換・販売プラットフォーム。"
     }
   },
   "comingSoonBadges": {

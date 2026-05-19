@@ -55,6 +55,14 @@
       "learnMore": "Besök scorehunter.app",
       "newBadge": "Ny",
       "shortDescription": "Tipsspel med belöningar för fotbollsfans!"
+    },
+    "swapMap": {
+      "name": "SwapMap: Cards, Stickers, TCG",
+      "tagline": "Byt. Sälj. Samla. Allt på en karta.",
+      "description1": "Världens mest omfattande plattform för byte och försäljning av samlingar, kort, klistermärken och TCG-produkter. Med SwapMap kan du lägga ut dina extra samlarobjekt till försäljning eller byte och skapa sökes-annonser för de föremål du letar efter.",
+      "description2": "Följ annonser på kartan och kom enkelt i kontakt med andra samlare i din närhet. Avancerade filter, enkelt gränssnitt. Från det närmaste till det längsta — allt under ett tak. Det är det som gör SwapMap unikt.",
+      "comingSoonStatus": "Kommer snart",
+      "shortDescription": "Världens första globala plattform för byte och försäljning av samlingar, kort, klistermärken och TCG."
     }
   },
   "comingSoonBadges": {

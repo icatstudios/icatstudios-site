@@ -55,6 +55,14 @@
       "learnMore": "Bezoek scorehunter.app",
       "newBadge": "Nieuw",
       "shortDescription": "Voorspellingsspel met beloningen voor voetbalfans!"
+    },
+    "swapMap": {
+      "name": "SwapMap: Cards, Stickers, TCG",
+      "tagline": "Ruil. Verkoop. Verzamel. Alles op één kaart.",
+      "description1": "’s Werelds meest uitgebreide ruil- en verkoopplatform voor verzamelingen, kaarten, stickers en TCG-producten. Met SwapMap bied je je extra verzamelitems te koop of in ruil aan en plaats je gezocht-advertenties voor de items die je zoekt.",
+      "description2": "Volg advertenties op de kaart en kom eenvoudig in contact met andere verzamelaars bij jou in de buurt. Geavanceerde filters, eenvoudige interface. Van dichtbij tot ver weg — alles onder één dak. Dát maakt SwapMap uniek.",
+      "comingSoonStatus": "Binnenkort",
+      "shortDescription": "’s Werelds eerste wereldwijde ruil- en verkoopplatform voor verzamelingen, kaarten, stickers en TCG."
     }
   },
   "comingSoonBadges": {
