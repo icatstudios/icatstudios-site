@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "Zpět nahoru",
     "language": "Jazyk"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Vyberte aplikaci pro zobrazení zásad ochrany osobních údajů",
+    "selectAppTerms": "Vyberte aplikaci pro zobrazení podmínek použití",
+    "viewPolicy": "Zobrazit zásady ochrany osobních údajů",
+    "viewTerms": "Zobrazit podmínky použití",
+    "externalNote": "Hostováno na scorehunter.app",
+    "backToList": "Zpět na všechny zásady",
+    "backToListTerms": "Zpět na všechny podmínky"
   }
 }

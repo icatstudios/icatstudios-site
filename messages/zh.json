@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "返回顶部",
     "language": "语言"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "选择一个应用查看其隐私政策",
+    "selectAppTerms": "选择一个应用查看其使用条款",
+    "viewPolicy": "查看隐私政策",
+    "viewTerms": "查看使用条款",
+    "externalNote": "托管于 scorehunter.app",
+    "backToList": "返回所有政策",
+    "backToListTerms": "返回所有条款"
   }
 }

@@ -169,5 +169,14 @@
     "statusLabel": "Çok yakında",
     "downloadOn": "İndir",
     "getItOn": "İndir"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Gizlilik politikasını görüntülemek için uygulama seçin",
+    "selectAppTerms": "Kullanım şartlarını görüntülemek için uygulama seçin",
+    "viewPolicy": "Gizlilik politikasını görüntüle",
+    "viewTerms": "Kullanım şartlarını görüntüle",
+    "externalNote": "scorehunter.app üzerinde yayınlanıyor",
+    "backToList": "Tüm politikalara dön",
+    "backToListTerms": "Tüm şartlara dön"
   }
 }

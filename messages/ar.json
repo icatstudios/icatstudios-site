@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "العودة إلى الأعلى",
     "language": "اللغة"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "اختر تطبيقًا لعرض سياسة الخصوصية الخاصة به",
+    "selectAppTerms": "اختر تطبيقًا لعرض شروط الاستخدام الخاصة به",
+    "viewPolicy": "عرض سياسة الخصوصية",
+    "viewTerms": "عرض شروط الاستخدام",
+    "externalNote": "مستضاف على scorehunter.app",
+    "backToList": "العودة إلى جميع السياسات",
+    "backToListTerms": "العودة إلى جميع الشروط"
   }
 }

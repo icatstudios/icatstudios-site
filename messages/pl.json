@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "Powrót do góry",
     "language": "Język"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Wybierz aplikację, aby zobaczyć jej politykę prywatności",
+    "selectAppTerms": "Wybierz aplikację, aby zobaczyć jej warunki użytkowania",
+    "viewPolicy": "Zobacz politykę prywatności",
+    "viewTerms": "Zobacz warunki użytkowania",
+    "externalNote": "Hostowane na scorehunter.app",
+    "backToList": "Powrót do wszystkich polityk",
+    "backToListTerms": "Powrót do wszystkich warunków"
   }
 }

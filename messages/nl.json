@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "Naar boven",
     "language": "Taal"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Kies een app om het privacybeleid te bekijken",
+    "selectAppTerms": "Kies een app om de gebruiksvoorwaarden te bekijken",
+    "viewPolicy": "Privacybeleid bekijken",
+    "viewTerms": "Gebruiksvoorwaarden bekijken",
+    "externalNote": "Gehost op scorehunter.app",
+    "backToList": "Terug naar alle beleidsregels",
+    "backToListTerms": "Terug naar alle voorwaarden"
   }
 }

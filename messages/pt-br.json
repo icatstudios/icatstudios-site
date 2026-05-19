@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "Voltar ao topo",
     "language": "Idioma"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Escolha um aplicativo para ver sua política de privacidade",
+    "selectAppTerms": "Escolha um aplicativo para ver seus termos de uso",
+    "viewPolicy": "Ver política de privacidade",
+    "viewTerms": "Ver termos de uso",
+    "externalNote": "Hospedado em scorehunter.app",
+    "backToList": "Voltar para todas as políticas",
+    "backToListTerms": "Voltar para todos os termos"
   }
 }

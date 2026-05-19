@@ -169,5 +169,14 @@
     "statusLabel": "Coming soon",
     "downloadOn": "Download on the",
     "getItOn": "Get it on"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Choose an app to view its privacy policy",
+    "selectAppTerms": "Choose an app to view its terms of use",
+    "viewPolicy": "View privacy policy",
+    "viewTerms": "View terms of use",
+    "externalNote": "Hosted on scorehunter.app",
+    "backToList": "Back to all policies",
+    "backToListTerms": "Back to all terms"
   }
 }

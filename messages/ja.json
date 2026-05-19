@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "トップに戻る",
     "language": "言語"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "プライバシーポリシーを表示するアプリを選択してください",
+    "selectAppTerms": "利用規約を表示するアプリを選択してください",
+    "viewPolicy": "プライバシーポリシーを表示",
+    "viewTerms": "利用規約を表示",
+    "externalNote": "scorehunter.app でホストされています",
+    "backToList": "すべてのポリシーに戻る",
+    "backToListTerms": "すべての規約に戻る"
   }
 }

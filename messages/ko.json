@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "맨 위로",
     "language": "언어"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "개인정보 처리방침을 보려면 앱을 선택하세요",
+    "selectAppTerms": "이용약관을 보려면 앱을 선택하세요",
+    "viewPolicy": "개인정보 처리방침 보기",
+    "viewTerms": "이용약관 보기",
+    "externalNote": "scorehunter.app에 호스팅됨",
+    "backToList": "모든 정책으로 돌아가기",
+    "backToListTerms": "모든 약관으로 돌아가기"
   }
 }

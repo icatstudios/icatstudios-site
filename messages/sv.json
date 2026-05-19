@@ -169,5 +169,14 @@
   "common": {
     "backToTop": "Tillbaka till toppen",
     "language": "Språk"
+  },
+  "legalIndex": {
+    "selectAppPrivacy": "Välj en app för att se integritetspolicyn",
+    "selectAppTerms": "Välj en app för att se användarvillkoren",
+    "viewPolicy": "Visa integritetspolicy",
+    "viewTerms": "Visa användarvillkor",
+    "externalNote": "Värd på scorehunter.app",
+    "backToList": "Tillbaka till alla policyer",
+    "backToListTerms": "Tillbaka till alla villkor"
   }
 }
