@@ -26,8 +26,8 @@ const APP_CONFIG: Record<
   potentials: {
     nameKey: "potentials.name",
     accent: "#a855f7",
-    // Potentials uses Pro subscription email + optional username
-    fields: { email: true, username: true, notes: true },
+    // Same identity check as Score Hunter — confirm code from app settings
+    fields: { username: true, confirmCode: true, notes: true },
   },
 };
 
