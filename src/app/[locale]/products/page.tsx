@@ -281,17 +281,21 @@ export default async function ProductsPage({ params }: Props) {
         </div>
 
         <Reveal className="relative z-10 mx-auto max-w-3xl text-center">
-          <div className="relative mx-auto h-32 w-32 sm:h-36 sm:w-36">
+          <div className="relative mx-auto h-48 w-48 sm:h-56 sm:w-56">
+            {/* Radial glow behind the pin */}
             <div
-              className="absolute inset-0 rounded-[28%] blur-3xl opacity-70 animate-pulse-glow"
-              style={{ background: SWAPMAP_ACCENT }}
+              aria-hidden
+              className="absolute inset-0 rounded-full blur-3xl opacity-60 animate-pulse-glow"
+              style={{
+                background: `radial-gradient(circle, ${SWAPMAP_ACCENT}66, transparent 70%)`,
+              }}
             />
             <Image
-              src="/images/swapmap/swapmap_icon.png"
+              src="/images/swapmap/swapmap_universal.png"
               alt={t("swapMap.name")}
-              width={144}
-              height={144}
-              className="relative rounded-[28%] ring-1 ring-white/10"
+              width={224}
+              height={224}
+              className="relative animate-float drop-shadow-[0_8px_28px_rgba(6,182,212,0.45)]"
             />
           </div>
 
