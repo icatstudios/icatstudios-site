@@ -95,8 +95,8 @@ export default async function PrivacyPolicyIndex({ params }: Props) {
     {
       slug: "swapmap",
       name: tp("swapMap.name"),
-      icon: "/images/swapmap/swapmap_universal.png",
-      iconShape: "free",
+      icon: "/images/swapmap/swapmap_icon.png",
+      iconShape: "square",
       accent: "#06b6d4",
       external: false,
       href: "/privacy-policy/swapmap",
@@ -146,11 +146,7 @@ export default async function PrivacyPolicyIndex({ params }: Props) {
                   alt={app.name}
                   width={64}
                   height={64}
-                  className={`mb-5 transition-transform duration-500 group-hover:scale-105 ${
-                    app.iconShape === "free"
-                      ? "drop-shadow-[0_4px_18px_rgba(6,182,212,0.4)]"
-                      : "rounded-xl ring-1 ring-white/10"
-                  }`}
+                  className="mb-5 rounded-xl ring-1 ring-white/10 transition-transform duration-500 group-hover:scale-105"
                 />
                 <h2 className="mb-2 text-lg font-semibold text-foreground">
                   {app.name}
