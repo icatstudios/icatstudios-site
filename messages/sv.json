@@ -178,5 +178,26 @@
     "externalNote": "Värd på scorehunter.app",
     "backToList": "Tillbaka till alla policyer",
     "backToListTerms": "Tillbaka till alla villkor"
+  },
+  "deleteAccount": {
+    "metaTitle": "Radera konto",
+    "metaDescription": "Begär radering av ditt iCat Studios-appkonto.",
+    "title": "Radera konto",
+    "subtitle": "Välj en app för att begära kontoradering",
+    "formTitle": "Begäran om kontoradering",
+    "intro": "Fyll i formuläret nedan. Din e-postklient öppnas med ett förifyllt meddelande till support@icatstudios.com.",
+    "usernameLabel": "Användarnamn",
+    "usernamePlaceholder": "Ditt användarnamn i appen",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "Din e-postadress",
+    "confirmCodeLabel": "Bekräftelsekod",
+    "confirmCodePlaceholder": "Från appens inställningar",
+    "confirmCodeHelp": "Öppna appen → Inställningar → Konto → Radera konto för att få din kod.",
+    "notesLabel": "Ytterligare anteckningar (valfritt)",
+    "notesPlaceholder": "Ytterligare information…",
+    "submit": "Skicka begäran",
+    "backToList": "Tillbaka till apparna",
+    "processingNote": "Din begäran behandlas inom 30 dagar. Du får ett bekräftelsemail när ditt konto har raderats.",
+    "mailtoSubject": "Begäran om kontoradering — {app}"
   }
 }

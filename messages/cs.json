@@ -178,5 +178,26 @@
     "externalNote": "Hostováno na scorehunter.app",
     "backToList": "Zpět na všechny zásady",
     "backToListTerms": "Zpět na všechny podmínky"
+  },
+  "deleteAccount": {
+    "metaTitle": "Smazat účet",
+    "metaDescription": "Požádejte o smazání svého účtu v aplikacích iCat Studios.",
+    "title": "Smazat účet",
+    "subtitle": "Vyberte aplikaci pro žádost o smazání účtu",
+    "formTitle": "Žádost o smazání účtu",
+    "intro": "Vyplňte formulář níže. Otevře se váš e-mailový klient s předvyplněnou zprávou pro support@icatstudios.com.",
+    "usernameLabel": "Uživatelské jméno",
+    "usernamePlaceholder": "Vaše uživatelské jméno v aplikaci",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "Vaše e-mailová adresa",
+    "confirmCodeLabel": "Potvrzovací kód",
+    "confirmCodePlaceholder": "Z nastavení aplikace",
+    "confirmCodeHelp": "Otevřete aplikaci → Nastavení → Účet → Smazat účet pro získání kódu.",
+    "notesLabel": "Další poznámky (volitelné)",
+    "notesPlaceholder": "Jakékoli další informace…",
+    "submit": "Odeslat žádost",
+    "backToList": "Zpět na aplikace",
+    "processingNote": "Vaše žádost bude zpracována do 30 dnů. Po smazání účtu obdržíte potvrzovací e-mail.",
+    "mailtoSubject": "Žádost o smazání účtu — {app}"
   }
 }

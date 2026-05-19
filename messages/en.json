@@ -178,5 +178,26 @@
     "externalNote": "Hosted on scorehunter.app",
     "backToList": "Back to all policies",
     "backToListTerms": "Back to all terms"
+  },
+  "deleteAccount": {
+    "metaTitle": "Delete Account",
+    "metaDescription": "Request deletion of your iCat Studios app account.",
+    "title": "Delete Account",
+    "subtitle": "Choose an app to request account deletion",
+    "formTitle": "Account Deletion Request",
+    "intro": "Fill in the form below. This will open your email client with a pre-filled message to support@icatstudios.com.",
+    "usernameLabel": "Username",
+    "usernamePlaceholder": "Your in-app username",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your email address",
+    "confirmCodeLabel": "Confirm Code",
+    "confirmCodePlaceholder": "From app settings",
+    "confirmCodeHelp": "Open the app → Settings → Account → Delete Account to obtain your confirm code.",
+    "notesLabel": "Additional notes (optional)",
+    "notesPlaceholder": "Any additional information…",
+    "submit": "Submit Request",
+    "backToList": "Back to apps",
+    "processingNote": "Your request will be processed within 30 days. You will receive a confirmation email once your account has been deleted.",
+    "mailtoSubject": "Account deletion request — {app}"
   }
 }

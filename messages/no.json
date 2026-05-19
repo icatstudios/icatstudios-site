@@ -178,5 +178,26 @@
     "externalNote": "Hostet på scorehunter.app",
     "backToList": "Tilbake til alle retningslinjer",
     "backToListTerms": "Tilbake til alle vilkår"
+  },
+  "deleteAccount": {
+    "metaTitle": "Slett konto",
+    "metaDescription": "Be om sletting av din iCat Studios-app-konto.",
+    "title": "Slett konto",
+    "subtitle": "Velg en app for å be om sletting av konto",
+    "formTitle": "Forespørsel om sletting av konto",
+    "intro": "Fyll ut skjemaet nedenfor. E-postklienten din vil åpnes med en forhåndsutfylt melding til support@icatstudios.com.",
+    "usernameLabel": "Brukernavn",
+    "usernamePlaceholder": "Brukernavnet ditt i appen",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "E-postadressen din",
+    "confirmCodeLabel": "Bekreftelseskode",
+    "confirmCodePlaceholder": "Fra app-innstillinger",
+    "confirmCodeHelp": "Åpne appen → Innstillinger → Konto → Slett konto for å få bekreftelseskoden.",
+    "notesLabel": "Ytterligere notater (valgfritt)",
+    "notesPlaceholder": "Eventuell ekstra informasjon…",
+    "submit": "Send forespørsel",
+    "backToList": "Tilbake til apper",
+    "processingNote": "Forespørselen behandles innen 30 dager. Du mottar en bekreftelses-e-post når kontoen din er slettet.",
+    "mailtoSubject": "Forespørsel om sletting av konto — {app}"
   }
 }

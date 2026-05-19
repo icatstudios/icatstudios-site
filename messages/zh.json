@@ -178,5 +178,26 @@
     "externalNote": "托管于 scorehunter.app",
     "backToList": "返回所有政策",
     "backToListTerms": "返回所有条款"
+  },
+  "deleteAccount": {
+    "metaTitle": "删除账户",
+    "metaDescription": "请求删除您的 iCat Studios 应用账户。",
+    "title": "删除账户",
+    "subtitle": "选择要请求账户删除的应用",
+    "formTitle": "账户删除请求",
+    "intro": "请填写以下表单。您的邮件客户端将打开，并预先填入发送至 support@icatstudios.com 的邮件。",
+    "usernameLabel": "用户名",
+    "usernamePlaceholder": "您的应用内用户名",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "您的邮箱地址",
+    "confirmCodeLabel": "确认码",
+    "confirmCodePlaceholder": "来自应用设置",
+    "confirmCodeHelp": "打开应用 → 设置 → 账户 → 删除账户 获取您的确认码。",
+    "notesLabel": "其他备注（可选）",
+    "notesPlaceholder": "任何额外信息…",
+    "submit": "提交请求",
+    "backToList": "返回应用列表",
+    "processingNote": "您的请求将在 30 天内处理。账户删除后您将收到确认邮件。",
+    "mailtoSubject": "账户删除请求 — {app}"
   }
 }

@@ -178,5 +178,26 @@
     "externalNote": "scorehunter.app에 호스팅됨",
     "backToList": "모든 정책으로 돌아가기",
     "backToListTerms": "모든 약관으로 돌아가기"
+  },
+  "deleteAccount": {
+    "metaTitle": "계정 삭제",
+    "metaDescription": "iCat Studios 앱 계정 삭제를 요청합니다.",
+    "title": "계정 삭제",
+    "subtitle": "계정 삭제를 요청할 앱을 선택하세요",
+    "formTitle": "계정 삭제 요청",
+    "intro": "아래 양식을 작성해 주세요. 이메일 클라이언트가 support@icatstudios.com 으로 미리 작성된 메시지와 함께 열립니다.",
+    "usernameLabel": "사용자 이름",
+    "usernamePlaceholder": "앱 내 사용자 이름",
+    "emailLabel": "이메일",
+    "emailPlaceholder": "이메일 주소",
+    "confirmCodeLabel": "확인 코드",
+    "confirmCodePlaceholder": "앱 설정에서",
+    "confirmCodeHelp": "앱 → 설정 → 계정 → 계정 삭제 에서 확인 코드를 받으세요.",
+    "notesLabel": "추가 메모 (선택)",
+    "notesPlaceholder": "추가 정보…",
+    "submit": "요청 보내기",
+    "backToList": "앱 목록으로 돌아가기",
+    "processingNote": "요청은 30일 이내에 처리됩니다. 계정이 삭제되면 확인 이메일을 받게 됩니다.",
+    "mailtoSubject": "계정 삭제 요청 — {app}"
   }
 }

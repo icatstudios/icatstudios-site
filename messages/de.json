@@ -178,5 +178,26 @@
     "externalNote": "Gehostet auf scorehunter.app",
     "backToList": "Zurück zu allen Richtlinien",
     "backToListTerms": "Zurück zu allen Bedingungen"
+  },
+  "deleteAccount": {
+    "metaTitle": "Konto löschen",
+    "metaDescription": "Beantrage die Löschung deines iCat Studios App-Kontos.",
+    "title": "Konto löschen",
+    "subtitle": "Wähle eine App, um die Kontolöschung zu beantragen",
+    "formTitle": "Antrag auf Kontolöschung",
+    "intro": "Fülle das untenstehende Formular aus. Dein E-Mail-Programm öffnet sich mit einer vorausgefüllten Nachricht an support@icatstudios.com.",
+    "usernameLabel": "Benutzername",
+    "usernamePlaceholder": "Dein In-App-Benutzername",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "Deine E-Mail-Adresse",
+    "confirmCodeLabel": "Bestätigungscode",
+    "confirmCodePlaceholder": "Aus den App-Einstellungen",
+    "confirmCodeHelp": "Öffne die App → Einstellungen → Konto → Konto löschen, um deinen Bestätigungscode zu erhalten.",
+    "notesLabel": "Zusätzliche Hinweise (optional)",
+    "notesPlaceholder": "Weitere Informationen…",
+    "submit": "Antrag senden",
+    "backToList": "Zurück zu den Apps",
+    "processingNote": "Dein Antrag wird innerhalb von 30 Tagen bearbeitet. Du erhältst eine Bestätigungs-E-Mail, sobald dein Konto gelöscht wurde.",
+    "mailtoSubject": "Antrag auf Kontolöschung — {app}"
   }
 }

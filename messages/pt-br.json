@@ -178,5 +178,26 @@
     "externalNote": "Hospedado em scorehunter.app",
     "backToList": "Voltar para todas as políticas",
     "backToListTerms": "Voltar para todos os termos"
+  },
+  "deleteAccount": {
+    "metaTitle": "Excluir conta",
+    "metaDescription": "Solicite a exclusão da sua conta dos aplicativos iCat Studios.",
+    "title": "Excluir conta",
+    "subtitle": "Escolha um aplicativo para solicitar a exclusão da conta",
+    "formTitle": "Solicitação de exclusão de conta",
+    "intro": "Preencha o formulário abaixo. Seu cliente de e-mail abrirá com uma mensagem pré-preenchida para support@icatstudios.com.",
+    "usernameLabel": "Nome de usuário",
+    "usernamePlaceholder": "Seu nome de usuário no app",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "Seu endereço de e-mail",
+    "confirmCodeLabel": "Código de confirmação",
+    "confirmCodePlaceholder": "Das configurações do app",
+    "confirmCodeHelp": "Abra o app → Configurações → Conta → Excluir conta para obter seu código.",
+    "notesLabel": "Observações adicionais (opcional)",
+    "notesPlaceholder": "Qualquer informação adicional…",
+    "submit": "Enviar solicitação",
+    "backToList": "Voltar para os aplicativos",
+    "processingNote": "Sua solicitação será processada em até 30 dias. Você receberá um e-mail de confirmação quando sua conta for excluída.",
+    "mailtoSubject": "Solicitação de exclusão de conta — {app}"
   }
 }

@@ -178,5 +178,26 @@
     "externalNote": "scorehunter.app üzerinde yayınlanıyor",
     "backToList": "Tüm politikalara dön",
     "backToListTerms": "Tüm şartlara dön"
+  },
+  "deleteAccount": {
+    "metaTitle": "Hesap Sil",
+    "metaDescription": "iCat Studios uygulama hesabınızın silinmesini talep edin.",
+    "title": "Hesap Sil",
+    "subtitle": "Hesap silme talebi için bir uygulama seçin",
+    "formTitle": "Hesap Silme Talebi",
+    "intro": "Aşağıdaki formu doldurun. E-posta istemciniz, support@icatstudios.com adresine önceden doldurulmuş bir mesaj ile açılacaktır.",
+    "usernameLabel": "Kullanıcı Adı",
+    "usernamePlaceholder": "Uygulama içi kullanıcı adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "E-posta adresiniz",
+    "confirmCodeLabel": "Onay Kodu",
+    "confirmCodePlaceholder": "Uygulama ayarlarından",
+    "confirmCodeHelp": "Uygulamayı açın → Ayarlar → Hesap → Hesabı Sil yolunu izleyerek onay kodunuzu alın.",
+    "notesLabel": "Ek notlar (isteğe bağlı)",
+    "notesPlaceholder": "Eklemek istediğiniz herhangi bir bilgi…",
+    "submit": "Talebi Gönder",
+    "backToList": "Uygulamalara dön",
+    "processingNote": "Talebiniz 30 gün içinde işleme alınacaktır. Hesabınız silindiğinde onay e-postası alacaksınız.",
+    "mailtoSubject": "Hesap silme talebi — {app}"
   }
 }

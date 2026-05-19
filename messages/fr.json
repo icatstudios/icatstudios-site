@@ -178,5 +178,26 @@
     "externalNote": "Hébergé sur scorehunter.app",
     "backToList": "Retour à toutes les politiques",
     "backToListTerms": "Retour à toutes les conditions"
+  },
+  "deleteAccount": {
+    "metaTitle": "Supprimer le compte",
+    "metaDescription": "Demander la suppression de votre compte d’application iCat Studios.",
+    "title": "Supprimer le compte",
+    "subtitle": "Choisissez une application pour demander la suppression du compte",
+    "formTitle": "Demande de suppression de compte",
+    "intro": "Remplissez le formulaire ci-dessous. Votre client de messagerie s’ouvrira avec un message pré-rempli adressé à support@icatstudios.com.",
+    "usernameLabel": "Nom d’utilisateur",
+    "usernamePlaceholder": "Votre nom d’utilisateur dans l’app",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "confirmCodeLabel": "Code de confirmation",
+    "confirmCodePlaceholder": "Depuis les paramètres de l’app",
+    "confirmCodeHelp": "Ouvrez l’app → Paramètres → Compte → Supprimer le compte pour obtenir votre code de confirmation.",
+    "notesLabel": "Notes supplémentaires (facultatif)",
+    "notesPlaceholder": "Informations supplémentaires…",
+    "submit": "Envoyer la demande",
+    "backToList": "Retour aux applications",
+    "processingNote": "Votre demande sera traitée dans un délai de 30 jours. Vous recevrez un e-mail de confirmation une fois votre compte supprimé.",
+    "mailtoSubject": "Demande de suppression de compte — {app}"
   }
 }

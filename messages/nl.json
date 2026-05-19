@@ -178,5 +178,26 @@
     "externalNote": "Gehost op scorehunter.app",
     "backToList": "Terug naar alle beleidsregels",
     "backToListTerms": "Terug naar alle voorwaarden"
+  },
+  "deleteAccount": {
+    "metaTitle": "Account verwijderen",
+    "metaDescription": "Vraag de verwijdering van je iCat Studios-app-account aan.",
+    "title": "Account verwijderen",
+    "subtitle": "Kies een app om accountverwijdering aan te vragen",
+    "formTitle": "Aanvraag accountverwijdering",
+    "intro": "Vul het formulier hieronder in. Je e-mailprogramma opent met een vooraf ingevuld bericht aan support@icatstudios.com.",
+    "usernameLabel": "Gebruikersnaam",
+    "usernamePlaceholder": "Je gebruikersnaam in de app",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "Je e-mailadres",
+    "confirmCodeLabel": "Bevestigingscode",
+    "confirmCodePlaceholder": "Uit de app-instellingen",
+    "confirmCodeHelp": "Open de app → Instellingen → Account → Account verwijderen om je code te verkrijgen.",
+    "notesLabel": "Aanvullende opmerkingen (optioneel)",
+    "notesPlaceholder": "Aanvullende informatie…",
+    "submit": "Verzoek indienen",
+    "backToList": "Terug naar apps",
+    "processingNote": "Je verzoek wordt binnen 30 dagen verwerkt. Je ontvangt een bevestigingsmail zodra je account is verwijderd.",
+    "mailtoSubject": "Aanvraag accountverwijdering — {app}"
   }
 }

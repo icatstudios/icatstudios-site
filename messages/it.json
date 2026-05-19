@@ -178,5 +178,26 @@
     "externalNote": "Ospitato su scorehunter.app",
     "backToList": "Torna a tutte le informative",
     "backToListTerms": "Torna a tutti i termini"
+  },
+  "deleteAccount": {
+    "metaTitle": "Elimina account",
+    "metaDescription": "Richiedi l’eliminazione del tuo account delle app iCat Studios.",
+    "title": "Elimina account",
+    "subtitle": "Scegli un’app per richiedere l’eliminazione dell’account",
+    "formTitle": "Richiesta di eliminazione account",
+    "intro": "Compila il modulo qui sotto. Si aprirà il tuo client di posta con un messaggio precompilato per support@icatstudios.com.",
+    "usernameLabel": "Nome utente",
+    "usernamePlaceholder": "Il tuo nome utente nell’app",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Il tuo indirizzo email",
+    "confirmCodeLabel": "Codice di conferma",
+    "confirmCodePlaceholder": "Dalle impostazioni dell’app",
+    "confirmCodeHelp": "Apri l’app → Impostazioni → Account → Elimina account per ottenere il tuo codice.",
+    "notesLabel": "Note aggiuntive (facoltativo)",
+    "notesPlaceholder": "Qualsiasi informazione aggiuntiva…",
+    "submit": "Invia richiesta",
+    "backToList": "Torna alle app",
+    "processingNote": "La tua richiesta sarà elaborata entro 30 giorni. Riceverai un’email di conferma una volta che il tuo account sarà stato eliminato.",
+    "mailtoSubject": "Richiesta di eliminazione account — {app}"
   }
 }
