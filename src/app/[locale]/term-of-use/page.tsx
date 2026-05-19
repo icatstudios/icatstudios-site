@@ -89,14 +89,25 @@ export default async function TermOfUseIndex({ params }: Props) {
       slug: "score-hunter",
       name: tp("scoreHunter.name"),
       icon: "/images/scorehunter/scorehunter_icon.png",
+      iconShape: "square",
       accent: "#14f174",
       external: true,
       href: `/term-of-use/score-hunter`,
     },
     {
+      slug: "swapmap",
+      name: tp("swapMap.name"),
+      icon: "/images/swapmap/swapmap_universal.png",
+      iconShape: "free",
+      accent: "#06b6d4",
+      external: false,
+      href: "/term-of-use/swapmap",
+    },
+    {
       slug: "potentials",
       name: tp("potentials.name"),
       icon: "/images/potentials/potentials_icon.png",
+      iconShape: "square",
       accent: "#a855f7",
       external: false,
       href: "/term-of-use/potentials",
@@ -105,6 +116,7 @@ export default async function TermOfUseIndex({ params }: Props) {
       slug: "fast-and-blocky",
       name: tp("fastAndBlocky.name"),
       icon: "/images/fastandblocky/fastandblockyblocky_icon.png",
+      iconShape: "square",
       accent: "#ff6b4a",
       external: false,
       href: "/term-of-use/fast-and-blocky",
@@ -120,8 +132,8 @@ export default async function TermOfUseIndex({ params }: Props) {
         icon={<DocumentIcon />}
       />
 
-      <section className="relative mx-auto max-w-5xl px-6 pb-24">
-        <div className="grid gap-5 md:grid-cols-3">
+      <section className="relative mx-auto max-w-6xl px-6 pb-24">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {apps.map((app, i) => {
             const CardContent = (
               <>
@@ -135,7 +147,11 @@ export default async function TermOfUseIndex({ params }: Props) {
                   alt={app.name}
                   width={64}
                   height={64}
-                  className="mb-5 rounded-xl ring-1 ring-white/10 transition-transform duration-500 group-hover:scale-105"
+                  className={`mb-5 transition-transform duration-500 group-hover:scale-105 ${
+                    app.iconShape === "free"
+                      ? "drop-shadow-[0_4px_18px_rgba(6,182,212,0.4)]"
+                      : "rounded-xl ring-1 ring-white/10"
+                  }`}
                 />
                 <h2 className="mb-2 text-lg font-semibold text-foreground">
                   {app.name}

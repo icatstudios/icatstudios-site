@@ -51,12 +51,21 @@ export default async function DeleteAccountIndex({ params }: Props) {
       slug: "score-hunter",
       name: tp("scoreHunter.name"),
       icon: "/images/scorehunter/scorehunter_icon.png",
+      iconShape: "square" as const,
       accent: "#14f174",
+    },
+    {
+      slug: "swapmap",
+      name: tp("swapMap.name"),
+      icon: "/images/swapmap/swapmap_universal.png",
+      iconShape: "free" as const,
+      accent: "#06b6d4",
     },
     {
       slug: "potentials",
       name: tp("potentials.name"),
       icon: "/images/potentials/potentials_icon.png",
+      iconShape: "square" as const,
       accent: "#a855f7",
     },
   ];
@@ -70,8 +79,8 @@ export default async function DeleteAccountIndex({ params }: Props) {
         icon={<TrashIcon />}
       />
 
-      <section className="relative mx-auto max-w-4xl px-6 pb-24">
-        <div className="grid gap-5 sm:grid-cols-2">
+      <section className="relative mx-auto max-w-5xl px-6 pb-24">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {apps.map((app, i) => (
             <Reveal key={app.slug} delay={i * 120}>
               <Link
@@ -93,7 +102,11 @@ export default async function DeleteAccountIndex({ params }: Props) {
                   alt={app.name}
                   width={64}
                   height={64}
-                  className="mb-5 rounded-xl ring-1 ring-white/10 transition-transform duration-500 group-hover:scale-105"
+                  className={`mb-5 transition-transform duration-500 group-hover:scale-105 ${
+                    app.iconShape === "free"
+                      ? "drop-shadow-[0_4px_18px_rgba(6,182,212,0.4)]"
+                      : "rounded-xl ring-1 ring-white/10"
+                  }`}
                 />
                 <h2 className="mb-2 text-lg font-semibold text-foreground">
                   {app.name}

@@ -13,12 +13,13 @@ import { Link } from "@/i18n/navigation";
  * - "score-hunter" is redirected at the router level (see next.config.ts) to
  *   scorehunter.app/{locale}/privacy-policy and never reaches this component.
  */
-const VALID_APPS = ["potentials", "fast-and-blocky"] as const;
+const VALID_APPS = ["potentials", "fast-and-blocky", "swapmap"] as const;
 type AppSlug = (typeof VALID_APPS)[number];
 
 const APP_NAME_KEY: Record<AppSlug, string> = {
   potentials: "potentials.name",
   "fast-and-blocky": "fastAndBlocky.name",
+  swapmap: "swapMap.name",
 };
 
 type Props = {

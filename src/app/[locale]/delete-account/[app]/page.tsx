@@ -6,7 +6,7 @@ import DeleteAccountForm from "@/components/DeleteAccountForm";
 import Reveal from "@/components/Reveal";
 import { Link } from "@/i18n/navigation";
 
-const VALID_APPS = ["score-hunter", "potentials"] as const;
+const VALID_APPS = ["score-hunter", "swapmap", "potentials"] as const;
 type AppSlug = (typeof VALID_APPS)[number];
 
 const APP_CONFIG: Record<
@@ -23,10 +23,14 @@ const APP_CONFIG: Record<
     // Mirrors scorehunter.app/delete-account fields
     fields: { username: true, confirmCode: true, notes: true },
   },
+  swapmap: {
+    nameKey: "swapMap.name",
+    accent: "#06b6d4",
+    fields: { username: true, confirmCode: true, notes: true },
+  },
   potentials: {
     nameKey: "potentials.name",
     accent: "#a855f7",
-    // Same identity check as Score Hunter — confirm code from app settings
     fields: { username: true, confirmCode: true, notes: true },
   },
 };
