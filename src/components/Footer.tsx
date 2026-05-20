@@ -88,12 +88,12 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-foreground">
               {t("contactHeading")}
             </h3>
-            <a
-              href="mailto:support@icatstudios.com"
+            <Link
+              href="/support"
               className="text-sm text-zinc-500 transition-colors hover:text-primary"
             >
-              support@icatstudios.com
-            </a>
+              {tNav("support")}
+            </Link>
             <div className="mt-1 flex gap-3">
               <a
                 href="https://www.instagram.com/icatstudios"
