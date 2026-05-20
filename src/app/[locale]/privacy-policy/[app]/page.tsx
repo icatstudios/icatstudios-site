@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import LegalPageHeader from "@/components/LegalPageHeader";
+import LegalMarkdown from "@/components/LegalMarkdown";
 import BackToTop from "@/components/BackToTop";
 import Reveal from "@/components/Reveal";
 import { Link } from "@/i18n/navigation";
@@ -9,7 +10,9 @@ import { Link } from "@/i18n/navigation";
 /**
  * Per-app Privacy Policy page.
  *
- * - "potentials" and "fast-and-blocky" render the existing iCat Studios policy.
+ * - "swapmap" renders its own markdown-based policy (swapMapPrivacy.content)
+ * - "potentials" and "fast-and-blocky" render the legacy iCat Studios policy
+ *   via the structured privacyPolicy.* keys.
  * - "score-hunter" is redirected at the router level (see next.config.ts) to
  *   scorehunter.app/{locale}/privacy-policy and never reaches this component.
  */
@@ -20,6 +23,11 @@ const APP_NAME_KEY: Record<AppSlug, string> = {
   potentials: "potentials.name",
   "fast-and-blocky": "fastAndBlocky.name",
   swapmap: "swapMap.name",
+};
+
+/** Apps that ship their policy as a single markdown blob under {key}Privacy.content */
+const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
+  swapmap: "swapMapPrivacy",
 };
 
 type Props = {
@@ -35,11 +43,17 @@ export async function generateMetadata({
 }: Props): Promise<Metadata> {
   const { locale, app } = await params;
   if (!VALID_APPS.includes(app as AppSlug)) return {};
-  const t = await getTranslations({ locale, namespace: "privacyPolicy" });
   const tp = await getTranslations({ locale, namespace: "products" });
   const appName = tp(APP_NAME_KEY[app as AppSlug]);
+  const ns = MARKDOWN_APP_NAMESPACE[app as AppSlug];
+  const t = await getTranslations({
+    locale,
+    namespace: ns ?? "privacyPolicy",
+  });
   return {
-    title: `${t("metaTitle")} — ${appName}`,
+    title: ns
+      ? t("metaTitle")
+      : `${t("metaTitle")} — ${appName}`,
     description: t("metaDescription"),
   };
 }
@@ -90,11 +104,64 @@ export default async function PerAppPrivacyPolicy({ params }: Props) {
   }
   setRequestLocale(locale);
 
-  const t = await getTranslations("privacyPolicy");
   const tp = await getTranslations("products");
   const tIndex = await getTranslations("legalIndex");
   const appName = tp(APP_NAME_KEY[app as AppSlug]);
 
+  const markdownNs = MARKDOWN_APP_NAMESPACE[app as AppSlug];
+
+  // Branch 1: markdown-based policy (SwapMap)
+  if (markdownNs) {
+    const t = await getTranslations(markdownNs);
+    return (
+      <div className="relative">
+        <LegalPageHeader
+          eyebrow={appName}
+          title={t("title")}
+          subtitle={t("subtitle")}
+          icon={<ShieldIcon />}
+        />
+
+        <article className="relative mx-auto max-w-4xl px-6 pb-24">
+          <Reveal>
+            <Link
+              href="/privacy-policy"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 transition-colors hover:text-foreground"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+              {tIndex("backToList")}
+            </Link>
+          </Reveal>
+
+          <Reveal>
+            <div className="mt-2">
+              <LegalMarkdown>{t("content")}</LegalMarkdown>
+            </div>
+          </Reveal>
+
+          <p className="mt-16 text-center text-xs text-zinc-600">
+            {t("copyright")}
+          </p>
+        </article>
+
+        <BackToTop />
+      </div>
+    );
+  }
+
+  // Branch 2: legacy structured policy (Potentials, Fast and Blocky)
+  const t = await getTranslations("privacyPolicy");
   const thirdParties = t.raw("thirdParties") as string[];
   const reasons = t.raw("serviceProvidersReasons") as string[];
 
