@@ -207,5 +207,42 @@
     "backToList": "Voltar às aplicações",
     "processingNote": "O teu pedido será processado no prazo de 30 dias. Receberás um e-mail de confirmação quando a tua conta for eliminada.",
     "mailtoSubject": "Pedido de eliminação de conta — {app}"
+  },
+  "support": {
+    "metaTitle": "Suporte",
+    "metaDescription": "Obtém ajuda com as apps iCat Studios — escolhe um tópico e responderemos rapidamente.",
+    "title": "Suporte iCat Studios",
+    "subtitle": "Estamos aqui para ajudar. Escolhe um tópico abaixo e abriremos um e-mail com o assunto certo para te respondermos mais rapidamente.",
+    "categoriesHeading": "Categorias de suporte",
+    "directContactHeading": "Contacto direto",
+    "directContactEmailLabel": "Endereço de e-mail",
+    "directContactResponseLabel": "Tempo de resposta",
+    "directContactResponseValue": "Procuramos responder em 2 dias úteis",
+    "resourcesHeading": "Recursos adicionais",
+    "resourcePrivacy": "Política de Privacidade",
+    "resourceTerms": "Termos de Uso",
+    "resourceDelete": "Eliminação de conta",
+    "categories": {
+      "accountLogin": {
+        "title": "Conta e início de sessão",
+        "description": "Problemas de início de sessão, nome de utilizador, alterações de perfil",
+        "subject": "Suporte — Conta e início de sessão"
+      },
+      "subscription": {
+        "title": "Subscrição e faturação",
+        "description": "Adesão Pro, pagamentos, reembolsos",
+        "subject": "Suporte — Subscrição e faturação"
+      },
+      "bug": {
+        "title": "Reportar um bug",
+        "description": "Algo não está a funcionar como deveria",
+        "subject": "Reporte de bug"
+      },
+      "feedback": {
+        "title": "Sugestões e ideias",
+        "description": "Pedidos de funcionalidades e feedback geral",
+        "subject": "Sugestão / Pedido de funcionalidade"
+      }
+    }
   }
 }

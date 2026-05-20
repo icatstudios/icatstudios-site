@@ -207,5 +207,42 @@
     "backToList": "アプリ一覧に戻る",
     "processingNote": "リクエストは30日以内に処理されます。アカウントが削除されたら確認メールをお送りします。",
     "mailtoSubject": "アカウント削除リクエスト — {app}"
+  },
+  "support": {
+    "metaTitle": "サポート",
+    "metaDescription": "iCat Studios アプリのサポートを受けましょう — トピックを選択すると、すぐに返信します。",
+    "title": "iCat Studios サポート",
+    "subtitle": "お手伝いします。下のトピックを選択していただくと、正しい件名が事前入力されたメールが開きますので、より早く返信できます。",
+    "categoriesHeading": "サポートカテゴリー",
+    "directContactHeading": "直接のお問い合わせ",
+    "directContactEmailLabel": "メールアドレス",
+    "directContactResponseLabel": "応答時間の目安",
+    "directContactResponseValue": "2営業日以内に返信することを目指しています",
+    "resourcesHeading": "その他のリソース",
+    "resourcePrivacy": "プライバシーポリシー",
+    "resourceTerms": "利用規約",
+    "resourceDelete": "アカウント削除",
+    "categories": {
+      "accountLogin": {
+        "title": "アカウントとログイン",
+        "description": "ログインの問題、ユーザー名、プロフィールの変更",
+        "subject": "サポート — アカウントとログイン"
+      },
+      "subscription": {
+        "title": "サブスクリプションと請求",
+        "description": "Pro メンバーシップ、支払い、返金",
+        "subject": "サポート — サブスクリプションと請求"
+      },
+      "bug": {
+        "title": "バグを報告",
+        "description": "何かが期待どおりに動作していない",
+        "subject": "バグ報告"
+      },
+      "feedback": {
+        "title": "フィードバックとアイデア",
+        "description": "機能リクエストと一般的なフィードバック",
+        "subject": "フィードバック / 機能リクエスト"
+      }
+    }
   }
 }

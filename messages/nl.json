@@ -207,5 +207,42 @@
     "backToList": "Terug naar apps",
     "processingNote": "Je verzoek wordt binnen 30 dagen verwerkt. Je ontvangt een bevestigingsmail zodra je account is verwijderd.",
     "mailtoSubject": "Aanvraag accountverwijdering — {app}"
+  },
+  "support": {
+    "metaTitle": "Ondersteuning",
+    "metaDescription": "Krijg hulp bij iCat Studios apps — kies een onderwerp en we reageren snel.",
+    "title": "iCat Studios Ondersteuning",
+    "subtitle": "We helpen je graag. Kies hieronder een onderwerp en we openen een e-mail met het juiste onderwerp zodat we sneller kunnen reageren.",
+    "categoriesHeading": "Ondersteuningscategorieën",
+    "directContactHeading": "Direct contact",
+    "directContactEmailLabel": "E-mailadres",
+    "directContactResponseLabel": "Reactietijd",
+    "directContactResponseValue": "We streven naar een reactie binnen 2 werkdagen",
+    "resourcesHeading": "Extra bronnen",
+    "resourcePrivacy": "Privacybeleid",
+    "resourceTerms": "Gebruiksvoorwaarden",
+    "resourceDelete": "Account verwijderen",
+    "categories": {
+      "accountLogin": {
+        "title": "Account & inloggen",
+        "description": "Inlogproblemen, gebruikersnaam, profielwijzigingen",
+        "subject": "Support — Account & inloggen"
+      },
+      "subscription": {
+        "title": "Abonnement & facturering",
+        "description": "Pro-lidmaatschap, betalingen, terugbetalingen",
+        "subject": "Support — Abonnement & facturering"
+      },
+      "bug": {
+        "title": "Bug melden",
+        "description": "Iets werkt niet zoals verwacht",
+        "subject": "Bugmelding"
+      },
+      "feedback": {
+        "title": "Feedback & ideeën",
+        "description": "Functieverzoeken en algemene feedback",
+        "subject": "Feedback / Functieverzoek"
+      }
+    }
   }
 }

@@ -207,5 +207,42 @@
     "backToList": "Powrót do aplikacji",
     "processingNote": "Twój wniosek zostanie rozpatrzony w ciągu 30 dni. Po usunięciu konta otrzymasz e-mail z potwierdzeniem.",
     "mailtoSubject": "Wniosek o usunięcie konta — {app}"
+  },
+  "support": {
+    "metaTitle": "Wsparcie",
+    "metaDescription": "Uzyskaj pomoc dotyczącą aplikacji iCat Studios — wybierz temat, a szybko odpowiemy.",
+    "title": "Wsparcie iCat Studios",
+    "subtitle": "Jesteśmy tutaj, by pomóc. Wybierz temat poniżej, a otworzymy wiadomość e-mail z odpowiednim tematem już wpisanym, abyśmy mogli odpowiedzieć szybciej.",
+    "categoriesHeading": "Kategorie wsparcia",
+    "directContactHeading": "Bezpośredni kontakt",
+    "directContactEmailLabel": "Adres e-mail",
+    "directContactResponseLabel": "Czas odpowiedzi",
+    "directContactResponseValue": "Staramy się odpowiadać w ciągu 2 dni roboczych",
+    "resourcesHeading": "Dodatkowe zasoby",
+    "resourcePrivacy": "Polityka prywatności",
+    "resourceTerms": "Warunki użytkowania",
+    "resourceDelete": "Usuwanie konta",
+    "categories": {
+      "accountLogin": {
+        "title": "Konto i logowanie",
+        "description": "Problemy z logowaniem, nazwa użytkownika, zmiany profilu",
+        "subject": "Wsparcie — Konto i logowanie"
+      },
+      "subscription": {
+        "title": "Subskrypcja i płatności",
+        "description": "Członkostwo Pro, płatności, zwroty",
+        "subject": "Wsparcie — Subskrypcja i płatności"
+      },
+      "bug": {
+        "title": "Zgłoś błąd",
+        "description": "Coś nie działa tak, jak powinno",
+        "subject": "Zgłoszenie błędu"
+      },
+      "feedback": {
+        "title": "Opinie i pomysły",
+        "description": "Prośby o funkcje i ogólne opinie",
+        "subject": "Opinia / Prośba o funkcję"
+      }
+    }
   }
 }

@@ -207,5 +207,42 @@
     "backToList": "Volver a las aplicaciones",
     "processingNote": "Tu solicitud se procesará en un plazo de 30 días. Recibirás un correo de confirmación una vez que tu cuenta haya sido eliminada.",
     "mailtoSubject": "Solicitud de eliminación de cuenta — {app}"
+  },
+  "support": {
+    "metaTitle": "Soporte",
+    "metaDescription": "Obtén ayuda con las apps de iCat Studios — elige un tema y te responderemos rápido.",
+    "title": "Soporte iCat Studios",
+    "subtitle": "Estamos aquí para ayudarte. Elige un tema a continuación y abriremos un correo electrónico con el asunto adecuado para responderte más rápido.",
+    "categoriesHeading": "Categorías de soporte",
+    "directContactHeading": "Contacto directo",
+    "directContactEmailLabel": "Dirección de correo",
+    "directContactResponseLabel": "Tiempo de respuesta",
+    "directContactResponseValue": "Respondemos en un plazo de 2 días laborables",
+    "resourcesHeading": "Recursos adicionales",
+    "resourcePrivacy": "Política de privacidad",
+    "resourceTerms": "Términos de uso",
+    "resourceDelete": "Eliminación de cuenta",
+    "categories": {
+      "accountLogin": {
+        "title": "Cuenta e inicio de sesión",
+        "description": "Problemas de inicio de sesión, nombre de usuario, cambios de perfil",
+        "subject": "Soporte — Cuenta e inicio de sesión"
+      },
+      "subscription": {
+        "title": "Suscripción y facturación",
+        "description": "Membresía Pro, pagos, reembolsos",
+        "subject": "Soporte — Suscripción y facturación"
+      },
+      "bug": {
+        "title": "Reportar un error",
+        "description": "Algo no funciona como debería",
+        "subject": "Reporte de error"
+      },
+      "feedback": {
+        "title": "Sugerencias e ideas",
+        "description": "Solicitudes de funciones y comentarios generales",
+        "subject": "Sugerencia / Solicitud de función"
+      }
+    }
   }
 }

@@ -207,5 +207,42 @@
     "backToList": "العودة إلى التطبيقات",
     "processingNote": "ستتم معالجة طلبك خلال 30 يومًا. ستتلقى رسالة تأكيد بالبريد الإلكتروني بمجرد حذف حسابك.",
     "mailtoSubject": "طلب حذف الحساب — {app}"
+  },
+  "support": {
+    "metaTitle": "الدعم",
+    "metaDescription": "احصل على المساعدة لتطبيقات iCat Studios — اختر موضوعًا وسنرد بسرعة.",
+    "title": "دعم iCat Studios",
+    "subtitle": "نحن هنا للمساعدة. اختر موضوعًا أدناه وسنفتح بريدًا إلكترونيًا معبأ مسبقًا بالموضوع المناسب لنتمكن من الرد عليك بسرعة أكبر.",
+    "categoriesHeading": "فئات الدعم",
+    "directContactHeading": "تواصل مباشر",
+    "directContactEmailLabel": "عنوان البريد الإلكتروني",
+    "directContactResponseLabel": "وقت الاستجابة",
+    "directContactResponseValue": "نهدف للرد خلال يومي عمل",
+    "resourcesHeading": "موارد إضافية",
+    "resourcePrivacy": "سياسة الخصوصية",
+    "resourceTerms": "شروط الاستخدام",
+    "resourceDelete": "حذف الحساب",
+    "categories": {
+      "accountLogin": {
+        "title": "الحساب وتسجيل الدخول",
+        "description": "مشاكل تسجيل الدخول، اسم المستخدم، تغييرات الملف الشخصي",
+        "subject": "الدعم — الحساب وتسجيل الدخول"
+      },
+      "subscription": {
+        "title": "الاشتراك والفوترة",
+        "description": "عضوية Pro، المدفوعات، المبالغ المستردة",
+        "subject": "الدعم — الاشتراك والفوترة"
+      },
+      "bug": {
+        "title": "الإبلاغ عن خلل",
+        "description": "شيء ما لا يعمل كما هو متوقع",
+        "subject": "تقرير خلل"
+      },
+      "feedback": {
+        "title": "ملاحظات وأفكار",
+        "description": "طلبات الميزات والملاحظات العامة",
+        "subject": "ملاحظة / طلب ميزة"
+      }
+    }
   }
 }

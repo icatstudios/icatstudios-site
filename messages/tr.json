@@ -207,5 +207,42 @@
     "backToList": "Uygulamalara dön",
     "processingNote": "Talebiniz 30 gün içinde işleme alınacaktır. Hesabınız silindiğinde onay e-postası alacaksınız.",
     "mailtoSubject": "Hesap silme talebi — {app}"
+  },
+  "support": {
+    "metaTitle": "Destek",
+    "metaDescription": "iCat Studios uygulamaları için destek alın — bir konu seçin, hızla geri dönelim.",
+    "title": "iCat Studios Destek",
+    "subtitle": "Size yardımcı olmak için buradayız. Aşağıdan bir konu seçin; daha hızlı yanıt verebilmemiz için doğru konu başlığıyla önceden doldurulmuş bir e-posta açacağız.",
+    "categoriesHeading": "Destek Kategorileri",
+    "directContactHeading": "Doğrudan İletişim",
+    "directContactEmailLabel": "E-posta Adresi",
+    "directContactResponseLabel": "Yanıt Süresi",
+    "directContactResponseValue": "2 iş günü içinde yanıt vermeyi hedefliyoruz",
+    "resourcesHeading": "Ek Kaynaklar",
+    "resourcePrivacy": "Gizlilik Politikası",
+    "resourceTerms": "Kullanım Şartları",
+    "resourceDelete": "Hesap Silme",
+    "categories": {
+      "accountLogin": {
+        "title": "Hesap ve Giriş",
+        "description": "Giriş sorunları, kullanıcı adı, profil değişiklikleri",
+        "subject": "Destek — Hesap ve Giriş"
+      },
+      "subscription": {
+        "title": "Abonelik ve Faturalama",
+        "description": "Pro üyelik, ödemeler, iadeler",
+        "subject": "Destek — Abonelik ve Faturalama"
+      },
+      "bug": {
+        "title": "Hata Bildir",
+        "description": "Bir şey beklendiği gibi çalışmıyor",
+        "subject": "Hata Bildirimi"
+      },
+      "feedback": {
+        "title": "Geri Bildirim ve Fikirler",
+        "description": "Özellik istekleri ve genel geri bildirim",
+        "subject": "Geri Bildirim / Özellik İsteği"
+      }
+    }
   }
 }

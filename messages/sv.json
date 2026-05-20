@@ -207,5 +207,42 @@
     "backToList": "Tillbaka till apparna",
     "processingNote": "Din begäran behandlas inom 30 dagar. Du får ett bekräftelsemail när ditt konto har raderats.",
     "mailtoSubject": "Begäran om kontoradering — {app}"
+  },
+  "support": {
+    "metaTitle": "Support",
+    "metaDescription": "Få hjälp med iCat Studios-appar — välj ett ämne så svarar vi snabbt.",
+    "title": "iCat Studios Support",
+    "subtitle": "Vi finns här för att hjälpa. Välj ett ämne nedan, så öppnar vi ett mejl med rätt ämnesrad förifylld så att vi kan svara snabbare.",
+    "categoriesHeading": "Supportkategorier",
+    "directContactHeading": "Direktkontakt",
+    "directContactEmailLabel": "E-postadress",
+    "directContactResponseLabel": "Förväntad svarstid",
+    "directContactResponseValue": "Vi strävar efter att svara inom 2 arbetsdagar",
+    "resourcesHeading": "Ytterligare resurser",
+    "resourcePrivacy": "Integritetspolicy",
+    "resourceTerms": "Användarvillkor",
+    "resourceDelete": "Kontoradering",
+    "categories": {
+      "accountLogin": {
+        "title": "Konto och inloggning",
+        "description": "Inloggningsproblem, användarnamn, profiländringar",
+        "subject": "Support — Konto och inloggning"
+      },
+      "subscription": {
+        "title": "Prenumeration och fakturering",
+        "description": "Pro-medlemskap, betalningar, återbetalningar",
+        "subject": "Support — Prenumeration och fakturering"
+      },
+      "bug": {
+        "title": "Rapportera en bugg",
+        "description": "Något fungerar inte som det ska",
+        "subject": "Buggrapport"
+      },
+      "feedback": {
+        "title": "Feedback och idéer",
+        "description": "Funktionsförslag och allmän feedback",
+        "subject": "Feedback / Funktionsförslag"
+      }
+    }
   }
 }

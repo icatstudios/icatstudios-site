@@ -207,5 +207,42 @@
     "backToList": "Zurück zu den Apps",
     "processingNote": "Dein Antrag wird innerhalb von 30 Tagen bearbeitet. Du erhältst eine Bestätigungs-E-Mail, sobald dein Konto gelöscht wurde.",
     "mailtoSubject": "Antrag auf Kontolöschung — {app}"
+  },
+  "support": {
+    "metaTitle": "Support",
+    "metaDescription": "Hilfe für iCat Studios Apps — wähle ein Thema und wir melden uns schnell.",
+    "title": "iCat Studios Support",
+    "subtitle": "Wir helfen dir gerne. Wähle unten ein Thema und wir öffnen eine E-Mail mit dem passenden Betreff, damit wir dir schneller antworten können.",
+    "categoriesHeading": "Support-Kategorien",
+    "directContactHeading": "Direkter Kontakt",
+    "directContactEmailLabel": "E-Mail-Adresse",
+    "directContactResponseLabel": "Antwortzeit",
+    "directContactResponseValue": "Antwort innerhalb von 2 Werktagen",
+    "resourcesHeading": "Weitere Ressourcen",
+    "resourcePrivacy": "Datenschutzerklärung",
+    "resourceTerms": "Nutzungsbedingungen",
+    "resourceDelete": "Konto löschen",
+    "categories": {
+      "accountLogin": {
+        "title": "Konto & Anmeldung",
+        "description": "Anmeldeprobleme, Benutzername, Profiländerungen",
+        "subject": "Support — Konto & Anmeldung"
+      },
+      "subscription": {
+        "title": "Abonnement & Abrechnung",
+        "description": "Pro-Mitgliedschaft, Zahlungen, Erstattungen",
+        "subject": "Support — Abonnement & Abrechnung"
+      },
+      "bug": {
+        "title": "Fehler melden",
+        "description": "Etwas funktioniert nicht wie erwartet",
+        "subject": "Fehlerbericht"
+      },
+      "feedback": {
+        "title": "Feedback & Ideen",
+        "description": "Funktionswünsche und allgemeines Feedback",
+        "subject": "Feedback / Funktionswunsch"
+      }
+    }
   }
 }

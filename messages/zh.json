@@ -207,5 +207,42 @@
     "backToList": "返回应用列表",
     "processingNote": "您的请求将在 30 天内处理。账户删除后您将收到确认邮件。",
     "mailtoSubject": "账户删除请求 — {app}"
+  },
+  "support": {
+    "metaTitle": "支持",
+    "metaDescription": "获取 iCat Studios 应用的帮助 — 选择主题，我们将快速回复。",
+    "title": "iCat Studios 支持",
+    "subtitle": "我们随时为您提供帮助。请在下方选择一个主题，我们将打开一封带有正确主题的预填邮件，以便我们更快回复您。",
+    "categoriesHeading": "支持类别",
+    "directContactHeading": "直接联系",
+    "directContactEmailLabel": "电子邮件地址",
+    "directContactResponseLabel": "回复时间",
+    "directContactResponseValue": "我们力争在 2 个工作日内回复",
+    "resourcesHeading": "其他资源",
+    "resourcePrivacy": "隐私政策",
+    "resourceTerms": "使用条款",
+    "resourceDelete": "账户删除",
+    "categories": {
+      "accountLogin": {
+        "title": "账户与登录",
+        "description": "登录问题、用户名、个人资料更改",
+        "subject": "支持 — 账户与登录"
+      },
+      "subscription": {
+        "title": "订阅与账单",
+        "description": "Pro 会员、付款、退款",
+        "subject": "支持 — 订阅与账单"
+      },
+      "bug": {
+        "title": "报告错误",
+        "description": "某些功能未按预期运行",
+        "subject": "错误报告"
+      },
+      "feedback": {
+        "title": "反馈与建议",
+        "description": "功能请求和一般反馈",
+        "subject": "反馈 / 功能请求"
+      }
+    }
   }
 }

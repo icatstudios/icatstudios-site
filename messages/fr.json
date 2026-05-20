@@ -207,5 +207,42 @@
     "backToList": "Retour aux applications",
     "processingNote": "Votre demande sera traitée dans un délai de 30 jours. Vous recevrez un e-mail de confirmation une fois votre compte supprimé.",
     "mailtoSubject": "Demande de suppression de compte — {app}"
+  },
+  "support": {
+    "metaTitle": "Support",
+    "metaDescription": "Obtenez de l’aide pour les applications iCat Studios — choisissez un sujet, nous répondons rapidement.",
+    "title": "Support iCat Studios",
+    "subtitle": "Nous sommes là pour vous aider. Choisissez un sujet ci-dessous et nous ouvrirons un e-mail pré-rempli avec le bon objet pour vous répondre plus rapidement.",
+    "categoriesHeading": "Catégories de support",
+    "directContactHeading": "Contact direct",
+    "directContactEmailLabel": "Adresse e-mail",
+    "directContactResponseLabel": "Délai de réponse",
+    "directContactResponseValue": "Nous visons à répondre sous 2 jours ouvrés",
+    "resourcesHeading": "Ressources supplémentaires",
+    "resourcePrivacy": "Politique de confidentialité",
+    "resourceTerms": "Conditions d’utilisation",
+    "resourceDelete": "Suppression de compte",
+    "categories": {
+      "accountLogin": {
+        "title": "Compte et connexion",
+        "description": "Problèmes de connexion, nom d’utilisateur, modifications de profil",
+        "subject": "Support — Compte et connexion"
+      },
+      "subscription": {
+        "title": "Abonnement et facturation",
+        "description": "Abonnement Pro, paiements, remboursements",
+        "subject": "Support — Abonnement et facturation"
+      },
+      "bug": {
+        "title": "Signaler un bug",
+        "description": "Quelque chose ne fonctionne pas comme prévu",
+        "subject": "Signalement de bug"
+      },
+      "feedback": {
+        "title": "Retours et idées",
+        "description": "Demandes de fonctionnalités et retours généraux",
+        "subject": "Retour / Demande de fonctionnalité"
+      }
+    }
   }
 }

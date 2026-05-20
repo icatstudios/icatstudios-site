@@ -207,5 +207,42 @@
     "backToList": "Tilbake til apper",
     "processingNote": "Forespørselen behandles innen 30 dager. Du mottar en bekreftelses-e-post når kontoen din er slettet.",
     "mailtoSubject": "Forespørsel om sletting av konto — {app}"
+  },
+  "support": {
+    "metaTitle": "Support",
+    "metaDescription": "Få hjelp med iCat Studios-apper — velg et tema, så svarer vi raskt.",
+    "title": "iCat Studios Support",
+    "subtitle": "Vi er her for å hjelpe. Velg et tema nedenfor, så åpner vi en e-post med riktig emne forhåndsutfylt slik at vi kan svare deg raskere.",
+    "categoriesHeading": "Supportkategorier",
+    "directContactHeading": "Direkte kontakt",
+    "directContactEmailLabel": "E-postadresse",
+    "directContactResponseLabel": "Forventet svartid",
+    "directContactResponseValue": "Vi sikter på å svare innen 2 virkedager",
+    "resourcesHeading": "Flere ressurser",
+    "resourcePrivacy": "Personvernerklæring",
+    "resourceTerms": "Bruksvilkår",
+    "resourceDelete": "Sletting av konto",
+    "categories": {
+      "accountLogin": {
+        "title": "Konto og innlogging",
+        "description": "Innloggingsproblemer, brukernavn, profilendringer",
+        "subject": "Support — Konto og innlogging"
+      },
+      "subscription": {
+        "title": "Abonnement og fakturering",
+        "description": "Pro-medlemskap, betalinger, refusjoner",
+        "subject": "Support — Abonnement og fakturering"
+      },
+      "bug": {
+        "title": "Rapporter en feil",
+        "description": "Noe fungerer ikke som forventet",
+        "subject": "Feilrapport"
+      },
+      "feedback": {
+        "title": "Tilbakemeldinger og ideer",
+        "description": "Funksjonsønsker og generelle tilbakemeldinger",
+        "subject": "Tilbakemelding / Funksjonsønske"
+      }
+    }
   }
 }

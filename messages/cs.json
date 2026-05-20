@@ -207,5 +207,42 @@
     "backToList": "Zpět na aplikace",
     "processingNote": "Vaše žádost bude zpracována do 30 dnů. Po smazání účtu obdržíte potvrzovací e-mail.",
     "mailtoSubject": "Žádost o smazání účtu — {app}"
+  },
+  "support": {
+    "metaTitle": "Podpora",
+    "metaDescription": "Získej pomoc s aplikacemi iCat Studios — vyber téma a brzy se ozveme.",
+    "title": "Podpora iCat Studios",
+    "subtitle": "Jsme tu, abychom pomohli. Vyber téma níže a otevřeme e-mail s předvyplněným správným předmětem, abychom mohli reagovat rychleji.",
+    "categoriesHeading": "Kategorie podpory",
+    "directContactHeading": "Přímý kontakt",
+    "directContactEmailLabel": "E-mailová adresa",
+    "directContactResponseLabel": "Doba odezvy",
+    "directContactResponseValue": "Cílíme na odpověď do 2 pracovních dnů",
+    "resourcesHeading": "Další zdroje",
+    "resourcePrivacy": "Zásady ochrany osobních údajů",
+    "resourceTerms": "Podmínky použití",
+    "resourceDelete": "Smazání účtu",
+    "categories": {
+      "accountLogin": {
+        "title": "Účet a přihlášení",
+        "description": "Problémy s přihlášením, uživatelské jméno, změny profilu",
+        "subject": "Podpora — Účet a přihlášení"
+      },
+      "subscription": {
+        "title": "Předplatné a platby",
+        "description": "Pro členství, platby, refundace",
+        "subject": "Podpora — Předplatné a platby"
+      },
+      "bug": {
+        "title": "Nahlásit chybu",
+        "description": "Něco nefunguje, jak by mělo",
+        "subject": "Hlášení chyby"
+      },
+      "feedback": {
+        "title": "Zpětná vazba a nápady",
+        "description": "Žádosti o funkce a obecná zpětná vazba",
+        "subject": "Zpětná vazba / Návrh funkce"
+      }
+    }
   }
 }

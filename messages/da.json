@@ -207,5 +207,42 @@
     "backToList": "Tilbage til apps",
     "processingNote": "Din anmodning behandles inden for 30 dage. Du modtager en bekræftelses-e-mail, når din konto er slettet.",
     "mailtoSubject": "Anmodning om sletning af konto — {app}"
+  },
+  "support": {
+    "metaTitle": "Support",
+    "metaDescription": "Få hjælp med iCat Studios-apps — vælg et emne, og vi svarer hurtigt.",
+    "title": "iCat Studios Support",
+    "subtitle": "Vi er her for at hjælpe. Vælg et emne nedenfor, så åbner vi en e-mail med det rigtige emne forudfyldt, så vi kan svare hurtigere.",
+    "categoriesHeading": "Supportkategorier",
+    "directContactHeading": "Direkte kontakt",
+    "directContactEmailLabel": "E-mailadresse",
+    "directContactResponseLabel": "Forventet svartid",
+    "directContactResponseValue": "Vi sigter efter at svare inden for 2 hverdage",
+    "resourcesHeading": "Yderligere ressourcer",
+    "resourcePrivacy": "Privatlivspolitik",
+    "resourceTerms": "Brugsbetingelser",
+    "resourceDelete": "Sletning af konto",
+    "categories": {
+      "accountLogin": {
+        "title": "Konto og login",
+        "description": "Loginproblemer, brugernavn, profilændringer",
+        "subject": "Support — Konto og login"
+      },
+      "subscription": {
+        "title": "Abonnement og fakturering",
+        "description": "Pro-medlemskab, betalinger, refusioner",
+        "subject": "Support — Abonnement og fakturering"
+      },
+      "bug": {
+        "title": "Rapporter en fejl",
+        "description": "Noget virker ikke som forventet",
+        "subject": "Fejlrapport"
+      },
+      "feedback": {
+        "title": "Feedback og idéer",
+        "description": "Funktionsanmodninger og generel feedback",
+        "subject": "Feedback / Funktionsanmodning"
+      }
+    }
   }
 }

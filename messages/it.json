@@ -207,5 +207,42 @@
     "backToList": "Torna alle app",
     "processingNote": "La tua richiesta sarà elaborata entro 30 giorni. Riceverai un’email di conferma una volta che il tuo account sarà stato eliminato.",
     "mailtoSubject": "Richiesta di eliminazione account — {app}"
+  },
+  "support": {
+    "metaTitle": "Supporto",
+    "metaDescription": "Ricevi aiuto per le app iCat Studios — scegli un argomento e ti risponderemo presto.",
+    "title": "Supporto iCat Studios",
+    "subtitle": "Siamo qui per aiutarti. Scegli un argomento qui sotto e apriremo un’email con l’oggetto giusto già compilato per risponderti più rapidamente.",
+    "categoriesHeading": "Categorie di supporto",
+    "directContactHeading": "Contatto diretto",
+    "directContactEmailLabel": "Indirizzo email",
+    "directContactResponseLabel": "Tempo di risposta",
+    "directContactResponseValue": "Cerchiamo di rispondere entro 2 giorni lavorativi",
+    "resourcesHeading": "Risorse aggiuntive",
+    "resourcePrivacy": "Informativa sulla privacy",
+    "resourceTerms": "Termini di utilizzo",
+    "resourceDelete": "Eliminazione account",
+    "categories": {
+      "accountLogin": {
+        "title": "Account e accesso",
+        "description": "Problemi di accesso, nome utente, modifiche al profilo",
+        "subject": "Supporto — Account e accesso"
+      },
+      "subscription": {
+        "title": "Abbonamento e fatturazione",
+        "description": "Abbonamento Pro, pagamenti, rimborsi",
+        "subject": "Supporto — Abbonamento e fatturazione"
+      },
+      "bug": {
+        "title": "Segnala un bug",
+        "description": "Qualcosa non funziona come previsto",
+        "subject": "Segnalazione bug"
+      },
+      "feedback": {
+        "title": "Feedback e idee",
+        "description": "Richieste di funzionalità e feedback generale",
+        "subject": "Feedback / Richiesta funzionalità"
+      }
+    }
   }
 }

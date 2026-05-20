@@ -207,5 +207,42 @@
     "backToList": "Voltar para os aplicativos",
     "processingNote": "Sua solicitação será processada em até 30 dias. Você receberá um e-mail de confirmação quando sua conta for excluída.",
     "mailtoSubject": "Solicitação de exclusão de conta — {app}"
+  },
+  "support": {
+    "metaTitle": "Suporte",
+    "metaDescription": "Obtenha ajuda com os aplicativos iCat Studios — escolha um tópico e responderemos rápido.",
+    "title": "Suporte iCat Studios",
+    "subtitle": "Estamos aqui para ajudar. Escolha um tópico abaixo e abriremos um e-mail com o assunto certo para podermos responder mais rápido.",
+    "categoriesHeading": "Categorias de suporte",
+    "directContactHeading": "Contato direto",
+    "directContactEmailLabel": "Endereço de e-mail",
+    "directContactResponseLabel": "Tempo de resposta",
+    "directContactResponseValue": "Buscamos responder em até 2 dias úteis",
+    "resourcesHeading": "Recursos adicionais",
+    "resourcePrivacy": "Política de Privacidade",
+    "resourceTerms": "Termos de Uso",
+    "resourceDelete": "Exclusão de conta",
+    "categories": {
+      "accountLogin": {
+        "title": "Conta e login",
+        "description": "Problemas de login, nome de usuário, alterações de perfil",
+        "subject": "Suporte — Conta e login"
+      },
+      "subscription": {
+        "title": "Assinatura e cobrança",
+        "description": "Assinatura Pro, pagamentos, reembolsos",
+        "subject": "Suporte — Assinatura e cobrança"
+      },
+      "bug": {
+        "title": "Reportar um bug",
+        "description": "Algo não está funcionando como deveria",
+        "subject": "Reporte de bug"
+      },
+      "feedback": {
+        "title": "Sugestões e ideias",
+        "description": "Solicitações de recursos e feedback geral",
+        "subject": "Sugestão / Solicitação de recurso"
+      }
+    }
   }
 }
