@@ -36,7 +36,7 @@ const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
  * Expand this set as translations land.
  */
 const MARKDOWN_LOCALES: Partial<Record<AppSlug, Set<string>>> = {
-  swapmap: new Set(["en", "tr", "de"]),
+  swapmap: new Set(["en", "tr", "de", "fr", "es", "it"]),
 };
 
 type Props = {
