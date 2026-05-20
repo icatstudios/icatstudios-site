@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import LegalPageHeader from "@/components/LegalPageHeader";
+import LegalMarkdown from "@/components/LegalMarkdown";
 import BackToTop from "@/components/BackToTop";
 import Reveal from "@/components/Reveal";
 import { Link } from "@/i18n/navigation";
@@ -9,8 +10,12 @@ import { Link } from "@/i18n/navigation";
 /**
  * Per-app Terms of Use page.
  *
- * "score-hunter" slug is intercepted by a redirect in next.config.ts and never
- * reaches this component (it points to scorehunter.app/{locale}/terms-of-use).
+ * - "swapmap" renders its own markdown-based terms (swapMapTerms.content) when
+ *   the current locale is in the translated set; otherwise the legacy structured
+ *   content is shown.
+ * - "potentials" and "fast-and-blocky" use the legacy structured terms.
+ * - "score-hunter" is redirected to scorehunter.app/{locale}/terms-of-use by
+ *   next.config.ts and never reaches this component.
  */
 const VALID_APPS = ["potentials", "fast-and-blocky", "swapmap"] as const;
 type AppSlug = (typeof VALID_APPS)[number];
@@ -20,6 +25,22 @@ const APP_NAME_KEY: Record<AppSlug, string> = {
   "fast-and-blocky": "fastAndBlocky.name",
   swapmap: "swapMap.name",
 };
+
+/** Apps that ship their terms as a single markdown blob under {key}Terms.content */
+const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
+  swapmap: "swapMapTerms",
+};
+
+/** Locales with the markdown-based terms already translated. */
+const MARKDOWN_LOCALES: Partial<Record<AppSlug, Set<string>>> = {
+  swapmap: new Set(["en"]),
+};
+
+function usesMarkdown(app: AppSlug, locale: string): boolean {
+  const ns = MARKDOWN_APP_NAMESPACE[app];
+  const set = MARKDOWN_LOCALES[app];
+  return !!ns && !!set?.has(locale);
+}
 
 type Props = {
   params: Promise<{ locale: string; app: string }>;
@@ -34,11 +55,15 @@ export async function generateMetadata({
 }: Props): Promise<Metadata> {
   const { locale, app } = await params;
   if (!VALID_APPS.includes(app as AppSlug)) return {};
-  const t = await getTranslations({ locale, namespace: "termOfUse" });
   const tp = await getTranslations({ locale, namespace: "products" });
   const appName = tp(APP_NAME_KEY[app as AppSlug]);
+  const useMd = usesMarkdown(app as AppSlug, locale);
+  const ns = useMd ? MARKDOWN_APP_NAMESPACE[app as AppSlug]! : "termOfUse";
+  const t = await getTranslations({ locale, namespace: ns });
   return {
-    title: `${t("metaTitle")} — ${appName}`,
+    title: useMd
+      ? t("metaTitle")
+      : `${t("metaTitle")} — ${appName}`,
     description: t("metaDescription"),
   };
 }
@@ -101,11 +126,64 @@ export default async function PerAppTermOfUse({ params }: Props) {
   }
   setRequestLocale(locale);
 
-  const t = await getTranslations("termOfUse");
   const tp = await getTranslations("products");
   const tIndex = await getTranslations("legalIndex");
   const appName = tp(APP_NAME_KEY[app as AppSlug]);
 
+  // Branch 1: markdown-based terms (SwapMap, locales with translation ready)
+  if (usesMarkdown(app as AppSlug, locale)) {
+    const markdownNs = MARKDOWN_APP_NAMESPACE[app as AppSlug]!;
+    const t = await getTranslations(markdownNs);
+    return (
+      <div className="relative">
+        <LegalPageHeader
+          eyebrow={appName}
+          title={t("title")}
+          subtitle={t("subtitle")}
+          icon={<DocumentIcon />}
+        />
+
+        <article className="relative mx-auto max-w-4xl px-6 pb-24">
+          <Reveal>
+            <Link
+              href="/term-of-use"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 transition-colors hover:text-foreground"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+              {tIndex("backToListTerms")}
+            </Link>
+          </Reveal>
+
+          <Reveal>
+            <div className="mt-2">
+              <LegalMarkdown>{t("content")}</LegalMarkdown>
+            </div>
+          </Reveal>
+
+          <p className="mt-16 text-center text-xs text-zinc-600">
+            {t("copyright")}
+          </p>
+        </article>
+
+        <BackToTop />
+      </div>
+    );
+  }
+
+  // Branch 2: legacy structured terms (Potentials, Fast and Blocky, and
+  // non-en SwapMap until translations land)
+  const t = await getTranslations("termOfUse");
   const proBullets = t.raw("paymentProBullets") as string[];
 
   return (

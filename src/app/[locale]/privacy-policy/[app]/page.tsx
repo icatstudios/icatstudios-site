@@ -30,12 +30,27 @@ const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
   swapmap: "swapMapPrivacy",
 };
 
+/**
+ * Locales that already have the markdown-based policy translated.
+ * For other locales, the page falls back to the legacy structured content.
+ * Expand this set as translations land.
+ */
+const MARKDOWN_LOCALES: Partial<Record<AppSlug, Set<string>>> = {
+  swapmap: new Set(["en"]),
+};
+
 type Props = {
   params: Promise<{ locale: string; app: string }>;
 };
 
 export function generateStaticParams() {
   return VALID_APPS.map((app) => ({ app }));
+}
+
+function usesMarkdown(app: AppSlug, locale: string): boolean {
+  const ns = MARKDOWN_APP_NAMESPACE[app];
+  const set = MARKDOWN_LOCALES[app];
+  return !!ns && !!set?.has(locale);
 }
 
 export async function generateMetadata({
@@ -45,13 +60,11 @@ export async function generateMetadata({
   if (!VALID_APPS.includes(app as AppSlug)) return {};
   const tp = await getTranslations({ locale, namespace: "products" });
   const appName = tp(APP_NAME_KEY[app as AppSlug]);
-  const ns = MARKDOWN_APP_NAMESPACE[app as AppSlug];
-  const t = await getTranslations({
-    locale,
-    namespace: ns ?? "privacyPolicy",
-  });
+  const useMd = usesMarkdown(app as AppSlug, locale);
+  const ns = useMd ? MARKDOWN_APP_NAMESPACE[app as AppSlug]! : "privacyPolicy";
+  const t = await getTranslations({ locale, namespace: ns });
   return {
-    title: ns
+    title: useMd
       ? t("metaTitle")
       : `${t("metaTitle")} — ${appName}`,
     description: t("metaDescription"),
@@ -108,10 +121,9 @@ export default async function PerAppPrivacyPolicy({ params }: Props) {
   const tIndex = await getTranslations("legalIndex");
   const appName = tp(APP_NAME_KEY[app as AppSlug]);
 
-  const markdownNs = MARKDOWN_APP_NAMESPACE[app as AppSlug];
-
-  // Branch 1: markdown-based policy (SwapMap)
-  if (markdownNs) {
+  // Branch 1: markdown-based policy (SwapMap, locales with translation ready)
+  if (usesMarkdown(app as AppSlug, locale)) {
+    const markdownNs = MARKDOWN_APP_NAMESPACE[app as AppSlug]!;
     const t = await getTranslations(markdownNs);
     return (
       <div className="relative">
