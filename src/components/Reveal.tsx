@@ -33,7 +33,11 @@ export default function Reveal({
           }
         });
       },
-      { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
+      // threshold:0 so very tall elements (markdown documents, full-page
+      // sections) trigger as soon as any pixel enters the viewport — a
+      // higher threshold can never be met for elements taller than the
+      // viewport, leaving them stuck at opacity:0.
+      { threshold: 0, rootMargin: "0px 0px -80px 0px" }
     );
 
     observer.observe(el);
