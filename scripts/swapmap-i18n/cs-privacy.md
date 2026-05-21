@@ -1,5 +1,7 @@
 **Naposledy aktualizováno: 20. listopadu 2026**
+
 **Aplikace: SwapMap: Cards, Stickers, TCG**
+
 **Vývojář: iCat Studios**
 
 Ve společnosti iCat Studios („my", „nás", „naše") respektujeme soukromí uživatelů („vy", „váš") mobilní aplikace SwapMap („Aplikace"). Tyto Zásady ochrany osobních údajů vysvětlují, jaké osobní údaje shromažďujeme, jak je používáme, s kým je sdílíme a jaká jsou vaše práva při používání naší Aplikace.

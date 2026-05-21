@@ -1,5 +1,7 @@
 **Son güncelleme: 20 Kasım 2026**
+
 **Uygulama: SwapMap: Cards, Stickers, TCG**
+
 **Geliştirici: iCat Studios**
 
 iCat Studios olarak ("biz", "bize", "bizim"), SwapMap mobil uygulamasının ("Uygulama") kullanıcılarının ("siz", "size", "sizin") gizliliğine saygı duyuyoruz. Bu Gizlilik Politikası; hangi kişisel verileri topladığımızı, bu verileri nasıl kullandığımızı, kimlerle paylaştığımızı ve Uygulamayı kullanırken sahip olduğunuz hakları açıklar.

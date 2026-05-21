@@ -1,5 +1,7 @@
 **Senast uppdaterad: 20 november 2026**
+
 **Applikation: SwapMap: Cards, Stickers, TCG**
+
 **Utvecklare: iCat Studios**
 
 Läs dessa Användarvillkor ("Villkor") noggrant innan du använder den mobila applikationen SwapMap ("App", "Tjänst"). Genom att ladda ner och använda Appen samtycker du till att vara bunden av dessa Villkor. Om du inte godkänner dessa Villkor, vänligen använd inte Appen.

@@ -1,5 +1,7 @@
 **Senast uppdaterad: 20 november 2026**
+
 **Applikation: SwapMap: Cards, Stickers, TCG**
+
 **Utvecklare: iCat Studios**
 
 På iCat Studios ("vi", "oss", "vår") respekterar vi integriteten för användarna ("du", "din") av den mobila applikationen SwapMap ("Appen"). Denna integritetspolicy förklarar vilka personuppgifter vi samlar in, hur vi använder dem, med vem vi delar dem och vilka rättigheter du har när du använder vår App.

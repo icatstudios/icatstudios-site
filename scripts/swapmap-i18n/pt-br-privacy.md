@@ -1,5 +1,7 @@
 **Última atualização: 20 de novembro de 2026**
+
 **Aplicativo: SwapMap: Cards, Stickers, TCG**
+
 **Desenvolvedor: iCat Studios**
 
 Na iCat Studios ("nós", "nosso"), respeitamos a privacidade dos usuários ("você", "seu") do aplicativo móvel SwapMap ("o Aplicativo"). Esta Política de Privacidade explica quais dados pessoais coletamos, como os usamos, com quem os compartilhamos e quais são seus direitos ao usar nosso Aplicativo.
