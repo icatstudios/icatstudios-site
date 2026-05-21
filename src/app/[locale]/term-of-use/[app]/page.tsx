@@ -33,7 +33,7 @@ const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
 
 /** Locales with the markdown-based terms already translated. */
 const MARKDOWN_LOCALES: Partial<Record<AppSlug, Set<string>>> = {
-  swapmap: new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru"]),
+  swapmap: new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru", "ja", "ko", "zh"]),
 };
 
 function usesMarkdown(app: AppSlug, locale: string): boolean {
