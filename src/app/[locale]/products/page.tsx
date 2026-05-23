@@ -155,7 +155,7 @@ export default async function ProductsPage({ params }: Props) {
           <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-14">
             <div className="flex-shrink-0 lg:w-1/3">
               <div className="mb-6 flex items-center gap-4">
-                <div className="relative">
+                <div className="relative shrink-0">
                   <div
                     className="absolute inset-0 rounded-2xl blur-xl opacity-70 animate-pulse-glow"
                     style={{ background: SCOREHUNTER_ACCENT }}
@@ -299,7 +299,7 @@ export default async function ProductsPage({ params }: Props) {
           <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-14">
             <div className="flex-shrink-0 lg:w-1/3">
               <div className="mb-6 flex items-center gap-4">
-                <div className="relative">
+                <div className="relative shrink-0">
                   <div
                     className="absolute inset-0 rounded-2xl blur-xl opacity-70 animate-pulse-glow"
                     style={{ background: SWAPMAP_ACCENT }}
@@ -404,7 +404,7 @@ export default async function ProductsPage({ params }: Props) {
           <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-14">
             <div className="flex-shrink-0 lg:w-1/3">
               <div className="mb-6 flex items-center gap-4">
-                <div className="relative">
+                <div className="relative shrink-0">
                   <div
                     className="absolute inset-0 rounded-2xl blur-xl opacity-60"
                     style={{ background: POTENTIALS_ACCENT }}
@@ -482,7 +482,7 @@ export default async function ProductsPage({ params }: Props) {
           <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-14">
             <div className="flex-shrink-0 lg:w-1/3">
               <div className="mb-6 flex items-center gap-4">
-                <div className="relative">
+                <div className="relative shrink-0">
                   <div
                     className="absolute inset-0 rounded-2xl blur-xl opacity-60"
                     style={{ background: FASTBLOCKY_ACCENT }}
