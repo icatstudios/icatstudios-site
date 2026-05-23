@@ -295,67 +295,84 @@ export default async function ProductsPage({ params }: Props) {
           />
         </div>
 
-        <Reveal className="relative z-10 mx-auto max-w-3xl text-center">
-          <div className="relative mx-auto h-48 w-48 sm:h-56 sm:w-56">
-            {/* Radial glow behind the pin */}
-            <div
-              aria-hidden
-              className="absolute inset-0 rounded-full blur-3xl opacity-60 animate-pulse-glow"
-              style={{
-                background: `radial-gradient(circle, ${SWAPMAP_ACCENT}66, transparent 70%)`,
-              }}
-            />
-            <Image
-              src="/images/swapmap/swapmap_universal.png"
-              alt={t("swapMap.name")}
-              width={224}
-              height={224}
-              className="relative animate-float drop-shadow-[0_8px_28px_rgba(6,182,212,0.45)]"
-            />
-          </div>
+        <Reveal className="relative z-10 mx-auto max-w-6xl">
+          <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:gap-14">
+            <div className="flex-shrink-0 lg:w-1/3">
+              <div className="mb-6 flex items-center gap-4">
+                <div className="relative">
+                  <div
+                    className="absolute inset-0 rounded-2xl blur-xl opacity-70 animate-pulse-glow"
+                    style={{ background: SWAPMAP_ACCENT }}
+                  />
+                  <Image
+                    src="/images/swapmap/swapmap_icon.png"
+                    alt={`${t("swapMap.name")} icon`}
+                    width={72}
+                    height={72}
+                    className="relative rounded-2xl ring-1 ring-white/10"
+                  />
+                </div>
+                <div className="flex items-center gap-3">
+                  <h2 className="text-2xl font-bold text-foreground">
+                    {t("swapMap.name")}
+                  </h2>
+                  <span
+                    className="rounded-full border px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
+                    style={{
+                      color: SWAPMAP_ACCENT,
+                      borderColor: `${SWAPMAP_ACCENT}66`,
+                      background: `${SWAPMAP_ACCENT}1a`,
+                    }}
+                  >
+                    {t("swapMap.newBadge")}
+                  </span>
+                </div>
+              </div>
 
-          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
-            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
-              {t("swapMap.name")}
-            </h2>
-            <span
-              className="rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
-              style={{
-                color: SWAPMAP_ACCENT,
-                borderColor: `${SWAPMAP_ACCENT}66`,
-                background: `${SWAPMAP_ACCENT}1a`,
-              }}
-            >
-              {t("swapMap.newBadge")}
-            </span>
-          </div>
+              {/* Floating universal pin — decorative inline */}
+              <div className="relative mb-6 hidden lg:block">
+                <div
+                  className="absolute inset-0 rounded-full blur-2xl opacity-60 animate-pulse-glow"
+                  style={{
+                    background: `radial-gradient(circle, ${SWAPMAP_ACCENT}66, transparent 70%)`,
+                  }}
+                />
+                <Image
+                  src="/images/swapmap/swapmap_universal.png"
+                  alt={`${t("swapMap.name")} pin`}
+                  width={220}
+                  height={220}
+                  className="relative animate-float drop-shadow-[0_8px_28px_rgba(6,182,212,0.45)]"
+                />
+              </div>
 
-          <p
-            className="mt-4 text-sm font-semibold uppercase tracking-[0.2em]"
-            style={{ color: SWAPMAP_ACCENT }}
-          >
-            {t("swapMap.tagline")}
-          </p>
+              <p
+                className="mb-3 text-sm font-semibold uppercase tracking-[0.2em]"
+                style={{ color: SWAPMAP_ACCENT }}
+              >
+                {t("swapMap.tagline")}
+              </p>
+              <p className="mb-4 leading-relaxed text-zinc-400">
+                {t("swapMap.description1")}
+              </p>
+              <p className="mb-6 leading-relaxed text-zinc-400">
+                {t("swapMap.description2")}
+              </p>
 
-          <div className="mt-6 space-y-4 text-left leading-relaxed text-zinc-400">
-            <p>{t("swapMap.description1")}</p>
-            <p>{t("swapMap.description2")}</p>
-          </div>
+              <StoreBadges
+                appStoreUrl={SWAPMAP_APP_STORE_URL}
+                playStoreComingSoon
+                accent={SWAPMAP_ACCENT}
+              />
+            </div>
 
-          <div className="mt-10">
-            <ScreenshotCarousel
-              images={swapMapScreenshots}
-              alt={t("swapMap.name")}
-              accent={SWAPMAP_ACCENT}
-            />
-          </div>
-
-          <div className="mt-8 flex justify-center">
-            <StoreBadges
-              appStoreUrl={SWAPMAP_APP_STORE_URL}
-              playStoreComingSoon
-              accent={SWAPMAP_ACCENT}
-            />
+            <div className="lg:w-2/3">
+              <ScreenshotCarousel
+                images={swapMapScreenshots}
+                alt={t("swapMap.name")}
+                accent={SWAPMAP_ACCENT}
+              />
+            </div>
           </div>
         </Reveal>
       </section>
