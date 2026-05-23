@@ -163,8 +163,8 @@ export default async function ProductsPage({ params }: Props) {
                   <Image
                     src="/images/scorehunter/scorehunter_icon.png"
                     alt={`${t("scoreHunter.name")} icon`}
-                    width={96}
-                    height={96}
+                    width={72}
+                    height={72}
                     className="relative rounded-2xl ring-1 ring-white/10"
                   />
                 </div>
@@ -307,8 +307,8 @@ export default async function ProductsPage({ params }: Props) {
                   <Image
                     src="/images/swapmap/swapmap_icon.png"
                     alt={`${t("swapMap.name")} icon`}
-                    width={96}
-                    height={96}
+                    width={72}
+                    height={72}
                     className="relative rounded-2xl ring-1 ring-white/10"
                   />
                 </div>
@@ -412,8 +412,8 @@ export default async function ProductsPage({ params }: Props) {
                   <Image
                     src="/images/potentials/potentials_icon.png"
                     alt="Potentials icon"
-                    width={96}
-                    height={96}
+                    width={72}
+                    height={72}
                     className="relative rounded-2xl ring-1 ring-white/10"
                   />
                 </div>
@@ -490,8 +490,8 @@ export default async function ProductsPage({ params }: Props) {
                   <Image
                     src="/images/fastandblocky/fastandblockyblocky_icon.png"
                     alt="Fast and Blocky icon"
-                    width={96}
-                    height={96}
+                    width={72}
+                    height={72}
                     className="relative rounded-2xl ring-1 ring-white/10"
                   />
                 </div>
