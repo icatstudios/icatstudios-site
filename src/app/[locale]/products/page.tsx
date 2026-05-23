@@ -37,6 +37,9 @@ const POTENTIALS_LOCALES = new Set([
 /** Score Hunter screenshots are only available in 7 locales — others fall back to EN. */
 const SCOREHUNTER_LOCALES = new Set(["de", "en", "es", "fr", "it", "pt", "tr"]);
 
+/** SwapMap screenshots — only EN + TR localized for now; others fall back to EN. */
+const SWAPMAP_LOCALES = new Set(["en", "tr"]);
+
 /** Map a locale to the closest available screenshot folder. */
 function resolveScreenshotLocale(
   locale: string,
@@ -65,6 +68,14 @@ function getScoreHunterScreenshots(locale: string): string[] {
   );
 }
 
+function getSwapMapScreenshots(locale: string): string[] {
+  const lang = resolveScreenshotLocale(locale, SWAPMAP_LOCALES);
+  return Array.from(
+    { length: 5 },
+    (_, i) => `/images/swapmap/screenshots/${lang}/${i + 1}.png`
+  );
+}
+
 // Product themes
 const POTENTIALS_ACCENT = "#a855f7";
 const FASTBLOCKY_ACCENT = "#ff6b4a";
@@ -85,6 +96,7 @@ export default async function ProductsPage({ params }: Props) {
   const t = await getTranslations("products");
   const potentialsScreenshots = getPotentialsScreenshots(locale);
   const scoreHunterScreenshots = getScoreHunterScreenshots(locale);
+  const swapMapScreenshots = getSwapMapScreenshots(locale);
 
   return (
     <div className="relative">
@@ -328,6 +340,14 @@ export default async function ProductsPage({ params }: Props) {
           <div className="mt-6 space-y-4 text-left leading-relaxed text-zinc-400">
             <p>{t("swapMap.description1")}</p>
             <p>{t("swapMap.description2")}</p>
+          </div>
+
+          <div className="mt-10">
+            <ScreenshotCarousel
+              images={swapMapScreenshots}
+              alt={t("swapMap.name")}
+              accent={SWAPMAP_ACCENT}
+            />
           </div>
 
           <div className="mt-8 flex justify-center">
