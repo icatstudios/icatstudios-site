@@ -76,6 +76,9 @@ const SCOREHUNTER_APP_STORE_URL: string | undefined = undefined;
 const SCOREHUNTER_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.icatstudios.scorehunter";
 
+const SWAPMAP_APP_STORE_URL =
+  "https://apps.apple.com/us/app/swapmap-cards-stickers-tcg/id6769533772";
+
 export default async function ProductsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -254,7 +257,7 @@ export default async function ProductsPage({ params }: Props) {
         <div className="divider-fade" />
       </div>
 
-      {/* ============ SwapMap (Coming Soon) ============ */}
+      {/* ============ SwapMap ============ */}
       <section
         id="swapmap"
         className="relative scroll-mt-20 overflow-hidden px-6 py-20"
@@ -311,7 +314,7 @@ export default async function ProductsPage({ params }: Props) {
                 background: `${SWAPMAP_ACCENT}1a`,
               }}
             >
-              {t("swapMap.comingSoonStatus")}
+              {t("swapMap.newBadge")}
             </span>
           </div>
 
@@ -329,7 +332,7 @@ export default async function ProductsPage({ params }: Props) {
 
           <div className="mt-8 flex justify-center">
             <StoreBadges
-              appStoreComingSoon
+              appStoreUrl={SWAPMAP_APP_STORE_URL}
               playStoreComingSoon
               accent={SWAPMAP_ACCENT}
             />

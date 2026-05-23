@@ -33,7 +33,7 @@ export default async function Home({ params }: Props) {
       icon: "/images/swapmap/swapmap_icon.png",
       href: "/products#swapmap",
       accent: "#06b6d4",
-      comingSoon: true,
+      isNew: true,
     },
     {
       key: "potentials",
@@ -216,18 +216,6 @@ export default async function Home({ params }: Props) {
                     }}
                   >
                     {locale === "tr" ? "Yeni" : "New"}
-                  </span>
-                )}
-                {product.comingSoon && (
-                  <span
-                    className="absolute top-4 right-4 rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
-                    style={{
-                      color: product.accent,
-                      borderColor: `${product.accent}66`,
-                      background: `${product.accent}1a`,
-                    }}
-                  >
-                    {t("comingSoon")}
                   </span>
                 )}
 
