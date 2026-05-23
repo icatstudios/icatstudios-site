@@ -329,23 +329,6 @@ export default async function ProductsPage({ params }: Props) {
                 </div>
               </div>
 
-              {/* Floating universal pin — decorative inline */}
-              <div className="relative mb-6 hidden lg:block">
-                <div
-                  className="absolute inset-0 rounded-full blur-2xl opacity-60 animate-pulse-glow"
-                  style={{
-                    background: `radial-gradient(circle, ${SWAPMAP_ACCENT}66, transparent 70%)`,
-                  }}
-                />
-                <Image
-                  src="/images/swapmap/swapmap_universal.png"
-                  alt={`${t("swapMap.name")} pin`}
-                  width={220}
-                  height={220}
-                  className="relative animate-float drop-shadow-[0_8px_28px_rgba(6,182,212,0.45)]"
-                />
-              </div>
-
               <p
                 className="mb-3 text-sm font-semibold uppercase tracking-[0.2em]"
                 style={{ color: SWAPMAP_ACCENT }}
