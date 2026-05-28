@@ -89,6 +89,8 @@ const SCOREHUNTER_PLAY_STORE_URL =
 
 const SWAPMAP_APP_STORE_URL =
   "https://apps.apple.com/us/app/swapmap-cards-stickers-tcg/id6769533772";
+const SWAPMAP_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.icatstudios.swapmap";
 
 export default async function ProductsPage({ params }: Props) {
   const { locale } = await params;
@@ -344,7 +346,7 @@ export default async function ProductsPage({ params }: Props) {
 
               <StoreBadges
                 appStoreUrl={SWAPMAP_APP_STORE_URL}
-                playStoreComingSoon
+                playStoreUrl={SWAPMAP_PLAY_STORE_URL}
                 accent={SWAPMAP_ACCENT}
               />
             </div>
