@@ -134,7 +134,8 @@ export default async function AboutPage({ params }: Props) {
           <div className="mt-8 space-y-5 leading-relaxed text-zinc-400">
             <p>{t("story1")}</p>
             <p>{t("story2")}</p>
-            <p className="text-zinc-300">{t("story3")}</p>
+            <p>{t("story3")}</p>
+            <p className="text-zinc-300">{t("story4")}</p>
           </div>
         </Reveal>
 
