@@ -5,7 +5,7 @@
     "privacyPolicy": "Datenschutzerklärung",
     "termOfUse": "Nutzungsbedingungen",
     "support": "Support",
-    "aboutUs": "About Us"
+    "aboutUs": "Über uns"
   },
   "home": {
     "metaTitle": "iCat Studios - Mobile-App- und Spieleentwicklung",
@@ -20,9 +20,9 @@
     "productsSectionSubtitle": "Sieh dir an, woran wir arbeiten",
     "comingSoon": "Demnächst",
     "explore": "Entdecken",
-    "charityTitle": "The “Cat” in iCat is real",
-    "charityText": "Since 2015, we have dedicated 25% of our net revenue to the stray animals of Türkiye, covering shelter, treatment, neutering, and food for hundreds of stray cats.",
-    "charityCta": "Read our story"
+    "charityTitle": "Die „Katze“ in iCat ist echt",
+    "charityText": "Seit Jahren widmen wir einen bedeutenden Teil unserer Einnahmen den Straßentieren in der Türkei: Unterkunft, Behandlung, Kastration und Futter für Hunderte von Straßenkatzen.",
+    "charityCta": "Unsere Geschichte lesen"
   },
   "heroStats": {
     "downloadsLabel": "Downloads",
@@ -268,26 +268,26 @@
     "copyright": "© 2026 iCat Studios. Alle Rechte vorbehalten."
   },
   "about": {
-    "metaTitle": "About Us",
-    "metaDescription": "iCat Studios dedicates 25% of its net revenue to sheltering, treating, and neutering stray animals in Türkiye.",
-    "title": "About Us",
-    "subtitle": "The “Cat” in iCat Studios is real",
-    "storyEyebrow": "Our Story",
-    "story1": "iCat Studios is an independent studio building mobile apps and games. But there has always been more to us than code and pixels. Since 2015, we have been standing with the stray animals of Türkiye, covering the shelter, neutering, treatment, feeding, and adoption costs of hundreds of stray cats.",
-    "story2": "We also run a small shelter of our own, where disabled and sick stray cats, the ones with the smallest chance out there, find safety, care, and a warm place to sleep.",
-    "story3": "In 2025, we restructured with a new vision. iCat Studios is now more productive and brighter than ever. Keep watching us shine.",
-    "statPercentValue": "25%",
-    "statPercentLabel": "of our net revenue goes to stray animals",
+    "metaTitle": "Über uns",
+    "metaDescription": "iCat Studios widmet 25 % seines Nettoumsatzes der Unterbringung, Behandlung und Kastration von Straßentieren in der Türkei.",
+    "title": "Über uns",
+    "subtitle": "Die „Katze“ in iCat Studios ist echt",
+    "storyEyebrow": "Unsere Geschichte",
+    "story1": "iCat Studios ist ein unabhängiges Studio, das mobile Apps und Spiele entwickelt. Aber wir waren immer mehr als Code und Pixel. Seit 2015 stehen wir an der Seite der Straßentiere in der Türkei und haben die Kosten für Unterbringung, Kastration, Behandlung, Fütterung und Vermittlung von Hunderten von Straßenkatzen übernommen.",
+    "story2": "Wir betreiben außerdem ein eigenes kleines Tierheim, in dem behinderte und kranke Straßenkatzen, also jene mit den geringsten Chancen da draußen, Sicherheit, Pflege und einen warmen Schlafplatz finden.",
+    "story3": "2025 haben wir uns mit einer neuen Vision neu aufgestellt. iCat Studios ist heute produktiver und strahlender als je zuvor. Bleiben Sie dran und sehen Sie uns glänzen.",
+    "story4": "Als unser soziales Engagement widmen wir nun 25 % unseres Nettoumsatzes diesem Zweck. Das ist keine Kampagne und kein vorübergehendes Versprechen; es ist einfach die Art, wie dieses Studio schon immer gearbeitet hat.",
+    "statPercentValue": "25 %",
+    "statPercentLabel": "unseres Nettoumsatzes geht an Straßentiere",
     "statYearValue": "2015",
-    "statYearLabel": "standing with stray animals since",
-    "statCatsValue": "100s",
-    "statCatsLabel": "of stray cats treated, neutered, and sheltered",
-    "thanksEyebrow": "Want to thank us?",
-    "thanksHeading": "Put out a bowl of food instead",
-    "thanks1": "If you enjoy our apps and games and want to say thank you, here is all we ask:",
-    "thanksItem1": "Put out a bowl of food and a bowl of water for the animals on your street.",
-    "thanksItem2": "If you see a sick or injured animal, don't walk away. A small act can save a life.",
-    "thanks2": "That is the biggest thank-you we could ever receive.",
-    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked."
+    "statYearLabel": "an der Seite der Straßentiere seit",
+    "statCatsValue": "Hunderte",
+    "statCatsLabel": "Straßenkatzen behandelt, kastriert und untergebracht",
+    "thanksEyebrow": "Sie möchten sich bedanken?",
+    "thanksHeading": "Stellen Sie stattdessen einen Napf Futter hin",
+    "thanks1": "Wenn Ihnen unsere Apps und Spiele gefallen und Sie sich bedanken möchten, bitten wir nur um eines:",
+    "thanksItem1": "Stellen Sie den Tieren in Ihrer Straße einen Napf Futter und einen Napf Wasser hin.",
+    "thanksItem2": "Wenn Sie ein krankes oder verletztes Tier sehen, gehen Sie nicht einfach weiter. Eine kleine Geste kann ein Leben retten.",
+    "thanks2": "Das ist das größte Dankeschön, das wir uns wünschen können."
   }
 }

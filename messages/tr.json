@@ -21,7 +21,7 @@
     "comingSoon": "Çok Yakında",
     "explore": "İncele",
     "charityTitle": "iCat'in içindeki “Kedi” gerçek",
-    "charityText": "2015'ten beri net gelirimizin %25'ini Türkiye'deki sokak hayvanlarına ayırıyoruz: yüzlerce sokak kedisi için barınma, tedavi, kısırlaştırma ve mama.",
+    "charityText": "Yıllardır gelirlerimizin önemli bir kısmını Türkiye'deki sokak hayvanlarına ayırıyoruz: yüzlerce sokak kedisi için barınma, tedavi, kısırlaştırma ve mama.",
     "charityCta": "Hikâyemizi okuyun"
   },
   "heroStats": {
@@ -276,6 +276,7 @@
     "story1": "iCat Studios, mobil uygulamalar ve oyunlar geliştiren bağımsız bir stüdyo. Ama bizim için işin kod ve pikselden fazlası var. 2015'ten beri Türkiye'deki sokak hayvanlarının yanındayız; yüzlerce sokak kedisinin barınma, kısırlaştırma, tedavi, besleme ve sahiplendirme masraflarını karşıladık.",
     "story2": "Ayrıca küçük bir barınağımız var; sokakta şansı en az olan engelli ve hasta sokak kedileri burada güvenliği, bakımı ve sıcak bir yuvayı buluyor.",
     "story3": "2025 yılında yeni bir vizyon ile yeni bir yapılanmaya gittik. Artık iCat Studios her zamankinden çok daha üretken ve parlak. Parıldamamızı izlemeye devam edin.",
+    "story4": "Sosyal sorumluluk taahhüdümüz olarak da, artık net gelirimizin %25'ini bu amaca ayırıyoruz. Bu bir kampanya ya da geçici bir söz değil; bu stüdyonun her zamanki çalışma şekli.",
     "statPercentValue": "%25",
     "statPercentLabel": "net gelirimiz sokak hayvanlarına gidiyor",
     "statYearValue": "2015",
@@ -287,7 +288,6 @@
     "thanks1": "Uygulamalarımızı ve oyunlarımızı beğendiyseniz ve teşekkür etmek istiyorsanız, tek isteğimiz şu:",
     "thanksItem1": "Sokağınızdaki canlar için bir kap mama ve bir kap su koyun.",
     "thanksItem2": "Hasta ya da yaralı bir hayvan gördüğünüzde arkanızı dönüp gitmeyin. Küçük bir çaba bir canı kurtarır.",
-    "thanks2": "Bizim için en büyük teşekkür bu olur.",
-    "story4": "Sosyal sorumluluk taahhüdümüz olarak da, artık net gelirimizin %25'ini bu amaca ayırıyoruz. Bu bir kampanya ya da geçici bir söz değil; bu stüdyonun her zamanki çalışma şekli."
+    "thanks2": "Bizim için en büyük teşekkür bu olur."
   }
 }

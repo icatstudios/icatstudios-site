@@ -5,7 +5,7 @@
     "privacyPolicy": "隐私政策",
     "termOfUse": "使用条款",
     "support": "支持",
-    "aboutUs": "About Us"
+    "aboutUs": "关于我们"
   },
   "home": {
     "metaTitle": "iCat Studios - 移动应用与游戏开发",
@@ -20,9 +20,9 @@
     "productsSectionSubtitle": "看看我们一直在打造什么",
     "comingSoon": "即将推出",
     "explore": "探索",
-    "charityTitle": "The “Cat” in iCat is real",
-    "charityText": "Since 2015, we have dedicated 25% of our net revenue to the stray animals of Türkiye, covering shelter, treatment, neutering, and food for hundreds of stray cats.",
-    "charityCta": "Read our story"
+    "charityTitle": "iCat 里的“猫”是真实的",
+    "charityText": "多年来，我们将相当一部分收入用于土耳其的流浪动物：为数百只流浪猫提供住所、治疗、绝育和食物。",
+    "charityCta": "阅读我们的故事"
   },
   "heroStats": {
     "downloadsLabel": "下载量",
@@ -268,26 +268,26 @@
     "copyright": "© 2026 iCat Studios. 保留所有权利。"
   },
   "about": {
-    "metaTitle": "About Us",
-    "metaDescription": "iCat Studios dedicates 25% of its net revenue to sheltering, treating, and neutering stray animals in Türkiye.",
-    "title": "About Us",
-    "subtitle": "The “Cat” in iCat Studios is real",
-    "storyEyebrow": "Our Story",
-    "story1": "iCat Studios is an independent studio building mobile apps and games. But there has always been more to us than code and pixels. Since 2015, we have been standing with the stray animals of Türkiye, covering the shelter, neutering, treatment, feeding, and adoption costs of hundreds of stray cats.",
-    "story2": "We also run a small shelter of our own, where disabled and sick stray cats, the ones with the smallest chance out there, find safety, care, and a warm place to sleep.",
-    "story3": "In 2025, we restructured with a new vision. iCat Studios is now more productive and brighter than ever. Keep watching us shine.",
+    "metaTitle": "关于我们",
+    "metaDescription": "iCat Studios 将其净收入的25%用于土耳其流浪动物的收容、治疗和绝育。",
+    "title": "关于我们",
+    "subtitle": "iCat Studios 里的“猫”是真实的",
+    "storyEyebrow": "我们的故事",
+    "story1": "iCat Studios 是一家开发移动应用和游戏的独立工作室。但我们一直不止于代码和像素。自2015年以来，我们始终陪伴在土耳其流浪动物身边，为数百只流浪猫承担收容、绝育、治疗、喂养和领养费用。",
+    "story2": "我们还经营着一家自己的小型收容所，让残疾和生病的流浪猫，那些在外面机会最渺茫的孩子们，找到安全、照顾和温暖的睡处。",
+    "story3": "2025年，我们以全新的愿景完成了重组。如今的 iCat Studios 比以往任何时候都更高产、更耀眼。请继续见证我们的闪耀。",
+    "story4": "作为我们的社会责任承诺，我们现在将净收入的25%用于这项事业。这不是一次活动，也不是暂时的承诺；这就是这家工作室一贯的运作方式。",
     "statPercentValue": "25%",
-    "statPercentLabel": "of our net revenue goes to stray animals",
+    "statPercentLabel": "的净收入用于流浪动物",
     "statYearValue": "2015",
-    "statYearLabel": "standing with stray animals since",
-    "statCatsValue": "100s",
-    "statCatsLabel": "of stray cats treated, neutered, and sheltered",
-    "thanksEyebrow": "Want to thank us?",
-    "thanksHeading": "Put out a bowl of food instead",
-    "thanks1": "If you enjoy our apps and games and want to say thank you, here is all we ask:",
-    "thanksItem1": "Put out a bowl of food and a bowl of water for the animals on your street.",
-    "thanksItem2": "If you see a sick or injured animal, don't walk away. A small act can save a life.",
-    "thanks2": "That is the biggest thank-you we could ever receive.",
-    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked."
+    "statYearLabel": "年起陪伴流浪动物",
+    "statCatsValue": "数百只",
+    "statCatsLabel": "流浪猫得到治疗、绝育和收容",
+    "thanksEyebrow": "想感谢我们吗？",
+    "thanksHeading": "不如放一碗猫粮",
+    "thanks1": "如果您喜欢我们的应用和游戏并想表达感谢，我们只有一个请求：",
+    "thanksItem1": "为您街道上的动物放一碗食物和一碗水。",
+    "thanksItem2": "看到生病或受伤的动物时，请不要转身离开。小小的举动可以拯救一条生命。",
+    "thanks2": "这就是我们能收到的最好的感谢。"
   }
 }

@@ -5,7 +5,7 @@
     "privacyPolicy": "Privatlivspolitik",
     "termOfUse": "Brugsbetingelser",
     "support": "Support",
-    "aboutUs": "About Us"
+    "aboutUs": "Om os"
   },
   "home": {
     "metaTitle": "iCat Studios - Mobilapp- og spiludvikling",
@@ -20,9 +20,9 @@
     "productsSectionSubtitle": "Se hvad vi har lavet",
     "comingSoon": "Kommer snart",
     "explore": "Udforsk",
-    "charityTitle": "The “Cat” in iCat is real",
-    "charityText": "Since 2015, we have dedicated 25% of our net revenue to the stray animals of Türkiye, covering shelter, treatment, neutering, and food for hundreds of stray cats.",
-    "charityCta": "Read our story"
+    "charityTitle": "“Katten” i iCat er ægte",
+    "charityText": "I årevis har vi dedikeret en betydelig del af vores indtægter til hjemløse dyr i Tyrkiet: husly, behandling, neutralisering og mad til hundredvis af hjemløse katte.",
+    "charityCta": "Læs vores historie"
   },
   "heroStats": {
     "downloadsLabel": "Downloads",
@@ -268,26 +268,26 @@
     "copyright": "© 2026 iCat Studios. Alle rettigheder forbeholdes."
   },
   "about": {
-    "metaTitle": "About Us",
-    "metaDescription": "iCat Studios dedicates 25% of its net revenue to sheltering, treating, and neutering stray animals in Türkiye.",
-    "title": "About Us",
-    "subtitle": "The “Cat” in iCat Studios is real",
-    "storyEyebrow": "Our Story",
-    "story1": "iCat Studios is an independent studio building mobile apps and games. But there has always been more to us than code and pixels. Since 2015, we have been standing with the stray animals of Türkiye, covering the shelter, neutering, treatment, feeding, and adoption costs of hundreds of stray cats.",
-    "story2": "We also run a small shelter of our own, where disabled and sick stray cats, the ones with the smallest chance out there, find safety, care, and a warm place to sleep.",
-    "story3": "In 2025, we restructured with a new vision. iCat Studios is now more productive and brighter than ever. Keep watching us shine.",
-    "statPercentValue": "25%",
-    "statPercentLabel": "of our net revenue goes to stray animals",
+    "metaTitle": "Om os",
+    "metaDescription": "iCat Studios dedikerer 25 % af sin nettoomsætning til husly, behandling og neutralisering af hjemløse dyr i Tyrkiet.",
+    "title": "Om os",
+    "subtitle": "“Katten” i iCat Studios er ægte",
+    "storyEyebrow": "Vores historie",
+    "story1": "iCat Studios er et uafhængigt studie, der laver mobilapps og spil. Men vi har altid været mere end kode og pixels. Siden 2015 har vi stået ved de hjemløse dyrs side i Tyrkiet og dækket udgifterne til husly, neutralisering, behandling, fodring og adoption af hundredvis af hjemløse katte.",
+    "story2": "Vi driver også vores eget lille internat, hvor handicappede og syge hjemløse katte, dem med de mindste chancer derude, finder tryghed, omsorg og et varmt sted at sove.",
+    "story3": "I 2025 omstrukturerede vi os med en ny vision. iCat Studios er nu mere produktivt og strålende end nogensinde. Bliv ved med at se os skinne.",
+    "story4": "Som vores sociale ansvar dedikerer vi nu 25 % af vores nettoomsætning til denne sag. Det er ikke en kampagne eller et midlertidigt løfte; det er simpelthen sådan, dette studie altid har arbejdet.",
+    "statPercentValue": "25 %",
+    "statPercentLabel": "af vores nettoomsætning går til hjemløse dyr",
     "statYearValue": "2015",
-    "statYearLabel": "standing with stray animals since",
-    "statCatsValue": "100s",
-    "statCatsLabel": "of stray cats treated, neutered, and sheltered",
-    "thanksEyebrow": "Want to thank us?",
-    "thanksHeading": "Put out a bowl of food instead",
-    "thanks1": "If you enjoy our apps and games and want to say thank you, here is all we ask:",
-    "thanksItem1": "Put out a bowl of food and a bowl of water for the animals on your street.",
-    "thanksItem2": "If you see a sick or injured animal, don't walk away. A small act can save a life.",
-    "thanks2": "That is the biggest thank-you we could ever receive.",
-    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked."
+    "statYearLabel": "ved de hjemløse dyrs side siden",
+    "statCatsValue": "Hundredvis",
+    "statCatsLabel": "af hjemløse katte behandlet, neutraliseret og givet husly",
+    "thanksEyebrow": "Vil du takke os?",
+    "thanksHeading": "Stil i stedet en skål mad frem",
+    "thanks1": "Hvis du kan lide vores apps og spil og vil sige tak, er det her alt, hvad vi beder om:",
+    "thanksItem1": "Stil en skål mad og en skål vand frem til dyrene på din gade.",
+    "thanksItem2": "Ser du et sygt eller såret dyr, så gå ikke bare forbi. En lille handling kan redde et liv.",
+    "thanks2": "Det er den største tak, vi kan få."
   }
 }

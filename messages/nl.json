@@ -5,7 +5,7 @@
     "privacyPolicy": "Privacybeleid",
     "termOfUse": "Gebruiksvoorwaarden",
     "support": "Ondersteuning",
-    "aboutUs": "About Us"
+    "aboutUs": "Over ons"
   },
   "home": {
     "metaTitle": "iCat Studios - Mobiele app- en gameontwikkeling",
@@ -20,9 +20,9 @@
     "productsSectionSubtitle": "Bekijk waar we aan werken",
     "comingSoon": "Binnenkort",
     "explore": "Ontdek",
-    "charityTitle": "The “Cat” in iCat is real",
-    "charityText": "Since 2015, we have dedicated 25% of our net revenue to the stray animals of Türkiye, covering shelter, treatment, neutering, and food for hundreds of stray cats.",
-    "charityCta": "Read our story"
+    "charityTitle": "De “Kat” in iCat is echt",
+    "charityText": "Al jaren besteden we een aanzienlijk deel van onze inkomsten aan de zwerfdieren van Turkije: opvang, behandeling, castratie en voer voor honderden zwerfkatten.",
+    "charityCta": "Lees ons verhaal"
   },
   "heroStats": {
     "downloadsLabel": "Downloads",
@@ -268,26 +268,26 @@
     "copyright": "© 2026 iCat Studios. Alle rechten voorbehouden."
   },
   "about": {
-    "metaTitle": "About Us",
-    "metaDescription": "iCat Studios dedicates 25% of its net revenue to sheltering, treating, and neutering stray animals in Türkiye.",
-    "title": "About Us",
-    "subtitle": "The “Cat” in iCat Studios is real",
-    "storyEyebrow": "Our Story",
-    "story1": "iCat Studios is an independent studio building mobile apps and games. But there has always been more to us than code and pixels. Since 2015, we have been standing with the stray animals of Türkiye, covering the shelter, neutering, treatment, feeding, and adoption costs of hundreds of stray cats.",
-    "story2": "We also run a small shelter of our own, where disabled and sick stray cats, the ones with the smallest chance out there, find safety, care, and a warm place to sleep.",
-    "story3": "In 2025, we restructured with a new vision. iCat Studios is now more productive and brighter than ever. Keep watching us shine.",
+    "metaTitle": "Over ons",
+    "metaDescription": "iCat Studios besteedt 25% van zijn netto-omzet aan de opvang, behandeling en castratie van zwerfdieren in Turkije.",
+    "title": "Over ons",
+    "subtitle": "De “Kat” in iCat Studios is echt",
+    "storyEyebrow": "Ons verhaal",
+    "story1": "iCat Studios is een onafhankelijke studio die mobiele apps en games maakt. Maar we zijn altijd meer geweest dan code en pixels. Sinds 2015 staan we aan de zijde van de zwerfdieren van Turkije en dekken we de kosten voor opvang, castratie, behandeling, voeding en adoptie van honderden zwerfkatten.",
+    "story2": "We runnen ook een eigen klein asiel, waar gehandicapte en zieke zwerfkatten, degenen met de kleinste kans daarbuiten, veiligheid, verzorging en een warme slaapplek vinden.",
+    "story3": "In 2025 zijn we geherstructureerd met een nieuwe visie. iCat Studios is nu productiever en stralender dan ooit. Blijf kijken hoe we schitteren.",
+    "story4": "Als ons maatschappelijke engagement besteden we nu 25% van onze netto-omzet aan dit doel. Het is geen campagne of tijdelijke belofte; het is gewoon hoe deze studio altijd heeft gewerkt.",
     "statPercentValue": "25%",
-    "statPercentLabel": "of our net revenue goes to stray animals",
+    "statPercentLabel": "van onze netto-omzet gaat naar zwerfdieren",
     "statYearValue": "2015",
-    "statYearLabel": "standing with stray animals since",
-    "statCatsValue": "100s",
-    "statCatsLabel": "of stray cats treated, neutered, and sheltered",
-    "thanksEyebrow": "Want to thank us?",
-    "thanksHeading": "Put out a bowl of food instead",
-    "thanks1": "If you enjoy our apps and games and want to say thank you, here is all we ask:",
-    "thanksItem1": "Put out a bowl of food and a bowl of water for the animals on your street.",
-    "thanksItem2": "If you see a sick or injured animal, don't walk away. A small act can save a life.",
-    "thanks2": "That is the biggest thank-you we could ever receive.",
-    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked."
+    "statYearLabel": "aan de zijde van zwerfdieren sinds",
+    "statCatsValue": "Honderden",
+    "statCatsLabel": "zwerfkatten behandeld, gecastreerd en opgevangen",
+    "thanksEyebrow": "Wil je ons bedanken?",
+    "thanksHeading": "Zet liever een bakje voer neer",
+    "thanks1": "Als je onze apps en games leuk vindt en ons wilt bedanken, is dit alles wat we vragen:",
+    "thanksItem1": "Zet een bakje voer en een bakje water neer voor de dieren in jouw straat.",
+    "thanksItem2": "Zie je een ziek of gewond dier, loop dan niet door. Een klein gebaar kan een leven redden.",
+    "thanks2": "Dat is het grootste bedankje dat we kunnen krijgen."
   }
 }

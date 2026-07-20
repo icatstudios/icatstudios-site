@@ -5,7 +5,7 @@
     "privacyPolicy": "Informativa sulla privacy",
     "termOfUse": "Termini di utilizzo",
     "support": "Supporto",
-    "aboutUs": "About Us"
+    "aboutUs": "Chi siamo"
   },
   "home": {
     "metaTitle": "iCat Studios - Sviluppo di applicazioni mobili e giochi",
@@ -20,9 +20,9 @@
     "productsSectionSubtitle": "Scopri cosa stiamo creando",
     "comingSoon": "Prossimamente",
     "explore": "Esplora",
-    "charityTitle": "The “Cat” in iCat is real",
-    "charityText": "Since 2015, we have dedicated 25% of our net revenue to the stray animals of Türkiye, covering shelter, treatment, neutering, and food for hundreds of stray cats.",
-    "charityCta": "Read our story"
+    "charityTitle": "Il «Gatto» di iCat è reale",
+    "charityText": "Da anni dedichiamo una parte importante dei nostri ricavi agli animali randagi della Turchia: rifugio, cure, sterilizzazione e cibo per centinaia di gatti randagi.",
+    "charityCta": "Leggi la nostra storia"
   },
   "heroStats": {
     "downloadsLabel": "Download",
@@ -268,26 +268,26 @@
     "copyright": "© 2026 iCat Studios. Tutti i diritti riservati."
   },
   "about": {
-    "metaTitle": "About Us",
-    "metaDescription": "iCat Studios dedicates 25% of its net revenue to sheltering, treating, and neutering stray animals in Türkiye.",
-    "title": "About Us",
-    "subtitle": "The “Cat” in iCat Studios is real",
-    "storyEyebrow": "Our Story",
-    "story1": "iCat Studios is an independent studio building mobile apps and games. But there has always been more to us than code and pixels. Since 2015, we have been standing with the stray animals of Türkiye, covering the shelter, neutering, treatment, feeding, and adoption costs of hundreds of stray cats.",
-    "story2": "We also run a small shelter of our own, where disabled and sick stray cats, the ones with the smallest chance out there, find safety, care, and a warm place to sleep.",
-    "story3": "In 2025, we restructured with a new vision. iCat Studios is now more productive and brighter than ever. Keep watching us shine.",
+    "metaTitle": "Chi siamo",
+    "metaDescription": "iCat Studios dedica il 25% dei suoi ricavi netti a rifugio, cure e sterilizzazione degli animali randagi in Turchia.",
+    "title": "Chi siamo",
+    "subtitle": "Il «Gatto» di iCat Studios è reale",
+    "storyEyebrow": "La nostra storia",
+    "story1": "iCat Studios è uno studio indipendente che sviluppa app mobili e giochi. Ma siamo sempre stati più di codice e pixel. Dal 2015 siamo al fianco degli animali randagi della Turchia, coprendo i costi di rifugio, sterilizzazione, cure, alimentazione e adozione di centinaia di gatti randagi.",
+    "story2": "Gestiamo anche un nostro piccolo rifugio, dove i gatti randagi disabili e malati, quelli con meno possibilità là fuori, trovano sicurezza, cure e un posto caldo dove dormire.",
+    "story3": "Nel 2025 ci siamo riorganizzati con una nuova visione. iCat Studios è oggi più produttivo e brillante che mai. Continuate a guardarci brillare.",
+    "story4": "Come impegno di responsabilità sociale, ora dedichiamo il 25% dei nostri ricavi netti a questa causa. Non è una campagna né una promessa passeggera; è semplicemente il modo in cui questo studio ha sempre lavorato.",
     "statPercentValue": "25%",
-    "statPercentLabel": "of our net revenue goes to stray animals",
+    "statPercentLabel": "dei nostri ricavi netti va agli animali randagi",
     "statYearValue": "2015",
-    "statYearLabel": "standing with stray animals since",
-    "statCatsValue": "100s",
-    "statCatsLabel": "of stray cats treated, neutered, and sheltered",
-    "thanksEyebrow": "Want to thank us?",
-    "thanksHeading": "Put out a bowl of food instead",
-    "thanks1": "If you enjoy our apps and games and want to say thank you, here is all we ask:",
-    "thanksItem1": "Put out a bowl of food and a bowl of water for the animals on your street.",
-    "thanksItem2": "If you see a sick or injured animal, don't walk away. A small act can save a life.",
-    "thanks2": "That is the biggest thank-you we could ever receive.",
-    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked."
+    "statYearLabel": "al fianco degli animali randagi dal",
+    "statCatsValue": "Centinaia",
+    "statCatsLabel": "di gatti randagi curati, sterilizzati e ospitati",
+    "thanksEyebrow": "Vuoi ringraziarci?",
+    "thanksHeading": "Metti invece una ciotola di cibo",
+    "thanks1": "Se ti piacciono le nostre app e i nostri giochi e vuoi ringraziarci, ecco tutto ciò che chiediamo:",
+    "thanksItem1": "Metti una ciotola di cibo e una di acqua per gli animali della tua strada.",
+    "thanksItem2": "Se vedi un animale malato o ferito, non voltarti dall'altra parte. Un piccolo gesto può salvare una vita.",
+    "thanks2": "È il più grande grazie che possiamo ricevere."
   }
 }

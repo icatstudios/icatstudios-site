@@ -21,7 +21,7 @@
     "comingSoon": "Coming Soon",
     "explore": "Explore",
     "charityTitle": "The “Cat” in iCat is real",
-    "charityText": "Since 2015, we have dedicated 25% of our net revenue to the stray animals of Türkiye, covering shelter, treatment, neutering, and food for hundreds of stray cats.",
+    "charityText": "For years, we have dedicated a significant part of our revenue to the stray animals of Türkiye: shelter, treatment, neutering, and food for hundreds of stray cats.",
     "charityCta": "Read our story"
   },
   "heroStats": {
@@ -276,6 +276,7 @@
     "story1": "iCat Studios is an independent studio building mobile apps and games. But there has always been more to us than code and pixels. Since 2015, we have been standing with the stray animals of Türkiye, covering the shelter, neutering, treatment, feeding, and adoption costs of hundreds of stray cats.",
     "story2": "We also run a small shelter of our own, where disabled and sick stray cats, the ones with the smallest chance out there, find safety, care, and a warm place to sleep.",
     "story3": "In 2025, we restructured with a new vision. iCat Studios is now more productive and brighter than ever. Keep watching us shine.",
+    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked.",
     "statPercentValue": "25%",
     "statPercentLabel": "of our net revenue goes to stray animals",
     "statYearValue": "2015",
@@ -287,7 +288,6 @@
     "thanks1": "If you enjoy our apps and games and want to say thank you, here is all we ask:",
     "thanksItem1": "Put out a bowl of food and a bowl of water for the animals on your street.",
     "thanksItem2": "If you see a sick or injured animal, don't walk away. A small act can save a life.",
-    "thanks2": "That is the biggest thank-you we could ever receive.",
-    "story4": "As our social responsibility commitment, we now dedicate 25% of our net revenue to this cause. It is not a campaign or a temporary promise; it is simply how this studio has always worked."
+    "thanks2": "That is the biggest thank-you we could ever receive."
   }
 }
