@@ -21,7 +21,7 @@
     "comingSoon": "Çok Yakında",
     "explore": "İncele",
     "charityTitle": "iCat'in içindeki “Kedi” gerçek",
-    "charityText": "2015'ten beri net gelirimizin %30'unu Türkiye'deki sokak hayvanlarına ayırıyoruz — yüzlerce sokak kedisi için barınma, tedavi, kısırlaştırma ve mama.",
+    "charityText": "2015'ten beri net gelirimizin %25'ini Türkiye'deki sokak hayvanlarına ayırıyoruz: yüzlerce sokak kedisi için barınma, tedavi, kısırlaştırma ve mama.",
     "charityCta": "Hikâyemizi okuyun"
   },
   "heroStats": {
@@ -269,14 +269,14 @@
   },
   "about": {
     "metaTitle": "Hakkımızda",
-    "metaDescription": "iCat Studios, net gelirinin %30'unu Türkiye'deki sokak hayvanlarının barınma, tedavi ve kısırlaştırma masraflarına ayırıyor.",
+    "metaDescription": "iCat Studios, net gelirinin %25'ini Türkiye'deki sokak hayvanlarının barınma, tedavi ve kısırlaştırma masraflarına ayırıyor.",
     "title": "Hakkımızda",
     "subtitle": "iCat Studios'un içindeki “Kedi” gerçek",
     "storyEyebrow": "Hikâyemiz",
-    "story1": "iCat Studios, mobil uygulamalar ve oyunlar geliştiren bağımsız bir stüdyo. Ama bizim için işin kod ve pikselden fazlası var: 2015'ten beri Türkiye'deki sokak hayvanlarının yanındayız — yüzlerce sokak kedisinin barınma, kısırlaştırma, tedavi, besleme ve sahiplendirme masraflarını karşıladık.",
+    "story1": "iCat Studios, mobil uygulamalar ve oyunlar geliştiren bağımsız bir stüdyo. Ama bizim için işin kod ve pikselden fazlası var. 2015'ten beri Türkiye'deki sokak hayvanlarının yanındayız; yüzlerce sokak kedisinin barınma, kısırlaştırma, tedavi, besleme ve sahiplendirme masraflarını karşıladık.",
     "story2": "Ayrıca küçük bir barınağımız var; sokakta şansı en az olan engelli ve hasta sokak kedileri burada güvenliği, bakımı ve sıcak bir yuvayı buluyor.",
-    "story3": "Sosyal sorumluluk taahhüdümüz olarak net gelirimizin %30'unu bu amaca ayırıyoruz. Bu bir kampanya ya da geçici bir söz değil; bu stüdyonun her zamanki çalışma şekli.",
-    "statPercentValue": "%30",
+    "story3": "Sosyal sorumluluk taahhüdümüz olarak net gelirimizin %25'ini bu amaca ayırıyoruz. Bu bir kampanya ya da geçici bir söz değil; bu stüdyonun her zamanki çalışma şekli.",
+    "statPercentValue": "%25",
     "statPercentLabel": "net gelirimiz sokak hayvanlarına gidiyor",
     "statYearValue": "2015",
     "statYearLabel": "yılından beri sokak hayvanlarının yanındayız",
