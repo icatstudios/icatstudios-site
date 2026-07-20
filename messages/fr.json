@@ -283,8 +283,8 @@
     "storyEyebrow": "Notre histoire",
     "story1": "iCat Studios est un studio indépendant qui crée des applications mobiles et des jeux. Mais nous avons toujours été plus que du code et des pixels. Depuis 2020, nous sommes aux côtés des animaux errants de Turquie et prenons en charge les frais d'hébergement, de stérilisation, de soins, de nourriture et d'adoption de centaines de chats errants.",
     "story2": "Nous gérons aussi notre propre petit refuge, où les chats errants handicapés et malades, ceux qui ont le moins de chances dehors, trouvent sécurité, soins et un endroit chaud pour dormir.",
-    "story3": "En 2025, nous nous sommes réorganisés autour d'une nouvelle vision. iCat Studios est aujourd'hui plus productif et plus brillant que jamais. Continuez à nous regarder briller.",
-    "story4": "Dans le cadre de notre engagement social, nous consacrons désormais 25 % de nos revenus nets à cette cause. Ce n'est ni une campagne ni une promesse passagère ; c'est simplement la façon dont ce studio a toujours fonctionné.",
+    "story3": "En 2025, nous avons adopté une nouvelle structure portée par une toute nouvelle vision. Avec un nouveau logo, une nouvelle image, de nouveaux projets et une équipe qui tient vraiment à ce travail et y met tout son cœur, nous avons tourné une page toute neuve.",
+    "story4": "Après cette transformation, par sens des responsabilités sociales, nous consacrons désormais environ 25 % de nos revenus nets aux âmes innocentes de la rue. Ce n'est ni une campagne ni une promesse passagère ; c'est la raison d'être même de notre studio et sa mission de vie.",
     "statPercentValue": "25 %",
     "statPercentLabel": "de nos revenus nets vont aux animaux errants",
     "statYearValue": "2020",
@@ -296,6 +296,7 @@
     "thanks1": "Si vous aimez nos applications et nos jeux et souhaitez nous remercier, voici tout ce que nous demandons :",
     "thanksItem1": "Déposez une gamelle de nourriture et une gamelle d'eau pour les animaux de votre rue.",
     "thanksItem2": "Si vous voyez un animal malade ou blessé, ne passez pas votre chemin. Un petit geste peut sauver une vie.",
-    "thanks2": "C'est le plus beau merci que nous puissions recevoir."
+    "thanks2": "C'est le plus beau merci que nous puissions recevoir.",
+    "story5": "iCat Studios est aujourd'hui plus productif et plus brillant que jamais. Continuez à nous regarder briller."
   }
 }

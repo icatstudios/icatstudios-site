@@ -283,8 +283,8 @@
     "storyEyebrow": "Nuestra historia",
     "story1": "iCat Studios es un estudio independiente que crea aplicaciones móviles y juegos. Pero siempre hemos sido más que código y píxeles. Desde 2020 estamos junto a los animales callejeros de Turquía, cubriendo los gastos de refugio, esterilización, tratamiento, alimentación y adopción de cientos de gatos callejeros.",
     "story2": "También tenemos un pequeño refugio propio, donde los gatos callejeros discapacitados y enfermos, los que menos oportunidades tienen ahí fuera, encuentran seguridad, cuidados y un lugar cálido donde dormir.",
-    "story3": "En 2025 nos reestructuramos con una nueva visión. iCat Studios es ahora más productivo y brillante que nunca. Sigue viéndonos brillar.",
-    "story4": "Como compromiso de responsabilidad social, ahora dedicamos el 25 % de nuestros ingresos netos a esta causa. No es una campaña ni una promesa pasajera; es simplemente la forma en que este estudio siempre ha trabajado.",
+    "story3": "En 2025 pasamos a una nueva estructura con una visión completamente nueva. Con un nuevo logo, una nueva imagen, nuevos proyectos y un equipo que se preocupa de verdad por este trabajo y le dedica un esfuerzo real, abrimos una página totalmente limpia.",
+    "story4": "Tras esta transformación, por sentido de responsabilidad social, ahora dedicamos alrededor del 25 % de nuestros ingresos netos a las almas inocentes de la calle. No es una campaña ni una promesa pasajera; es la razón misma de ser de nuestro estudio y su misión de vida.",
     "statPercentValue": "25 %",
     "statPercentLabel": "de nuestros ingresos netos va a los animales callejeros",
     "statYearValue": "2020",
@@ -296,6 +296,7 @@
     "thanks1": "Si te gustan nuestras aplicaciones y juegos y quieres darnos las gracias, esto es todo lo que pedimos:",
     "thanksItem1": "Pon un cuenco de comida y otro de agua para los animales de tu calle.",
     "thanksItem2": "Si ves un animal enfermo o herido, no te des la vuelta. Un pequeño gesto puede salvar una vida.",
-    "thanks2": "Ese es el mayor agradecimiento que podemos recibir."
+    "thanks2": "Ese es el mayor agradecimiento que podemos recibir.",
+    "story5": "iCat Studios es ahora más productivo y brillante que nunca. Sigue viéndonos brillar."
   }
 }
