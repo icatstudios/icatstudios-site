@@ -255,6 +255,78 @@ export default async function Home({ params }: Props) {
           ))}
         </div>
       </section>
+
+      {/* ============ Charity strip ============ */}
+      <section className="relative mx-auto max-w-6xl px-6 pb-24">
+        <Reveal>
+          <Link
+            href="/about"
+            className="group relative block overflow-hidden rounded-2xl border p-8 backdrop-blur transition-transform duration-300 hover:-translate-y-1 sm:p-10"
+            style={{
+              borderColor: "#e35ec733",
+              background: "rgba(18,18,26,0.6)",
+            }}
+          >
+            <div
+              aria-hidden
+              className="pointer-events-none absolute -top-24 -right-24 h-64 w-64 rounded-full opacity-15 blur-3xl transition-opacity duration-500 group-hover:opacity-30"
+              style={{ background: "#e35ec7" }}
+            />
+            <div
+              aria-hidden
+              className="pointer-events-none absolute -bottom-24 -left-24 h-64 w-64 rounded-full opacity-10 blur-3xl transition-opacity duration-500 group-hover:opacity-25"
+              style={{ background: "#2fbbb3" }}
+            />
+
+            <div className="relative flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-8">
+              <span
+                className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl border text-2xl"
+                style={{
+                  color: "#e35ec7",
+                  borderColor: "#e35ec733",
+                  background: "#e35ec71a",
+                }}
+              >
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+                  <ellipse cx="6.2" cy="7.8" rx="2" ry="2.6" />
+                  <ellipse cx="10.4" cy="4.8" rx="2" ry="2.7" />
+                  <ellipse cx="15.4" cy="5.6" rx="2" ry="2.6" transform="rotate(12 15.4 5.6)" />
+                  <ellipse cx="19" cy="9.6" rx="1.9" ry="2.4" transform="rotate(28 19 9.6)" />
+                  <path d="M12.6 9.8c2.6 0 5.6 2.6 6.1 5.4.34 1.9-.72 3.6-2.6 3.9-1.4.22-2.4-.34-3.5-.34-1.1 0-2.2.56-3.5.34-1.9-.32-2.95-2-2.6-3.9.5-2.8 3.5-5.4 6.1-5.4z" />
+                </svg>
+              </span>
+              <div className="flex-1">
+                <h2 className="text-xl font-bold text-foreground sm:text-2xl">
+                  {t("charityTitle")}
+                </h2>
+                <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+                  {t("charityText")}
+                </p>
+              </div>
+              <span
+                className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest transition-colors"
+                style={{ color: "#e35ec7" }}
+              >
+                {t("charityCta")}
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </span>
+            </div>
+          </Link>
+        </Reveal>
+      </section>
     </div>
   );
 }

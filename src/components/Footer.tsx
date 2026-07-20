@@ -89,6 +89,12 @@ export default function Footer() {
               {t("contactHeading")}
             </h3>
             <Link
+              href="/about"
+              className="text-sm text-zinc-500 transition-colors hover:text-primary"
+            >
+              {tNav("aboutUs")}
+            </Link>
+            <Link
               href="/support"
               className="text-sm text-zinc-500 transition-colors hover:text-primary"
             >
