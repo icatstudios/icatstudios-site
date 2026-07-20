@@ -16,7 +16,7 @@ Apple ile Giriş Yap veya Google ile Giriş Yap özelliğini kullandığınızda
 
 - **E-posta adresi** ("E-postamı Gizle" seçeneğini işaretlerseniz Apple bir aktarım e-postası sağlar)
 - **Ad ve soyad** (Apple bunu yalnızca ilk girişte sağlar; Google ise her girişte sağlar)
-- **Sağlayıcı Kullanıcı Kimliği** — hesabınızı tanımak için kullanılan benzersiz bir tanımlayıcı
+- **Sağlayıcı Kullanıcı Kimliği**: hesabınızı tanımak için kullanılan benzersiz bir tanımlayıcı
 
 ### 1.2 Profil Bilgileri
 
@@ -25,18 +25,18 @@ Uygulama içinde doğrudan sağladığınız bilgiler:
 - **Görünen ad** (ilanlarda, mesajlarda ve değerlendirmelerde diğer kullanıcılara görünür)
 - **Biyografi** (isteğe bağlı, diğer kullanıcılara görünür)
 - **Avatar** (isteğe bağlı)
-- **Bölge etiketi** (örn. "İstanbul, Kadıköy") — onboarding sırasında belirlediğiniz, insan tarafından okunabilir, kaba bir konum etiketi
-- **Bölgenizin yaklaşık koordinatları** — uyguladığımız gizlilik kaydırması için bkz. bölüm 1.4
+- **Bölge etiketi** (örn. "İstanbul, Kadıköy"): onboarding sırasında belirlediğiniz, insan tarafından okunabilir, kaba bir konum etiketi
+- **Bölgenizin yaklaşık koordinatları**: uyguladığımız gizlilik kaydırması için bkz. bölüm 1.4
 - **Ülke ve tercih edilen dil**
-- **Pro abonelik durumu** — aktif Pro üyeliğinizin olup olmadığı ve sona erme tarihi
+- **Pro abonelik durumu**: aktif Pro üyeliğinizin olup olmadığı ve sona erme tarihi
 
 ### 1.3 Koleksiyon ve İlan Verileri
 
 Uygulamayı kullanırken oluşturduğunuz veriler:
 
 - **Koleksiyon envanteriniz** (hangi sticker'lara/kartlara sahip olduğunuz ve kaç adet, hangilerini istediğiniz)
-- Yayınladığınız **ilanlar** (Satış, Takas veya Aranıyor) — başlık, açıklama, istenen fiyat, para birimi, durum ve dahil edilen ürünler dahil
-- Yaptığınız veya aldığınız **teklifler** — tüm geçmişiyle birlikte (turlar, istenen ürünler, sunulan ürünler, nakit tutarlar)
+- Yayınladığınız **ilanlar** (Satış, Takas veya Aranıyor): başlık, açıklama, istenen fiyat, para birimi, durum ve dahil edilen ürünler dahil
+- Yaptığınız veya aldığınız **teklifler**: tüm geçmişiyle birlikte (turlar, istenen ürünler, sunulan ürünler, nakit tutarlar)
 - Diğer kullanıcılarla yapılan **sohbetler ve mesajlar**
 - Verdiğiniz veya aldığınız **değerlendirmeler ve yorumlar**
 - Diğer kullanıcılar, mesajlar veya ilanlar hakkında gönderdiğiniz **şikayetler**
@@ -63,8 +63,8 @@ Uygulama, sticker kodlarını ("MEX5", "FWC1" veya Adrenalyn tarzı koleksiyonla
 
 - **Cihaz Kimliği** (anonim oturum yönetimi için)
 - **İşletim sistemi** (iOS/Android sürümü)
-- **Uygulama sürümü ve platform** (sürüm kodu, sürüm adı, iOS veya Android olduğu) — sürüme özgü destek sağlamak ve uyumluluk sorunlarını belirlemek için
-- **Push bildirim tokenı** — yeni mesaj bildirimlerini, teklif bildirimlerini ve önemli duyuruları size ulaştırabilmemiz için Apple Push Notification servisi (APNs) veya Firebase Cloud Messaging (FCM) tarafından verilen benzersiz bir token. Push bildirimlerini cihaz ayarlarınızdan istediğiniz zaman devre dışı bırakabilirsiniz.
+- **Uygulama sürümü ve platform** (sürüm kodu, sürüm adı, iOS veya Android olduğu): sürüme özgü destek sağlamak ve uyumluluk sorunlarını belirlemek için
+- **Push bildirim tokenı**: yeni mesaj bildirimlerini, teklif bildirimlerini ve önemli duyuruları size ulaştırabilmemiz için Apple Push Notification servisi (APNs) veya Firebase Cloud Messaging (FCM) tarafından verilen benzersiz bir token. Push bildirimlerini cihaz ayarlarınızdan istediğiniz zaman devre dışı bırakabilirsiniz.
 
 ### 1.7 Reklam Tanımlayıcısı
 
@@ -76,8 +76,8 @@ Uygulama, Reklam Tanımlayıcınızı (iOS'ta IDFA, Android'de GAID/Advertising 
 
 ### 1.8 Otomatik Toplanan Veriler
 
-- **IP adresi** — kimlik doğrulama uç noktalarında hız sınırlandırması ve kötüye kullanım önleme dahil güvenlik amaçlı kullanılır. IP adreslerini reklam profili oluşturmak için kullanmıyoruz.
-- **Hata ve çökme raporları** — uygulama stabilitesini izlemek için kullanılır. Raporlar, kişisel olarak tanımlanabilir bilgileri hariç tutacak şekilde filtrelenir.
+- **IP adresi**: kimlik doğrulama uç noktalarında hız sınırlandırması ve kötüye kullanım önleme dahil güvenlik amaçlı kullanılır. IP adreslerini reklam profili oluşturmak için kullanmıyoruz.
+- **Hata ve çökme raporları**: uygulama stabilitesini izlemek için kullanılır. Raporlar, kişisel olarak tanımlanabilir bilgileri hariç tutacak şekilde filtrelenir.
 
 ## 2. Verilerinizi Nasıl Kullanıyoruz?
 
@@ -90,7 +90,7 @@ Toplanan verileri aşağıdaki amaçlarla kullanırız:
 - **Pro abonelik yönetimi:** Abonelik durumunuzu doğrulamak ve Pro özelliklerine erişim sağlamak
 - **İletişim:** Önemli güncellemeler, teklif ve mesaj bildirimleri ile Uygulama hakkındaki duyuruları göndermek
 - **Hesap güvenliği:** Sahte hesapları önlemek ve şüpheli etkinliği hız sınırlandırmasına tabi tutmak
-- **Reklam:** Uygulama içinde reklam göstermek ve performansını ölçmek — ayrıntılar için bkz. bölüm 8
+- **Reklam:** Uygulama içinde reklam göstermek ve performansını ölçmek: ayrıntılar için bkz. bölüm 8
 - **Analitik ve iyileştirme:** Kullanım istatistiklerini anonim olarak analiz etmek ve Uygulamayı geliştirmek
 
 ## 3. Verilerinizi Kimlerle Paylaşıyoruz?
@@ -99,12 +99,12 @@ SwapMap, kişisel verilerinizi üçüncü taraflara satmaz veya kiralamaz. Veril
 
 ### 3.1 Hizmet Sağlayıcıları
 
-- **Amazon Web Services (AWS)** — Sunucu ve veritabanı barındırma (Frankfurt, Almanya)
-- **Apple** — Apple Sign-In kimlik doğrulama, Apple Push Notification servisi (APNs)
-- **Google** — Google Sign-In kimlik doğrulama, Firebase Cloud Messaging (Android'de push bildirimleri), Google Maps SDK (harita render'ı)
-- **Apple StoreKit / RevenueCat** — iOS'ta Pro abonelik satın alımları ve yenilemeleri
-- **Google Play Billing / RevenueCat** — Android'de Pro abonelik satın alımları ve yenilemeleri
-- **Sentry** — Backend hata ve istisna izleme. Kişisel olarak tanımlanabilir bilgi filtreleme etkindir (e-posta, ad, ilan içeriği veya mesaj içeriği Sentry'ye gönderilmez).
+- **Amazon Web Services (AWS)**: Sunucu ve veritabanı barındırma (Frankfurt, Almanya)
+- **Apple**: Apple Sign-In kimlik doğrulama, Apple Push Notification servisi (APNs)
+- **Google**: Google Sign-In kimlik doğrulama, Firebase Cloud Messaging (Android'de push bildirimleri), Google Maps SDK (harita render'ı)
+- **Apple StoreKit / RevenueCat**: iOS'ta Pro abonelik satın alımları ve yenilemeleri
+- **Google Play Billing / RevenueCat**: Android'de Pro abonelik satın alımları ve yenilemeleri
+- **Sentry**: Backend hata ve istisna izleme. Kişisel olarak tanımlanabilir bilgi filtreleme etkindir (e-posta, ad, ilan içeriği veya mesaj içeriği Sentry'ye gönderilmez).
 
 Bu hizmet sağlayıcıları yalnızca bizim adımıza ve talimatlarımız doğrultusunda veri işler.
 
@@ -137,12 +137,12 @@ Aşağıdaki bilgiler diğer kullanıcılara **asla gösterilmez**:
 
 Uygulama, çeşitli reklam ağları (bazen mediation olarak adlandırılır) aracılığıyla reklam gösterir. Takip için rıza verdiğinizde, Reklam Tanımlayıcınız ve sınırlı teknik veriler reklam dağıtımı, atıf ve sıklık sınırlandırması için aşağıdaki ortaklarla paylaşılabilir. Her ortağın kendi gizlilik politikası vardır:
 
-- **Google AdMob ve Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob ve Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Verilerinizi Nerede ve Ne Kadar Süre Saklıyoruz?
 
@@ -181,7 +181,7 @@ Hesabınızı üç şekilde silebilirsiniz:
 
 SwapMap, 13 yaşın altındaki kullanıcılara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel veri toplamayız. 13 yaşın altındaki bir çocuktan kişisel veri topladığımızı fark edersek, bu verileri en kısa sürede sileriz.
 
-13 ile 18 yaş arasındaki kullanıcılar için, bu Gizlilik Politikası'nı bir ebeveyn veya vasi ile birlikte incelemenizi öneririz. Kullanıcılar arasındaki pazaryeri işlemleri — yüz yüze sticker takasları dahil — bir ebeveyn veya vasi gözetiminde yapılmalıdır.
+13 ile 18 yaş arasındaki kullanıcılar için, bu Gizlilik Politikası'nı bir ebeveyn veya vasi ile birlikte incelemenizi öneririz. Kullanıcılar arasındaki pazaryeri işlemleri - yüz yüze sticker takasları dahil - bir ebeveyn veya vasi gözetiminde yapılmalıdır.
 
 Çocuğunun Uygulamayı kullandığını düşünen ebeveynler veya vasiler bizimle iletişime geçebilir.
 
@@ -227,7 +227,7 @@ SwapMap mobil uygulaması tarayıcı çerezleri kullanmaz. Mobilde takip, çerez
 
 ## 9. Uluslararası Veri Aktarımları
 
-Verileriniz, ülkeniz dışında işlenebilir (AWS Frankfurt — Avrupa Birliği ve bölüm 3.4'te listelenen reklam ortaklarımızın AB dışında bulunabilen veri merkezleri). Bu aktarımlar GDPR ve KVKK tarafından gereken güvenlik standartlarına uygundur.
+Verileriniz, ülkeniz dışında işlenebilir (AWS Frankfurt - Avrupa Birliği ve bölüm 3.4'te listelenen reklam ortaklarımızın AB dışında bulunabilen veri merkezleri). Bu aktarımlar GDPR ve KVKK tarafından gereken güvenlik standartlarına uygundur.
 
 ## 10. Bu Politikadaki Değişiklikler
 

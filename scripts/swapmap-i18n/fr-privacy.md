@@ -16,7 +16,7 @@ Lorsque vous utilisez Se connecter avec Apple ou Se connecter avec Google, nous 
 
 - **Adresse e-mail** (Apple fournit un e-mail relais si vous sélectionnez « Masquer mon e-mail »)
 - **Prénom et nom** (Apple ne les fournit qu'à la première connexion ; Google les fournit à chaque connexion)
-- **Identifiant utilisateur fournisseur** — un identifiant unique utilisé pour reconnaître votre compte
+- **Identifiant utilisateur fournisseur**: un identifiant unique utilisé pour reconnaître votre compte
 
 ### 1.2 Informations de profil
 
@@ -25,10 +25,10 @@ Informations que vous fournissez directement dans l'Application :
 - **Nom d'affichage** (visible par les autres utilisateurs dans les annonces, messages et évaluations)
 - **Bio** (facultatif, visible par les autres utilisateurs)
 - **Avatar** (facultatif)
-- **Étiquette de région** (par ex. « Paris, Marais ») — une étiquette de localisation grossière et lisible que vous définissez lors de l'intégration
-- **Coordonnées approximatives de votre région** — voir la section 1.4 pour les détails sur le décalage de confidentialité que nous appliquons
+- **Étiquette de région** (par ex. « Paris, Marais »): une étiquette de localisation grossière et lisible que vous définissez lors de l'intégration
+- **Coordonnées approximatives de votre région**: voir la section 1.4 pour les détails sur le décalage de confidentialité que nous appliquons
 - **Pays et langue préférée**
-- **Statut de l'abonnement Pro** — si vous avez un abonnement Pro actif et sa date d'expiration
+- **Statut de l'abonnement Pro**: si vous avez un abonnement Pro actif et sa date d'expiration
 
 ### 1.3 Données de collection et d'annonces
 
@@ -63,8 +63,8 @@ L'Application comprend un scanner de stickers optionnel qui utilise la caméra d
 
 - **Identifiant d'appareil** (pour la gestion anonyme de session)
 - **Système d'exploitation** (version iOS/Android)
-- **Version et plateforme de l'application** (code de version, nom de version, et indication si vous êtes sur iOS ou Android) — utilisé pour fournir un support spécifique à la version et identifier les problèmes de compatibilité
-- **Jeton de notification push** — un jeton unique émis par le service de notification push d'Apple (APNs) ou Firebase Cloud Messaging (FCM) afin que nous puissions vous envoyer des notifications de nouveaux messages, d'offres et d'annonces importantes. Vous pouvez désactiver les notifications push à tout moment depuis les paramètres de votre appareil.
+- **Version et plateforme de l'application** (code de version, nom de version, et indication si vous êtes sur iOS ou Android): utilisé pour fournir un support spécifique à la version et identifier les problèmes de compatibilité
+- **Jeton de notification push**: un jeton unique émis par le service de notification push d'Apple (APNs) ou Firebase Cloud Messaging (FCM) afin que nous puissions vous envoyer des notifications de nouveaux messages, d'offres et d'annonces importantes. Vous pouvez désactiver les notifications push à tout moment depuis les paramètres de votre appareil.
 
 ### 1.7 Identifiant publicitaire
 
@@ -76,8 +76,8 @@ L'Application peut collecter votre identifiant publicitaire (IDFA sur iOS, GAID/
 
 ### 1.8 Données collectées automatiquement
 
-- **Adresse IP** — utilisée à des fins de sécurité, notamment pour la limitation du taux sur les points d'authentification et la prévention des abus. Nous n'utilisons pas les adresses IP pour créer des profils publicitaires.
-- **Rapports d'erreur et de plantage** — utilisés pour surveiller la stabilité de l'application. Les rapports sont filtrés pour exclure les informations personnellement identifiables.
+- **Adresse IP**: utilisée à des fins de sécurité, notamment pour la limitation du taux sur les points d'authentification et la prévention des abus. Nous n'utilisons pas les adresses IP pour créer des profils publicitaires.
+- **Rapports d'erreur et de plantage**: utilisés pour surveiller la stabilité de l'application. Les rapports sont filtrés pour exclure les informations personnellement identifiables.
 
 ## 2. Comment nous utilisons vos données
 
@@ -90,7 +90,7 @@ Nous utilisons les données collectées aux fins suivantes :
 - **Gestion de l'abonnement Pro :** Pour vérifier votre statut d'abonnement et accorder l'accès aux fonctionnalités Pro
 - **Communication :** Pour envoyer des mises à jour importantes, des notifications d'offres et de messages, et des annonces concernant l'Application
 - **Sécurité du compte :** Pour empêcher les comptes frauduleux et limiter le taux d'activité suspecte
-- **Publicité :** Pour afficher des publicités au sein de l'Application et mesurer leurs performances — voir la section 8 pour plus de détails
+- **Publicité :** Pour afficher des publicités au sein de l'Application et mesurer leurs performances: voir la section 8 pour plus de détails
 - **Analyse et amélioration :** Pour analyser les statistiques d'utilisation de manière anonyme et améliorer l'Application
 
 ## 3. Avec qui nous partageons vos données
@@ -99,12 +99,12 @@ SwapMap ne vend ni ne loue vos données personnelles à des tiers. Nous partageo
 
 ### 3.1 Prestataires de services
 
-- **Amazon Web Services (AWS)** — Hébergement de serveurs et bases de données (Francfort, Allemagne)
-- **Apple** — Authentification Apple Sign-In, service de notification push d'Apple (APNs)
-- **Google** — Authentification Google Sign-In, Firebase Cloud Messaging (notifications push sur Android), SDK Google Maps (rendu de la carte)
-- **Apple StoreKit / RevenueCat** — Traite les achats et renouvellements d'abonnements Pro sur iOS
-- **Google Play Billing / RevenueCat** — Traite les achats et renouvellements d'abonnements Pro sur Android
-- **Sentry** — Surveillance des erreurs et exceptions du backend. Le filtrage des informations personnellement identifiables est activé (aucun e-mail, nom, contenu d'annonce ou contenu de message n'est envoyé à Sentry).
+- **Amazon Web Services (AWS)**: Hébergement de serveurs et bases de données (Francfort, Allemagne)
+- **Apple**: Authentification Apple Sign-In, service de notification push d'Apple (APNs)
+- **Google**: Authentification Google Sign-In, Firebase Cloud Messaging (notifications push sur Android), SDK Google Maps (rendu de la carte)
+- **Apple StoreKit / RevenueCat**: Traite les achats et renouvellements d'abonnements Pro sur iOS
+- **Google Play Billing / RevenueCat**: Traite les achats et renouvellements d'abonnements Pro sur Android
+- **Sentry**: Surveillance des erreurs et exceptions du backend. Le filtrage des informations personnellement identifiables est activé (aucun e-mail, nom, contenu d'annonce ou contenu de message n'est envoyé à Sentry).
 
 Ces prestataires de services ne traitent les données qu'en notre nom et selon nos instructions.
 
@@ -137,12 +137,12 @@ Les informations suivantes ne sont **jamais** affichées aux autres utilisateurs
 
 L'Application affiche des publicités via plusieurs réseaux publicitaires (parfois appelés médiation). Lorsque vous avez consenti au suivi, votre identifiant publicitaire et des données techniques limitées peuvent être partagés avec les partenaires ci-dessous pour la diffusion publicitaire, l'attribution et la limitation de fréquence. Chaque partenaire a sa propre politique de confidentialité :
 
-- **Google AdMob & Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob & Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Où et combien de temps nous stockons vos données
 
@@ -181,7 +181,7 @@ Vous pouvez supprimer votre compte de trois manières :
 
 SwapMap n'est pas destiné aux utilisateurs de moins de 13 ans. Nous ne collectons pas sciemment de données personnelles d'enfants de moins de 13 ans. Si nous prenons connaissance d'avoir collecté des données personnelles d'un enfant de moins de 13 ans, nous supprimerons ces données dès que possible.
 
-Pour les utilisateurs âgés de 13 à 18 ans, nous recommandons d'examiner cette Politique de Confidentialité avec un parent ou tuteur. Les transactions de la place de marché entre utilisateurs — y compris les échanges de stickers en personne — doivent être supervisées par un parent ou tuteur.
+Pour les utilisateurs âgés de 13 à 18 ans, nous recommandons d'examiner cette Politique de Confidentialité avec un parent ou tuteur. Les transactions de la place de marché entre utilisateurs - y compris les échanges de stickers en personne - doivent être supervisées par un parent ou tuteur.
 
 Les parents ou tuteurs qui pensent que leur enfant utilise l'Application peuvent nous contacter.
 
@@ -227,7 +227,7 @@ L'application mobile SwapMap n'utilise pas de cookies de navigateur. Le suivi su
 
 ## 9. Transferts internationaux de données
 
-Vos données peuvent être traitées en dehors de votre pays d'origine (AWS Francfort — Union européenne, et les centres de données de nos partenaires publicitaires listés dans la section 3.4, qui peuvent être situés en dehors de l'UE). Ces transferts respectent les normes de sécurité requises par le RGPD et la KVKK.
+Vos données peuvent être traitées en dehors de votre pays d'origine (AWS Francfort - Union européenne, et les centres de données de nos partenaires publicitaires listés dans la section 3.4, qui peuvent être situés en dehors de l'UE). Ces transferts respectent les normes de sécurité requises par le RGPD et la KVKK.
 
 ## 10. Modifications de cette politique
 
@@ -235,7 +235,7 @@ Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autr
 
 ## 11. Contenu de tiers et marques
 
-SwapMap est une place de marché communautaire pour les collectionneurs d'albums de stickers physiques et de cartes à collectionner. L'Application affiche des codes de stickers, noms de séries, noms de joueurs, noms d'équipes, noms de ligues et identifiants similaires pour aider les utilisateurs à décrire les articles qu'ils possèdent, recherchent ou échangent. Ces noms et toutes les marques associées sont la propriété de leurs détenteurs respectifs — y compris, mais sans s'y limiter, Panini Group, Topps, Match Attax, FIFA, UEFA, les clubs de football individuels, les fédérations nationales, les joueurs et autres titulaires de droits.
+SwapMap est une place de marché communautaire pour les collectionneurs d'albums de stickers physiques et de cartes à collectionner. L'Application affiche des codes de stickers, noms de séries, noms de joueurs, noms d'équipes, noms de ligues et identifiants similaires pour aider les utilisateurs à décrire les articles qu'ils possèdent, recherchent ou échangent. Ces noms et toutes les marques associées sont la propriété de leurs détenteurs respectifs - y compris, mais sans s'y limiter, Panini Group, Topps, Match Attax, FIFA, UEFA, les clubs de football individuels, les fédérations nationales, les joueurs et autres titulaires de droits.
 
 SwapMap **n'est pas affilié à, approuvé par, sponsorisé par ou officiellement connecté de quelque manière que ce soit à** aucun fabricant de stickers, éditeur de cartes à collectionner, ligue sportive, fédération, club, organisation ou compétition mentionnés dans l'Application. L'Application ne **vend ni ne distribue** elle-même de stickers ou de cartes. Tous les noms et marques de tiers sont utilisés uniquement à des fins **d'identification et de description (usage nominatif équitable)** afin que les collectionneurs puissent reconnaître et échanger les articles qu'ils possèdent déjà physiquement.
 

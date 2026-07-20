@@ -34,7 +34,7 @@ export default function DeleteAccountForm({
     e.preventDefault();
 
     const lines: string[] = [
-      `${t("formTitle")} — ${appName}`,
+      `${t("formTitle")} - ${appName}`,
       "",
     ];
     if (fields.username && username) lines.push(`${t("usernameLabel")}: ${username}`);

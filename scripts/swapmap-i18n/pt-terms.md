@@ -16,7 +16,7 @@ Leia atentamente os presentes Termos de Uso («Termos») antes de utilizar a apl
 - **Anúncio:** Um anúncio publicado pelo utilizador para trocar, vender ou solicitar cromos ou cartas colecionáveis
 - **Oferta:** Uma proposta trocada entre utilizadores para concluir uma troca ou venda
 
-## 2. Natureza do serviço — IMPORTANTE
+## 2. Natureza do serviço - IMPORTANTE
 
 ### 2.1 O SwapMap é um mercado comunitário, não um vendedor
 
@@ -120,7 +120,7 @@ O nome SwapMap, o logótipo, os elementos visuais, o design, o código-fonte e o
 
 ### 5.2 Marcas registadas de terceiros e itens colecionáveis
 
-A Aplicação apresenta códigos de cromos, números de cartas, nomes de coleções, nomes de jogadores, nomes de equipas, nomes de ligas e identificadores semelhantes para ajudar os utilizadores a descrever itens físicos que possuem ou procuram. Estes nomes e as marcas registadas relacionadas são propriedade dos respetivos proprietários — incluindo, mas não se limitando a, Panini Group, Topps, Match Attax, FIFA, UEFA, clubes de futebol individuais, federações nacionais e os próprios jogadores.
+A Aplicação apresenta códigos de cromos, números de cartas, nomes de coleções, nomes de jogadores, nomes de equipas, nomes de ligas e identificadores semelhantes para ajudar os utilizadores a descrever itens físicos que possuem ou procuram. Estes nomes e as marcas registadas relacionadas são propriedade dos respetivos proprietários - incluindo, mas não se limitando a, Panini Group, Topps, Match Attax, FIFA, UEFA, clubes de futebol individuais, federações nacionais e os próprios jogadores.
 
 O SwapMap **não reivindica propriedade, não licencia, não revende nem distribui** qualquer marca registada, cromo, carta, imagem ou material protegido por direitos de autor de terceiros. Todos os nomes e marcas registadas de terceiros são utilizados exclusivamente para fins de **identificação e descrição sob o princípio do uso nominativo justo**, para que os colecionadores possam referenciar e trocar os itens que já possuem fisicamente.
 
@@ -209,10 +209,10 @@ A Aplicação oferece funcionalidades pagas sob os nomes «SwapMap Pro» ou simi
 
 - Todos os pagamentos são processados através da Apple App Store ou Google Play Store (a gestão de subscrições é tratada através do RevenueCat como o nosso fornecedor de reconciliação; não vemos nem armazenamos as informações do seu cartão de pagamento).
 - Pagamento, reembolso e gestão de subscrições estão sujeitos às políticas da respetiva plataforma.
-- Os pedidos de reembolso devem ser submetidos à Apple ou à Google — os pedidos de reembolso não podem ser enviados diretamente ao Programador.
+- Os pedidos de reembolso devem ser submetidos à Apple ou à Google: os pedidos de reembolso não podem ser enviados diretamente ao Programador.
 - As subscrições Pro renovam-se automaticamente no final de cada período de faturação, a menos que sejam canceladas pelo menos 24 horas antes da data de renovação. Pode gerir e cancelar a sua subscrição a qualquer momento nas definições da sua conta Apple ID ou Google Play.
-- As funcionalidades Pro apenas fornecem ao utilizador experiência adicional — não afetam a integridade do mercado, a visibilidade de qualquer anúncio ou o resultado de qualquer troca.
-- As funcionalidades Pro não garantem trocas bem-sucedidas — todos os utilizadores participam no mercado em igualdade de condições.
+- As funcionalidades Pro apenas fornecem ao utilizador experiência adicional: não afetam a integridade do mercado, a visibilidade de qualquer anúncio ou o resultado de qualquer troca.
+- As funcionalidades Pro não garantem trocas bem-sucedidas: todos os utilizadores participam no mercado em igualdade de condições.
 
 ## 9. Serviços de localização
 

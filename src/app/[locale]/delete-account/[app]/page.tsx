@@ -53,7 +53,7 @@ export async function generateMetadata({
   const config = APP_CONFIG[app as AppSlug];
   const appName = tp(config.nameKey);
   return {
-    title: `${t("metaTitle")} — ${appName}`,
+    title: `${t("metaTitle")} - ${appName}`,
     description: t("metaDescription"),
   };
 }

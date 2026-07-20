@@ -16,7 +16,7 @@ Prosimy o uważne zapoznanie się z niniejszymi Warunkami Użytkowania („Warun
 - **Ogłoszenie:** Ogłoszenie opublikowane przez użytkownika w celu wymiany, sprzedaży lub poszukiwania naklejek lub kart kolekcjonerskich
 - **Oferta:** Propozycja wymieniana między użytkownikami w celu sfinalizowania wymiany lub sprzedaży
 
-## 2. Charakter usługi — WAŻNE
+## 2. Charakter usługi - WAŻNE
 
 ### 2.1 SwapMap jest społecznościowym targowiskiem, a nie sprzedawcą
 
@@ -120,7 +120,7 @@ Nazwa SwapMap, logo, wizualizacje, projekt, kod źródłowy i oryginalna treść
 
 ### 5.2 Znaki towarowe stron trzecich i przedmioty kolekcjonerskie
 
-Aplikacja wyświetla kody naklejek, numery kart, nazwy zestawów, nazwiska zawodników, nazwy drużyn, nazwy lig i podobne identyfikatory, aby pomóc użytkownikom opisać fizyczne przedmioty, które posiadają lub poszukują. Te nazwy i znaki towarowe, do których się odnoszą, są własnością odpowiednich właścicieli — w tym, ale nie wyłącznie, Panini Group, Topps, Match Attax, FIFA, UEFA, poszczególnych klubów piłkarskich, federacji narodowych i samych zawodników.
+Aplikacja wyświetla kody naklejek, numery kart, nazwy zestawów, nazwiska zawodników, nazwy drużyn, nazwy lig i podobne identyfikatory, aby pomóc użytkownikom opisać fizyczne przedmioty, które posiadają lub poszukują. Te nazwy i znaki towarowe, do których się odnoszą, są własnością odpowiednich właścicieli - w tym, ale nie wyłącznie, Panini Group, Topps, Match Attax, FIFA, UEFA, poszczególnych klubów piłkarskich, federacji narodowych i samych zawodników.
 
 SwapMap **nie rości sobie prawa własności, nie udziela licencji, nie odsprzedaje ani nie dystrybuuje** żadnego znaku towarowego, naklejki, karty, obrazu ani materiału chronionego prawem autorskim strony trzeciej. Wszystkie nazwy i znaki towarowe stron trzecich są używane wyłącznie do celów **identyfikacji i opisu w ramach zasady nominatywnego dozwolonego użytku**, aby kolekcjonerzy mogli odnosić się do przedmiotów, które już fizycznie posiadają, i wymieniać je.
 
@@ -209,10 +209,10 @@ Aplikacja oferuje funkcje płatne pod nazwą „SwapMap Pro" lub podobnymi:
 
 - Wszystkie płatności są przetwarzane przez Apple App Store lub Google Play Store (zarządzanie subskrypcją jest obsługiwane przez RevenueCat jako naszego dostawcę uzgodnień; nie widzimy ani nie przechowujemy informacji o Twojej karcie płatniczej).
 - Płatności, zwroty i zarządzanie subskrypcją podlegają zasadom odpowiedniej platformy.
-- Wnioski o zwrot pieniędzy muszą być składane do Apple lub Google — wnioski o zwrot nie mogą być wysyłane bezpośrednio do Dewelopera.
+- Wnioski o zwrot pieniędzy muszą być składane do Apple lub Google: wnioski o zwrot nie mogą być wysyłane bezpośrednio do Dewelopera.
 - Subskrypcje Pro odnawiają się automatycznie pod koniec każdego okresu rozliczeniowego, chyba że zostaną anulowane co najmniej 24 godziny przed datą odnowienia. Możesz zarządzać i anulować swoją subskrypcję w dowolnym momencie w ustawieniach swojego Apple ID lub konta Google Play.
-- Funkcje Pro zapewniają użytkownikom jedynie dodatkowe doświadczenie — nie wpływają na integralność targowiska, widoczność jakiegokolwiek ogłoszenia ani wynik jakiejkolwiek wymiany.
-- Funkcje Pro nie gwarantują udanych transakcji — wszyscy użytkownicy uczestniczą w targowisku na równych warunkach.
+- Funkcje Pro zapewniają użytkownikom jedynie dodatkowe doświadczenie: nie wpływają na integralność targowiska, widoczność jakiegokolwiek ogłoszenia ani wynik jakiejkolwiek wymiany.
+- Funkcje Pro nie gwarantują udanych transakcji: wszyscy użytkownicy uczestniczą w targowisku na równych warunkach.
 
 ## 9. Usługi lokalizacyjne
 

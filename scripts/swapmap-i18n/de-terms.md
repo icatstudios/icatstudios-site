@@ -16,7 +16,7 @@ Bitte lesen Sie diese Nutzungsbedingungen („Bedingungen") sorgfältig durch, b
 - **Anzeige:** Eine vom Nutzer veröffentlichte Bekanntmachung zum Tauschen, Verkaufen oder Suchen von Stickern oder Tauschkarten
 - **Angebot:** Ein zwischen Nutzern ausgetauschter Vorschlag zum Abschluss eines Tauschs oder Verkaufs
 
-## 2. Art des Service — WICHTIG
+## 2. Art des Service - WICHTIG
 
 ### 2.1 SwapMap Ist Ein Community-Marktplatz, Kein Verkäufer
 
@@ -120,7 +120,7 @@ Der Name SwapMap, das Logo, Grafiken, das Design, der Quellcode und der Original
 
 ### 5.2 Marken Dritter und Sammlerstücke
 
-Die App zeigt Sticker-Codes, Kartennummern, Set-Namen, Spielernamen, Mannschaftsnamen, Liganamen und ähnliche Bezeichnungen, um Nutzern zu helfen, physische Artikel zu beschreiben, die sie besitzen oder suchen. Diese Namen und die zugehörigen Marken sind Eigentum ihrer jeweiligen Inhaber — einschließlich, aber nicht beschränkt auf Panini Group, Topps, Match Attax, FIFA, UEFA, einzelne Fußballvereine, nationale Verbände und die Spieler selbst.
+Die App zeigt Sticker-Codes, Kartennummern, Set-Namen, Spielernamen, Mannschaftsnamen, Liganamen und ähnliche Bezeichnungen, um Nutzern zu helfen, physische Artikel zu beschreiben, die sie besitzen oder suchen. Diese Namen und die zugehörigen Marken sind Eigentum ihrer jeweiligen Inhaber - einschließlich, aber nicht beschränkt auf Panini Group, Topps, Match Attax, FIFA, UEFA, einzelne Fußballvereine, nationale Verbände und die Spieler selbst.
 
 SwapMap **erhebt keinen Eigentumsanspruch, lizenziert nicht, verkauft nicht weiter und vertreibt nicht** Marken, Sticker, Karten, Bilder oder urheberrechtlich geschütztes Material Dritter. Alle Namen und Marken Dritter werden ausschließlich zu **Identifikations- und Beschreibungszwecken nach dem Grundsatz des nominative fair use** verwendet, damit Sammler die Artikel, die sie bereits physisch besitzen, referenzieren und tauschen können.
 
@@ -209,10 +209,10 @@ Die App bietet kostenpflichtige Funktionen unter „SwapMap Pro" oder ähnlichen
 
 - Alle Zahlungen werden über den Apple App Store oder Google Play Store abgewickelt (die Abonnementverwaltung erfolgt über RevenueCat als unseren Abgleichsanbieter; wir sehen oder speichern Ihre Zahlungskartendaten nicht).
 - Zahlung, Erstattung und Abonnementverwaltung unterliegen den Richtlinien der jeweiligen Plattform.
-- Erstattungsanträge müssen an Apple oder Google gerichtet werden — Erstattungsanträge können nicht direkt an den Entwickler gesendet werden.
+- Erstattungsanträge müssen an Apple oder Google gerichtet werden: Erstattungsanträge können nicht direkt an den Entwickler gesendet werden.
 - Pro-Abonnements verlängern sich am Ende jedes Abrechnungszeitraums automatisch, sofern sie nicht mindestens 24 Stunden vor dem Verlängerungsdatum gekündigt werden. Sie können Ihr Abonnement jederzeit über die Kontoeinstellungen Ihrer Apple ID oder Ihres Google Play-Kontos verwalten und kündigen.
-- Pro-Funktionen bieten dem Nutzer nur zusätzliche Erfahrung — sie beeinflussen weder die Integrität des Marktplatzes, noch die Sichtbarkeit einer Anzeige oder das Ergebnis eines Tauschs.
-- Pro-Funktionen garantieren keine erfolgreichen Tauschgeschäfte — alle Nutzer nehmen zu gleichen Bedingungen am Marktplatz teil.
+- Pro-Funktionen bieten dem Nutzer nur zusätzliche Erfahrung: sie beeinflussen weder die Integrität des Marktplatzes, noch die Sichtbarkeit einer Anzeige oder das Ergebnis eines Tauschs.
+- Pro-Funktionen garantieren keine erfolgreichen Tauschgeschäfte: alle Nutzer nehmen zu gleichen Bedingungen am Marktplatz teil.
 
 ## 9. Standortdienste
 

@@ -16,7 +16,7 @@ Wenn Sie „Mit Apple anmelden" oder „Mit Google anmelden" verwenden, erhalten
 
 - **E-Mail-Adresse** (Apple stellt eine Weiterleitungsadresse zur Verfügung, wenn Sie „E-Mail verbergen" auswählen)
 - **Vor- und Nachname** (Apple gibt diese nur bei der ersten Anmeldung weiter; Google bei jeder Anmeldung)
-- **Provider-Nutzer-ID** — eine eindeutige Kennung, die zur Wiedererkennung Ihres Kontos verwendet wird
+- **Provider-Nutzer-ID**: eine eindeutige Kennung, die zur Wiedererkennung Ihres Kontos verwendet wird
 
 ### 1.2 Profilinformationen
 
@@ -25,10 +25,10 @@ Informationen, die Sie direkt in der App angeben:
 - **Anzeigename** (für andere Nutzer in Anzeigen, Nachrichten und Bewertungen sichtbar)
 - **Bio** (optional, für andere Nutzer sichtbar)
 - **Avatar** (optional)
-- **Regionsbezeichnung** (z. B. „Berlin, Mitte") — eine grobe, menschenlesbare Standortbezeichnung, die Sie während des Onboardings festlegen
-- **Ungefähre Koordinaten Ihrer Region** — siehe Abschnitt 1.4 zu unserem Datenschutz-Offset
+- **Regionsbezeichnung** (z. B. „Berlin, Mitte"): eine grobe, menschenlesbare Standortbezeichnung, die Sie während des Onboardings festlegen
+- **Ungefähre Koordinaten Ihrer Region**: siehe Abschnitt 1.4 zu unserem Datenschutz-Offset
 - **Land und bevorzugte Sprache**
-- **Pro-Abonnementstatus** — ob Sie eine aktive Pro-Mitgliedschaft haben und deren Ablaufdatum
+- **Pro-Abonnementstatus**: ob Sie eine aktive Pro-Mitgliedschaft haben und deren Ablaufdatum
 
 ### 1.3 Sammlungs- und Anzeigedaten
 
@@ -63,8 +63,8 @@ Die App enthält einen optionalen Sticker-Scanner, der Ihre Gerätekamera verwen
 
 - **Geräte-ID** (für anonymes Sitzungsmanagement)
 - **Betriebssystem** (iOS/Android-Version)
-- **App-Version und Plattform** (Versionscode, Versionsname und ob Sie auf iOS oder Android sind) — wird verwendet, um versionsspezifischen Support bereitzustellen und Kompatibilitätsprobleme zu identifizieren
-- **Push-Benachrichtigungs-Token** — ein eindeutiger Token, ausgegeben vom Apple Push Notification Service (APNs) oder Firebase Cloud Messaging (FCM), damit wir Nachrichtenbenachrichtigungen, Angebotsbenachrichtigungen und wichtige Mitteilungen zustellen können. Sie können Push-Benachrichtigungen jederzeit in den Geräteeinstellungen deaktivieren.
+- **App-Version und Plattform** (Versionscode, Versionsname und ob Sie auf iOS oder Android sind): wird verwendet, um versionsspezifischen Support bereitzustellen und Kompatibilitätsprobleme zu identifizieren
+- **Push-Benachrichtigungs-Token**: ein eindeutiger Token, ausgegeben vom Apple Push Notification Service (APNs) oder Firebase Cloud Messaging (FCM), damit wir Nachrichtenbenachrichtigungen, Angebotsbenachrichtigungen und wichtige Mitteilungen zustellen können. Sie können Push-Benachrichtigungen jederzeit in den Geräteeinstellungen deaktivieren.
 
 ### 1.7 Werbe-ID
 
@@ -76,8 +76,8 @@ Die App kann Ihre Werbe-ID (IDFA auf iOS, GAID/Advertising ID auf Android) nur m
 
 ### 1.8 Automatisch erfasste Daten
 
-- **IP-Adresse** — wird zu Sicherheitszwecken verwendet, einschließlich Ratenbegrenzung bei Authentifizierungs-Endpunkten und Missbrauchsprävention. Wir verwenden IP-Adressen nicht zum Aufbau von Werbeprofilen.
-- **Fehler- und Absturzberichte** — werden zur Überwachung der App-Stabilität verwendet. Berichte werden gefiltert, um personenbezogene Daten auszuschließen.
+- **IP-Adresse**: wird zu Sicherheitszwecken verwendet, einschließlich Ratenbegrenzung bei Authentifizierungs-Endpunkten und Missbrauchsprävention. Wir verwenden IP-Adressen nicht zum Aufbau von Werbeprofilen.
+- **Fehler- und Absturzberichte**: werden zur Überwachung der App-Stabilität verwendet. Berichte werden gefiltert, um personenbezogene Daten auszuschließen.
 
 ## 2. Wie wir Ihre Daten verwenden
 
@@ -90,7 +90,7 @@ Wir verwenden die erfassten Daten für die folgenden Zwecke:
 - **Pro-Abonnementverwaltung:** Um Ihren Abonnementstatus zu überprüfen und Zugriff auf Pro-Funktionen zu gewähren
 - **Kommunikation:** Um wichtige Updates, Angebots- und Nachrichtenbenachrichtigungen sowie Ankündigungen zur App zu senden
 - **Kontosicherheit:** Um betrügerische Konten zu verhindern und verdächtige Aktivitäten ratenzubegrenzen
-- **Werbung:** Um Werbung in der App anzuzeigen und deren Leistung zu messen — siehe Abschnitt 8 für Details
+- **Werbung:** Um Werbung in der App anzuzeigen und deren Leistung zu messen: siehe Abschnitt 8 für Details
 - **Analyse und Verbesserung:** Um Nutzungsstatistiken anonym zu analysieren und die App zu verbessern
 
 ## 3. Mit wem wir Ihre Daten teilen
@@ -99,12 +99,12 @@ SwapMap verkauft oder vermietet Ihre personenbezogenen Daten nicht an Dritte. Wi
 
 ### 3.1 Dienstleister
 
-- **Amazon Web Services (AWS)** — Server- und Datenbankhosting (Frankfurt, Deutschland)
-- **Apple** — Apple-Sign-In-Authentifizierung, Apple Push Notification Service (APNs)
-- **Google** — Google-Sign-In-Authentifizierung, Firebase Cloud Messaging (Push-Benachrichtigungen auf Android), Google Maps SDK (Kartenrendering)
-- **Apple StoreKit / RevenueCat** — Verarbeitet Pro-Abonnementkäufe und -verlängerungen auf iOS
-- **Google Play Billing / RevenueCat** — Verarbeitet Pro-Abonnementkäufe und -verlängerungen auf Android
-- **Sentry** — Backend-Fehler- und Ausnahmeüberwachung. Filterung personenbezogener Daten ist aktiviert (keine E-Mail-Adressen, Namen, Anzeigeninhalte oder Nachrichteninhalte werden an Sentry gesendet).
+- **Amazon Web Services (AWS)**: Server- und Datenbankhosting (Frankfurt, Deutschland)
+- **Apple**: Apple-Sign-In-Authentifizierung, Apple Push Notification Service (APNs)
+- **Google**: Google-Sign-In-Authentifizierung, Firebase Cloud Messaging (Push-Benachrichtigungen auf Android), Google Maps SDK (Kartenrendering)
+- **Apple StoreKit / RevenueCat**: Verarbeitet Pro-Abonnementkäufe und -verlängerungen auf iOS
+- **Google Play Billing / RevenueCat**: Verarbeitet Pro-Abonnementkäufe und -verlängerungen auf Android
+- **Sentry**: Backend-Fehler- und Ausnahmeüberwachung. Filterung personenbezogener Daten ist aktiviert (keine E-Mail-Adressen, Namen, Anzeigeninhalte oder Nachrichteninhalte werden an Sentry gesendet).
 
 Diese Dienstleister verarbeiten Daten nur in unserem Auftrag und nach unseren Anweisungen.
 
@@ -137,12 +137,12 @@ Die folgenden Informationen werden anderen Nutzern **niemals angezeigt**:
 
 Die App zeigt Werbung über mehrere Werbenetzwerke (manchmal Mediation genannt) an. Wenn Sie dem Tracking zugestimmt haben, können Ihre Werbe-ID und begrenzte technische Daten mit den unten aufgeführten Partnern zur Anzeigenausspielung, Zuordnung und Frequenzbegrenzung geteilt werden. Jeder Partner hat seine eigene Datenschutzerklärung:
 
-- **Google AdMob & Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob & Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Wo und wie lange wir Ihre Daten speichern
 
@@ -181,7 +181,7 @@ Sie können Ihr Konto auf drei Arten löschen:
 
 SwapMap ist nicht für Nutzer unter 13 Jahren bestimmt. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern unter 13. Sollten wir feststellen, dass wir personenbezogene Daten eines Kindes unter 13 erfasst haben, werden wir diese Daten so bald wie möglich löschen.
 
-Für Nutzer zwischen 13 und 18 Jahren empfehlen wir, diese Datenschutzerklärung gemeinsam mit einem Elternteil oder Erziehungsberechtigten zu überprüfen. Marktplatztransaktionen zwischen Nutzern — auch persönliche Sticker-Tauschgeschäfte — sollten von einem Elternteil oder Erziehungsberechtigten beaufsichtigt werden.
+Für Nutzer zwischen 13 und 18 Jahren empfehlen wir, diese Datenschutzerklärung gemeinsam mit einem Elternteil oder Erziehungsberechtigten zu überprüfen. Marktplatztransaktionen zwischen Nutzern - auch persönliche Sticker-Tauschgeschäfte - sollten von einem Elternteil oder Erziehungsberechtigten beaufsichtigt werden.
 
 Eltern oder Erziehungsberechtigte, die glauben, dass ihr Kind die App nutzt, können uns kontaktieren.
 
@@ -227,7 +227,7 @@ Die mobile SwapMap-Anwendung verwendet keine Browser-Cookies. Tracking auf Mobil
 
 ## 9. Internationale Datenübertragungen
 
-Ihre Daten können außerhalb Ihres Heimatlandes verarbeitet werden (AWS Frankfurt — Europäische Union sowie die Rechenzentren unserer in Abschnitt 3.4 aufgeführten Werbepartner, die sich außerhalb der EU befinden können). Diese Übertragungen entsprechen den von der DSGVO und der KVKK geforderten Sicherheitsstandards.
+Ihre Daten können außerhalb Ihres Heimatlandes verarbeitet werden (AWS Frankfurt - Europäische Union sowie die Rechenzentren unserer in Abschnitt 3.4 aufgeführten Werbepartner, die sich außerhalb der EU befinden können). Diese Übertragungen entsprechen den von der DSGVO und der KVKK geforderten Sicherheitsstandards.
 
 ## 10. Änderungen dieser Erklärung
 
@@ -235,7 +235,7 @@ Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderun
 
 ## 11. Inhalte Dritter und Marken
 
-SwapMap ist ein Community-Marktplatz für Sammler physischer Sticker-Alben und Tauschkarten. Die App zeigt Sticker-Codes, Set-Namen, Spielernamen, Mannschaftsnamen, Liganamen und ähnliche Bezeichnungen, damit Nutzer die Artikel beschreiben können, die sie besitzen, suchen oder tauschen. Diese Namen und alle zugehörigen Marken sind Eigentum ihrer jeweiligen Inhaber — einschließlich, aber nicht beschränkt auf Panini Group, Topps, Match Attax, FIFA, UEFA, einzelne Fußballvereine, nationale Verbände, Spieler und andere Rechteinhaber.
+SwapMap ist ein Community-Marktplatz für Sammler physischer Sticker-Alben und Tauschkarten. Die App zeigt Sticker-Codes, Set-Namen, Spielernamen, Mannschaftsnamen, Liganamen und ähnliche Bezeichnungen, damit Nutzer die Artikel beschreiben können, die sie besitzen, suchen oder tauschen. Diese Namen und alle zugehörigen Marken sind Eigentum ihrer jeweiligen Inhaber - einschließlich, aber nicht beschränkt auf Panini Group, Topps, Match Attax, FIFA, UEFA, einzelne Fußballvereine, nationale Verbände, Spieler und andere Rechteinhaber.
 
 SwapMap ist **mit keiner in der App referenzierten Liga, keinem Verband, Verein, Wettbewerb, Sticker-Hersteller, Tauschkartenverlag oder Organisation verbunden, von ihm/ihr unterstützt, gesponsert oder offiziell verbunden**. Die App **verkauft oder vertreibt selbst keine** Sticker oder Karten. Alle Namen und Marken Dritter werden ausschließlich zu **Identifikations- und Beschreibungszwecken (nominative fair use)** verwendet, damit Sammler die Artikel erkennen und tauschen können, die sie bereits physisch besitzen.
 

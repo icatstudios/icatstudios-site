@@ -16,7 +16,7 @@ Když používáte Přihlásit se přes Apple nebo Přihlásit se přes Google, 
 
 - **E-mailovou adresu** (Apple poskytuje přesměrovací e-mail, pokud zvolíte „Skrýt můj e-mail")
 - **Jméno a příjmení** (Apple to poskytuje pouze při prvním přihlášení; Google při každém přihlášení)
-- **ID uživatele poskytovatele** — jedinečný identifikátor používaný k rozpoznání vašeho účtu
+- **ID uživatele poskytovatele**: jedinečný identifikátor používaný k rozpoznání vašeho účtu
 
 ### 1.2 Informace o profilu
 
@@ -25,10 +25,10 @@ Informace, které poskytujete přímo v Aplikaci:
 - **Zobrazované jméno** (viditelné ostatním uživatelům v inzerátech, zprávách a hodnoceních)
 - **Bio** (volitelné, viditelné ostatním uživatelům)
 - **Avatar** (volitelný)
-- **Štítek regionu** (např. „Praha, Vinohrady") — hrubý, čitelný název polohy, který nastavíte během onboardingu
-- **Přibližné souřadnice vašeho regionu** — viz oddíl 1.4 pro podrobnosti o ochranném posunu, který používáme
+- **Štítek regionu** (např. „Praha, Vinohrady"): hrubý, čitelný název polohy, který nastavíte během onboardingu
+- **Přibližné souřadnice vašeho regionu**: viz oddíl 1.4 pro podrobnosti o ochranném posunu, který používáme
 - **Země a preferovaný jazyk**
-- **Stav předplatného Pro** — zda máte aktivní členství Pro a datum jeho vypršení
+- **Stav předplatného Pro**: zda máte aktivní členství Pro a datum jeho vypršení
 
 ### 1.3 Údaje o sbírce a inzerátech
 
@@ -63,8 +63,8 @@ Aplikace obsahuje volitelný skener samolepek, který využívá kameru vašeho 
 
 - **ID zařízení** (pro anonymní správu relace)
 - **Operační systém** (verze iOS/Android)
-- **Verze a platforma aplikace** (kód verze, název verze a zda jste na iOS nebo Androidu) — používá se pro poskytování podpory specifické pro verzi a identifikaci problémů s kompatibilitou
-- **Token push notifikací** — jedinečný token vydaný službou Apple Push Notification (APNs) nebo Firebase Cloud Messaging (FCM), aby vám mohly být doručovány notifikace o nových zprávách, nabídkách a důležitých oznámeních. Push notifikace můžete kdykoli zakázat v nastavení vašeho zařízení.
+- **Verze a platforma aplikace** (kód verze, název verze a zda jste na iOS nebo Androidu): používá se pro poskytování podpory specifické pro verzi a identifikaci problémů s kompatibilitou
+- **Token push notifikací**: jedinečný token vydaný službou Apple Push Notification (APNs) nebo Firebase Cloud Messaging (FCM), aby vám mohly být doručovány notifikace o nových zprávách, nabídkách a důležitých oznámeních. Push notifikace můžete kdykoli zakázat v nastavení vašeho zařízení.
 
 ### 1.7 Reklamní identifikátor
 
@@ -76,8 +76,8 @@ Aplikace může shromažďovat váš reklamní identifikátor (IDFA na iOS, GAID
 
 ### 1.8 Automaticky shromažďované údaje
 
-- **IP adresa** — používá se pro bezpečnostní účely, včetně omezení rychlosti na ověřovacích koncových bodech a prevence zneužití. IP adresy nepoužíváme k vytváření reklamních profilů.
-- **Hlášení chyb a pádů** — používá se ke sledování stability aplikace. Hlášení jsou filtrována, aby vyloučila osobně identifikovatelné informace.
+- **IP adresa**: používá se pro bezpečnostní účely, včetně omezení rychlosti na ověřovacích koncových bodech a prevence zneužití. IP adresy nepoužíváme k vytváření reklamních profilů.
+- **Hlášení chyb a pádů**: používá se ke sledování stability aplikace. Hlášení jsou filtrována, aby vyloučila osobně identifikovatelné informace.
 
 ## 2. Jak používáme vaše údaje
 
@@ -90,7 +90,7 @@ Shromážděné údaje používáme pro následující účely:
 - **Správa předplatného Pro:** K ověření vašeho stavu předplatného a udělení přístupu k funkcím Pro
 - **Komunikace:** K odesílání důležitých aktualizací, notifikací nabídek a zpráv a oznámení o Aplikaci
 - **Bezpečnost účtu:** K prevenci podvodných účtů a omezení rychlosti podezřelé aktivity
-- **Reklama:** K zobrazování reklam v Aplikaci a měření jejich výkonu — viz oddíl 8 pro podrobnosti
+- **Reklama:** K zobrazování reklam v Aplikaci a měření jejich výkonu: viz oddíl 8 pro podrobnosti
 - **Analýza a zlepšování:** K analýze statistik používání anonymně a ke zlepšování Aplikace
 
 ## 3. S kým sdílíme vaše údaje
@@ -99,12 +99,12 @@ SwapMap neprodává ani nepronajímá vaše osobní údaje třetím stranám. Ú
 
 ### 3.1 Poskytovatelé služeb
 
-- **Amazon Web Services (AWS)** — Hosting serverů a databází (Frankfurt, Německo)
-- **Apple** — Apple Sign-In autentizace, Apple Push Notification service (APNs)
-- **Google** — Google Sign-In autentizace, Firebase Cloud Messaging (push notifikace na Androidu), Google Maps SDK (vykreslování mapy)
-- **Apple StoreKit / RevenueCat** — Zpracovává nákupy a obnovení Pro předplatného na iOS
-- **Google Play Billing / RevenueCat** — Zpracovává nákupy a obnovení Pro předplatného na Androidu
-- **Sentry** — Monitorování chyb a výjimek backendu. Filtrování osobně identifikovatelných informací je povoleno (žádný e-mail, jméno, obsah inzerátů ani obsah zpráv není odesílán do Sentry).
+- **Amazon Web Services (AWS)**: Hosting serverů a databází (Frankfurt, Německo)
+- **Apple**: Apple Sign-In autentizace, Apple Push Notification service (APNs)
+- **Google**: Google Sign-In autentizace, Firebase Cloud Messaging (push notifikace na Androidu), Google Maps SDK (vykreslování mapy)
+- **Apple StoreKit / RevenueCat**: Zpracovává nákupy a obnovení Pro předplatného na iOS
+- **Google Play Billing / RevenueCat**: Zpracovává nákupy a obnovení Pro předplatného na Androidu
+- **Sentry**: Monitorování chyb a výjimek backendu. Filtrování osobně identifikovatelných informací je povoleno (žádný e-mail, jméno, obsah inzerátů ani obsah zpráv není odesílán do Sentry).
 
 Tito poskytovatelé služeb zpracovávají údaje pouze naším jménem a podle našich pokynů.
 
@@ -137,12 +137,12 @@ Následující informace **nikdy nejsou zobrazeny** ostatním uživatelům:
 
 Aplikace zobrazuje reklamy prostřednictvím několika reklamních sítí (někdy nazývaných mediace). Když souhlasíte se sledováním, váš reklamní identifikátor a omezená technická data mohou být sdíleny s níže uvedenými partnery pro doručování reklam, atribuci a omezení frekvence. Každý partner má vlastní zásady ochrany osobních údajů:
 
-- **Google AdMob & Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob & Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Kde a jak dlouho ukládáme vaše údaje
 
@@ -181,7 +181,7 @@ Svůj účet můžete smazat třemi způsoby:
 
 SwapMap není určen pro uživatele mladší 13 let. Vědomě neshromažďujeme osobní údaje od dětí mladších 13 let. Pokud se dozvíme, že jsme shromáždili osobní údaje od dítěte mladšího 13 let, smažeme tyto údaje co nejdříve.
 
-Pro uživatele ve věku 13 až 18 let doporučujeme tyto Zásady ochrany osobních údajů projít společně s rodičem nebo zákonným zástupcem. Transakce na tržišti mezi uživateli — včetně osobních výměn samolepek — by měly být pod dohledem rodiče nebo zákonného zástupce.
+Pro uživatele ve věku 13 až 18 let doporučujeme tyto Zásady ochrany osobních údajů projít společně s rodičem nebo zákonným zástupcem. Transakce na tržišti mezi uživateli - včetně osobních výměn samolepek - by měly být pod dohledem rodiče nebo zákonného zástupce.
 
 Rodiče nebo zákonní zástupci, kteří se domnívají, že jejich dítě používá Aplikaci, nás mohou kontaktovat.
 
@@ -227,7 +227,7 @@ Mobilní aplikace SwapMap nepoužívá cookies prohlížeče. Sledování na mob
 
 ## 9. Mezinárodní přenosy dat
 
-Vaše údaje mohou být zpracovávány mimo vaši domovskou zemi (AWS Frankfurt — Evropská unie, a datacentra našich reklamních partnerů uvedených v oddílu 3.4, která mohou být umístěna mimo EU). Tyto přenosy splňují bezpečnostní standardy požadované GDPR a KVKK.
+Vaše údaje mohou být zpracovávány mimo vaši domovskou zemi (AWS Frankfurt - Evropská unie, a datacentra našich reklamních partnerů uvedených v oddílu 3.4, která mohou být umístěna mimo EU). Tyto přenosy splňují bezpečnostní standardy požadované GDPR a KVKK.
 
 ## 10. Změny těchto zásad
 
@@ -235,7 +235,7 @@ Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. Změ
 
 ## 11. Obsah třetích stran a ochranné známky
 
-SwapMap je komunitní tržiště pro sběratele fyzických alb samolepek a sběratelských karet. Aplikace zobrazuje kódy samolepek, názvy sad, jména hráčů, názvy týmů, názvy lig a podobné identifikátory, aby pomohla uživatelům popsat předměty, které vlastní, hledají nebo směňují. Tato jména a všechny související ochranné známky jsou majetkem příslušných vlastníků — včetně, ale ne výlučně, Panini Group, Topps, Match Attax, FIFA, UEFA, jednotlivých fotbalových klubů, národních federací, hráčů a jiných držitelů práv.
+SwapMap je komunitní tržiště pro sběratele fyzických alb samolepek a sběratelských karet. Aplikace zobrazuje kódy samolepek, názvy sad, jména hráčů, názvy týmů, názvy lig a podobné identifikátory, aby pomohla uživatelům popsat předměty, které vlastní, hledají nebo směňují. Tato jména a všechny související ochranné známky jsou majetkem příslušných vlastníků - včetně, ale ne výlučně, Panini Group, Topps, Match Attax, FIFA, UEFA, jednotlivých fotbalových klubů, národních federací, hráčů a jiných držitelů práv.
 
 SwapMap **není přidružen, schválen, sponzorován ani oficiálně spojen s** žádným výrobcem samolepek, vydavatelem sběratelských karet, sportovní ligou, federací, klubem, organizací nebo soutěží uvedenou v Aplikaci. Aplikace **sama neprodává ani nedistribuuje** žádné samolepky ani karty. Všechna jména a ochranné známky třetích stran jsou používány výhradně pro účely **identifikace a popisu (nominativní fair use)**, aby sběratelé mohli rozpoznat a vyměňovat předměty, které již fyzicky vlastní.
 

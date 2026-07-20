@@ -16,7 +16,7 @@ Wanneer u Aanmelden met Apple of Aanmelden met Google gebruikt, ontvangen wij de
 
 - **E-mailadres** (Apple biedt een doorstuur-e-mail als u "Verberg mijn e-mail" selecteert)
 - **Voor- en achternaam** (Apple verstrekt dit alleen bij de eerste aanmelding; Google bij elke aanmelding)
-- **Provider gebruikers-ID** — een unieke identificatie die wordt gebruikt om uw account te herkennen
+- **Provider gebruikers-ID**: een unieke identificatie die wordt gebruikt om uw account te herkennen
 
 ### 1.2 Profielinformatie
 
@@ -25,10 +25,10 @@ Informatie die u rechtstreeks in de App verstrekt:
 - **Weergavenaam** (zichtbaar voor andere gebruikers in advertenties, berichten en beoordelingen)
 - **Bio** (optioneel, zichtbaar voor andere gebruikers)
 - **Avatar** (optioneel)
-- **Regiolabel** (bijv. "Amsterdam, Centrum") — een grof, leesbaar locatielabel dat u tijdens de onboarding instelt
-- **Geschatte coördinaten van uw regio** — zie sectie 1.4 voor details over de privacy-offset die wij toepassen
+- **Regiolabel** (bijv. "Amsterdam, Centrum"): een grof, leesbaar locatielabel dat u tijdens de onboarding instelt
+- **Geschatte coördinaten van uw regio**: zie sectie 1.4 voor details over de privacy-offset die wij toepassen
 - **Land en voorkeurstaal**
-- **Pro-abonnementsstatus** — of u een actief Pro-lidmaatschap heeft en de vervaldatum
+- **Pro-abonnementsstatus**: of u een actief Pro-lidmaatschap heeft en de vervaldatum
 
 ### 1.3 Verzamel- en advertentiegegevens
 
@@ -63,8 +63,8 @@ De App bevat een optionele stickerscanner die de camera van uw apparaat gebruikt
 
 - **Apparaat-ID** (voor anoniem sessiebeheer)
 - **Besturingssysteem** (iOS/Android-versie)
-- **App-versie en platform** (versiecode, versienaam en of u op iOS of Android bent) — gebruikt om versiespecifieke ondersteuning te bieden en compatibiliteitsproblemen te identificeren
-- **Pushmeldingstoken** — een uniek token uitgegeven door Apple Push Notification service (APNs) of Firebase Cloud Messaging (FCM) zodat wij u meldingen van nieuwe berichten, aanbiedingen en belangrijke aankondigingen kunnen leveren. U kunt pushmeldingen op elk moment uitschakelen via de instellingen van uw apparaat.
+- **App-versie en platform** (versiecode, versienaam en of u op iOS of Android bent): gebruikt om versiespecifieke ondersteuning te bieden en compatibiliteitsproblemen te identificeren
+- **Pushmeldingstoken**: een uniek token uitgegeven door Apple Push Notification service (APNs) of Firebase Cloud Messaging (FCM) zodat wij u meldingen van nieuwe berichten, aanbiedingen en belangrijke aankondigingen kunnen leveren. U kunt pushmeldingen op elk moment uitschakelen via de instellingen van uw apparaat.
 
 ### 1.7 Advertentie-ID
 
@@ -76,8 +76,8 @@ De App kan uw advertentie-ID (IDFA op iOS, GAID/Advertising ID op Android) allee
 
 ### 1.8 Automatisch verzamelde gegevens
 
-- **IP-adres** — gebruikt voor beveiligingsdoeleinden, waaronder snelheidsbeperking op authenticatie-eindpunten en misbruikpreventie. Wij gebruiken IP-adressen niet om advertentieprofielen op te bouwen.
-- **Fout- en crashrapporten** — gebruikt om de stabiliteit van de app te bewaken. Rapporten worden gefilterd om persoonlijk identificeerbare informatie uit te sluiten.
+- **IP-adres**: gebruikt voor beveiligingsdoeleinden, waaronder snelheidsbeperking op authenticatie-eindpunten en misbruikpreventie. Wij gebruiken IP-adressen niet om advertentieprofielen op te bouwen.
+- **Fout- en crashrapporten**: gebruikt om de stabiliteit van de app te bewaken. Rapporten worden gefilterd om persoonlijk identificeerbare informatie uit te sluiten.
 
 ## 2. Hoe wij uw gegevens gebruiken
 
@@ -90,7 +90,7 @@ Wij gebruiken de verzamelde gegevens voor de volgende doeleinden:
 - **Beheer van Pro-abonnement:** Om uw abonnementsstatus te verifiëren en toegang te verlenen tot Pro-functies
 - **Communicatie:** Om belangrijke updates, aanbiedings- en berichtmeldingen en aankondigingen over de App te verzenden
 - **Accountbeveiliging:** Om frauduleuze accounts te voorkomen en de snelheid van verdachte activiteit te beperken
-- **Reclame:** Om advertenties binnen de App weer te geven en hun prestaties te meten — zie sectie 8 voor details
+- **Reclame:** Om advertenties binnen de App weer te geven en hun prestaties te meten: zie sectie 8 voor details
 - **Analyse en verbetering:** Om gebruiksstatistieken anoniem te analyseren en de App te verbeteren
 
 ## 3. Met wie wij uw gegevens delen
@@ -99,12 +99,12 @@ SwapMap verkoopt of verhuurt uw persoonlijke gegevens niet aan derden. Wij delen
 
 ### 3.1 Dienstverleners
 
-- **Amazon Web Services (AWS)** — Server- en databasehosting (Frankfurt, Duitsland)
-- **Apple** — Apple Sign-In-authenticatie, Apple Push Notification service (APNs)
-- **Google** — Google Sign-In-authenticatie, Firebase Cloud Messaging (pushmeldingen op Android), Google Maps SDK (kaartrendering)
-- **Apple StoreKit / RevenueCat** — Verwerkt Pro-abonnementsaankopen en -verlengingen op iOS
-- **Google Play Billing / RevenueCat** — Verwerkt Pro-abonnementsaankopen en -verlengingen op Android
-- **Sentry** — Backend fout- en uitzonderingsmonitoring. Filtering van persoonlijk identificeerbare informatie is ingeschakeld (geen e-mail, naam, advertentie-inhoud of berichtinhoud wordt naar Sentry verzonden).
+- **Amazon Web Services (AWS)**: Server- en databasehosting (Frankfurt, Duitsland)
+- **Apple**: Apple Sign-In-authenticatie, Apple Push Notification service (APNs)
+- **Google**: Google Sign-In-authenticatie, Firebase Cloud Messaging (pushmeldingen op Android), Google Maps SDK (kaartrendering)
+- **Apple StoreKit / RevenueCat**: Verwerkt Pro-abonnementsaankopen en -verlengingen op iOS
+- **Google Play Billing / RevenueCat**: Verwerkt Pro-abonnementsaankopen en -verlengingen op Android
+- **Sentry**: Backend fout- en uitzonderingsmonitoring. Filtering van persoonlijk identificeerbare informatie is ingeschakeld (geen e-mail, naam, advertentie-inhoud of berichtinhoud wordt naar Sentry verzonden).
 
 Deze dienstverleners verwerken gegevens uitsluitend namens ons en volgens onze instructies.
 
@@ -137,12 +137,12 @@ De volgende informatie wordt **nooit getoond** aan andere gebruikers:
 
 De App geeft advertenties weer via verschillende advertentienetwerken (soms mediatie genoemd). Wanneer u toestemming heeft gegeven voor tracking, kunnen uw advertentie-ID en beperkte technische gegevens worden gedeeld met de onderstaande partners voor advertentielevering, attributie en frequentiebeperking. Elke partner heeft zijn eigen privacybeleid:
 
-- **Google AdMob & Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob & Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Waar en hoe lang wij uw gegevens opslaan
 
@@ -181,7 +181,7 @@ U kunt uw account op drie manieren verwijderen:
 
 SwapMap is niet bedoeld voor gebruikers onder de 13 jaar. Wij verzamelen niet bewust persoonlijke gegevens van kinderen onder de 13 jaar. Als wij ons ervan bewust worden dat wij persoonlijke gegevens van een kind onder de 13 jaar hebben verzameld, zullen wij die gegevens zo snel mogelijk verwijderen.
 
-Voor gebruikers tussen 13 en 18 jaar bevelen wij aan dit Privacybeleid samen met een ouder of voogd te bekijken. Marktplaatstransacties tussen gebruikers — inclusief persoonlijke stickerruilen — moeten worden begeleid door een ouder of voogd.
+Voor gebruikers tussen 13 en 18 jaar bevelen wij aan dit Privacybeleid samen met een ouder of voogd te bekijken. Marktplaatstransacties tussen gebruikers - inclusief persoonlijke stickerruilen - moeten worden begeleid door een ouder of voogd.
 
 Ouders of voogden die denken dat hun kind de App gebruikt, kunnen contact met ons opnemen.
 
@@ -227,7 +227,7 @@ De mobiele SwapMap-applicatie gebruikt geen browsercookies. Tracking op mobiel w
 
 ## 9. Internationale gegevensoverdrachten
 
-Uw gegevens kunnen buiten uw thuisland worden verwerkt (AWS Frankfurt — Europese Unie, en de datacenters van onze in sectie 3.4 vermelde advertentiepartners, die zich buiten de EU kunnen bevinden). Deze overdrachten voldoen aan de beveiligingsnormen vereist door de AVG en KVKK.
+Uw gegevens kunnen buiten uw thuisland worden verwerkt (AWS Frankfurt - Europese Unie, en de datacenters van onze in sectie 3.4 vermelde advertentiepartners, die zich buiten de EU kunnen bevinden). Deze overdrachten voldoen aan de beveiligingsnormen vereist door de AVG en KVKK.
 
 ## 10. Wijzigingen in dit beleid
 
@@ -235,7 +235,7 @@ Wij kunnen dit Privacybeleid van tijd tot tijd bijwerken. Wijzigingen worden van
 
 ## 11. Inhoud van derden en handelsmerken
 
-SwapMap is een community-marktplaats voor verzamelaars van fysieke stickeralbums en ruilkaarten. De App toont stickercodes, setnamen, spelersnamen, teamnamen, ligaknamen en vergelijkbare identificatoren om gebruikers te helpen de items te beschrijven die zij bezitten, zoeken of ruilen. Deze namen en eventuele bijbehorende handelsmerken zijn het eigendom van hun respectieve eigenaren — inclusief maar niet beperkt tot Panini Group, Topps, Match Attax, FIFA, UEFA, individuele voetbalclubs, nationale federaties, spelers en andere rechthebbenden.
+SwapMap is een community-marktplaats voor verzamelaars van fysieke stickeralbums en ruilkaarten. De App toont stickercodes, setnamen, spelersnamen, teamnamen, ligaknamen en vergelijkbare identificatoren om gebruikers te helpen de items te beschrijven die zij bezitten, zoeken of ruilen. Deze namen en eventuele bijbehorende handelsmerken zijn het eigendom van hun respectieve eigenaren - inclusief maar niet beperkt tot Panini Group, Topps, Match Attax, FIFA, UEFA, individuele voetbalclubs, nationale federaties, spelers en andere rechthebbenden.
 
 SwapMap is **niet aangesloten bij, niet onderschreven door, niet gesponsord door of op enige officiële manier verbonden met** enige stickerfabrikant, ruilkaartuitgever, sportcompetitie, federatie, club, organisatie of competitie die in de App wordt vermeld. De App **verkoopt of distribueert zelf geen** stickers of kaarten. Alle namen en handelsmerken van derden worden uitsluitend gebruikt voor **identificatie- en beschrijvingsdoeleinden (nominatief redelijk gebruik)** zodat verzamelaars de items die zij al fysiek bezitten kunnen herkennen en uitwisselen.
 

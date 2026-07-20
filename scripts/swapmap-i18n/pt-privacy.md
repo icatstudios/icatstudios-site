@@ -16,7 +16,7 @@ Quando utiliza Iniciar sessão com a Apple ou Iniciar sessão com a Google, rece
 
 - **Endereço de e-mail** (a Apple fornece um e-mail de retransmissão se selecionar «Ocultar o meu e-mail»)
 - **Nome próprio e apelido** (a Apple fornece isto apenas no primeiro início de sessão; a Google fornece em cada início de sessão)
-- **ID de utilizador do fornecedor** — um identificador único utilizado para reconhecer a sua conta
+- **ID de utilizador do fornecedor**: um identificador único utilizado para reconhecer a sua conta
 
 ### 1.2 Informações do perfil
 
@@ -25,10 +25,10 @@ Informações que fornece diretamente na Aplicação:
 - **Nome de exibição** (visível para outros utilizadores em anúncios, mensagens e classificações)
 - **Biografia** (opcional, visível para outros utilizadores)
 - **Avatar** (opcional)
-- **Etiqueta de região** (por ex., «Lisboa, Chiado») — uma etiqueta de localização aproximada e legível que define durante a integração
-- **Coordenadas aproximadas da sua região** — consulte a secção 1.4 para detalhes sobre o desvio de privacidade que aplicamos
+- **Etiqueta de região** (por ex., «Lisboa, Chiado»): uma etiqueta de localização aproximada e legível que define durante a integração
+- **Coordenadas aproximadas da sua região**: consulte a secção 1.4 para detalhes sobre o desvio de privacidade que aplicamos
 - **País e idioma preferido**
-- **Estado da subscrição Pro** — se tem uma adesão Pro ativa e a sua data de validade
+- **Estado da subscrição Pro**: se tem uma adesão Pro ativa e a sua data de validade
 
 ### 1.3 Dados de coleção e anúncios
 
@@ -63,8 +63,8 @@ A Aplicação inclui um leitor de cromos opcional que utiliza a câmara do seu d
 
 - **ID do dispositivo** (para gestão anónima de sessão)
 - **Sistema operativo** (versão iOS/Android)
-- **Versão e plataforma da aplicação** (código de versão, nome da versão e se está em iOS ou Android) — utilizado para fornecer suporte específico por versão e identificar problemas de compatibilidade
-- **Token de notificação push** — um token único emitido pelo serviço de notificações push da Apple (APNs) ou Firebase Cloud Messaging (FCM) para podermos entregar notificações de novas mensagens, ofertas e anúncios importantes. Pode desativar as notificações push a qualquer momento nas definições do seu dispositivo.
+- **Versão e plataforma da aplicação** (código de versão, nome da versão e se está em iOS ou Android): utilizado para fornecer suporte específico por versão e identificar problemas de compatibilidade
+- **Token de notificação push**: um token único emitido pelo serviço de notificações push da Apple (APNs) ou Firebase Cloud Messaging (FCM) para podermos entregar notificações de novas mensagens, ofertas e anúncios importantes. Pode desativar as notificações push a qualquer momento nas definições do seu dispositivo.
 
 ### 1.7 Identificador de publicidade
 
@@ -76,8 +76,8 @@ A Aplicação pode recolher o seu Identificador de publicidade (IDFA no iOS, GAI
 
 ### 1.8 Dados recolhidos automaticamente
 
-- **Endereço IP** — utilizado para fins de segurança, incluindo limitação de taxa em endpoints de autenticação e prevenção de abusos. Não utilizamos endereços IP para construir perfis publicitários.
-- **Relatórios de erros e falhas** — utilizados para monitorizar a estabilidade da aplicação. Os relatórios são filtrados para excluir informações de identificação pessoal.
+- **Endereço IP**: utilizado para fins de segurança, incluindo limitação de taxa em endpoints de autenticação e prevenção de abusos. Não utilizamos endereços IP para construir perfis publicitários.
+- **Relatórios de erros e falhas**: utilizados para monitorizar a estabilidade da aplicação. Os relatórios são filtrados para excluir informações de identificação pessoal.
 
 ## 2. Como utilizamos os seus dados
 
@@ -90,7 +90,7 @@ Utilizamos os dados recolhidos para os seguintes fins:
 - **Gestão da subscrição Pro:** Para verificar o seu estado de subscrição e conceder acesso às funcionalidades Pro
 - **Comunicação:** Para enviar atualizações importantes, notificações de ofertas e mensagens, e anúncios sobre a Aplicação
 - **Segurança da conta:** Para prevenir contas fraudulentas e limitar a taxa de atividades suspeitas
-- **Publicidade:** Para apresentar anúncios dentro da Aplicação e medir o seu desempenho — consulte a secção 8 para mais detalhes
+- **Publicidade:** Para apresentar anúncios dentro da Aplicação e medir o seu desempenho: consulte a secção 8 para mais detalhes
 - **Análise e melhoria:** Para analisar estatísticas de utilização de forma anónima e melhorar a Aplicação
 
 ## 3. Com quem partilhamos os seus dados
@@ -99,12 +99,12 @@ O SwapMap não vende nem aluga os seus dados pessoais a terceiros. Partilhamos d
 
 ### 3.1 Prestadores de serviços
 
-- **Amazon Web Services (AWS)** — Alojamento de servidores e bases de dados (Frankfurt, Alemanha)
-- **Apple** — Autenticação Apple Sign-In, serviço de notificações push da Apple (APNs)
-- **Google** — Autenticação Google Sign-In, Firebase Cloud Messaging (notificações push no Android), Google Maps SDK (renderização do mapa)
-- **Apple StoreKit / RevenueCat** — Processa compras e renovações de subscrição Pro no iOS
-- **Google Play Billing / RevenueCat** — Processa compras e renovações de subscrição Pro no Android
-- **Sentry** — Monitorização de erros e exceções no backend. A filtragem de informações de identificação pessoal está ativada (nenhum e-mail, nome, conteúdo de anúncios ou conteúdo de mensagens é enviado para o Sentry).
+- **Amazon Web Services (AWS)**: Alojamento de servidores e bases de dados (Frankfurt, Alemanha)
+- **Apple**: Autenticação Apple Sign-In, serviço de notificações push da Apple (APNs)
+- **Google**: Autenticação Google Sign-In, Firebase Cloud Messaging (notificações push no Android), Google Maps SDK (renderização do mapa)
+- **Apple StoreKit / RevenueCat**: Processa compras e renovações de subscrição Pro no iOS
+- **Google Play Billing / RevenueCat**: Processa compras e renovações de subscrição Pro no Android
+- **Sentry**: Monitorização de erros e exceções no backend. A filtragem de informações de identificação pessoal está ativada (nenhum e-mail, nome, conteúdo de anúncios ou conteúdo de mensagens é enviado para o Sentry).
 
 Estes prestadores de serviços processam dados apenas em nosso nome e segundo as nossas instruções.
 
@@ -137,12 +137,12 @@ As seguintes informações **nunca são mostradas** a outros utilizadores:
 
 A Aplicação apresenta anúncios através de várias redes publicitárias (por vezes denominadas mediação). Quando consentiu com a monitorização, o seu Identificador de publicidade e dados técnicos limitados podem ser partilhados com os parceiros abaixo para entrega de anúncios, atribuição e limite de frequência. Cada parceiro tem a sua própria política de privacidade:
 
-- **Google AdMob e Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob e Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Onde e por quanto tempo armazenamos os seus dados
 
@@ -181,7 +181,7 @@ Pode eliminar a sua conta de três formas:
 
 O SwapMap não se destina a utilizadores com menos de 13 anos. Não recolhemos conscientemente dados pessoais de crianças com menos de 13 anos. Se tomarmos conhecimento de que recolhemos dados pessoais de uma criança com menos de 13 anos, eliminaremos esses dados o mais rápido possível.
 
-Para utilizadores entre os 13 e 18 anos, recomendamos rever esta Política de Privacidade em conjunto com um pai ou tutor. As transações no mercado entre utilizadores — incluindo trocas de cromos pessoalmente — devem ser supervisionadas por um pai ou tutor.
+Para utilizadores entre os 13 e 18 anos, recomendamos rever esta Política de Privacidade em conjunto com um pai ou tutor. As transações no mercado entre utilizadores - incluindo trocas de cromos pessoalmente - devem ser supervisionadas por um pai ou tutor.
 
 Pais ou tutores que acreditem que o seu filho está a utilizar a Aplicação podem contactar-nos.
 
@@ -227,7 +227,7 @@ A aplicação móvel SwapMap não utiliza cookies de navegador. A monitorizaçã
 
 ## 9. Transferências internacionais de dados
 
-Os seus dados podem ser processados fora do seu país de origem (AWS Frankfurt — União Europeia, e os centros de dados dos nossos parceiros publicitários listados na secção 3.4, que podem estar localizados fora da UE). Estas transferências cumprem os padrões de segurança exigidos pelo RGPD e KVKK.
+Os seus dados podem ser processados fora do seu país de origem (AWS Frankfurt - União Europeia, e os centros de dados dos nossos parceiros publicitários listados na secção 3.4, que podem estar localizados fora da UE). Estas transferências cumprem os padrões de segurança exigidos pelo RGPD e KVKK.
 
 ## 10. Alterações a esta política
 
@@ -235,7 +235,7 @@ Podemos atualizar a presente Política de Privacidade de tempos em tempos. As al
 
 ## 11. Conteúdo de terceiros e marcas registadas
 
-O SwapMap é um mercado comunitário para colecionadores de álbuns de cromos físicos e cartas colecionáveis. A Aplicação apresenta códigos de cromos, nomes de coleções, nomes de jogadores, nomes de equipas, nomes de ligas e identificadores semelhantes para ajudar os utilizadores a descrever os itens que possuem, procuram ou estão a trocar. Estes nomes e quaisquer marcas registadas associadas são propriedade dos respetivos proprietários — incluindo, mas não se limitando a, Panini Group, Topps, Match Attax, FIFA, UEFA, clubes de futebol individuais, federações nacionais, jogadores e outros detentores de direitos.
+O SwapMap é um mercado comunitário para colecionadores de álbuns de cromos físicos e cartas colecionáveis. A Aplicação apresenta códigos de cromos, nomes de coleções, nomes de jogadores, nomes de equipas, nomes de ligas e identificadores semelhantes para ajudar os utilizadores a descrever os itens que possuem, procuram ou estão a trocar. Estes nomes e quaisquer marcas registadas associadas são propriedade dos respetivos proprietários - incluindo, mas não se limitando a, Panini Group, Topps, Match Attax, FIFA, UEFA, clubes de futebol individuais, federações nacionais, jogadores e outros detentores de direitos.
 
 O SwapMap **não está afiliado, endossado, patrocinado ou ligado oficialmente de qualquer forma a** qualquer fabricante de cromos, editor de cartas colecionáveis, liga desportiva, federação, clube, organização ou competição mencionados na Aplicação. A Aplicação **não vende nem distribui** quaisquer cromos ou cartas em si própria. Todos os nomes e marcas registadas de terceiros são utilizados exclusivamente para fins de **identificação e descrição (uso nominativo justo)**, para que os colecionadores possam reconhecer e trocar os itens que já possuem fisicamente.
 

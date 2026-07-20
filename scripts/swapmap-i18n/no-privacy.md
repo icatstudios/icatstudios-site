@@ -16,7 +16,7 @@ Når du bruker Logg på med Apple eller Logg på med Google, mottar vi følgende
 
 - **E-postadresse** (Apple oppgir en videresendings-e-post hvis du velger «Skjul e-posten min»)
 - **Fornavn og etternavn** (Apple gir dette kun ved første pålogging; Google gir det ved hver pålogging)
-- **Bruker-ID hos leverandøren** — en unik identifikator brukt for å gjenkjenne kontoen din
+- **Bruker-ID hos leverandøren**: en unik identifikator brukt for å gjenkjenne kontoen din
 
 ### 1.2 Profilinformasjon
 
@@ -25,10 +25,10 @@ Informasjon du oppgir direkte i Appen:
 - **Visningsnavn** (synlig for andre brukere i annonser, meldinger og vurderinger)
 - **Bio** (valgfri, synlig for andre brukere)
 - **Avatar** (valgfri)
-- **Regionsetikett** (f.eks. «Oslo, Grünerløkka») — en grov, lesbar stedsangivelse du angir under onboarding
-- **Omtrentlige koordinater for regionen din** — se avsnitt 1.4 for detaljer om personvernforskyvningen vi anvender
+- **Regionsetikett** (f.eks. «Oslo, Grünerløkka»): en grov, lesbar stedsangivelse du angir under onboarding
+- **Omtrentlige koordinater for regionen din**: se avsnitt 1.4 for detaljer om personvernforskyvningen vi anvender
 - **Land og foretrukket språk**
-- **Status for Pro-abonnement** — om du har et aktivt Pro-medlemskap og når det utløper
+- **Status for Pro-abonnement**: om du har et aktivt Pro-medlemskap og når det utløper
 
 ### 1.3 Samlings- og annonsedata
 
@@ -63,8 +63,8 @@ Appen inkluderer en valgfri klistremerkeskanner som bruker enhetens kamera til �
 
 - **Enhets-ID** (for anonym økthåndtering)
 - **Operativsystem** (iOS/Android-versjon)
-- **Appversjon og plattform** (versjonskode, versjonsnavn og om du er på iOS eller Android) — brukes for å gi versjonsspesifikk støtte og identifisere kompatibilitetsproblemer
-- **Push-varslingstoken** — en unik token utstedt av Apple Push Notification service (APNs) eller Firebase Cloud Messaging (FCM) slik at vi kan levere varsler om nye meldinger, tilbud og viktige kunngjøringer. Du kan deaktivere push-varsler når som helst fra enhetens innstillinger.
+- **Appversjon og plattform** (versjonskode, versjonsnavn og om du er på iOS eller Android): brukes for å gi versjonsspesifikk støtte og identifisere kompatibilitetsproblemer
+- **Push-varslingstoken**: en unik token utstedt av Apple Push Notification service (APNs) eller Firebase Cloud Messaging (FCM) slik at vi kan levere varsler om nye meldinger, tilbud og viktige kunngjøringer. Du kan deaktivere push-varsler når som helst fra enhetens innstillinger.
 
 ### 1.7 Annonseidentifikator
 
@@ -76,8 +76,8 @@ Appen kan samle inn annonseidentifikatoren din (IDFA på iOS, GAID/Advertising I
 
 ### 1.8 Automatisk innsamlede data
 
-- **IP-adresse** — brukes for sikkerhetsformål, inkludert hastighetsbegrensning på autentiseringsendepunkter og misbruksforebygging. Vi bruker ikke IP-adresser til å bygge annonseprofiler.
-- **Feil- og krasjrapporter** — brukes til å overvåke appstabilitet. Rapporter filtreres for å utelukke personlig identifiserbar informasjon.
+- **IP-adresse**: brukes for sikkerhetsformål, inkludert hastighetsbegrensning på autentiseringsendepunkter og misbruksforebygging. Vi bruker ikke IP-adresser til å bygge annonseprofiler.
+- **Feil- og krasjrapporter**: brukes til å overvåke appstabilitet. Rapporter filtreres for å utelukke personlig identifiserbar informasjon.
 
 ## 2. Hvordan vi bruker dataene dine
 
@@ -90,7 +90,7 @@ Vi bruker innsamlede data til følgende formål:
 - **Pro-abonnementadministrasjon:** For å verifisere abonnementsstatus og gi tilgang til Pro-funksjoner
 - **Kommunikasjon:** For å sende viktige oppdateringer, tilbuds- og meldingsvarsler, og kunngjøringer om Appen
 - **Kontosikkerhet:** For å forhindre falske kontoer og hastighetsbegrense mistenkelig aktivitet
-- **Annonsering:** For å vise annonser i Appen og måle ytelsen — se avsnitt 8 for detaljer
+- **Annonsering:** For å vise annonser i Appen og måle ytelsen: se avsnitt 8 for detaljer
 - **Analyse og forbedring:** For å analysere bruksstatistikk anonymt og forbedre Appen
 
 ## 3. Hvem vi deler dataene dine med
@@ -99,12 +99,12 @@ SwapMap selger eller leier ikke ut dine personopplysninger til tredjeparter. Vi 
 
 ### 3.1 Tjenesteleverandører
 
-- **Amazon Web Services (AWS)** — Server- og databasehosting (Frankfurt, Tyskland)
-- **Apple** — Apple Sign-In-autentisering, Apple Push Notification service (APNs)
-- **Google** — Google Sign-In-autentisering, Firebase Cloud Messaging (push-varsler på Android), Google Maps SDK (kartgjengivelse)
-- **Apple StoreKit / RevenueCat** — Behandler Pro-abonnementkjøp og fornyelser på iOS
-- **Google Play Billing / RevenueCat** — Behandler Pro-abonnementkjøp og fornyelser på Android
-- **Sentry** — Backend feil- og unntaksovervåking. Filtrering av personlig identifiserbar informasjon er aktivert (ingen e-post, navn, annonseinnhold eller meldingsinnhold sendes til Sentry).
+- **Amazon Web Services (AWS)**: Server- og databasehosting (Frankfurt, Tyskland)
+- **Apple**: Apple Sign-In-autentisering, Apple Push Notification service (APNs)
+- **Google**: Google Sign-In-autentisering, Firebase Cloud Messaging (push-varsler på Android), Google Maps SDK (kartgjengivelse)
+- **Apple StoreKit / RevenueCat**: Behandler Pro-abonnementkjøp og fornyelser på iOS
+- **Google Play Billing / RevenueCat**: Behandler Pro-abonnementkjøp og fornyelser på Android
+- **Sentry**: Backend feil- og unntaksovervåking. Filtrering av personlig identifiserbar informasjon er aktivert (ingen e-post, navn, annonseinnhold eller meldingsinnhold sendes til Sentry).
 
 Disse tjenesteleverandørene behandler kun data på våre vegne og etter våre instruksjoner.
 
@@ -137,12 +137,12 @@ Følgende informasjon vises **aldri** til andre brukere:
 
 Appen viser annonser gjennom flere annonsenettverk (av og til kalt mediation). Når du har samtykket til sporing, kan annonseidentifikatoren din og begrensede tekniske data deles med partnerne under for annonselevering, attribusjon og frekvensbegrensning. Hver partner har sin egen personvernerklæring:
 
-- **Google AdMob & Google User Messaging Platform** — [policies.google.com/privacy](https://policies.google.com/privacy)
-- **AppLovin** — [applovin.com/privacy](https://www.applovin.com/privacy/)
-- **Liftoff (Vungle)** — [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
-- **Unity Ads** — [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
-- **Meta Audience Network** — [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
-- **InMobi** — [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
+- **Google AdMob & Google User Messaging Platform**: [policies.google.com/privacy](https://policies.google.com/privacy)
+- **AppLovin**: [applovin.com/privacy](https://www.applovin.com/privacy/)
+- **Liftoff (Vungle)**: [liftoff.io/privacy-policy](https://liftoff.io/privacy/)
+- **Unity Ads**: [unity.com/legal/game-player-and-app-user-privacy-policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
+- **Meta Audience Network**: [facebook.com/about/privacy](https://www.facebook.com/about/privacy)
+- **InMobi**: [inmobi.com/privacy-policy](https://www.inmobi.com/privacy-policy)
 
 ## 4. Hvor og hvor lenge vi lagrer dataene dine
 
@@ -181,7 +181,7 @@ Du kan slette kontoen din på tre måter:
 
 SwapMap er ikke beregnet for brukere under 13 år. Vi samler ikke bevisst inn personopplysninger fra barn under 13 år. Hvis vi blir oppmerksomme på at vi har samlet inn personopplysninger fra et barn under 13 år, sletter vi disse dataene så snart som mulig.
 
-For brukere mellom 13 og 18 år anbefaler vi å gjennomgå denne personvernerklæringen sammen med en forelder eller verge. Markedsplasstransaksjoner mellom brukere — inkludert ansikt-til-ansikt klistremerkebytter — bør være under tilsyn av en forelder eller verge.
+For brukere mellom 13 og 18 år anbefaler vi å gjennomgå denne personvernerklæringen sammen med en forelder eller verge. Markedsplasstransaksjoner mellom brukere - inkludert ansikt-til-ansikt klistremerkebytter - bør være under tilsyn av en forelder eller verge.
 
 Foreldre eller verger som tror barnet deres bruker Appen kan kontakte oss.
 
@@ -227,7 +227,7 @@ SwapMap mobilapplikasjon bruker ikke nettleserens informasjonskapsler. Sporing p
 
 ## 9. Internasjonale dataoverføringer
 
-Dataene dine kan behandles utenfor hjemlandet ditt (AWS Frankfurt — Den europeiske union, og datasentrene til annonsepartnerne våre listet i avsnitt 3.4, som kan ligge utenfor EU). Disse overføringene oppfyller sikkerhetsstandardene som kreves av GDPR og KVKK.
+Dataene dine kan behandles utenfor hjemlandet ditt (AWS Frankfurt - Den europeiske union, og datasentrene til annonsepartnerne våre listet i avsnitt 3.4, som kan ligge utenfor EU). Disse overføringene oppfyller sikkerhetsstandardene som kreves av GDPR og KVKK.
 
 ## 10. Endringer i denne erklæringen
 
@@ -235,7 +235,7 @@ Vi kan oppdatere denne personvernerklæringen fra tid til annen. Endringer trer 
 
 ## 11. Tredjepartsinnhold og varemerker
 
-SwapMap er en samfunnsmarkedsplass for samlere av fysiske klistremerkealbum og samlekort. Appen viser klistremerkekoder, sett-navn, spillernavn, lagnavn, ligaavn og lignende identifikatorer for å hjelpe brukerne å beskrive gjenstander de eier, ønsker eller bytter. Disse navnene og eventuelle tilknyttede varemerker er eiendommen til deres respektive eiere — inkludert men ikke begrenset til Panini Group, Topps, Match Attax, FIFA, UEFA, individuelle fotballklubber, nasjonale forbund, spillere og andre rettighetshavere.
+SwapMap er en samfunnsmarkedsplass for samlere av fysiske klistremerkealbum og samlekort. Appen viser klistremerkekoder, sett-navn, spillernavn, lagnavn, ligaavn og lignende identifikatorer for å hjelpe brukerne å beskrive gjenstander de eier, ønsker eller bytter. Disse navnene og eventuelle tilknyttede varemerker er eiendommen til deres respektive eiere - inkludert men ikke begrenset til Panini Group, Topps, Match Attax, FIFA, UEFA, individuelle fotballklubber, nasjonale forbund, spillere og andre rettighetshavere.
 
 SwapMap er **ikke tilknyttet, godkjent av, sponset av eller på noen offisiell måte knyttet til** noen klistremerkeprodusent, samlekortutgiver, idrettsliga, forbund, klubb, organisasjon eller konkurranse nevnt i Appen. Appen **selger eller distribuerer ikke** klistremerker eller kort selv. Alle tredjepartsnavn og varemerker brukes utelukkende for **identifikasjons- og beskrivelsesformål (nominativ rimelig bruk)** slik at samlere kan gjenkjenne og bytte gjenstander de allerede fysisk eier.
 

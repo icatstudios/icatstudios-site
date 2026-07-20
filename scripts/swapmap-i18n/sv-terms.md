@@ -16,7 +16,7 @@ Läs dessa Användarvillkor ("Villkor") noggrant innan du använder den mobila a
 - **Annons:** En användarpublicerad annons för att byta, sälja eller efterfråga klistermärken eller samlarkort
 - **Erbjudande:** Ett förslag som utbyts mellan användare för att slutföra ett byte eller en försäljning
 
-## 2. Tjänstens natur — VIKTIGT
+## 2. Tjänstens natur - VIKTIGT
 
 ### 2.1 SwapMap är en gemenskapsmarknadsplats, inte en säljare
 
@@ -120,7 +120,7 @@ Namnet SwapMap, logotypen, det visuella, designen, källkoden och det ursprungli
 
 ### 5.2 Tredjeparts varumärken och samlarobjekt
 
-Appen visar klistermärkeskoder, kortnummer, set-namn, spelarnamn, lagnamn, liganamn och liknande identifierare för att hjälpa användare att beskriva fysiska föremål de äger eller letar efter. Dessa namn och de tillhörande varumärkena är egendom av deras respektive ägare — inklusive men inte begränsat till Panini Group, Topps, Match Attax, FIFA, UEFA, enskilda fotbollsklubbar, nationella förbund och spelarna själva.
+Appen visar klistermärkeskoder, kortnummer, set-namn, spelarnamn, lagnamn, liganamn och liknande identifierare för att hjälpa användare att beskriva fysiska föremål de äger eller letar efter. Dessa namn och de tillhörande varumärkena är egendom av deras respektive ägare - inklusive men inte begränsat till Panini Group, Topps, Match Attax, FIFA, UEFA, enskilda fotbollsklubbar, nationella förbund och spelarna själva.
 
 SwapMap **gör inte anspråk på äganderätt, licensierar inte, säljer inte vidare och distribuerar inte** något tredjeparts varumärke, klistermärke, kort, bild eller upphovsrättsskyddat material. Alla tredjepartsnamn och varumärken används enbart för **identifierings- och beskrivningsändamål under principen om nominativ rättvis användning**, så att samlare kan hänvisa till och byta de föremål de redan fysiskt äger.
 
@@ -209,10 +209,10 @@ Appen erbjuder betalda funktioner under namnen "SwapMap Pro" eller liknande:
 
 - Alla betalningar bearbetas via Apple App Store eller Google Play Store (prenumerationshantering hanteras via RevenueCat som vår avstämningsleverantör; vi ser eller lagrar inte dina betalkortsuppgifter).
 - Betalning, återbetalning och prenumerationshantering omfattas av respektive plattforms policy.
-- Återbetalningsförfrågningar måste lämnas in till Apple eller Google — återbetalningsförfrågningar kan inte skickas direkt till Utvecklaren.
+- Återbetalningsförfrågningar måste lämnas in till Apple eller Google: återbetalningsförfrågningar kan inte skickas direkt till Utvecklaren.
 - Pro-prenumerationer förnyas automatiskt i slutet av varje faktureringsperiod om de inte avbryts minst 24 timmar före förnyelsedatumet. Du kan hantera och avbryta din prenumeration när som helst från dina Apple ID- eller Google Play-kontoinställningar.
-- Pro-funktioner ger användaren endast ytterligare upplevelse — de påverkar inte marknadsplatsens integritet, synligheten för någon annons eller resultatet av något byte.
-- Pro-funktioner garanterar inte framgångsrika byten — alla användare deltar i marknadsplatsen på lika villkor.
+- Pro-funktioner ger användaren endast ytterligare upplevelse: de påverkar inte marknadsplatsens integritet, synligheten för någon annons eller resultatet av något byte.
+- Pro-funktioner garanterar inte framgångsrika byten: alla användare deltar i marknadsplatsen på lika villkor.
 
 ## 9. Platsstjänster
 

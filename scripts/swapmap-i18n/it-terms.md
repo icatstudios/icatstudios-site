@@ -16,7 +16,7 @@ Si prega di leggere attentamente questi Termini di Utilizzo («Termini») prima 
 - **Annuncio:** Un annuncio pubblicato dall'utente per scambiare, vendere o richiedere sticker o carte da collezione
 - **Offerta:** Una proposta scambiata tra utenti per completare uno scambio o una vendita
 
-## 2. Natura del servizio — IMPORTANTE
+## 2. Natura del servizio - IMPORTANTE
 
 ### 2.1 SwapMap è un marketplace comunitario, non un venditore
 
@@ -120,7 +120,7 @@ Il nome SwapMap, il logo, gli elementi visivi, il design, il codice sorgente e i
 
 ### 5.2 Marchi di terze parti e oggetti da collezione
 
-L'App mostra codici sticker, numeri di carte, nomi di set, nomi di giocatori, nomi di squadre, nomi di leghe e identificatori simili per aiutare gli utenti a descrivere gli oggetti fisici che possiedono o stanno cercando. Questi nomi e i relativi marchi sono di proprietà dei rispettivi proprietari — inclusi, ma non limitati a, Panini Group, Topps, Match Attax, FIFA, UEFA, singoli club di calcio, federazioni nazionali e i giocatori stessi.
+L'App mostra codici sticker, numeri di carte, nomi di set, nomi di giocatori, nomi di squadre, nomi di leghe e identificatori simili per aiutare gli utenti a descrivere gli oggetti fisici che possiedono o stanno cercando. Questi nomi e i relativi marchi sono di proprietà dei rispettivi proprietari - inclusi, ma non limitati a, Panini Group, Topps, Match Attax, FIFA, UEFA, singoli club di calcio, federazioni nazionali e i giocatori stessi.
 
 SwapMap **non rivendica la proprietà, non concede in licenza, non rivende né distribuisce** alcun marchio, sticker, carta, immagine o materiale protetto da copyright di terze parti. Tutti i nomi e marchi di terze parti vengono utilizzati esclusivamente a scopo di **identificazione e descrizione secondo il principio dell'uso nominativo equo**, in modo che i collezionisti possano fare riferimento e scambiare gli oggetti che già possiedono fisicamente.
 
@@ -209,10 +209,10 @@ L'App offre funzionalità a pagamento con i nomi «SwapMap Pro» o simili:
 
 - Tutti i pagamenti vengono elaborati tramite l'Apple App Store o il Google Play Store (la gestione degli abbonamenti viene gestita tramite RevenueCat come nostro fornitore di riconciliazione; non vediamo né memorizziamo le informazioni della tua carta di pagamento).
 - Pagamento, rimborso e gestione degli abbonamenti sono soggetti alle politiche della rispettiva piattaforma.
-- Le richieste di rimborso devono essere inoltrate ad Apple o Google — le richieste di rimborso non possono essere inviate direttamente allo Sviluppatore.
+- Le richieste di rimborso devono essere inoltrate ad Apple o Google: le richieste di rimborso non possono essere inviate direttamente allo Sviluppatore.
 - Gli abbonamenti Pro si rinnovano automaticamente alla fine di ogni periodo di fatturazione a meno che non vengano cancellati almeno 24 ore prima della data di rinnovo. Puoi gestire e cancellare il tuo abbonamento in qualsiasi momento dalle impostazioni del tuo account ID Apple o Google Play.
-- Le funzionalità Pro forniscono all'utente solo un'esperienza aggiuntiva — non influiscono sull'integrità del marketplace, sulla visibilità di alcun annuncio o sull'esito di alcuno scambio.
-- Le funzionalità Pro non garantiscono scambi riusciti — tutti gli utenti partecipano al marketplace a parità di condizioni.
+- Le funzionalità Pro forniscono all'utente solo un'esperienza aggiuntiva: non influiscono sull'integrità del marketplace, sulla visibilità di alcun annuncio o sull'esito di alcuno scambio.
+- Le funzionalità Pro non garantiscono scambi riusciti: tutti gli utenti partecipano al marketplace a parità di condizioni.
 
 ## 9. Servizi di localizzazione
 

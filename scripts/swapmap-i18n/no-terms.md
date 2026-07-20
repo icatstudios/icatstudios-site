@@ -16,7 +16,7 @@ Vennligst les disse Bruksvilkårene («Vilkår») nøye før du bruker den mobil
 - **Annonse:** En brukerpublisert kunngjøring for å bytte, selge eller etterspørre klistremerker eller samlekort
 - **Tilbud:** Et forslag utvekslet mellom brukere for å fullføre et bytte eller salg
 
-## 2. Tjenestens natur — VIKTIG
+## 2. Tjenestens natur - VIKTIG
 
 ### 2.1 SwapMap er en samfunnsmarkedsplass, ikke en selger
 
@@ -120,7 +120,7 @@ Navnet SwapMap, logoen, det visuelle, designet, kildekoden og det originale innh
 
 ### 5.2 Tredjeparts varemerker og samleobjekter
 
-Appen viser klistremerkekoder, kortnumre, sett-navn, spillernavn, lagnavn, ligaavn og lignende identifikatorer for å hjelpe brukere å beskrive fysiske gjenstander de eier eller leter etter. Disse navnene og tilhørende varemerker er eiendommen til deres respektive eiere — inkludert men ikke begrenset til Panini Group, Topps, Match Attax, FIFA, UEFA, individuelle fotballklubber, nasjonale forbund og spillerne selv.
+Appen viser klistremerkekoder, kortnumre, sett-navn, spillernavn, lagnavn, ligaavn og lignende identifikatorer for å hjelpe brukere å beskrive fysiske gjenstander de eier eller leter etter. Disse navnene og tilhørende varemerker er eiendommen til deres respektive eiere - inkludert men ikke begrenset til Panini Group, Topps, Match Attax, FIFA, UEFA, individuelle fotballklubber, nasjonale forbund og spillerne selv.
 
 SwapMap **hevder ikke eierskap, lisensierer ikke, selger ikke videre og distribuerer ikke** noen tredjeparts varemerke, klistremerke, kort, bilde eller opphavsrettsbeskyttet materiale. Alle tredjepartsnavn og varemerker brukes utelukkende for **identifikasjons- og beskrivelsesformål under prinsippet om nominativ rimelig bruk**, slik at samlere kan referere til og bytte gjenstander de allerede fysisk eier.
 
@@ -209,10 +209,10 @@ Appen tilbyr betalte funksjoner under navnene «SwapMap Pro» eller lignende:
 
 - Alle betalinger behandles gjennom Apple App Store eller Google Play Store (abonnementsadministrasjon håndteres via RevenueCat som vår avstemmingsleverandør; vi ser eller lagrer ikke betalingskortinformasjonen din).
 - Betaling, refusjon og abonnementsadministrasjon er underlagt retningslinjene til den respektive plattformen.
-- Refusjonsforespørsler må sendes til Apple eller Google — refusjonsforespørsler kan ikke sendes direkte til Utvikleren.
+- Refusjonsforespørsler må sendes til Apple eller Google: refusjonsforespørsler kan ikke sendes direkte til Utvikleren.
 - Pro-abonnementer fornyes automatisk på slutten av hver faktureringsperiode med mindre de kanselleres minst 24 timer før fornyelsesdatoen. Du kan administrere og kansellere abonnementet ditt når som helst fra Apple ID- eller Google Play-kontoinnstillingene dine.
-- Pro-funksjoner gir kun brukeren ytterligere erfaring — de påvirker ikke integriteten til markedsplassen, synligheten til noen annonse eller utfallet av noe bytte.
-- Pro-funksjoner garanterer ikke vellykkede bytter — alle brukere deltar i markedsplassen på like vilkår.
+- Pro-funksjoner gir kun brukeren ytterligere erfaring: de påvirker ikke integriteten til markedsplassen, synligheten til noen annonse eller utfallet av noe bytte.
+- Pro-funksjoner garanterer ikke vellykkede bytter: alle brukere deltar i markedsplassen på like vilkår.
 
 ## 9. Stedstjenester
 

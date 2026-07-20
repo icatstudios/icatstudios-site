@@ -63,7 +63,7 @@ export async function generateMetadata({
   return {
     title: useMd
       ? t("metaTitle")
-      : `${t("metaTitle")} — ${appName}`,
+      : `${t("metaTitle")} - ${appName}`,
     description: t("metaDescription"),
   };
 }

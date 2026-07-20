@@ -16,7 +16,7 @@ Lees deze Gebruiksvoorwaarden ("Voorwaarden") zorgvuldig door voordat u de mobie
 - **Advertentie:** Een door de gebruiker geplaatste aankondiging om stickers of ruilkaarten te ruilen, verkopen of zoeken
 - **Aanbieding:** Een voorstel uitgewisseld tussen gebruikers om een ruil of verkoop te voltooien
 
-## 2. Aard van de service — BELANGRIJK
+## 2. Aard van de service - BELANGRIJK
 
 ### 2.1 SwapMap is een community-marktplaats, geen verkoper
 
@@ -120,7 +120,7 @@ De naam SwapMap, het logo, de visuele elementen, het ontwerp, de broncode en de 
 
 ### 5.2 Handelsmerken van derden en verzamelobjecten
 
-De App toont stickercodes, kaartnummers, setnamen, spelersnamen, teamnamen, liganamen en vergelijkbare identificatoren om gebruikers te helpen fysieke items te beschrijven die zij bezitten of zoeken. Deze namen en de bijbehorende handelsmerken zijn het eigendom van hun respectieve eigenaren — inclusief maar niet beperkt tot Panini Group, Topps, Match Attax, FIFA, UEFA, individuele voetbalclubs, nationale federaties en de spelers zelf.
+De App toont stickercodes, kaartnummers, setnamen, spelersnamen, teamnamen, liganamen en vergelijkbare identificatoren om gebruikers te helpen fysieke items te beschrijven die zij bezitten of zoeken. Deze namen en de bijbehorende handelsmerken zijn het eigendom van hun respectieve eigenaren - inclusief maar niet beperkt tot Panini Group, Topps, Match Attax, FIFA, UEFA, individuele voetbalclubs, nationale federaties en de spelers zelf.
 
 SwapMap **claimt geen eigendom, licentieert niet, verkoopt niet door en distribueert niet** enig handelsmerk, sticker, kaart, afbeelding of auteursrechtelijk beschermd materiaal van derden. Alle namen en handelsmerken van derden worden uitsluitend gebruikt voor **identificatie- en beschrijvingsdoeleinden onder het principe van nominatief redelijk gebruik**, zodat verzamelaars de items waarover zij al fysiek beschikken kunnen aanduiden en ruilen.
 
@@ -209,10 +209,10 @@ De App biedt betaalde functies onder de namen "SwapMap Pro" of vergelijkbaar:
 
 - Alle betalingen worden verwerkt via de Apple App Store of Google Play Store (abonnementsbeheer wordt afgehandeld via RevenueCat als onze reconciliatieprovider; wij zien of bewaren uw betaalkaartgegevens niet).
 - Betaling, terugbetaling en abonnementsbeheer zijn onderworpen aan het beleid van het respectieve platform.
-- Verzoeken om terugbetaling moeten worden ingediend bij Apple of Google — verzoeken om terugbetaling kunnen niet rechtstreeks naar de Ontwikkelaar worden gestuurd.
+- Verzoeken om terugbetaling moeten worden ingediend bij Apple of Google: verzoeken om terugbetaling kunnen niet rechtstreeks naar de Ontwikkelaar worden gestuurd.
 - Pro-abonnementen worden automatisch verlengd aan het einde van elke factureringsperiode tenzij ze ten minste 24 uur voor de verlengingsdatum worden geannuleerd. U kunt uw abonnement op elk moment beheren en annuleren vanuit de instellingen van uw Apple ID- of Google Play-account.
-- Pro-functies bieden de gebruiker alleen extra ervaring — ze beïnvloeden niet de integriteit van de marktplaats, de zichtbaarheid van een advertentie of de uitkomst van een ruil.
-- Pro-functies garanderen geen succesvolle ruilen — alle gebruikers nemen op gelijke voet deel aan de marktplaats.
+- Pro-functies bieden de gebruiker alleen extra ervaring: ze beïnvloeden niet de integriteit van de marktplaats, de zichtbaarheid van een advertentie of de uitkomst van een ruil.
+- Pro-functies garanderen geen succesvolle ruilen: alle gebruikers nemen op gelijke voet deel aan de marktplaats.
 
 ## 9. Locatieservices
 

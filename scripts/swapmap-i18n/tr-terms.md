@@ -16,7 +16,7 @@ SwapMap mobil uygulamasını ("Uygulama", "Hizmet") kullanmadan önce lütfen bu
 - **İlan:** Kullanıcı tarafından yayımlanmış; sticker veya takas kartlarını takas etmek, satmak veya istemek için bir duyuru
 - **Teklif:** Bir takası veya satışı tamamlamak amacıyla kullanıcılar arasında değiştirilen bir öneri
 
-## 2. Hizmetin Niteliği — ÖNEMLİ
+## 2. Hizmetin Niteliği - ÖNEMLİ
 
 ### 2.1 SwapMap Bir Topluluk Pazaryeridir, Bir Satıcı Değildir
 
@@ -209,10 +209,10 @@ Uygulama, "SwapMap Pro" veya benzer adlar altında ücretli özellikler sunar:
 
 - Tüm ödemeler Apple App Store veya Google Play Store üzerinden işlenir (abonelik yönetimi mutabakat sağlayıcımız olarak RevenueCat aracılığıyla yapılır; ödeme kartı bilgilerinizi görmüyoruz veya saklamıyoruz).
 - Ödeme, iade ve abonelik yönetimi ilgili platformun politikalarına tabidir.
-- İade talepleri Apple veya Google'a yapılmalıdır — iade talepleri Geliştiriciye doğrudan gönderilemez.
+- İade talepleri Apple veya Google'a yapılmalıdır: iade talepleri Geliştiriciye doğrudan gönderilemez.
 - Pro abonelikleri, yenileme tarihinden en az 24 saat önce iptal edilmediği sürece her fatura döneminin sonunda otomatik olarak yenilenir. Aboneliğinizi istediğiniz zaman Apple ID veya Google Play hesap ayarlarınızdan yönetebilir ve iptal edebilirsiniz.
-- Pro özellikleri yalnızca kullanıcıya ek deneyim sağlar — pazaryerinin bütünlüğünü, herhangi bir ilanın görünürlüğünü veya herhangi bir takasın sonucunu etkilemez.
-- Pro özellikleri başarılı takasları garanti etmez — tüm kullanıcılar pazaryerinde eşit koşullarda yer alır.
+- Pro özellikleri yalnızca kullanıcıya ek deneyim sağlar: pazaryerinin bütünlüğünü, herhangi bir ilanın görünürlüğünü veya herhangi bir takasın sonucunu etkilemez.
+- Pro özellikleri başarılı takasları garanti etmez: tüm kullanıcılar pazaryerinde eşit koşullarda yer alır.
 
 ## 9. Konum Hizmetleri
 
