@@ -69,6 +69,15 @@
       "comingSoonStatus": "قريبًا",
       "shortDescription": "أول منصة عالمية لتبادل وبيع المقتنيات والبطاقات والملصقات وألعاب TCG.",
       "newBadge": "جديد"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "أول وأوحد لعبة بطاقات حية في العالم. كل بطاقة فريدة. كل بطاقة تعيش.",
+      "tagline": "أول وأوحد لعبة بطاقات حية في العالم",
+      "comingSoonStatus": "قريبًا",
+      "description1": "كل بطاقة فريدة. كل بطاقة تعيش. Catsu نوع جديد كليًا من ألعاب البطاقات من iCat Studios، لا يشبه أي شيء لعبته من قبل.",
+      "description2": "نُبقي التفاصيل سرًا في الوقت الحالي. قم بزيارة catsugame.com وتابعنا حتى لا يفوتك الكشف الكبير.",
+      "learnMore": "زيارة catsugame.com"
     }
   },
   "comingSoonBadges": {

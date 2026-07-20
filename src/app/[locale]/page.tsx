@@ -18,6 +18,15 @@ export default async function Home({ params }: Props) {
 
   const products = [
     {
+      key: "catsu",
+      name: tProducts("catsu.name"),
+      shortDescription: tProducts("catsu.shortDescription"),
+      icon: "/images/catsu/catsu_logo.png",
+      href: "/products#catsu",
+      accent: "#f5b52e",
+      comingSoon: true,
+    },
+    {
       key: "scorehunter",
       name: tProducts("scoreHunter.name"),
       shortDescription: tProducts("scoreHunter.shortDescription"),
@@ -42,14 +51,6 @@ export default async function Home({ params }: Props) {
       icon: "/images/potentials/potentials_icon.png",
       href: "/products#potentials",
       accent: "#a855f7",
-    },
-    {
-      key: "fastandblocky",
-      name: tProducts("fastAndBlocky.name"),
-      shortDescription: tProducts("fastAndBlocky.shortDescription"),
-      icon: "/images/fastandblocky/fastandblockyblocky_icon.png",
-      href: "/products#fastandblocky",
-      accent: "#ff6b4a",
     },
   ];
 

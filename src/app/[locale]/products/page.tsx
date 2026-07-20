@@ -81,6 +81,7 @@ const POTENTIALS_ACCENT = "#a855f7";
 const FASTBLOCKY_ACCENT = "#ff6b4a";
 const SCOREHUNTER_ACCENT = "#14f174";
 const SWAPMAP_ACCENT = "#06b6d4";
+const CATSU_ACCENT = "#f5b52e";
 
 // TODO: add App Store URL when iOS approval is complete
 const SCOREHUNTER_APP_STORE_URL: string | undefined = undefined;
@@ -126,6 +127,117 @@ export default async function ProductsPage({ params }: Props) {
           </Reveal>
         </div>
       </section>
+
+      {/* ============ Catsu (Coming Soon) ============ */}
+      <section
+        id="catsu"
+        className="relative scroll-mt-20 overflow-hidden px-6 py-20"
+      >
+        {/* Themed background: gold + purple */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 overflow-hidden"
+        >
+          <div
+            className="absolute -top-32 -left-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-40 animate-pulse-glow"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(245,181,46,0.30), transparent 70%)",
+            }}
+          />
+          <div
+            className="absolute -bottom-32 -right-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-35 animate-pulse-glow-delayed"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(124,58,237,0.35), transparent 70%)",
+            }}
+          />
+        </div>
+
+        <Reveal className="relative z-10 mx-auto max-w-3xl text-center">
+          <div className="relative mx-auto w-48 sm:w-56">
+            {/* Radial glow behind the card */}
+            <div
+              aria-hidden
+              className="absolute inset-0 rounded-full blur-3xl opacity-60 animate-pulse-glow"
+              style={{
+                background: `radial-gradient(circle, ${CATSU_ACCENT}55, rgba(124,58,237,0.35) 60%, transparent 75%)`,
+              }}
+            />
+            <Image
+              src="/images/catsu/catsu_back.png"
+              alt={t("catsu.name")}
+              width={224}
+              height={317}
+              className="relative animate-float rounded-2xl ring-1 ring-white/10 drop-shadow-[0_12px_36px_rgba(245,181,46,0.35)]"
+            />
+          </div>
+
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
+              {t("catsu.name")}
+            </h2>
+            <span
+              className="rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
+              style={{
+                color: CATSU_ACCENT,
+                borderColor: `${CATSU_ACCENT}66`,
+                background: `${CATSU_ACCENT}1a`,
+              }}
+            >
+              {t("catsu.comingSoonStatus")}
+            </span>
+          </div>
+
+          <p
+            className="mt-4 text-sm font-semibold uppercase tracking-[0.2em]"
+            style={{ color: CATSU_ACCENT }}
+          >
+            {t("catsu.tagline")}
+          </p>
+
+          <div className="mt-6 space-y-4 text-left leading-relaxed text-zinc-400">
+            <p>{t("catsu.description1")}</p>
+            <p>{t("catsu.description2")}</p>
+          </div>
+
+          <div className="mt-8 flex justify-center">
+            <a
+              href="https://www.catsugame.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="themed-btn inline-flex items-center gap-2 rounded-full border px-5 py-2 text-xs font-semibold uppercase tracking-widest"
+              style={
+                {
+                  color: CATSU_ACCENT,
+                  borderColor: `${CATSU_ACCENT}59`,
+                  background: `${CATSU_ACCENT}0f`,
+                  ["--btn-color" as string]: CATSU_ACCENT,
+                } as React.CSSProperties
+              }
+            >
+              {t("catsu.learnMore")}
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="7" y1="17" x2="17" y2="7" />
+                <polyline points="7 7 17 7 17 17" />
+              </svg>
+            </a>
+          </div>
+        </Reveal>
+      </section>
+
+      <div className="mx-auto max-w-4xl px-6">
+        <div className="divider-fade" />
+      </div>
 
       {/* ============ Score Hunter ============ */}
       <section

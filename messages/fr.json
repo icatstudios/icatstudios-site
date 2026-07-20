@@ -18,7 +18,7 @@
     "ctaSecondary": "Nous contacter",
     "productsSectionTitle": "Nos produits",
     "productsSectionSubtitle": "Découvrez ce que nous créons",
-    "comingSoon": "Bientôt disponible",
+    "comingSoon": "Bientôt",
     "explore": "Découvrir",
     "charityTitle": "Le « Chat » dans iCat est réel",
     "charityText": "Depuis des années, nous consacrons une part importante de nos revenus aux animaux errants de Turquie : hébergement, soins, stérilisation et nourriture pour des centaines de chats errants.",
@@ -69,6 +69,15 @@
       "comingSoonStatus": "Bientôt disponible",
       "shortDescription": "La première plateforme mondiale d’échange et de vente pour collections, cartes, stickers et TCG.",
       "newBadge": "Nouveau"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "Le premier et unique jeu de cartes vivant au monde. Chaque carte est unique. Chaque carte vit.",
+      "tagline": "Le premier et unique jeu de cartes vivant au monde",
+      "comingSoonStatus": "Bientôt disponible",
+      "description1": "Chaque carte est unique. Chaque carte vit. Catsu est un tout nouveau genre de jeu de cartes signé iCat Studios, qui ne ressemble à rien de ce que vous avez joué auparavant.",
+      "description2": "Nous gardons les détails secrets pour le moment. Visitez catsugame.com et suivez-nous pour ne pas manquer la grande révélation.",
+      "learnMore": "Visiter catsugame.com"
     }
   },
   "comingSoonBadges": {

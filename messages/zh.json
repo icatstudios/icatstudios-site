@@ -69,6 +69,15 @@
       "comingSoonStatus": "即将推出",
       "shortDescription": "全球首个面向收藏品、卡片、贴纸和TCG的全球交换与销售平台。",
       "newBadge": "新"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "全球首款也是唯一一款“活着的”卡牌游戏。每张卡牌都独一无二，每张卡牌都是活的。",
+      "tagline": "全球首款也是唯一一款“活着的”卡牌游戏",
+      "comingSoonStatus": "即将推出",
+      "description1": "每张卡牌都独一无二，每张卡牌都是活的。Catsu 是 iCat Studios 带来的全新类型卡牌游戏，不同于你玩过的任何游戏。",
+      "description2": "目前我们对细节保密。请访问 catsugame.com 并关注我们，不要错过盛大揭晓。",
+      "learnMore": "访问 catsugame.com"
     }
   },
   "comingSoonBadges": {

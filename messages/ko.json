@@ -69,6 +69,15 @@
       "comingSoonStatus": "곧 출시",
       "shortDescription": "컬렉션, 카드, 스티커, TCG를 위한 세계 최초의 글로벌 교환 및 판매 플랫폼.",
       "newBadge": "신규"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "세계 최초이자 유일한 살아있는 카드 게임. 모든 카드는 유일하며, 모든 카드는 살아 있습니다.",
+      "tagline": "세계 최초이자 유일한 살아있는 카드 게임",
+      "comingSoonStatus": "곧 출시",
+      "description1": "모든 카드는 유일하며, 모든 카드는 살아 있습니다. Catsu는 iCat Studios가 선보이는 완전히 새로운 종류의 카드 게임으로, 지금까지 해본 그 어떤 게임과도 다릅니다.",
+      "description2": "자세한 내용은 아직 비밀입니다. catsugame.com을 방문하고 저희를 팔로우하여 대공개를 놓치지 마세요.",
+      "learnMore": "catsugame.com 방문하기"
     }
   },
   "comingSoonBadges": {

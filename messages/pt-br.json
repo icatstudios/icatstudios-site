@@ -69,6 +69,15 @@
       "comingSoonStatus": "Em breve",
       "shortDescription": "A primeira plataforma global de troca e venda para coleções, cards, stickers e TCG.",
       "newBadge": "Novo"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "O primeiro e único jogo de cartas vivo do mundo. Cada carta é única. Cada carta vive.",
+      "tagline": "O primeiro e único jogo de cartas vivo do mundo",
+      "comingSoonStatus": "Em breve",
+      "description1": "Cada carta é única. Cada carta vive. Catsu é um tipo de jogo de cartas totalmente novo da iCat Studios, diferente de tudo que você já jogou.",
+      "description2": "Por enquanto, estamos mantendo os detalhes em segredo. Visite catsugame.com e siga a gente para não perder a grande revelação.",
+      "learnMore": "Visitar catsugame.com"
     }
   },
   "comingSoonBadges": {

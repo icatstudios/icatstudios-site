@@ -18,7 +18,7 @@
     "ctaSecondary": "Kontakta oss",
     "productsSectionTitle": "Våra produkter",
     "productsSectionSubtitle": "Se vad vi har skapat",
-    "comingSoon": "Kommer snart",
+    "comingSoon": "Snart",
     "explore": "Utforska",
     "charityTitle": "“Katten” i iCat är äkta",
     "charityText": "I många år har vi ägnat en betydande del av våra intäkter åt hemlösa djur i Turkiet: husrum, behandling, kastrering och mat till hundratals hemlösa katter.",
@@ -69,6 +69,15 @@
       "comingSoonStatus": "Kommer snart",
       "shortDescription": "Världens första globala plattform för byte och försäljning av samlingar, kort, klistermärken och TCG.",
       "newBadge": "Ny"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "Världens första och enda levande kortspel. Varje kort är unikt. Varje kort lever.",
+      "tagline": "Världens första och enda levande kortspel",
+      "comingSoonStatus": "Kommer snart",
+      "description1": "Varje kort är unikt. Varje kort lever. Catsu är en helt ny sorts kortspel från iCat Studios, olikt allt du har spelat tidigare.",
+      "description2": "Vi håller detaljerna hemliga tills vidare. Besök catsugame.com och följ oss för att inte missa det stora avslöjandet.",
+      "learnMore": "Besök catsugame.com"
     }
   },
   "comingSoonBadges": {

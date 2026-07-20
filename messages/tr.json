@@ -18,7 +18,7 @@
     "ctaSecondary": "Bize Ulaşın",
     "productsSectionTitle": "Ürünlerimiz",
     "productsSectionSubtitle": "Ürettiklerimize göz atın",
-    "comingSoon": "Çok Yakında",
+    "comingSoon": "Yakında",
     "explore": "İncele",
     "charityTitle": "iCat'in içindeki “Kedi” gerçek",
     "charityText": "Yıllardır gelirlerimizin önemli bir kısmını Türkiye'deki sokak hayvanlarına ayırıyoruz: yüzlerce sokak kedisi için barınma, tedavi, kısırlaştırma ve mama.",
@@ -69,6 +69,15 @@
       "comingSoonStatus": "Çok yakında",
       "shortDescription": "Global çapta ilk ve tek koleksiyon, kart, sticker, TCG takas, satış platformu.",
       "newBadge": "Yeni"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "Dünyanın ilk ve tek Yaşayan Kart Oyunu. Her kart eşsiz. Her kart canlı.",
+      "tagline": "Dünyanın ilk ve tek Yaşayan Kart Oyunu",
+      "comingSoonStatus": "Çok yakında",
+      "description1": "Her kart eşsiz. Her kart canlı. Catsu, iCat Studios'tan yepyeni bir kart oyunu türü; daha önce oynadığınız hiçbir şeye benzemiyor.",
+      "description2": "Detayları şimdilik sır olarak saklıyoruz. Büyük tanıtımı kaçırmamak için catsugame.com'u ziyaret edin ve bizi takip edin.",
+      "learnMore": "catsugame.com'u ziyaret et"
     }
   },
   "privacyPolicy": {

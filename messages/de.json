@@ -18,7 +18,7 @@
     "ctaSecondary": "Kontakt",
     "productsSectionTitle": "Unsere Produkte",
     "productsSectionSubtitle": "Sieh dir an, woran wir arbeiten",
-    "comingSoon": "Demnächst",
+    "comingSoon": "Bald",
     "explore": "Entdecken",
     "charityTitle": "Die „Katze“ in iCat ist echt",
     "charityText": "Seit Jahren widmen wir einen bedeutenden Teil unserer Einnahmen den Straßentieren in der Türkei: Unterkunft, Behandlung, Kastration und Futter für Hunderte von Straßenkatzen.",
@@ -69,6 +69,15 @@
       "comingSoonStatus": "Demnächst",
       "shortDescription": "Die weltweit erste globale Tausch- und Verkaufsplattform für Sammlungen, Karten, Sticker und TCG.",
       "newBadge": "Neu"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "Das weltweit erste und einzige lebende Kartenspiel. Jede Karte ist einzigartig. Jede Karte lebt.",
+      "tagline": "Das weltweit erste und einzige lebende Kartenspiel",
+      "comingSoonStatus": "Demnächst",
+      "description1": "Jede Karte ist einzigartig. Jede Karte lebt. Catsu ist eine völlig neue Art von Kartenspiel von iCat Studios und gleicht nichts, was Sie je gespielt haben.",
+      "description2": "Die Details halten wir vorerst geheim. Besuchen Sie catsugame.com und folgen Sie uns, um bei der großen Enthüllung dabei zu sein.",
+      "learnMore": "catsugame.com besuchen"
     }
   },
   "comingSoonBadges": {

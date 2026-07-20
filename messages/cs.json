@@ -18,7 +18,7 @@
     "ctaSecondary": "Kontaktujte nás",
     "productsSectionTitle": "Naše produkty",
     "productsSectionSubtitle": "Podívejte se, co tvoříme",
-    "comingSoon": "Již brzy",
+    "comingSoon": "Brzy",
     "explore": "Prozkoumat",
     "charityTitle": "„Kočka“ v iCat je skutečná",
     "charityText": "Už léta věnujeme významnou část našich příjmů toulavým zvířatům v Turecku: útulek, léčbu, kastraci a krmivo pro stovky toulavých koček.",
@@ -69,6 +69,15 @@
       "comingSoonStatus": "Již brzy",
       "shortDescription": "První globální platforma pro výměnu a prodej sběratelských předmětů, karet, samolepek a TCG.",
       "newBadge": "Nové"
+    },
+    "catsu": {
+      "name": "Catsu",
+      "shortDescription": "První a jediná živá karetní hra na světě. Každá karta je jedinečná. Každá karta žije.",
+      "tagline": "První a jediná živá karetní hra na světě",
+      "comingSoonStatus": "Již brzy",
+      "description1": "Každá karta je jedinečná. Každá karta žije. Catsu je zcela nový druh karetní hry od iCat Studios, nepodobný ničemu, co jste kdy hráli.",
+      "description2": "Detaily zatím držíme v tajnosti. Navštivte catsugame.com a sledujte nás, ať vám neunikne velké odhalení.",
+      "learnMore": "Navštívit catsugame.com"
     }
   },
   "comingSoonBadges": {
