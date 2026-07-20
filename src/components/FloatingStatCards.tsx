@@ -85,7 +85,7 @@ export default function FloatingStatCards() {
         </div>
       </div>
 
-      {/* Bottom-left: Since 2016 */}
+      {/* Bottom-left: Since 2015 */}
       <div
         className="stat-card animate-float-c hidden md:flex"
         style={{ bottom: "18%", left: "-4%" }}
