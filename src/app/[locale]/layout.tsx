@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import OrganizationSchema from "@/components/OrganizationSchema";
 import { routing, rtlLocales } from "@/i18n/routing";
 import "../globals.css";
 
@@ -84,6 +85,7 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className="relative min-h-full flex flex-col bg-background text-foreground">
+        <OrganizationSchema />
         <NextIntlClientProvider>
           {/* Global background decoration */}
           <div
