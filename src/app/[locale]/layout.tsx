@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { routing, rtlLocales } from "@/i18n/routing";
@@ -97,6 +98,7 @@ export default async function LocaleLayout({
           <Header />
           <main className="relative z-10 flex-1">{children}</main>
           <Footer />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
