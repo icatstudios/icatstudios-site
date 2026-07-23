@@ -29,11 +29,13 @@ const APP_NAME_KEY: Record<AppSlug, string> = {
 /** Apps that ship their terms as a single markdown blob under {key}Terms.content */
 const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
   swapmap: "swapMapTerms",
+  potentials: "potentialsTerms",
 };
 
 /** Locales with the markdown-based terms already translated. */
 const MARKDOWN_LOCALES: Partial<Record<AppSlug, Set<string>>> = {
   swapmap: new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru", "ja", "ko", "zh", "ar"]),
+  potentials: new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru", "ja", "ko", "zh", "ar"]),
 };
 
 function usesMarkdown(app: AppSlug, locale: string): boolean {
