@@ -79,7 +79,12 @@
       "learnMore": "catsugame.com'u ziyaret et"
     },
     "lineup": {
-      "name": "Lineup: Futbol Kadro Kurucu"
+      "name": "Lineup: Futbol Kadro Kurucu",
+      "shortDescription": "Futbol kadrolarını kur, özelleştir ve paylaş.",
+      "comingSoonStatus": "Çok yakında",
+      "tagline": "Mükemmel futbol kadronu kur",
+      "description1": "Lineup, hesap gerektirmeyen hızlı bir futbol kadro kurma uygulamasıdır. Bir diziliş seç, oyuncularını ve yedeklerini yerleştir; arma, renk ve başlıklar ekleyerek her kadroyu kendine özel kıl.",
+      "description2": "Yabancı oyuncu sınırlarına göre planla, her şeyi cihazında sakla ve paylaşmak için temiz bir görsel dışa aktar. Yakında App Store ve Google Play'de."
     }
   },
   "privacyPolicy": {

@@ -79,7 +79,12 @@
       "learnMore": "访问 catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "创建、定制并分享你的足球阵容。",
+      "comingSoonStatus": "即将推出",
+      "tagline": "打造你的完美足球阵容",
+      "description1": "Lineup 是一款无需账号的快速足球阵容搭建工具。选择阵型，摆放你的球员和替补，添加队徽、颜色和标题，让每套阵容都独具个性。",
+      "description2": "结合外援名额进行规划，把一切保存在你的设备上，并导出简洁的图片进行分享。即将登陆 App Store 和 Google Play。"
     }
   },
   "comingSoonBadges": {

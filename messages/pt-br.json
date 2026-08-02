@@ -79,7 +79,12 @@
       "learnMore": "Visitar catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "Monte, personalize e compartilhe suas escalações de futebol.",
+      "comingSoonStatus": "Em breve",
+      "tagline": "Monte a sua escalação de futebol perfeita",
+      "description1": "O Lineup é um criador de escalações de futebol rápido e sem conta. Escolha uma formação, posicione seus jogadores e reservas e adicione escudos, cores e títulos para deixar cada escalação com a sua cara.",
+      "description2": "Planeje considerando os limites de jogadores estrangeiros, salve tudo no seu dispositivo e exporte uma imagem limpa para compartilhar. Em breve na App Store e no Google Play."
     }
   },
   "comingSoonBadges": {

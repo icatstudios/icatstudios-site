@@ -79,7 +79,12 @@
       "learnMore": "catsugame.com besuchen"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "Fußballkader erstellen, anpassen und teilen.",
+      "comingSoonStatus": "Demnächst",
+      "tagline": "Stelle deine perfekte Fußballaufstellung zusammen",
+      "description1": "Lineup ist ein schneller Fußball-Aufstellungsbuilder ohne Konto. Wähle eine Formation, platziere deine Spieler und Ersatzspieler und füge Wappen, Farben und Titel hinzu, um jede Aufstellung individuell zu gestalten.",
+      "description2": "Plane unter Berücksichtigung von Ausländerbeschränkungen, speichere alles auf deinem Gerät und exportiere ein sauberes Bild zum Teilen. Demnächst im App Store und bei Google Play."
     }
   },
   "comingSoonBadges": {

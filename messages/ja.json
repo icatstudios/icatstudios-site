@@ -79,7 +79,12 @@
       "learnMore": "catsugame.comを見る"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "サッカーのスカッドを作成、カスタマイズして共有しよう。",
+      "comingSoonStatus": "近日公開",
+      "tagline": "最高のサッカースカッドを作ろう",
+      "description1": "Lineupは、アカウント不要のスピーディーなサッカースカッドビルダーです。フォーメーションを選び、選手と控えを配置し、エンブレム、カラー、タイトルを加えて、それぞれのスカッドを自分だけのものにできます。",
+      "description2": "外国人枠を考慮して計画を立て、すべてを端末に保存し、共有用のすっきりした画像を書き出せます。App StoreとGoogle Playにまもなく登場します。"
     }
   },
   "comingSoonBadges": {

@@ -79,7 +79,12 @@
       "learnMore": "زيارة catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "أنشئ تشكيلات كرة القدم الخاصة بك وخصّصها وشاركها.",
+      "comingSoonStatus": "قريبًا",
+      "tagline": "اصنع تشكيلة كرة القدم المثالية",
+      "description1": "Lineup أداة سريعة لإنشاء تشكيلات كرة القدم دون الحاجة إلى حساب. اختر خطة اللعب، وضع لاعبيك والبدلاء، وأضف الشعارات والألوان والعناوين لتجعل كل تشكيلة خاصة بك.",
+      "description2": "خطّط مع مراعاة حدود اللاعبين الأجانب، واحفظ كل شيء على جهازك، وصدّر صورة أنيقة لمشاركتها. قريبًا على App Store وGoogle Play."
     }
   },
   "comingSoonBadges": {

@@ -79,7 +79,12 @@
       "learnMore": "Navštívit catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "Sestavuj, přizpůsobuj a sdílej své fotbalové sestavy.",
+      "comingSoonStatus": "Již brzy",
+      "tagline": "Sestav svou dokonalou fotbalovou sestavu",
+      "description1": "Lineup je rychlý nástroj na sestavování fotbalových sestav bez účtu. Vyber formaci, rozmísti hráče a náhradníky a přidej znaky, barvy a názvy, aby byla každá sestava jedinečně tvoje.",
+      "description2": "Plánuj s ohledem na limity zahraničních hráčů, ukládej vše do svého zařízení a exportuj čistý obrázek ke sdílení. Již brzy v App Store a na Google Play."
     }
   },
   "comingSoonBadges": {

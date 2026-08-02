@@ -79,7 +79,12 @@
       "learnMore": "Besøg catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "Byg, tilpas og del dine fodboldhold.",
+      "comingSoonStatus": "Kommer snart",
+      "tagline": "Byg dit perfekte fodboldhold",
+      "description1": "Lineup er en hurtig fodboldholdbygger uden konto. Vælg en formation, placer dine spillere og indskiftere, og tilføj logoer, farver og titler for at gøre hvert hold til dit eget.",
+      "description2": "Planlæg ud fra grænser for udenlandske spillere, gem alt på din enhed, og eksportér et rent billede til deling. Kommer snart i App Store og Google Play."
     }
   },
   "comingSoonBadges": {

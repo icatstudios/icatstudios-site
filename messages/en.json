@@ -79,7 +79,12 @@
       "learnMore": "Visit catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "Build, customize and share your football squads.",
+      "comingSoonStatus": "Coming soon",
+      "tagline": "Build your perfect football squad",
+      "description1": "Lineup is a fast, no-account football squad builder. Pick a formation, place your players and substitutes, and add badges, colours and titles to make each squad your own.",
+      "description2": "Plan around foreign-player limits, save everything on your device, and export a clean image to share. Coming soon to the App Store and Google Play."
     }
   },
   "privacyPolicy": {

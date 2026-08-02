@@ -27,6 +27,15 @@ export default async function Home({ params }: Props) {
       comingSoon: true,
     },
     {
+      key: "lineup",
+      name: tProducts("lineup.name"),
+      shortDescription: tProducts("lineup.shortDescription"),
+      icon: "/images/lineup/lineup_icon.png",
+      href: "/products#lineup",
+      accent: "#22d3ee",
+      comingSoon: true,
+    },
+    {
       key: "scorehunter",
       name: tProducts("scoreHunter.name"),
       shortDescription: tProducts("scoreHunter.shortDescription"),
@@ -188,7 +197,7 @@ export default async function Home({ params }: Props) {
           <div className="mx-auto mt-6 h-px w-24 divider-fade" />
         </Reveal>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {products.map((product, i) => (
             <Reveal key={product.key} delay={i * 120}>
               <Link

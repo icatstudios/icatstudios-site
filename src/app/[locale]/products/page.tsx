@@ -82,6 +82,7 @@ const FASTBLOCKY_ACCENT = "#ff6b4a";
 const SCOREHUNTER_ACCENT = "#14f174";
 const SWAPMAP_ACCENT = "#06b6d4";
 const CATSU_ACCENT = "#f5b52e";
+const LINEUP_ACCENT = "#22d3ee";
 
 const SCOREHUNTER_APP_STORE_URL =
   "https://apps.apple.com/us/app/score-hunter-prediction-game/id6759538804";
@@ -231,6 +232,93 @@ export default async function ProductsPage({ params }: Props) {
                 <polyline points="7 7 17 7 17 17" />
               </svg>
             </a>
+          </div>
+        </Reveal>
+      </section>
+
+      <div className="mx-auto max-w-4xl px-6">
+        <div className="divider-fade" />
+      </div>
+
+      {/* ============ Lineup (Coming Soon) ============ */}
+      <section
+        id="lineup"
+        className="relative scroll-mt-20 overflow-hidden px-6 py-20"
+      >
+        {/* Themed background: cyan */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 overflow-hidden"
+        >
+          <div
+            className="absolute -top-32 -left-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-40 animate-pulse-glow"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(34,211,238,0.28), transparent 70%)",
+            }}
+          />
+          <div
+            className="absolute -bottom-32 -right-20 h-[520px] w-[520px] rounded-full blur-[120px] opacity-35 animate-pulse-glow-delayed"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(124,58,237,0.30), transparent 70%)",
+            }}
+          />
+        </div>
+
+        <Reveal className="relative z-10 mx-auto max-w-3xl text-center">
+          <div className="relative mx-auto w-40 sm:w-44">
+            {/* Radial glow behind the icon */}
+            <div
+              aria-hidden
+              className="absolute inset-0 rounded-full blur-3xl opacity-60 animate-pulse-glow"
+              style={{
+                background: `radial-gradient(circle, ${LINEUP_ACCENT}55, rgba(124,58,237,0.30) 60%, transparent 75%)`,
+              }}
+            />
+            <Image
+              src="/images/lineup/lineup_icon.png"
+              alt={t("lineup.name")}
+              width={176}
+              height={176}
+              className="relative animate-float rounded-3xl ring-1 ring-white/10 drop-shadow-[0_12px_36px_rgba(34,211,238,0.35)]"
+            />
+          </div>
+
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+            <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
+              {t("lineup.name")}
+            </h2>
+            <span
+              className="rounded-full border px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] animate-pulse-soft"
+              style={{
+                color: LINEUP_ACCENT,
+                borderColor: `${LINEUP_ACCENT}66`,
+                background: `${LINEUP_ACCENT}1a`,
+              }}
+            >
+              {t("lineup.comingSoonStatus")}
+            </span>
+          </div>
+
+          <p
+            className="mt-4 text-sm font-semibold uppercase tracking-[0.2em]"
+            style={{ color: LINEUP_ACCENT }}
+          >
+            {t("lineup.tagline")}
+          </p>
+
+          <div className="mt-6 space-y-4 text-left leading-relaxed text-zinc-400">
+            <p>{t("lineup.description1")}</p>
+            <p>{t("lineup.description2")}</p>
+          </div>
+
+          <div className="mt-8 flex justify-center">
+            <StoreBadges
+              appStoreComingSoon
+              playStoreComingSoon
+              accent={LINEUP_ACCENT}
+            />
           </div>
         </Reveal>
       </section>

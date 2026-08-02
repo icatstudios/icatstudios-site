@@ -79,7 +79,12 @@
       "learnMore": "Bezoek catsugame.com"
     },
     "lineup": {
-      "name": "Lineup: Football Squad Builder"
+      "name": "Lineup: Football Squad Builder",
+      "shortDescription": "Stel je voetbalelftallen samen, pas ze aan en deel ze.",
+      "comingSoonStatus": "Binnenkort",
+      "tagline": "Stel jouw perfecte voetbalelftal samen",
+      "description1": "Lineup is een snelle voetbalopstellingsbouwer zonder account. Kies een formatie, plaats je spelers en wissels en voeg logo's, kleuren en titels toe om elk elftal je eigen te maken.",
+      "description2": "Houd rekening met limieten voor buitenlandse spelers, bewaar alles op je apparaat en exporteer een strakke afbeelding om te delen. Binnenkort in de App Store en Google Play."
     }
   },
   "comingSoonBadges": {
