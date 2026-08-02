@@ -113,13 +113,13 @@ export default async function TermOfUseIndex({ params }: Props) {
       href: "/term-of-use/potentials",
     },
     {
-      slug: "fast-and-blocky",
-      name: tp("fastAndBlocky.name"),
-      icon: "/images/fastandblocky/fastandblockyblocky_icon.png",
+      slug: "lineup-squad-builder",
+      name: tp("lineup.name"),
+      icon: "/images/lineup/lineup_icon.png",
       iconShape: "square",
-      accent: "#ff6b4a",
+      accent: "#22d3ee",
       external: false,
-      href: "/term-of-use/fast-and-blocky",
+      href: "/term-of-use/lineup-squad-builder",
     },
   ] as const;
 

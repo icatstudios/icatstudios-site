@@ -1,6 +1,6 @@
 **Yürürlük tarihi: 3 Ağustos 2026**
 
-**Uygulama: Lineup: Football Squad Builder**
+**Uygulama: Lineup: Futbol Kadro Kurucu**
 
 **Geliştirici: iCat Studios**
 

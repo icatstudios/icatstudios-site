@@ -1,6 +1,6 @@
 **Yürürlük tarihi: 3 Ağustos 2026**
 
-**Uygulama: Lineup: Football Squad Builder**
+**Uygulama: Lineup: Futbol Kadro Kurucu**
 
 **Geliştirici: iCat Studios**
 
@@ -8,7 +8,7 @@ Lineup'ı indirerek veya kullanarak bu Kullanım Şartları'nı kabul edersiniz.
 
 ## 1. Tanımlar
 
-- **Uygulama:** iOS ve Android için Lineup: Football Squad Builder mobil uygulaması.
+- **Uygulama:** iOS ve Android için Lineup: Futbol Kadro Kurucu mobil uygulaması.
 - **Geliştirici / biz / bize:** iCat Studios.
 - **Kullanıcı / siz:** Uygulamayı indiren veya kullanan herhangi bir kişi.
 - **Hizmet:** Uygulama ile birlikte sunduğu özellikler ve içerik.
