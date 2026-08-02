@@ -83,8 +83,8 @@ const SCOREHUNTER_ACCENT = "#14f174";
 const SWAPMAP_ACCENT = "#06b6d4";
 const CATSU_ACCENT = "#f5b52e";
 
-// TODO: add App Store URL when iOS approval is complete
-const SCOREHUNTER_APP_STORE_URL: string | undefined = undefined;
+const SCOREHUNTER_APP_STORE_URL =
+  "https://apps.apple.com/us/app/score-hunter-prediction-game/id6759538804";
 const SCOREHUNTER_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.icatstudios.scorehunter";
 
