@@ -16,19 +16,26 @@ import { Link } from "@/i18n/navigation";
  * - "score-hunter" is redirected at the router level (see next.config.ts) to
  *   scorehunter.app/{locale}/privacy-policy and never reaches this component.
  */
-const VALID_APPS = ["potentials", "fast-and-blocky", "swapmap"] as const;
+const VALID_APPS = [
+  "potentials",
+  "fast-and-blocky",
+  "swapmap",
+  "lineup-squad-builder",
+] as const;
 type AppSlug = (typeof VALID_APPS)[number];
 
 const APP_NAME_KEY: Record<AppSlug, string> = {
   potentials: "potentials.name",
   "fast-and-blocky": "fastAndBlocky.name",
   swapmap: "swapMap.name",
+  "lineup-squad-builder": "lineup.name",
 };
 
 /** Apps that ship their policy as a single markdown blob under {key}Privacy.content */
 const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
   swapmap: "swapMapPrivacy",
   potentials: "potentialsPrivacy",
+  "lineup-squad-builder": "lineupPrivacy",
 };
 
 /**
@@ -39,6 +46,7 @@ const MARKDOWN_APP_NAMESPACE: Partial<Record<AppSlug, string>> = {
 const MARKDOWN_LOCALES: Partial<Record<AppSlug, Set<string>>> = {
   swapmap: new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru", "ja", "ko", "zh", "ar"]),
   potentials: new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru", "ja", "ko", "zh", "ar"]),
+  "lineup-squad-builder": new Set(["en", "tr", "de", "fr", "es", "it", "pt-br", "pt", "nl", "no", "da", "sv", "cs", "pl", "ru", "ja", "ko", "zh", "ar"]),
 };
 
 type Props = {

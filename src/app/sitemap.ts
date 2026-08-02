@@ -18,7 +18,12 @@ const STATIC_PATHS = [
  * Per-app legal pages. Score Hunter's privacy/terms redirect to
  * scorehunter.app (see next.config.ts), so they are intentionally left out.
  */
-const LEGAL_APPS = ["potentials", "fast-and-blocky", "swapmap"];
+const LEGAL_APPS = [
+  "potentials",
+  "fast-and-blocky",
+  "swapmap",
+  "lineup-squad-builder",
+];
 const DELETE_ACCOUNT_APPS = ["score-hunter", "swapmap", "potentials"];
 
 /** hreflang alternates for a given path across all locales, plus x-default. */
